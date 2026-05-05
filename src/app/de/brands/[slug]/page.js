@@ -792,8 +792,8 @@ const brandData = {
     name: "Sportstech vibration plate ",
     images: [
       "/Assets/sportstech-vibration-plate 1.jpg",
-      "/Assets/sportstech-vibration-Plate 2.jpg",
-      "/Assets/sportstech-vibration-Plate 3.png",
+      "/Assets/sportstech-vibration-plate 2.jpg",
+      "/Assets/sportstech-vibration-plate 3.png",
       "/Assets/sportstech-vibration-plate 4.png",
       "/Assets/sportstech-vibration-plate 5.png",
     ], productDescription: {
