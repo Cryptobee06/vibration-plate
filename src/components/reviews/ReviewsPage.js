@@ -721,21 +721,21 @@ export default function ReviewsPage() {
               {WalkingpadsData.map((brand, index) => (
                 <div
                   key={brand.id}
-                  className={`bg-white rounded-lg shadow-lg p-4 border transform transition-all duration-500 ease-out hover:scale-105 hover:shadow-xl hover:-translate-y-1 ${brand.id === "sportstech"
-                      ? "border-violet-500 ring-1 ring-violet-200 hover:ring-2 hover:ring-violet-300"
-                      : "border-gray-200 hover:border-gray-300"
+                  className={`rounded-lg shadow-lg p-4 border transform transition-all duration-500 ease-out hover:scale-105 hover:shadow-xl hover:-translate-y-1 ${brand.id === "sportstechvibration" && category === "advanced"
+                      ? "bg-white border-green-600 ring-1 ring-green-200 hover:ring-2 hover:ring-green-300"
+                      : "bg-white border-gray-200 hover:border-gray-300"
                     }`}
                   style={{
                     animationDelay: `${index * 100}ms`,
                   }}
                 >
                   {/* Badge for mobile */}
-                  {brand.id === "sportstech" && brand.badge[locale] && (
+                  {brand.id === "sportstechvibration" && category === "advanced" && brand.badge[locale] && (
                     <div className="flex justify-between items-start mb-3">
-                      <div className="bg-violet-500 text-white text-xs px-3 py-1 rounded-full font-semibold">
+                      <div className="bg-green-600 text-white text-xs px-3 py-1 rounded-full font-semibold">
                         {brand.badge[locale]}
                       </div>
-                      <div className="bg-violet-500 text-white p-1 rounded-full">
+                      <div className="bg-green-600 text-white p-1 rounded-full">
                         <Award className="w-4 h-4" />
                       </div>
                     </div>
@@ -767,7 +767,7 @@ export default function ReviewsPage() {
                           {feature.label[locale]}
                         </span>
                         <span
-                          className={`text-sm text-right flex-1 ${brand.id === "sportstech"
+                          className={`text-sm text-right flex-1 ${brand.id === "sportstechvibration"
                               ? "text-green-800 font-medium"
                               : "text-gray-700"
                             }`}
@@ -782,8 +782,8 @@ export default function ReviewsPage() {
                   <div className="mt-4">
                     <Link
                       href={`${getBasePath()}/brands/${brand.slug}`}
-                      className={`w-full block text-center py-3 px-4 rounded-lg font-semibold transition-colors ${brand.id === "sportstech"
-                          ? "bg-violet-600 text-white hover:bg-violet-700"
+                      className={`w-full block text-center py-3 px-4 rounded-lg font-semibold transition-colors ${brand.id === "sportstechvibration" && category === "advanced"
+                          ? "bg-green-600 text-white hover:bg-green-700"
                           : "bg-violet-600 text-white hover:bg-violet-700"
                         }`}
                     >
@@ -819,20 +819,20 @@ export default function ReviewsPage() {
                             className="p-2 text-center align-top w-[300px]"
                           >
                             <div
-                              className={`relative bg-white rounded-lg p-4 shadow-md border transition-all duration-500
-                    ${brand.id === "sportstech"
-                                  ? "border-violet-500 ring-1 ring-violet-200 hover:ring-2 hover:ring-violet-300"
-                                  : "border-gray-200 hover:border-gray-300"
+                              className={`relative rounded-lg p-4 shadow-md border transition-all duration-500
+                    ${brand.id === "sportstechvibration" && category === "advanced"
+                                  ? "bg-white border-green-600 ring-1 ring-green-200 hover:ring-2 hover:ring-green-300"
+                                  : "bg-white border-gray-200 hover:border-gray-300"
                                 }`}
                             >
-                              {/* Badge only for Sportstech */}
-                              {brand.id === "sportstech" &&
+                              {/* Badge only for Advanced Sportstech */}
+                              {brand.id === "sportstechvibration" && category === "advanced" &&
                                 brand.badge[locale] && (
                                   <>
-                                    <div className="absolute bg-violet-500 text-white text-xs px-2 rounded-full font-semibold z-10">
+                                    <div className="absolute bg-green-600 text-white text-xs px-2 rounded-full font-semibold z-10">
                                       {brand.badge[locale]}
                                     </div>
-                                    <div className="absolute -top-2 -right-2 bg-violet-500 text-white p-1 rounded-full">
+                                    <div className="absolute -top-2 -right-2 bg-green-600 text-white p-1 rounded-full">
                                       <Award className="w-4 h-4" />
                                     </div>
                                   </>
@@ -861,8 +861,8 @@ export default function ReviewsPage() {
                                 {/* Review Button */}
                                 <Link
                                   href={`${getBasePath()}/brands/${brand.slug}`}
-                                  className={`inline-block w-full text-center py-2 px-3 rounded-lg font-semibold text-sm transition-colors ${brand.id === "sportstech"
-                                      ? "bg-violet-600 text-white hover:bg-violet-700"
+                                  className={`inline-block w-full text-center py-2 px-3 rounded-lg font-semibold text-sm transition-colors ${brand.id === "sportstechvibration" && category === "advanced"
+                                      ? "bg-green-600 text-white hover:bg-green-700"
                                       : "bg-violet-600 text-white hover:bg-violet-700"
                                     }`}
                                 >
@@ -894,8 +894,8 @@ export default function ReviewsPage() {
                           {WalkingpadsData.map((brand) => (
                             <td
                               key={brand.id}
-                              className={`p-4 text-center text-base w-[300px] ${brand.id === "sportstech"
-                                  ? "bg-violet-50 text-violet-800 font-medium"
+                              className={`p-4 text-center text-base w-[300px] ${brand.id === "sportstechvibration" && category === "advanced"
+                                  ? "bg-green-50 text-gray-700 font-medium"
                                   : "text-gray-700"
                                 }`}
                             >
