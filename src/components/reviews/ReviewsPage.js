@@ -4,7 +4,7 @@ import { useLocale } from "@/contexts/LanguageContext";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Star, Award, ArrowLeftToLine, ArrowRightToLine } from "lucide-react";
-
+ 
 // Allvibration plates data
 const allWalkingpadsData = [
   {
@@ -518,7 +518,7 @@ const allWalkingpadsData = [
     },
   },
 ];
-
+ 
 // Category definitions
 const categoryDefinitions = {
   amateur: {
@@ -530,27 +530,38 @@ const categoryDefinitions = {
     ids: ["sportstechvibration", "citysports", "kiddoza", "superun", "urevo"],
   },
 };
-
+ 
 export default function ReviewsPage() {
   const locale = useLocale();
   const searchParams = useSearchParams();
   const category = searchParams.get("category");
   const tableRef = useRef(null);
-
+ 
   // Filtervibration plates based on category
   const getFilteredWalkingpads = () => {
     if (!category || !categoryDefinitions[category]) {
       return allWalkingpadsData;
     }
-
+ 
     const categoryIds = categoryDefinitions[category].ids;
-    return allWalkingpadsData.filter(
+    const filtered = allWalkingpadsData.filter(
       (pad) => categoryIds.includes(pad.id) || categoryIds.includes(pad.slug),
     );
+ 
+    // For advanced category, move sportstechvibration to first position
+    if (category === "advanced") {
+      const sportsTechIndex = filtered.findIndex(pad => pad.id === "sportstechvibration");
+      if (sportsTechIndex > 0) {
+        const [sportsTech] = filtered.splice(sportsTechIndex, 1);
+        filtered.unshift(sportsTech);
+      }
+    }
+ 
+    return filtered;
   };
-
+ 
   const WalkingpadsData = getFilteredWalkingpads();
-
+ 
   const renderStars = (rating) => {
     return (
       <div className="flex items-center justify-center gap-1">
@@ -569,13 +580,13 @@ export default function ReviewsPage() {
       </div>
     );
   };
-
+ 
   const scrollToFirstColumn = () => {
     if (tableRef.current) {
       tableRef.current.scrollLeft = 0;
     }
   };
-
+ 
   const scrollToLastColumn = () => {
     if (tableRef.current) {
       const lastColumn = tableRef.current.querySelector("th:last-child");
@@ -587,7 +598,7 @@ export default function ReviewsPage() {
       }
     }
   };
-
+ 
   const featureRows = [
     {
       label: { en: "Display", de: "Display" },
@@ -622,14 +633,14 @@ export default function ReviewsPage() {
       key: "speed",
     },
   ];
-
+ 
   const getCategoryTitle = () => {
     if (category && categoryDefinitions[category]) {
       return categoryDefinitions[category].name[locale];
     }
     return null;
   };
-
+ 
   const pageText = {
     title: {
       en: "vibration Plate Comparison 2025",
@@ -662,11 +673,11 @@ export default function ReviewsPage() {
       de: "Alle Vibration Plate",
     },
   };
-
+ 
   const getBasePath = () => {
     return locale === "de" ? "/de" : "";
   };
-
+ 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -679,16 +690,16 @@ export default function ReviewsPage() {
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
               {pageText.subtitle[locale]}
             </p>
-
+ 
           </div>
         </div>
       </section>
-
+ 
       {/* Category Tabs */}
       <section className="bg-white border-b sticky top-16 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center gap-4 py-4">
-
+ 
             <Link
               href={`${getBasePath()}/reviews?category=amateur`}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${category === "amateur"
@@ -710,7 +721,7 @@ export default function ReviewsPage() {
           </div>
         </div>
       </section>
-
+ 
       {/* Comparison Table Section */}
       <section className="py-12">
         <div className="min-h-screen bg-gray-50 px-2 sm:px-4 lg:px-6">
@@ -740,7 +751,7 @@ export default function ReviewsPage() {
                       </div>
                     </div>
                   )}
-
+ 
                   {/* Product Info */}
                   <div className="text-center mb-4">
                     <div className="w-full h-32 mb-3 bg-gray-50 rounded-md flex items-center justify-center overflow-hidden p-2">
@@ -755,7 +766,7 @@ export default function ReviewsPage() {
                     </h3>
                     <div className="mb-3">{renderStars(brand.rating)}</div>
                   </div>
-
+ 
                   {/* Features List for Mobile */}
                   <div className="space-y-3 mb-4">
                     {featureRows.map((feature) => (
@@ -777,7 +788,7 @@ export default function ReviewsPage() {
                       </div>
                     ))}
                   </div>
-
+ 
                   {/* Review Button for Mobile */}
                   <div className="mt-4">
                     <Link
@@ -793,9 +804,9 @@ export default function ReviewsPage() {
                 </div>
               ))}
             </div>
-
-
-
+ 
+ 
+ 
             {/* Desktop Table View (>= 1024px) */}
             <div className="hidden md:block bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="w-full relative">
@@ -811,7 +822,7 @@ export default function ReviewsPage() {
                             {pageText.model[locale]}
                           </span>
                         </th>
-
+ 
                         {/* SCROLLABLE BRAND COLUMNS */}
                         {WalkingpadsData.map((brand, index) => (
                           <th
@@ -837,7 +848,7 @@ export default function ReviewsPage() {
                                     </div>
                                   </>
                                 )}
-
+ 
                               {/* Product Image */}
                               <div className="pt-2">
                                 <div className="w-full h-32 mb-4 bg-gray-50 rounded-md flex items-center justify-center overflow-hidden">
@@ -847,17 +858,17 @@ export default function ReviewsPage() {
                                     className="max-w-full max-h-full object-contain"
                                   />
                                 </div>
-
+ 
                                 {/* Title */}
                                 <h3 className="font-bold text-base mb-3 text-gray-800 leading-tight h-[70px]">
                                   {brand.brand} {brand.model}
                                 </h3>
-
+ 
                                 {/* Rating */}
                                 <div className="mb-3">
                                   {renderStars(brand.rating)}
                                 </div>
-
+ 
                                 {/* Review Button */}
                                 <Link
                                   href={`${getBasePath()}/brands/${brand.slug}`}
@@ -874,7 +885,7 @@ export default function ReviewsPage() {
                         ))}
                       </tr>
                     </thead>
-
+ 
                     {/* BODY ROWS */}
                     <tbody>
                       {featureRows.map((feature, index) => (
@@ -889,7 +900,7 @@ export default function ReviewsPage() {
                               {feature.label[locale]}
                             </span>
                           </td>
-
+ 
                           {/* SCROLLABLE BRAND FEATURE COLUMNS */}
                           {WalkingpadsData.map((brand) => (
                             <td
@@ -907,7 +918,7 @@ export default function ReviewsPage() {
                     </tbody>
                   </table>
                 </div>
-
+ 
                 {/* BOTTOM SUMMARY */}
                 <div className="bg-gradient-to-r from-violet-50 to-violet-100 p-6 border-t">
                   <div className="text-center">
