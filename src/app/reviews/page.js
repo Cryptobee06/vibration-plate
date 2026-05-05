@@ -1,6 +1,6 @@
 
 import ReviewsPage from '@/components/reviews/ReviewsPage';
-// import WalkingPadComparison from '../comparison/page';
+// import WalkingpadComparison from '../comparison/page';
 
 export async function generateMetadata() {
   return {
@@ -8,14 +8,15 @@ export async function generateMetadata() {
     description: 'Comprehensive Walkingpad reviews and ratings from fitness experts. Compare top brands and models to find the perfect Walkingpad for your home gym.',
     keywords: 'Walkingpad reviews 2025, best Walkingpads, Walkingpad comparison, fitness equipment reviews',
     icons: {
-      icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-        },
+      icon: '/VibrationPlateTestlogosvg-blue.svg'
+    },
   };
 }
 
 export default function Page() {
-  return(
+  return (
     <>
-     <ReviewsPage /></>
+      <ReviewsPage />
+    </>
   )
 }

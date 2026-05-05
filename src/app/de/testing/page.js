@@ -21,7 +21,8 @@ import {
 } from "lucide-react";
 import FAQ from "@/components/guide/FAQ";
 const brands = [
-  "Sportstech",
+  "Sportstech VP500",
+  "Sportstech sVibe",
   "Citysports",
   "Kiddoza",
   "Superun",
@@ -33,9 +34,108 @@ const brands = [
 ];
 
 const testData = {
-  Sportstech: {
+  "Sportstech VP500": {
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/sporstechtest.png",
+      "/Assets/vibration-test 1.jpg",
+    overallScore: 4.9,
+    status: "Bestanden",
+    features: [
+      "Kompaktes, platzsparendes Design (ca. 109,7 × 52,1 × 10,9 cm) – perfekt für kleine Wohnungen und Homeoffice; kann unter Sofa, Tisch oder an der Wand verstaut werden",
+      "Manuelle 5‑%-Steigung – ermöglicht individuelles Training mit zusätzlichem Reiz und gezielter Muskelaktivierung",
+      "90 × 40 cm Lauffläche – optimal dimensioniert für komfortables vibration plate und ergonomische Schritte",
+      "Bis 6 km/h Geschwindigkeit mit vier voreingestellten Programmen – ideal zum dynamischen Gehen und steigert die Alltagsbewegung",
+      "Integrierter Schrittzähler und großes LCD‑Display – alle relevanten Daten wie Schritte, Distanz, Geschwindigkeit, Zeit & Kalorien auf einen Blick",
+      "Fernbedienung & Bluetooth‑App (Sportstech Live) – komfortable Steuerung, personalisierte Workouts und motivierende Trainingsdaten",
+      "Flüsterleiser Betrieb und hochwertige Transportrollen – perfekt für Homeoffice,Mehrfamilienhäuser und flexible Nutzung",
+      "Leichtes Gerät (ca. 15,8 kg) und hohe Belastbarkeit bis 120 kg – stabil, tragbar und für viele Nutzer geeignet"
+    ],
+    tests: {
+      Speed: {
+        description:
+          "Der Sportstech VP500 bietet ein optimales Geschwindigkeitsfenster von 1–6 km/h – perfekt für abwechslungsreiches vibration plate und gesundes Cardio‑Training im Alltag.",
+        rating: "4.9 / 5",
+        status: "Bestanden",
+        icon: Zap,
+      },
+      Durability: {
+        description:
+          "Trotz seines geringen Gewichts ist der WalkMate hervorragend verarbeitet: Die Materialien sorgen für Stabilität und Langlebigkeit, sodass tägliche Geh‑Sessions problemlos möglich sind",
+        rating: "4.6 / 5",
+        status: "Bestanden",
+        icon: Shield,
+      },
+      Incline: {
+        description:
+          "Die manuell einstellbare 5‑%-Steigung ist ein echter Vorteil: Sie ermöglicht eine flexible Intensitätssteuerung und sorgt für zusätzliche Muskelaktivierung – perfekt, um Ihr Training zu variieren.",
+        rating: "4.8 / 5",
+        status: "Bestanden",
+        icon: TrendingUp,
+      },
+      Noise: {
+        description:
+          "Der flüsterleise Motor und die hochwertige Dämpfung sorgen dafür, dass der WalkMate selbst bei längeren Sessions kaum hörbar ist – ideal für Wohnungen, Homeoffice und Training zu jeder Tageszeit.",
+        rating: "5.0 / 5",
+        status: "Bestanden",
+        icon: Volume2,
+      },
+      Comfort: {
+        description:
+          "Die mehrlagige Lauffläche mit angenehmer Dämpfung bietet hervorragenden Komfort. Die großzügige Fläche unterstützt einen natürlichen Geh‑Rhythmus und ist auch bei längeren Einheiten bequem",
+        rating: "4.7 / 5",
+        status: "Bestanden",
+        icon: Heart,
+      },
+    },
+    individualReview: {
+      title: "Einzelne Bewertung: Sportstech VP500 mit 5 % Steigung",
+      modelName: "Sportstech VP500",
+      verdict: "Hervorragend für Homeoffice‑Vibration Plate und tägliche Nutzung",
+      rating: 5.0,
+      publishDate: "Februar 2026",
+      author: "Steve Austin",
+      expertise: "Zertifizierter Personal Trainer",
+      testDuration: "Erweiterte Tests",
+      testCriteria: {
+        "Design & Verarbeitung": {
+          rating: 5,
+          description: "Äußerst flach, stilvoll und kompakt; die Materialauswahl sorgt für ein geringes Gewicht bei hoher Stabilität – ein Premium‑Gefühl inklusive.",
+        },
+        Lautstärke: {
+          rating: 5,
+          description: "Der Motor läuft quasi lautlos und macht das Gerät perfekt für Mehrfamilienhäuser, Büro und Homeoffice.",
+        },
+        "Dämpfung & Laufkomfort": {
+          rating: 5,
+          description: "Die mehrlagige Dämpfung und die großzügige Lauffläche bieten exzellenten Komfort auch bei längeren Geh‑Sessions.",
+        },
+        Steuerung: {
+          rating: 5,
+          description: "Fernbedienung, vier Programme, integrierter Schrittzähler und Bluetooth‑Anbindung zur Sportstech Live‑App bieten ein Maximum an Steuerungsmöglichkeiten.",
+        },
+        Bürotauglichkeit: {
+          rating: 5,
+          description: "Durch flache Bauweise, leisen Betrieb und Transportrollen prädestiniert für den Einsatz unter dem Schreibtisch.",
+        },
+        "Preis-Leistung": {
+          rating: 5,
+          description: "Ausgesprochen attraktiv: hochwertige Ausstattung, App‑Mehrwert und vielseitige Nutzungsmöglichkeiten – ein starker Gegenwert.",
+        },
+      },
+      extras: ["Manuelle Steigung", "Transportrollen", "Schrittzähler", "Bluetooth‑App"],
+      suitableFor: "Ideal für alle, die im Homeoffice,  vor dem TV oder unterwegs ihre Fitness verbessern wollen – bis 120 kg belastbar und damit breit einsetzbar.",
+      mainDescription:
+        "Der Sportstech VP500 überzeugt als modernes Unter-Desk-Vibration Plate für den Einsatz im Homeoffice oder Büro. Dank seines flachen und leichten Designs fügt er sich harmonisch in nahezu jede Wohn- oder Arbeitsumgebung ein. Die Steuerung erfolgt komfortabel per Fernbedienung oder Bluetooth-App, wodurch sich das Gerät mühelos in den Alltag integrieren lässt. Der integrierte Schrittzähler sowie das übersichtliche Display unterstützen zusätzlich die Motivation und Trainingskontrolle.",
+      testFindings:
+        "Im Praxiseinsatz zeigt der VP500 eine stabile und angenehme Performance. Die 90 × 40 cm große Lauffläche ermöglicht ergonomische und natürliche Schritte. Mit einem Geschwindigkeitsbereich von 1–6 km/h eignet sich das Gerät sowohl für entspanntes Gehen als auch für zügige Cardio-Einheiten. Die hochwertige Verarbeitung vermittelt einen robusten Eindruck, während das geringe Gewicht für einfache Mobilität und flexible Aufbewahrung sorgt.",
+      specialFeature:
+        "Ein besonderes Highlight ist die einstellbare 5-%-Steigung, die einen zusätzlichen Trainingsreiz schafft und für mehr Abwechslung im Workout sorgt. In Kombination mit dem leisen Betrieb, der smarten App-Steuerung und der integrierten Schrittzählung bietet der VP500 ein modernes und vielseitiges Trainingserlebnis.",
+      conclusion:
+        "Insgesamt ist der VP500 eine ausgezeichnete Wahl für alle, die ihre tägliche Bewegung unkompliziert steigern möchten. Mit durchdachten Funktionen, ergonomischem Komfort, leisem Betrieb und modernem Design vereint er Qualität, Funktionalität und Benutzerfreundlichkeit auf hohem Niveau.",
+    },
+  },
+  "Sportstech sVibe": {
+    image:
+      "/Assets/vibration-test 2.jpg",
     overallScore: 4.86,
     status: "Bestanden",
     features: [
@@ -55,7 +155,7 @@ const testData = {
       },
       Durability: {
         description:
-          "Dieses Modell hielt über 100 Stunden simulierte, hochintensive Workouts aus, ohne Anzeichen von Abnutzung oder strukturellen Problemen zu zeigen. Das Walkingpad behielt seinen Halt, und das Deck zeigte nur minimale Kompressionsermüdung. Mit seinem kommerziellen Rahmen, verstärkten Gelenken und korrosionsbeständiger Beschichtung setzt Sportstech den Standard für langfristige Haltbarkeit.",
+          "Dieses Modell hielt über 100 Stunden simulierte, hochintensive Workouts aus, ohne Anzeichen von Abnutzung oder strukturellen Problemen zu zeigen. Das vibration plate behielt seinen Halt, und das Deck zeigte nur minimale Kompressionsermüdung. Mit seinem kommerziellen Rahmen, verstärkten Gelenken und korrosionsbeständiger Beschichtung setzt Sportstech den Standard für langfristige Haltbarkeit.",
         rating: "5 / 5",
         status: "Bestanden",
         icon: Shield,
@@ -120,7 +220,7 @@ const testData = {
       extras: ["LCD-Anzeige", "Kilokalorienzählung", "Schrittzähler"],
       suitableFor: "Büro & Zuhause, tägliches Gehen, gesundes Arbeiten",
       mainDescription:
-        "Das sWalk Lite von Sportstech ist ein kompaktes, leises Walking Pad, das speziell für den Einsatz im Homeoffice entwickelt wurde. Mit einer Höhe von nur 12 cm passt es problemlos unter Schreibtische und lässt sich bei Nichtgebrauch leicht verstauen. Die Verarbeitung ist hochwertig: Ein robustes Gehäuse, ein modernes LED-Display und eine sanft gedämpfte Lauffläche sorgen für ein angenehmes Nutzungserlebnis.",
+        "Das sWalk Lite von Sportstech ist ein kompaktes, leisesvibration plate, das speziell für den Einsatz im Homeoffice entwickelt wurde. Mit einer Höhe von nur 12 cm passt es problemlos unter Schreibtische und lässt sich bei Nichtgebrauch leicht verstauen. Die Verarbeitung ist hochwertig: Ein robustes Gehäuse, ein modernes LED-Display und eine sanft gedämpfte Lauffläche sorgen für ein angenehmes Nutzungserlebnis.",
       testFindings:
         "Im Test überzeugte das Gerät besonders durch seine geringe Lautstärke von unter 55 dB. Selbst bei längeren Trainingseinheiten bleibt es nahezu geräuschlos, was für den Einsatz in Büroräumen oder Wohnungen mit dünnen Wänden ideal ist. Die Steuerung erfolgt wahlweise per App oder Fernbedienung, beide Varianten sind intuitiv und zuverlässig.",
       specialFeature:
@@ -131,8 +231,8 @@ const testData = {
   },
   Citysports: {
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/CITYSPORTS/citysportstest.png",
-    overallScore: 3.84,
+      "/Assets/vibration-test 3.jpg",
+    overallScore: 4.0,
     status: "Bestanden",
     features: [
       "Kompaktes, faltbares Design geeignet für kleine Wohnungen und einfache Aufbewahrung.",
@@ -144,7 +244,7 @@ const testData = {
     tests: {
       Speed: {
         description:
-          "Citysports-walkingpad bieten eine konstante, aber moderate Geschwindigkeit, die ideal für Gehen und leichtes Joggen ist. Der Motor reagiert gut bei niedrigeren Geschwindigkeiten, ist jedoch weniger geeignet für intensives Sprinten.",
+          "Citysports-vibration plates bieten eine konstante, aber moderate Geschwindigkeit, die ideal für Gehen und leichtes Joggen ist. Der Motor reagiert gut bei niedrigeren Geschwindigkeiten, ist jedoch weniger geeignet für intensives Sprinten.",
         rating: "3.9 / 5",
         status: "Bestanden",
         icon: Zap,
@@ -179,8 +279,8 @@ const testData = {
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: CITYSPORTS Bluetooth Walkingpad",
-      modelName: "CITYSPORTS Bluetooth Walkingpad",
+      title: "Einzelne Bewertung: CITYSPORTS Bluetooth vibration plate – Nicht empfohlen für regelmäßigen Gebrauch",
+      modelName: "CITYSPORTS Bluetooth vibration plate",
       verdict: "Nicht empfohlen für regelmäßigen Gebrauch",
       rating: 2.0,
       publishDate: "Januar 2025",
@@ -221,18 +321,18 @@ const testData = {
       extras: ["Bluetooth-Lautsprecher"],
       suitableFor: "Kurze, unregelmäßige Geh-Sessions zu Hause",
       mainDescription:
-        "Das CITYSPORTS Bluetooth Walkingpad wirkt auf den ersten Blick ideal für Einsteiger, die ein einfaches, kompaktes Walking Pad suchen. Doch im ausführlichen Test offenbarte es deutliche Schwächen in Stabilität, Lautstärke und Haltbarkeit. Schon beim Aufbau wirkten Teile locker, und bei höherer Geschwindigkeit kam es zu starken Vibrationen.",
+        "Das CITYSPORTS Bluetooth vibration plate wirkt auf den ersten Blick ideal für Einsteiger, die ein einfaches, kompaktesvibration plate suchen. Doch im ausführlichen Test offenbarte es deutliche Schwächen in Stabilität, Lautstärke und Haltbarkeit. Schon beim Aufbau wirkten Teile locker, und bei höherer Geschwindigkeit kam es zu starken Vibrationen.",
       testFindings:
-        "Während des Tests war das Walkingpad auffällig laut – trotz gegenteiliger Herstellerangabe. Es knarrte, summte und entwickelte bei höherem Tempo ein deutlich hörbares Dröhnen. Der Laufgurt verschob sich, was das Geräusch verstärkte und das Gehen instabil machte. Nach kurzer Nutzung wurde das Gerät warm und verströmte einen Kunststoffgeruch. Die Bluetooth-Verbindung war inkonsistent, und die Fernbedienung reagierte oft verzögert oder gar nicht.",
+        "Während des Tests war das vibration plate auffällig laut – trotz gegenteiliger Herstellerangabe. Es knarrte, summte und entwickelte bei höherem Tempo ein deutlich hörbares Dröhnen. Der Laufgurt verschob sich, was das Geräusch verstärkte und das Gehen instabil machte. Nach kurzer Nutzung wurde das Gerät warm und verströmte einen Kunststoffgeruch. Die Bluetooth-Verbindung war inkonsistent, und die Fernbedienung reagierte oft verzögert oder gar nicht.",
       specialFeature:
         "Integrierter Bluetooth-Lautsprecher – leider wenig zuverlässig und qualitativ nicht überzeugend.",
       conclusion:
-        "Das CITYSPORTS Bluetooth Walkingpad eignet sich höchstens als kurzfristige Übergangslösung für kurze Spaziergänge zu Hause. Für den dauerhaften Bürogebrauch oder längere Geh-Einheiten ist es aufgrund der lauten Betriebsweise, der schwachen Verarbeitung und der mangelhaften Steuerung nicht zu empfehlen.",
+        "Das CITYSPORTS Bluetooth vibration plate eignet sich höchstens als kurzfristige Übergangslösung für kurze Spaziergänge zu Hause. Für den dauerhaften Bürogebrauch oder längere Geh-Einheiten ist es aufgrund der lauten Betriebsweise, der schwachen Verarbeitung und der mangelhaften Steuerung nicht zu empfehlen.",
     },
   },
   Kiddoza: {
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/kiddozatest.png",
+      "/Assets/vibration-test 4.png",
     overallScore: 3.48,
     status: "Bestanden",
     features: [
@@ -280,8 +380,8 @@ const testData = {
       },
     },
     individualReview: {
-      title: "Einzeltest: Kiddoza Walking Pad",
-      modelName: "Kiddoza Walking Pad",
+      title: "Einzeltest: Kiddozavibration plate",
+      modelName: "Kiddozavibration plate",
       verdict: "Keine Empfehlung für jegliche Nutzung",
       rating: 1.5,
       publishDate: "Januar 2025",
@@ -301,7 +401,7 @@ const testData = {
         "Dämpfung & Komfort": {
           rating: 1,
           description:
-            "Kaum Dämpfung vorhanden; Walkingpad hart und unangenehm",
+            "Kaum Dämpfung vorhanden; vibration plate hart und unangenehm",
         },
         Steuerung: {
           rating: 2,
@@ -322,19 +422,19 @@ const testData = {
       suitableFor:
         "Nur gelegentliches, sehr leichtes Gehen – und selbst das mit Vorsicht",
       mainDescription:
-        "Das Kiddoza Walking Pad ist ein sehr einfaches Modell und richtet sich offenbar nur an Nutzer mit minimalen Ansprüchen. Im Test zeigte sich jedoch, dass das Gerät bereits ab Werk erhebliche Schwächen aufweist – einige Testgeräte ließen sich gar nicht starten, zeigten sofort Fehlermeldungen oder führten beim Einschalten sogar zu einem kurzen Knall mit Sicherungsauslösung.",
+        "Das Kiddozavibration plate ist ein sehr einfaches Modell und richtet sich offenbar nur an Nutzer mit minimalen Ansprüchen. Im Test zeigte sich jedoch, dass das Gerät bereits ab Werk erhebliche Schwächen aufweist – einige Testgeräte ließen sich gar nicht starten, zeigten sofort Fehlermeldungen oder führten beim Einschalten sogar zu einem kurzen Knall mit Sicherungsauslösung.",
       testFindings:
-        "Auch die Verarbeitungsqualität überzeugte nicht. Das Walkingpad ist sehr dünn, bietet keine echte Dämpfung und fühlt sich bereits nach wenigen Minuten unangenehm hart an. Aufkleber und Kunststoffgehäuse wirken billig, und die gesamte Konstruktion hinterlässt kein sicheres Gefühl. Die Lautstärke war überraschend hoch – selbst bei moderatem Tempo entwickelten sich deutliche Laufgeräusche. Die fehlende Dämpfung macht das Training schnell unangenehm für die Gelenke. Auch die Bedienung ist problematisch: Eine App ist teilweise zwingend notwendig, stürzt aber häufig ab oder verbindet sich nicht zuverlässig. Für Nutzer ohne Technikaffinität ist das Gerät kaum praxistauglich.",
+        "Auch die Verarbeitungsqualität überzeugte nicht. Das vibration plate ist sehr dünn, bietet keine echte Dämpfung und fühlt sich bereits nach wenigen Minuten unangenehm hart an. Aufkleber und Kunststoffgehäuse wirken billig, und die gesamte Konstruktion hinterlässt kein sicheres Gefühl. Die Lautstärke war überraschend hoch – selbst bei moderatem Tempo entwickelten sich deutliche Laufgeräusche. Die fehlende Dämpfung macht das Training schnell unangenehm für die Gelenke. Auch die Bedienung ist problematisch: Eine App ist teilweise zwingend notwendig, stürzt aber häufig ab oder verbindet sich nicht zuverlässig. Für Nutzer ohne Technikaffinität ist das Gerät kaum praxistauglich.",
       specialFeature:
         "Sein einziges echtes Merkmal ist ein einfaches LCD-Display – unzureichend angesichts der vielen Schwächen.",
       conclusion:
-        "Unser Test zeigte klar: Das Kiddoza Walking Pad eignet sich weder für das Homeoffice noch für regelmäßige Nutzung. Mangelnde Sicherheit, hohe Lautstärke und fehlender Komfort machen es zu keiner Empfehlung – selbst nicht als Budget-Modell.",
+        "Unser Test zeigte klar: Das Kiddozavibration plate eignet sich weder für das Homeoffice noch für regelmäßige Nutzung. Mangelnde Sicherheit, hohe Lautstärke und fehlender Komfort machen es zu keiner Empfehlung – selbst nicht als Budget-Modell.",
     },
   },
   Superun: {
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/superuntest.png",
-    overallScore: 4.04,
+      "/Assets/vibration-test 5.jpg",
+    overallScore: 3.9,
     status: "Bestanden",
     features: [
       "Breitere Lauffläche und mittelstarker Motor, ideal für Freizeitsportler.",
@@ -374,7 +474,7 @@ const testData = {
       },
       Comfort: {
         description:
-          "Breites Walkingpad und benutzerfreundliches Interface erhöhen den Komfort. Die Dämpfung unterstützt längere Trainingseinheiten. Handläufe und Anzeige sind gut positioniert.",
+          "Breites vibration plate und benutzerfreundliches Interface erhöhen den Komfort. Die Dämpfung unterstützt längere Trainingseinheiten. Handläufe und Anzeige sind gut positioniert.",
         rating: "4.2 / 5",
         status: "Bestanden",
         icon: Heart,
@@ -431,11 +531,11 @@ const testData = {
   },
   Urevo: {
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/urevotest.jpg",
+      "/Assets/vibration-test 6.png",
     overallScore: 4.15,
     status: "Bestanden",
     features: [
-      "2-in-1 Design: Walkingpad und Walking Pad in einem.",
+      "2-in-1 Design:  und vibration plate in einem.",
       "Kompakt und klappbar – ideal für kleine Wohnungen.",
       "Ruhiger Motor mit moderater Maximalgeschwindigkeit.",
       "Einfach zu bedienende Fernbedienung.",
@@ -458,7 +558,7 @@ const testData = {
       },
       Steigung: {
         description:
-          "Keine einstellbare Steigung vorhanden. Das Walkingpad ist flach konzipiert, was für viele Home-User ausreicht, aber für Bergläufe oder Intervalltraining nicht geeignet ist.",
+          "Keine einstellbare Steigung vorhanden. Das vibration plate ist flach konzipiert, was für viele Home-User ausreicht, aber für Bergläufe oder Intervalltraining nicht geeignet ist.",
         rating: "2.8 / 5",
         status: "Nicht bestanden",
         icon: TrendingUp,
@@ -472,7 +572,7 @@ const testData = {
       },
       Komfort: {
         description:
-          "Die Lauffläche ist kompakt, aber für normales Gehen ausreichend. Die Dämpfung ist vorhanden, aber nicht mit großen Studiowalkingpadn vergleichbar.",
+          "Die Lauffläche ist kompakt, aber für normales Gehen ausreichend. Die Dämpfung ist vorhanden, aber nicht mit großen Studiovibration plates vergleichbar.",
         rating: "4.1 / 5",
         status: "Bestanden",
         icon: Heart,
@@ -480,7 +580,7 @@ const testData = {
     },
     individualReview: {
       title: "Einzeltest: UREVO 2-in-1",
-      modelName: "UREVO 2-in-1 Walkingpad",
+      modelName: "UREVO 2-in-1 vibration plate",
       verdict: "Kompaktes Multitalent für Zuhause und Büro",
       rating: 4.2,
       publishDate: "Januar 2025",
@@ -521,22 +621,22 @@ const testData = {
       extras: ["Fernbedienung", "LED-Anzeige", "Klappbares Design"],
       suitableFor: "Fitness-Einsteiger, Homeoffice-Nutzer, ältere Menschen",
       mainDescription:
-        "Das UREVO 2-in-1 Walkingpad überzeugt durch seine Vielseitigkeit: Es eignet sich sowohl zum Gehen beim Arbeiten als auch für kurze Joggingeinheiten nach Feierabend. Besonders kompakt und ideal für kleine Wohnungen.",
+        "Das UREVO 2-in-1 vibration plate überzeugt durch seine Vielseitigkeit: Es eignet sich sowohl zum Gehen beim Arbeiten als auch für kurze Joggingeinheiten nach Feierabend. Besonders kompakt und ideal für kleine Wohnungen.",
       testFindings:
-        "Im Praxistest zeigte sich das Walkingpad stabil, einfach zu bedienen und vor allem leise. Für intensive Laufeinheiten ist es nicht gedacht, erfüllt aber zuverlässig seinen Zweck als Bewegungslösung im Alltag.",
+        "Im Praxistest zeigte sich das vibration plate stabil, einfach zu bedienen und vor allem leise. Für intensive Laufeinheiten ist es nicht gedacht, erfüllt aber zuverlässig seinen Zweck als Bewegungslösung im Alltag.",
       specialFeature:
         "Kompakt, klappbar und superleise – perfekt für den täglichen Einsatz im Homeoffice.",
       conclusion:
-        "Ein smartes Walking Pad für alle, die im Alltag mehr Bewegung wollen. Kein Profigerät, aber ein starker Alltagsbegleiter.",
+        "Ein smartesvibration plate für alle, die im Alltag mehr Bewegung wollen. Kein Profigerät, aber ein starker Alltagsbegleiter.",
     },
   },
   Copant: {
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/copant/Lucid_Origin_A_fit_muscular_man_with_a_manbun_hairstyle_light__3.jpg",
-    overallScore: 4.2,
+      "/Assets/vibration-test 7.jpg",
+    overallScore: 3.5,
     status: "Bestanden",
     features: [
-      "1–6 km/h Geschwindigkeit – ideal fürs Büro-Walking und leichtes Joggen",
+      "1–6 km/h Geschwindigkeit – ideal fürs Büro-vibration plate und leichtes Joggen",
       "2,5-PS-Motor, Tragkraft bis 136 kg",
       "APP-Steuerung für Programme, Renn-Modi und Tracking",
       "Kompaktes, untertisch-taugliches Design zum Verstauen unter Schreibtisch / Bett",
@@ -545,7 +645,7 @@ const testData = {
     tests: {
       Speed: {
         description:
-          "Mit bis zu 6 km/h ist das Copant deutlich auf Walking und leichtes Joggen ausgelegt. Für Power-Walking und kurze Jogging-Intervalle reicht es aus, für längere Läufe nicht.",
+          "Mit bis zu 6 km/h ist das Copant deutlich auf vibration plate und leichtes Joggen ausgelegt. Für Power-vibration plate und kurze Jogging-Intervalle reicht es aus, für längere Läufe nicht.",
         rating: "3.7 / 5",
         status: "Bestanden",
         icon: Zap,
@@ -580,7 +680,7 @@ const testData = {
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: Copant Walking Pad mit APP-Steuerung",
+      title: "Einzelne Bewertung: Copantvibration plate mit APP-Steuerung",
       modelName: "Sportstech sWalk Lite",
       verdict: "Stark für Homeoffice & Tech-Fans",
       rating: 5.0,
@@ -607,18 +707,18 @@ const testData = {
         },
         Bürotauglichkeit: {
           rating: 3,
-          description: "Sehr gut – speziell fürs Under-Desk-Walking konzipiert.",
+          description: "Sehr gut – speziell fürs Under-Desk-vibration plate konzipiert.",
         },
         "Preis-Leistung": {
           rating: 2,
           description: "Stark, wenn man die App-Funktionen aktiv nutzt; weniger attraktiv, wenn man nur „einfach gehen“ möchte.",
         },
       },
-      extras: ["PitPat-App", "Multi-Runner-Rennen", "Trainingskurse","Aktivitäts-Tracking"],
+      extras: ["PitPat-App", "Multi-Runner-Rennen", "Trainingskurse", "Aktivitäts-Tracking"],
       suitableFor: "Homeoffice-Nutzer, Tech-Fans, Gamification-Freunde, Alltagstraining bei 1–6 km/h.",
       mainDescription:
-        "Im Test präsentiert sich das Copant Walking Pad als modernes, app-fokussiertes Walking Pad für alle, die Training und Technik verbinden wollen. Die PitPat-App liefert Programme, Rennmodi und Statistiken – ideal für Nutzer, die sich über Gamification und Zahlen motivieren.",
-      testFindings: "Die Geschwindigkeitsrange von 1–6 km/h passt perfekt zu Unter-Desk-Workouts, gemütlichem Walking und kurzen, etwas intensiveren Einheiten. Besonders positiv fällt die Kombination aus leisem Betrieb, ordentlicher Dämpfung und hoher Belastbarkeit auf.",
+        "Im Test präsentiert sich das Copantvibration plate als modernes, app-fokussiertesvibration plate für alle, die Training und Technik verbinden wollen. Die PitPat-App liefert Programme, Rennmodi und Statistiken – ideal für Nutzer, die sich über Gamification und Zahlen motivieren.",
+      testFindings: "Die Geschwindigkeitsrange von 1–6 km/h passt perfekt zu Unter-Desk-Workouts, gemütlichem vibration plate und kurzen, etwas intensiveren Einheiten. Besonders positiv fällt die Kombination aus leisem Betrieb, ordentlicher Dämpfung und hoher Belastbarkeit auf.",
       specialFeature:
         "Die Integration der PitPat-App mit Trainingsprogrammen, Rennmodi und detaillierten Statistiken bietet ein motivierendes, gamifiziertes Trainingserlebnis.",
       conclusion:
@@ -627,11 +727,11 @@ const testData = {
   },
   Merach: {
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/merach/Lucid_Origin_A_fit_muscular_man_with_a_manbun_hairstyle_light__0.jpg",
-    overallScore: 4.3,
+      "/Assets/vibration-test 8.png",
+    overallScore: 3.4,
     status: "Bestanden",
     features: [
-      "2.75PS -Motor für Walking & leichtes Joggen",
+      "2.75PS -Motor für vibration plate & leichtes Joggen",
       "0–5 % Steigung für gelenkschonendes, intensiveres Training",
       "6 km/h, ideal für Schreibtisch-Workouts und lockeres Joggen",
       "Max. Belastung bis 120 kg, stabile Stahlrahmenkonstruktion ",
@@ -639,7 +739,7 @@ const testData = {
     tests: {
       Speed: {
         description:
-          "Mit 6 km/h ist das MERACH ganz klar auf Walking, Power-Walking und sehr leichtes Joggen ausgelegt. Für diese Zielgruppe ist der Geschwindigkeitsbereich sinnvoll.",
+          "Mit 6 km/h ist das MERACH ganz klar auf vibration plate, Power-vibration plate und sehr leichtes Joggen ausgelegt. Für diese Zielgruppe ist der Geschwindigkeitsbereich sinnvoll.",
         rating: "3.8 / 5",
         status: "Bestanden",
         icon: Zap,
@@ -667,16 +767,16 @@ const testData = {
       },
       Comfort: {
         description:
-          "Das 5-lagige Dämpfungssystem bietet angenehmes, weiches Laufgefühl und schont Gelenke. Die Lauffläche ist ausreichend dimensioniert für Walking, bei sehr langen Schritten im Jogging-Bereich wird es etwas knapp.",
+          "Das 5-lagige Dämpfungssystem bietet angenehmes, weiches Laufgefühl und schont Gelenke. Die Lauffläche ist ausreichend dimensioniert für vibration plate, bei sehr langen Schritten im Jogging-Bereich wird es etwas knapp.",
         rating: "4.3 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: MERACH Walking Pad mit 5 % Steigung",
-      modelName: "MERACH Walking Pad ",
-      verdict: "Top für Büro & gelenkschonendes Walking",
+      title: "Einzelne Bewertung: MERACHvibration plate mit 5 % Steigung",
+      modelName: "MERACHvibration plate ",
+      verdict: "Top für Büro & gelenkschonendes vibration plate",
       rating: 5.0,
       publishDate: "März 2025 ",
       author: "Steve Austin",
@@ -705,13 +805,13 @@ const testData = {
         },
         "Preis-Leistung": {
           rating: 3,
-          description: "Hervorragend für Nutzer, die gezielt ein leises, hochwertiges Walking Pad suchen.",
+          description: "Hervorragend für Nutzer, die gezielt ein leises, hochwertigesvibration plate suchen.",
         },
       },
       extras: ["Steigung", "App-Support (modellabhängig)", "Trainingsmodi"],
-      suitableFor: "Gesundheitsorientiertes Walking, Homeoffice-Bewegung, Nutzer mit empfindlichen Gelenken.",
+      suitableFor: "Gesundheitsorientiertes vibration plate, Homeoffice-Bewegung, Nutzer mit empfindlichen Gelenken.",
       mainDescription:
-        "Das MERACH Walking Pad mit 5 % Steigung zeigt im Test eine runde Gesamtperformance für alle, die viel gehen, aber nicht sprinten wollen. Der Fokus liegt klar auf Komfort, Leiselauf und Gelenkschonung: leiser Motor, starke Dämpfung, moderate Geschwindigkeit und Steigungsfunktion.",
+        "Das MERACHvibration plate mit 5 % Steigung zeigt im Test eine runde Gesamtperformance für alle, die viel gehen, aber nicht sprinten wollen. Der Fokus liegt klar auf Komfort, Leiselauf und Gelenkschonung: leiser Motor, starke Dämpfung, moderate Geschwindigkeit und Steigungsfunktion.",
       testFindings:
         "Für intensives Lauftraining ist die 6-km/h-Grenze zu niedrig, dafür spielt es im Alltag seine Stärken aus – gerade bei Personen, die im Homeoffice oder beim Fernsehen ihre Schritte sammeln möchten. Die Steigung bringt Abwechslung und erhöht den Kalorienverbrauch, ohne das Tempo in kritische Bereiche treiben zu müssen.",
       specialFeature:
@@ -721,20 +821,20 @@ const testData = {
     },
   },
   Cursor: {
-    image: "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/cursor/cursertrainerimage.jpg",
+    image: "/Assets/vibration-test 9.png",
     overallScore: 3.9,
     status: "Bestanden",
     features: [
       "Kompaktes Design (114 × 55 × 11 cm) – flach genug für Bett / Sofa / Schreibtisch ",
       "9 % manuelle Steigung – deutlich intensiver als flache Pads",
-      "1–10 km/h – Walking bis leichtes Joggen möglich ",
+      "1–10 km/h – vibration plate bis leichtes Joggen möglich ",
       "2,75-PS-bürstenloser Motor, laut Hersteller <45 dB",
       "Max. Benutzergewicht 136 kg, robuster Stahlrahmen",
     ],
     tests: {
       Speed: {
         description:
-          "Mit 10 km/h erreicht das CURSOR eine für Walking Pads hohe Spitze. Für regelmäßiges Walking sowie leichtes Joggen ist die Leistung gut – bei dauerhaft hoher Geschwindigkeit wirkt das Gerät aber weniger souverän als klassische Studiolaufbänder.",
+          "Mit 10 km/h erreicht das CURSOR eine fürvibration plates hohe Spitze. Für regelmäßiges vibration plate sowie leichtes Joggen ist die Leistung gut – bei dauerhaft hoher Geschwindigkeit wirkt das Gerät aber weniger souverän als klassische Studiolaufbänder.",
         rating: "4.1 / 5",
         status: "Bestanden",
         icon: Zap,
@@ -769,9 +869,9 @@ const testData = {
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: CURSOR Walking Pad mit 9 % Steigung",
-      modelName: "CURSOR Walking Pad ",
-      verdict: "Für Walking & moderates Joggen – mit Einschränkungen",
+      title: "Einzelne Bewertung: CURSORvibration plate mit 9 % Steigung",
+      modelName: "CURSORvibration plate ",
+      verdict: "Für vibration plate & moderates Joggen – mit Einschränkungen",
       rating: 5.0,
       publishDate: "Januar 2025",
       author: "Steve Austin",
@@ -784,7 +884,7 @@ const testData = {
         },
         Lautstärke: {
           rating: 2,
-          description: "Leise im Walking-Bereich, bei 9–10 km/h hörbar, aber nicht extrem.",
+          description: "Leise im vibration plate-Bereich, bei 9–10 km/h hörbar, aber nicht extrem.",
         },
         "Dämpfung & Laufkomfort": {
           rating: 2,
@@ -806,37 +906,37 @@ const testData = {
       extras: ["Neigung", "12 Programme (modellabhängig)", "136-kg-Tragkraft"],
       suitableFor: "Nutzer, die mehr als nur „flach gehen“ wollen und kompakte Maße mit Steigung suchen.",
       mainDescription:
-        "Das CURSOR Walking Pad positioniert sich als leistungsstarkes Walking Pad mit Steigung, das mehr kann als nur Büro-Walking. Im Test punktet es mit seiner 9-%-Steigung, der hohen Tragkraft und bis zu 10 km/h – damit lässt sich ernsthaftes Power-Walking und leichtes Joggen umsetzen.",
+        "Das CURSORvibration plate positioniert sich als leistungsstarkesvibration plate mit Steigung, das mehr kann als nur Büro-vibration plate. Im Test punktet es mit seiner 9-%-Steigung, der hohen Tragkraft und bis zu 10 km/h – damit lässt sich ernsthaftes Power-vibration plate und leichtes Joggen umsetzen.",
       testFindings:
         "Auf der anderen Seite wird deutlich, dass es sich trotz guter Daten nicht um ein vollwertiges Studiolaufband handelt: Die Lauffläche ist eher kurz, bei hohem Tempo wirkt das Gerät weniger stabil und laufruhig, und die Neigungsverstellung ist unpraktisch – wer regelmäßig zwischen flach und steil wechseln will, wird sich am Werkzeugbedarf stören.",
       specialFeature:
-        "Die 9-%-Steigungsfunktion kombiniert mit hoher Tragkraft und einer maximalen Geschwindigkeit von 10 km/h ermöglicht Power-Walking und leichtes Joggen auch auf kompaktem Raum.",
+        "Die 9-%-Steigungsfunktion kombiniert mit hoher Tragkraft und einer maximalen Geschwindigkeit von 10 km/h ermöglicht Power-vibration plate und leichtes Joggen auch auf kompaktem Raum.",
       conclusion:
-        "Als kompaktes Gerät für ambitionierteres Home-Walking macht das CURSOR eine gute Figur, als Dauerläufer für längere Jogging-Sessions bleibt es deutlich hinter großen Laufbändern zurück. Insgesamt ein kräftiges, aber nicht perfektes Gerät für Nutzer, die Steigung, Tempo und dennoch kompakte Maße wollen.",
+        "Als kompaktes Gerät für ambitionierteres Home-vibration plate macht das CURSOR eine gute Figur, als Dauerläufer für längere Jogging-Sessions bleibt es deutlich hinter großen Laufbändern zurück. Insgesamt ein kräftiges, aber nicht perfektes Gerät für Nutzer, die Steigung, Tempo und dennoch kompakte Maße wollen.",
     },
   },
   Cazvian: {
-    image: "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/Cazvian/caziantrainer.jpg",
+    image: "/Assets/vibration-test 10.png",
     overallScore: 4.1,
     status: "Bestanden",
     features: [
       "Kompaktes, flaches Design (ca. 111 × 56 × 10,5 cm) – ideal für kleine Wohnungen und Homeoffice",
       "Manuelle 5-%-Steigung für etwas intensivere Geh-Sessions",
-      "38 × 90 cm Lauffläche – ausreichend für Walking, aber knapp für sehr große Nutzer",
+      "38 × 90 cm Lauffläche – ausreichend für vibration plate, aber knapp für sehr große Nutzer",
       "Leiser Motor für den Einsatz in Mehrfamilienhäusern",
       "Geringes Gewicht (ca. 16 kg) und Transportrollen für einfache Aufbewahrung",
     ],
     tests: {
       Speed: {
         description:
-          "Das Cazvian Walking Pad bietet eine Geschwindigkeit von 1–6 km/h und ist damit klar auf Walking ausgelegt. Für Alltagsbewegung und langsames Gehen ist die Geschwindigkeit ausreichend, für Jogging hingegen nicht.",
+          "Das Cazvianvibration plate bietet eine Geschwindigkeit von 1–6 km/h und ist damit klar auf vibration plate ausgelegt. Für Alltagsbewegung und langsames Gehen ist die Geschwindigkeit ausreichend, für Jogging hingegen nicht.",
         rating: "3.6 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Die Konstruktion ist für ein leichtes Walking Pad ordentlich, aber nicht extrem robust ausgelegt. Für tägliche Geh-Sessions ist es okay, für sehr intensive Nutzung eher grenzwertig.",
+          "Die Konstruktion ist für ein leichtesvibration plate ordentlich, aber nicht extrem robust ausgelegt. Für tägliche Geh-Sessions ist es okay, für sehr intensive Nutzung eher grenzwertig.",
         rating: "3.8 / 5",
         status: "Bestanden",
         icon: Shield,
@@ -850,7 +950,7 @@ const testData = {
       },
       Noise: {
         description:
-          "Im typischen Walking-Bereich arbeitet der Motor leise, was das Cazvian sehr gut für Wohnungen, Homeoffice und spätes Abendtraining geeignet macht.",
+          "Im typischen vibration plate-Bereich arbeitet der Motor leise, was das Cazvian sehr gut für Wohnungen, Homeoffice und spätes Abendtraining geeignet macht.",
         rating: "4.6 / 5",
         status: "Bestanden",
         icon: Volume2,
@@ -864,9 +964,9 @@ const testData = {
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: Cazvian Walking Pad mit 5 % Steigung",
-      modelName: "Cazvian Walking Pad",
-      verdict: "Gut für Homeoffice-Walking und leichte Nutzung",
+      title: "Einzelne Bewertung: Cazvianvibration plate mit 5 % Steigung",
+      modelName: "Cazvianvibration plate",
+      verdict: "Gut für Homeoffice-vibration plate und leichte Nutzung",
       rating: 5.0,
       publishDate: "Februar 2025",
       author: "Steve Austin",
@@ -879,7 +979,7 @@ const testData = {
         },
         Lautstärke: {
           rating: 3,
-          description: "Leiser Motor im Walking-Bereich – ideal für Mehrfamilienhäuser und Büro.",
+          description: "Leiser Motor im vibration plate-Bereich – ideal für Mehrfamilienhäuser und Büro.",
         },
         "Dämpfung & Laufkomfort": {
           rating: 2,
@@ -895,25 +995,25 @@ const testData = {
         },
         "Preis-Leistung": {
           rating: 3,
-          description: "Gut im Einsteigersegment, wenn der Fokus klar auf Walking liegt.",
+          description: "Gut im Einsteigersegment, wenn der Fokus klar auf vibration plate liegt.",
         },
       },
       extras: ["Manuelle Steigung", "Transportrollen – keine App", "keine Programme"],
       suitableFor: "Kurze bis mittlere Geh-Sessions im Homeoffice und in kleinen Wohnungen.",
       mainDescription:
-        "Auf den ersten Blick ist das Cazvian Walking Pad ein klassisches Unter-Desk-Laufband: flach, leicht, schlicht. Im Test überzeugt es vor allem als günstige und leise Lösung für mehr Alltagsbewegung im Homeoffice. Die 5-%-Steigung hebt es von vielen flachen Pads ab und bringt einen spürbaren Mehrreiz – allerdings bleibt die Verstellung rein manuell und etwas unkomfortabel, wenn man die Neigung häufiger ändern möchte.",
+        "Auf den ersten Blick ist das Cazvianvibration plate ein klassisches Unter-Desk-Laufband: flach, leicht, schlicht. Im Test überzeugt es vor allem als günstige und leise Lösung für mehr Alltagsbewegung im Homeoffice. Die 5-%-Steigung hebt es von vielen flachen Pads ab und bringt einen spürbaren Mehrreiz – allerdings bleibt die Verstellung rein manuell und etwas unkomfortabel, wenn man die Neigung häufiger ändern möchte.",
       testFindings:
-        "Die Lauffläche ist für durchschnittliche Nutzer okay, für Personen mit langen Schritten allerdings knapp. Auch die maximale Geschwindigkeit von 6 km/h macht klar: Joggen ist nicht das Ziel, sondern ergonomisches Gehen, Schrittziele und leichte Cardio-Einheiten.In Sachen Verarbeitungsqualität liegt das Cazvian im soliden Einsteigerbereich – ausreichend stabil, aber nicht überdimensioniert. Für tägliche 30–60 Minuten Walking ist es gut einsetzbar, für sehr schwerere Nutzer oder hartes Training eher nicht gedacht.",
+        "Die Lauffläche ist für durchschnittliche Nutzer okay, für Personen mit langen Schritten allerdings knapp. Auch die maximale Geschwindigkeit von 6 km/h macht klar: Joggen ist nicht das Ziel, sondern ergonomisches Gehen, Schrittziele und leichte Cardio-Einheiten.In Sachen Verarbeitungsqualität liegt das Cazvian im soliden Einsteigerbereich – ausreichend stabil, aber nicht überdimensioniert. Für tägliche 30–60 Minuten vibration plate ist es gut einsetzbar, für sehr schwerere Nutzer oder hartes Training eher nicht gedacht.",
       specialFeature:
         "Die 5-%-Steigung als seltenes Feature in dieser Preisklasse bietet zusätzlichen Trainingsreiz und macht einfache Geheinheiten spürbar intensiver – ganz ohne App oder Technik-Zwang.",
       conclusion:
-        "Insgesamt ist das Cazvian Walking Pad eine gute Lösung für Menschen mit wenig Platz, die primär im Homeoffice oder abends vor dem TV gehen möchten – ohne App-Zwang, ohne Schnickschnack.",
+        "Insgesamt ist das Cazvianvibration plate eine gute Lösung für Menschen mit wenig Platz, die primär im Homeoffice oder abends vor dem TV gehen möchten – ohne App-Zwang, ohne Schnickschnack.",
     },
   },
 };
 
 export default function TestingProcessPage() {
-  const [activeBrand, setActiveBrand] = useState("Sportstech");
+  const [activeBrand, setActiveBrand] = useState("Sportstech VP500");
   const brandData = testData[activeBrand];
 
   useEffect(() => {
@@ -967,7 +1067,7 @@ export default function TestingProcessPage() {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Unser Experte,
               <span className="font-semibold text-gray-900">Steve Austin</span>,
-              bewertet walkingpad, um Ihnen ehrliche und gründliche Bewertungen
+              bewertet vibration plates, um Ihnen ehrliche und gründliche Bewertungen
               zu liefern.
             </p>
           </div>
@@ -975,7 +1075,7 @@ export default function TestingProcessPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
               <img
-                src="https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
+                src="https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
                 alt="Steve Austin"
                 className="rounded-lg shadow-lg w-96 h-96 object-cover"
               />
@@ -984,18 +1084,18 @@ export default function TestingProcessPage() {
               <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
                   <strong className="text-gray-900">
-                    Bei WalkingpadReviews
+                    Bei vibration plate Reviews
                   </strong>
-                  glauben wir, dass die Wahl des richtigen Walkingpades auf
+                  glauben wir, dass die Wahl des richtigen vibration plates auf
                   echten Tests basieren sollte – nicht nur auf
                   Marketingversprechungen. Aus diesem Grund haben wir unseren
                   Experten,
                   <strong className="text-gray-900">Steve Austin</strong>,
-                  beauftragt, die fünf besten Walkingpadmarken der Branche zu
+                  beauftragt, die fünf besten vibration plate Marken der Branche zu
                   bewerten.
                 </p>
                 <p className="text-gray-600">
-                  Walking Pads sind in den letzten Jahren zu einem festen
+                 vibration plates sind in den letzten Jahren zu einem festen
                   Bestandteil vieler Haushalte und Büros geworden. Immer mehr
                   Menschen arbeiten im Homeoffice oder verbringen lange Stunden
                   im Sitzen. Die kompakten Laufgeräte ermöglichen es, Bewegung
@@ -1012,15 +1112,15 @@ export default function TestingProcessPage() {
                 </p>
               </div>
 
-              <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
+              <div className="bg-violet-50 rounded-lg p-4 border border-violet-200">
                 <div className="flex items-center space-x-2 mb-2">
-                  <CheckCircle className="w-5 h-5 text-blue-600" />
-                  <span className="font-semibold text-blue-900">
+                  <CheckCircle className="w-5 h-5 text-violet-600" />
+                  <span className="font-semibold text-violet-900">
                     Zertifizierungsprozess
                   </span>
                 </div>
-                <p className="text-blue-800 text-sm">
-                  Jedes Walkingpad, das hier vorgestellt wird, hat unseren
+                <p className="text-violet-800 text-sm">
+                  Jedes vibration plate, das hier vorgestellt wird, hat unseren
                   strengen Testprozess durchlaufen und erfüllt weiterhin
                   ausgezeichnete Leistungen unter realen Bedingungen.
                 </p>
@@ -1031,7 +1131,7 @@ export default function TestingProcessPage() {
       </div>
 
       {/* Brand Selection */}
-      <div className="max-w-7xl mx-auto px-6 py-16">
+      <div className="max-w-8xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Markenspezifische Testanalyse & Bewertungen
@@ -1047,11 +1147,10 @@ export default function TestingProcessPage() {
             <button
               key={brand}
               onClick={() => setActiveBrand(brand)}
-              className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 border ${
-                activeBrand === brand
-                  ? "bg-blue-600 text-white border-blue-600 shadow-lg"
+              className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 border ${activeBrand === brand
+                  ? "bg-violet-600 text-white border-violet-600 shadow-lg"
                   : "bg-white text-gray-700 border-gray-300 hover:border-gray-400 hover:shadow-md"
-              }`}
+                }`}
             >
               {brand}
             </button>
@@ -1065,7 +1164,7 @@ export default function TestingProcessPage() {
               <div className="bg-gray-50 px-6 py-4 border-b border-gray-200">
                 <div className="flex items-center justify-between">
                   <h2 className="text-2xl font-bold text-gray-900">
-                    {activeBrand} Walkingpad Details
+                    {activeBrand} vibration plate Details
                   </h2>
                   <div className="flex items-center space-x-4">
                     <div
@@ -1090,7 +1189,7 @@ export default function TestingProcessPage() {
                   <div className="flex justify-center">
                     <img
                       src={brandData.image}
-                      alt={`${activeBrand} Laufband`}
+                      alt={`${activeBrand} vibration plate`}
                       className="rounded-lg shadow-md max-w-full h-auto"
                     />
                   </div>
@@ -1126,8 +1225,8 @@ export default function TestingProcessPage() {
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center space-x-3">
-                          <div className="p-2 bg-blue-100 rounded-lg">
-                            <IconComponent className="w-6 h-6 text-blue-600" />
+                          <div className="p-2 bg-violet-100 rounded-lg">
+                            <IconComponent className="w-6 h-6 text-violet-600" />
                           </div>
                           <h3 className="text-lg font-semibold text-gray-900">
                             {test} Test
@@ -1164,13 +1263,13 @@ export default function TestingProcessPage() {
             {brandData.individualReview && (
               <div className="mt-16 space-y-8">
                 {/* Review Header */}
-                <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-8 text-white">
+                <div className="bg-gradient-to-r from-violet-600 to-violet-700 rounded-xl p-8 text-white">
                   <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                     <div>
                       <h2 className="text-2xl md:text-3xl font-bold mb-2">
                         {brandData.individualReview.title}
                       </h2>
-                      <div className="flex items-center space-x-4 text-blue-100">
+                      <div className="flex items-center space-x-4 text-violet-100">
                         <div className="flex items-center space-x-1">
                           <Calendar className="w-4 h-4" />
                           <span>{brandData.individualReview.publishDate}</span>
@@ -1243,11 +1342,10 @@ export default function TestingProcessPage() {
                                   {[...Array(5)].map((_, i) => (
                                     <Star
                                       key={i}
-                                      className={`w-5 h-5 ${
-                                        i < data.rating
+                                      className={`w-5 h-5 ${i < data.rating
                                           ? "text-yellow-500 fill-current"
                                           : "text-gray-300"
-                                      }`}
+                                        }`}
                                     />
                                   ))}
                                 </div>
@@ -1460,7 +1558,7 @@ export default function TestingProcessPage() {
                 </div>
                 <p className="text-green-800 leading-relaxed">
                   Nach umfassenden Tests aller 5 Marken hat Sportstech als das
-                  ausgewogenste und leistungsstärkste Walkingpad abgeschnitten
+                  ausgewogenste und leistungsstärkste vibration plate abgeschnitten
                   und in jeder Kategorie herausragende Leistungen gezeigt, mit
                   einer herausragenden Gesamtbewertung von
                   <strong>4.86/5</strong>.
@@ -1492,7 +1590,7 @@ export default function TestingProcessPage() {
                     Kaufberatung – Worauf man achten sollte
                   </h2>
                   <p className="text-lg text-gray-600">
-                    Wichtige Funktionen, die Sie bei der Wahl Ihres Walking Pads
+                    Wichtige Funktionen, die Sie bei der Wahl Ihresvibration plates
                     berücksichtigen sollten
                   </p>
                 </div>
@@ -1597,7 +1695,7 @@ export default function TestingProcessPage() {
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900">
                       Bevor Sie kaufen, denken Sie daran, wie oft und in welchem
-                      Umfeld das Walking Pad genutzt wird.
+                      Umfeld dasvibration plate genutzt wird.
                     </strong>
                     Für den täglichen Bürogebrauch sollten Sie leisen Betrieb
                     und App-Steuerung priorisieren. Für gelegentliche Workouts
@@ -1613,13 +1711,13 @@ export default function TestingProcessPage() {
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8">
               <div className="flex items-start space-x-4">
                 <img
-                  src="https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
+                  src="https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
                   alt="Steve Austin"
                   className="w-16 h-16 rounded-full object-cover"
                 />
                 <div>
                   <blockquote className="text-gray-700 italic mb-3 leading-relaxed">
-                    "Nach dem Testen von über 200 walkingpadn in meiner
+                    "Nach dem Testen von über 200 vibration plates in meiner
                     12-jährigen Karriere kann ich mit Zuversicht sagen, dass die
                     Maschinen, die wir hier empfehlen, das beste
                     Preis-Leistungs-Verhältnis und die beste Leistung in jeder
@@ -1635,7 +1733,7 @@ export default function TestingProcessPage() {
                       Zertifizierter Personal Trainer, NASM
                     </div>
                     <div className="text-sm text-gray-500">
-                      Getestet: 18+ walkingpad
+                      Getestet: 18+ vibration plates
                     </div>
                   </div>
                 </div>

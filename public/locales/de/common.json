@@ -1,23 +1,22 @@
 {
   "navigation": {
-    "logo": "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/logo.png",
-    "treadmillReviews": "Walkingpad Tests",
+    "logo": "https://Walkingpad-vergleich.s3.us-east-1.amazonaws.com/logo.png",
+    "treadmillReviews": "Vibration Plate Tests",
     "brands": "Marken",
     "guide": "Ratgeber",
     "blog": "Blog",
     "about": "Über uns"
   },
   "homepage": {
-    "heroTitle": "Experten-Test & Vergleiche – Walkingpad",
+    "heroTitle": "Experten-Test & Vergleiche – vibration plates",
     "heroSubtitle": "Gründlich geprüft. Ehrlich bewertet. Finde die beste Lösung für dein Home-Gym.",
     "expertOverview": {
       "title": "Experten Übersicht",
-      "content": "Unser Team zertifizierter Fitness-Profis hat über 1.200 Stunden damit verbracht, walkingpad unter realen Bedingungen zu testen. Wir bewerten jedes Gerät durch rigorose Leistungstests, Langzeit-Haltbarkeitsbewertungen und Benutzererfahrungsanalysen. Jede Bewertung ist datengestützt und gewährleistet ehrliche, zuverlässige Informationen für die beste Kaufentscheidung."
+      "content": "Unser Team zertifizierter Fitness-Profis hat über 1.200 Stunden damit verbracht, vibration plates unter realen Bedingungen zu testen. Wir bewerten jedes Gerät durch rigorose Leistungstests, Langzeit-Haltbarkeitsbewertungen und Benutzererfahrungsanalysen. Jede Bewertung ist datengestützt und gewährleistet ehrliche, zuverlässige Informationen für die beste Kaufentscheidung."
     },
     "popularBrands": {
       "title": "Beliebte Marken die wir testen",
       "Subtitle": "Vertraut von den angesehensten Fitnessmarken der Branche."
-
     },
     "testingProcess": {
       "title": "Unser Testverfahren",
@@ -45,13 +44,13 @@
     },
     "expertOpinion": {
       "title": "Experten Meinung",
-      "testimonial": "Nach dem Testen hunderter walkingpad in meiner 12-jährigen Laufbahn kann ich mit Zuversicht sagen, dass die hier empfohlenen Geräte den besten Wert und die beste Leistung in jeder Kategorie darstellen. Unsere Testmethodik stellt sicher, dass jeder Aspekt von Benutzerfreundlichkeit, Haltbarkeit und Leistung gründlich bewertet wird.",
+      "testimonial": "Nach dem Testen hunderter Vibration Plates in meiner 12-jährigen Laufbahn kann ich mit Zuversicht sagen, dass die hier empfohlenen Geräte den besten Wert und die beste Leistung in jeder Kategorie darstellen. Unsere Testmethodik stellt sicher, dass jeder Aspekt von Benutzerfreundlichkeit, Haltbarkeit und Leistung gründlich bewertet wird.",
       "trainerName": "Steve Austin",
       "trainerTitle": "Zertifizierter Personal Trainer, NASM",
-      "testedCount": "Getestet: 18 walkingpad"
+      "testedCount": "Getestet: 18 Vibration Plates"
     },
     "bestTreadmills": {
-      "title": "Beste Walkingpad-Modelle im Vergleich",
+      "title": "Beste Vibration Plate-Modelle im Vergleich",
       "sportstech": {
         "name": "Sportstech sWalk Lite ",
         "description": "Hochwertiges Gerät mit überzeugender Leistung.",
@@ -72,60 +71,59 @@
         "description": "Gutes Preis-Leistungs-Verhältnis.",
         "badge": "Bester Wert"
       },
-      "Merach": {
+      "Cursor": {
         "name": "kiddoza Under DeskPad",
         "description": "Leises, platzsparendes Laufband mit Einschränkungen",
         "badge": "Redaktions-Tipp"
       },
-      "Copant": {
+      "Cazvian": {
         "name": "Superun B A06-С",
-        "description": "KI-Walkingpad mit App-Zwang und Limit.",
+        "description": "KI-Vibration Plate mit App-Zwang und Limit.",
         "badge": "Bester Wert"
       },
       "buyNow": "Jetzt kaufen"
     },
-   "customerReviews": {
-  "title": "Stimmen unserer Leser",
-  "reviews": [
-    {
-      "description": "Durch die detaillierten Testberichte habe ich das perfekte Laufband gefunden. Die Empfehlung des Sportstech sWalk Lite war ein Volltreffer!"
-    },
-    {
-      "description": "Die echten Leistungsdaten und ehrlichen Vor-/Nachteile haben mir sehr geholfen."
-    },
-    {
-      "description": "Besonders die umfassende Kaufberatung hat mir die wichtigsten Funktionen verständlich erklärt."
-    },
-    {
-      "description": "Professionell und unvoreingenommen. Hat mich davor bewahrt, die falsche Entscheidung zu treffen!"
-    },
-    {
-      "description": "Tests zur Lautstärke waren bei mir im Apartment super hilfreich."
+    "customerReviews": {
+      "title": "Stimmen unserer Leser",
+      "reviews": [
+        {
+          "description": "Durch die detaillierten Testberichte habe ich das perfekte Laufband gefunden. Die Empfehlung des Sportstech sWalk Lite war ein Volltreffer!"
+        },
+        {
+          "description": "Die echten Leistungsdaten und ehrlichen Vor-/Nachteile haben mir sehr geholfen."
+        },
+        {
+          "description": "Besonders die umfassende Kaufberatung hat mir die wichtigsten Funktionen verständlich erklärt."
+        },
+        {
+          "description": "Professionell und unvoreingenommen. Hat mich davor bewahrt, die falsche Entscheidung zu treffen!"
+        },
+        {
+          "description": "Tests zur Lautstärke waren bei mir im Apartment super hilfreich."
+        }
+      ]
     }
-  ]
-}
-
   },
   "guide": {
-    "title": "Kaufberatung: Das perfekte Walking Pad finden",
-    "introduction": "Unser umfassender Ratgeber hilft Ihnen, das perfekte Walkingpad für Ihre Fitnessziele, Ihren Platz und Ihr Budget zu wählen.",
+    "title": "Kaufberatung: Das perfekte Vibration Plate finden",
+    "introduction": "Unser umfassender Ratgeber hilft Ihnen, das perfekte Vibration Plate für Ihre Fitnessziele, Ihren Platz und Ihr Budget zu wählen.",
     "keyFeatures": {
       "title": "Wichtige Eigenschaften",
       "motorPower": {
         "title": " Motorkraft & Geschwindigkeit",
-        "description": "Ein leistungsstarker Motor (min. 2 PS) sorgt für geschmeidiges Training. Achte auf Walking Pad Modelle, die Geschwindigkeiten bis 6 km/h (oder mehr) ermöglichen – ideal für Walk-to-Earn, Home-Training oder Büro-Gänge."
+        "description": "Ein leistungsstarker Motor (min. 2 PS) sorgt für geschmeidiges Training. Achte auf Vibration Plate Modelle, die Geschwindigkeiten bis 6 km/h (oder mehr) ermöglichen – ideal für Walk-to-Earn, Home-Training oder Büro-Gänge."
       },
       "inclineSettings": {
         "title": "Steigungsfunktion",
-        "description": "Walking Pads mit verstellbarer Steigung (z. B. 4 % bis 14 %) bieten effektiveres Training – besonders relevant bei Themen wie Walking Pad Fitness-Steigerung und Kalorienverbrennung."
+        "description": "Vibration Plates mit verstellbarer Steigung (z. B. 4 % bis 14 %) bieten effektiveres Training – besonders relevant bei Themen wie Vibration Plate Fitness-Steigerung und Kalorienverbrennung."
       },
       "beltSize": {
         "title": "Lauffläche & Bandgröße",
-        "description": "Eine breite Lauffläche (mind. 40 cm Breite, 120 cm Länge) sorgt für sicheren Schritt und ist wichtig beim Vergleich: Walking Pad mit großer Lauffläche."
+        "description": "Eine breite Lauffläche (mind. 40 cm Breite, 120 cm Länge) sorgt für sicheren Schritt und ist wichtig beim Vergleich: Vibration Plate mit großer Lauffläche."
       },
       "weightCapacity": {
         "title": "Gewichtskapazität",
-        "description": "Stabile Walking Pad Modelle tragen bis 120–160 kg – entscheidend für zuverlässige Nutzung und langlebige Leistung."
+        "description": "Stabile Vibration Plate Modelle tragen bis 120–160 kg – entscheidend für zuverlässige Nutzung und langlebige Leistung."
       },
       "display": {
         "title": "Display & Steuerung",
@@ -133,7 +131,7 @@
       },
       "foldability": {
         "title": " Faltbarkeit & Transport Barkeit",
-        "description": "Für effektives Home-Office Training braucht dein Walking Pad ein flaches Design (< 12 cm Höhe) und Rollen für leichtes Verstauen – perfekt für kompakte Räume."
+        "description": "Für effektives Home-Office Training braucht dein Vibration Plate ein flaches Design (< 12 cm Höhe) und Rollen für leichtes Verstauen – perfekt für kompakte Räume."
       },
       "cushioning": {
         "title": "Polsterung & Komfort",
@@ -141,14 +139,14 @@
       }
     },
     "useCase": {
-      "title": "Für welche Zielgruppe eignet sich welches Walking Pad?",
+      "title": "Für welche Zielgruppe eignet sich welches Vibration Plate?",
       "beginners": {
         "title": "Für Einsteiger",
-        "description": "Stabiles, geräuscharmes Walking Pad unter 60 dB"
+        "description": "Stabiles, geräuscharmes Vibration Plate unter 60 dB"
       },
       "runners": {
         "title": "Fitness-Fans",
-        "description": "Walking Pad mit Steigung & längerer Lauffläche"
+        "description": "Vibration Plate mit Steigung & längerer Lauffläche"
       },
       "seniors": {
         "title": "Ältere Nutzer ",
@@ -161,25 +159,25 @@
     },
     "comparisonTips": {
       "title": "Unser Testverfahren",
-      "description": "Wir bewerten jedes Walkingpad durch umfassende Tests einschließlich Geschwindigkeitsgenauigkeit, Steigungsfunktionalität, Geräuschpegel, Haltbarkeit und Benutzerkomfort."
+      "description": "Wir bewerten jedes Vibration Plate durch umfassende Tests einschließlich Geschwindigkeitsgenauigkeit, Steigungsfunktionalität, Geräuschpegel, Haltbarkeit und Benutzerkomfort."
     },
     "faq": {
-      "title": "Häufige Fragen (FAQ – Themen wie Walking Pad Nutzen & Dämpfung)"
+      "title": "Häufige Fragen (FAQ – Themen wie Vibration Plate Nutzen & Dämpfung)"
     }
   },
   "blog": {
-    "title": "Fitness & Walkingpad Blog",
-    "introduction": "Experten-Einblicke, Trainingstipps und die neuesten Nachrichten in Fitness-Technologie und Walkingpad-Innovation.",
+    "title": "Fitness & Vibration Plate Blog",
+    "introduction": "Experten-Einblicke, Trainingstipps und die neuesten Nachrichten in Fitness-Technologie und Vibration Plate-Innovation.",
     "readMore": "Weiterlesen"
   },
   "about": {
     "abouthero": {
-      "title": "Über uns — Ihre Walking Pad Experten",
-      "description": "Bei Walking Pad Vergleich sind wir mehr als nur eine weitere Bewertungsseite. Wir sind leidenschaftliche Bewegungsliebhaber, Fitnessbegeisterte und Technikfans, die sich dafür einsetzen, Ihnen zu helfen, das richtige Walking Pad für Ihren Lebensstil zu finden – ob zu Hause, bei der Arbeit oder unterwegs."
+      "title": "Über uns — Ihre Vibration Plate Experten",
+      "description": "Beivibration plate Vergleich sind wir mehr als nur eine weitere Bewertungsseite. Wir sind leidenschaftliche Bewegungsliebhaber, Fitnessbegeisterte und Technikfans, die sich dafür einsetzen, Ihnen zu helfen, das richtige Vibration Plate für Ihren Lebensstil zu finden – ob zu Hause, bei der Arbeit oder unterwegs."
     },
     "howWeReview": {
       "title": "Wie wir testen",
-      "description": "Bei Walkingpad-Vergleich stehen Transparenz, Qualität und Fachkompetenz an erster Stelle."
+      "description": "Bei vibration-Plate-Vergleich stehen Transparenz, Qualität und Fachkompetenz an erster Stelle."
     },
     "reviewStandards": {
       "title": "Unsere Test-Standards",
@@ -191,7 +189,7 @@
     },
     "whoWeAre": {
       "title": "Wer wir sind",
-      "description": "2020 von einem Team zertifizierter Fitness-Profis gegründet, wurde WalkingpadTests geschaffen, um den Mangel an umfassenden, unvoreingenommenen Walkingpad-Tests am Markt zu beheben."
+      "description": "2020 von einem Team zertifizierter Fitness-Profis gegründet, wurde vibration-Plate-Vergleich geschaffen, um den Mangel an umfassenden, unvoreingenommenen Vibration Plate-Tests am Markt zu beheben."
     },
     "ourTeam": {
       "title": "Unser Team"

@@ -11,62 +11,62 @@ const treadmillsData = [
   {
     id: "sportstech",
     brand: "Sportstech",
-    model: "sWalk Lite",
+    model: "VP500",
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/products/treadmill-sportstech.webp",
+      "/vibration-img1.jpg",
     rating: 4.9,
     badge: "testWinner",
     badgeColor: "bg-yellow-500",
-    link: "https://www.sportstech.de/laufband/swalk-lite",
+    link: "/vibration-img1.jpg",
   },
   {
     id: "Citysports",
     brand: "Citysports",
     model: "CS-WP6",
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/CITYSPORTS/city04.png",
-    rating: 4.8,
+      "/vibration-img2.webp",
+    rating: 4.0,
     badge: "",
     badgeColor: "bg-blue-500",
     // link: '/warningpage'
-  },
-  {
-    id: "kiddoza",
-    brand: "kiddoza",
-    model: "Under desk walking pad",
-    image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/Kiddoza/kiddoza04.png",
-    rating: 4.6,
-    badge: "",
-    badgeColor: "bg-gray-500",
-    //  link: '/warningpage'
   },
   {
     id: "Superun",
     brand: "Superun",
     model: "B,A06-С",
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/Superun+Raceable+Walking+Pad/superun04.png",
-    rating: 4.5,
+      "/vibration-img10.webp",
+    rating: 3.9,
     badge: "",
-    badgeColor: "bg-green-500",
-    // link: '/warningpage'
+    badgeColor: "bg-gray-500",
+    //  link: '/warningpage'
   },
   {
-    id: "Merach",
-    brand: "Merach",
-    model: "F-R2024",
-    image: "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/merach/IMG_0044.png",
-    rating: 4.6,
+    id: "sportstech",
+    brand: "Sportstech",
+    model: "sVibe",
+    image:
+      "/vibration-img4.webp",
+    rating: 4.9,
+    badge: "testWinner",
+    badgeColor: "bg-yellow-500",
+    link: "/vibration-img4.webp",
+  },
+  {
+    id: "Cursor",
+    brand: "Cursor",
+    model: "Vibration Plate",
+    image: "/vibration-img5.webp",
+    rating: 3.8,
     badge: "",
     badgeColor: "bg-red-500",
   },
   {
-    id: "Copant",
-    brand: "Copant",
-    model: "Raceable Walking Pad",
-    image: "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/copant/IMG_0009.png",
-    rating: 4.5,
+    id: "Cazvian",
+    brand: "Cazvian",
+    model: "Vibration Plate für Zuhause",
+    image: "/vibration-img6.webp",
+    rating: 3.7,
     badge: "",
     badgeColor: "bg-red-500",
   },
@@ -166,7 +166,7 @@ export default function BestTreadmills() {
                     {treadmill.brand} {treadmill.model}
                   </h3>
                   <p className="text-sm text-gray-600 line-clamp-2 mb-3">
-                    {t(`${treadmill.id}.description`)}
+                    {t(`${treadmill.id}.description`) || "No description available"}
                   </p>
                   <StarRating rating={treadmill.rating} />
                   <div className="mt-auto pt-5">
@@ -174,7 +174,7 @@ export default function BestTreadmills() {
                       href={treadmill.link}
                       target={treadmill.link !== "#" ? "_blank" : "_self"}
                       rel={treadmill.link !== "#" ? "noopener noreferrer" : ""}
-                      className="block w-full bg-primary-500 hover:bg-primary-600 text-white text-center py-2.5 rounded-lg font-semibold transition"
+                      className="block w-full bg-violet-500 hover:bg-violet-600 text-white text-center py-2.5 rounded-lg font-semibold transition"
                     >
                       {t("buyNow")}
                     </a>

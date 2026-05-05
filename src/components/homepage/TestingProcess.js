@@ -13,27 +13,27 @@ const testData = [
   {
     id: 'speedTest',
     icon: Gauge,
-    image: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/testing/speed.jpg',
+    image: '/landing-vibration-1.webp',
   },
   {
     id: 'durabilityTest',
     icon: Wrench,
-    image: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/testing/durability-test.jpeg',
+    image: '/landing-vibration-2.jpg',
   },
   {
     id: 'inclineTest',
     icon: Mountain,
-    image: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/testing/incline.webp',
+    image: '/landing-vibration-3.jpg',
   },
   {
     id: 'noiseTest',
     icon: Volume2,
-    image: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/testing/noise-test.jpg',
+    image: '/landing-vibration-4 .webp',
   },
   {
     id: 'comfortTest',
     icon: Sparkles,
-    image: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/testing/comforthome.jpg',
+    image: '/landing-vibrtion-5.jpg',
   },
 ];
 
@@ -64,13 +64,13 @@ export default function TestingProcess() {
                   key={test.id}
                   onClick={() => setActiveTest(index)}
                   className={`w-full text-left transition duration-300 ease-in-out p-5 rounded-2xl border group hover:shadow-md ${isActive
-                      ? 'bg-blue-50 border-blue-500 shadow-lg scale-[1.02]'
-                      : 'bg-white border-gray-200 hover:border-blue-400'
+                    ? 'bg-blue-50 border-violet-500 shadow-lg scale-[1.02]'
+                    : 'bg-white border-gray-200 hover:border-violet-400'
                     }`}
                 >
                   <div className="flex items-start gap-4">
                     <Icon
-                      className={`w-6 h-6 mt-1 transition ${isActive ? 'text-blue-600' : 'text-blue-400 group-hover:text-blue-500'
+                      className={`w-6 h-6 mt-1 transition ${isActive ? 'text-violet-600' : 'text-violet-400 group-hover:text-violet-500'
                         }`}
                     />
                     <div>
@@ -116,7 +116,7 @@ export default function TestingProcess() {
                 </p>
 
                 <div className="inline-flex items-center px-2 sm:px-3 py-1 
-                    bg-green-100 text-green-800 text-xs sm:text-sm 
+                    bg-violet-100 text-violet-800 text-xs sm:text-sm 
                     font-medium rounded-full">
                   <svg
                     className="w-3 h-3 sm:w-4 sm:h-4 mr-1"

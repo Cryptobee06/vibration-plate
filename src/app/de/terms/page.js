@@ -87,7 +87,7 @@ export default function Termssection() {
       title: 'Geltendes Recht, Gerichtsstand und Kündigung',
       paragraphs: [
         "Abhängig von Ihrem Standort haben Sie möglicherweise Rechte gemäß Datenschutzgesetzen wie DSGVO oder CCPA. Dazu gehören Zugriffs-, Berichtigungs- oder Löschungsrechte Ihrer Daten.",
-        "Um diese Rechte auszuüben oder Fragen zu stellen, senden Sie uns bitte eine E-Mail an privacy@walkingpadreviews.com."
+        "Um diese Rechte auszuüben oder Fragen zu stellen, senden Sie uns bitte eine E-Mail an privacy@Walkingpadreviews.com."
       ]
     },
   ];

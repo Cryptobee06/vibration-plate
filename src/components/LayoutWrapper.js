@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
-  
+
   // Ensure component is mounted to avoid hydration issues
   useEffect(() => {
     setMounted(true);
@@ -25,30 +25,30 @@ export default function LayoutWrapper({ children }) {
   const metadata = useMemo(() => {
     if (currentLocale === 'de') {
       return {
-        title: 'WalkingpadTests - Experten Walkingpad Tests & Bewertungen',
+        title: 'vibrationTests - Experten Vibration Plates Tests & Bewertungen',
         description: 'Unabhängige Bewertungen von zertifizierten Fitnessexperten, die jedes Gerät auf Leistung, Haltbarkeit und Wertigkeit prüfen.',
         icons: {
-          icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-            },
+          icon: '/VibrationPlateTestlogosvg-blue.svg'
+        },
       };
     }
     return {
-      title: 'WalkingpadReviews - Expert Walkingpad Testing & Reviews',
-      description: 'Independent Walkingpad reviews from certified fitness professionals. Comprehensive testing for performance, durability, and value.',
+      title: 'vibrationReviews - Expert Vibration Plate Testing & Reviews',
+      description: 'Independent Vibration Plate reviews from certified fitness professionals. Comprehensive testing for performance, durability, and value.',
       icons: {
-        icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-          },
+        icon: '/VibrationPlateTestlogosvg-blue.svg'
+      },
     };
   }, [currentLocale]);
 
   // On server-side or before mount, use default English to prevent hydration mismatch
   const safeLocale = mounted ? currentLocale : 'en';
   const safeMetadata = mounted ? metadata : {
-    title: 'WalkingpadReviews - Expert Walkingpad Testing & Reviews',
-    description: 'Independent Walkingpad reviews from certified fitness professionals. Comprehensive testing for performance, durability, and value.',
+    title: 'vibrationReviews - Expert Vibration Plate Testing & Reviews',
+    description: 'Independent Vibration Plate reviews from certified fitness professionals. Comprehensive testing for performance, durability, and value.',
     icons: {
-      icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-        },
+      icon: '/VibrationPlateTestlogosvg-blue.svg'
+    },
   };
   // On mounting, add Google Tag Manager script to body
   useEffect(() => {
@@ -70,7 +70,7 @@ export default function LayoutWrapper({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {/* Google Tag Manager Script in Head */}
-        <script 
+        <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -81,13 +81,13 @@ export default function LayoutWrapper({ children }) {
         />
       </Head>
       <body className={inter.className}>
-          {/* Google Tag Manager (noscript) in Body */}
-          <noscript>
-          <iframe 
+        {/* Google Tag Manager (noscript) in Body */}
+        <noscript>
+          <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-PWCLHL2K"
-            height="0" 
-            width="0" 
-            style={{display: 'none', visibility: 'hidden'}}
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
         {children}

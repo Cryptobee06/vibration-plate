@@ -5,14 +5,14 @@ import { notFound } from 'next/navigation';
 const blogPosts = {
   'best-treadmill-workouts-2025': {
     title: {
-      en: '10 Best Walkingpad Workouts for Weight Loss in 2025',
-      de: '10 Beste Walkingpad-Workouts für Gewichtsverlust 2025'
+      en: '10 Best Vibration Plate Workouts for Weight Loss in 2025',
+      de: '10 Beste Vibration Plate-Workouts für Gewichtsverlust 2025'
     },
     content: {
       en: `
-# 10 Best Treadmill Workouts for Weight Loss in 2025
+# 10 Best Vibration Plate Workouts for Weight Loss in 2025
 
-Treadmill workouts are one of the most effective ways to burn calories and lose weight. With the right combination of intensity, duration, and variety, you can transform your fitness routine and achieve your weight loss goals.
+Vibration plate workouts are one of the most effective ways to burn calories and lose weight. With the right combination of intensity, duration, and variety, you can transform your fitness routine and achieve your weight loss goals.
 
 ## 1. High-Intensity Interval Training (HIIT)
 
@@ -68,12 +68,12 @@ Short, intense sprints followed by active recovery periods maximize calorie burn
 
 ## Conclusion
 
-The key to successful weight loss through treadmill workouts is consistency and progressive overload. Start with workouts that match your current fitness level and gradually increase intensity and duration. Remember to combine these workouts with proper nutrition for optimal results.
+The key to successful weight loss through vibration plate workouts is consistency and progressive overload. Start with workouts that match your current fitness level and gradually increase intensity and duration. Remember to combine these workouts with proper nutrition for optimal results.
       `,
       de: `
-# 10 Beste Walkingpad-Workouts für Gewichtsverlust 2025
+# 10 Beste Vibration Plate-Workouts für Gewichtsverlust 2025
 
-Walkingpad-Workouts sind eine der effektivsten Möglichkeiten, Kalorien zu verbrennen und Gewicht zu verlieren. Mit der richtigen Kombination aus Intensität, Dauer und Vielfalt können Sie Ihre Fitness-Routine transformieren und Ihre Gewichtsverlustziele erreichen.
+Vibration Plate-Workouts sind eine der effektivsten Möglichkeiten, Kalorien zu verbrennen und Gewicht zu verlieren. Mit der richtigen Kombination aus Intensität, Dauer und Vielfalt können Sie Ihre Fitness-Routine transformieren und Ihre Gewichtsverlustziele erreichen.
 
 ## 1. Hochintensives Intervalltraining (HIIT)
 
@@ -129,7 +129,7 @@ Kurze, intensive Sprints gefolgt von aktiven Erholungsphasen maximieren den Kalo
 
 ## Fazit
 
-Der Schlüssel für erfolgreichen Gewichtsverlust durch Walkingpad-Workouts ist Konsistenz und progressive Überlastung. Beginnen Sie mit Workouts, die Ihrem aktuellen Fitnesslevel entsprechen, und steigern Sie allmählich Intensität und Dauer. Denken Sie daran, diese Workouts mit angemessener Ernährung für optimale Ergebnisse zu kombinieren.
+Der Schlüssel für erfolgreichen Gewichtsverlust durch Vibration Plate-Workouts ist Konsistenz und progressive Überlastung. Beginnen Sie mit Workouts, die Ihrem aktuellen Fitnesslevel entsprechen, und steigern Sie allmählich Intensität und Dauer. Denken Sie daran, diese Workouts mit angemessener Ernährung für optimale Ergebnisse zu kombinieren.
       `
     },
     publishDate: '2025-01-15',
@@ -144,16 +144,16 @@ Der Schlüssel für erfolgreichen Gewichtsverlust durch Walkingpad-Workouts ist 
     }
   },
 
-    'treadmill-maintenance-guide': {
+  'treadmill-maintenance-guide': {
     title: {
-      en: 'Walkingpad Maintenance Tips for Longevity',
-      de: 'Walkingpad-Wartungstipps für Langlebigkeit'
+      en: 'Vibration Plate Maintenance Tips for Longevity',
+      de: 'Vibration Plate-Wartungstipps für Langlebigkeit'
     },
     content: {
       en: `
-# Walkingpad Maintenance Tips for Longevity
+# Vibration Plate Maintenance Tips for Longevity
 
-Regular maintenance can greatly extend the lifespan of your Walkingpad and keep it running smoothly.
+Regular maintenance can greatly extend the lifespan of your Vibration Plate and keep it running smoothly.
 
 ## 1. Keep It Clean
 
@@ -172,7 +172,7 @@ A properly lubricated belt reduces friction and motor stress.
 - Every 3–6 months (check the manual)
 
 **How:**
-- Use silicone-based Walkingpad lubricant
+- Use silicone-based Vibration Plate lubricant
 - Apply under the belt evenly
 
 ## 3. Check Belt Alignment
@@ -180,16 +180,16 @@ A properly lubricated belt reduces friction and motor stress.
 A misaligned belt can cause uneven wear.
 
 **Steps:**
-- Turn on Walkingpad at slow speed
+- Turn on Vibration Plate at slow speed
 - Look for drift or pulling
 - Adjust the rear roller bolts as needed
 
 ## Conclusion
 
-A little maintenance goes a long way in keeping your Walkingpad in top condition. Schedule regular cleaning and inspections to avoid costly repairs.
+A little maintenance goes a long way in keeping your Vibration Plate in top condition. Schedule regular cleaning and inspections to avoid costly repairs.
       `,
       de: `
-# Walkingpad-Wartungstipps für Langlebigkeit
+# Vibration Plate-Wartungstipps für Langlebigkeit
 
 Regelmäßige Wartung kann die Lebensdauer Ihres Walkingpads erheblich verlängern.
 
@@ -326,7 +326,7 @@ Achten Sie beim Kauf auf die Dauerleistung des Motors. Ein guter Motor garantier
 
 export async function generateStaticParams() {
   const slugs = Object.keys(blogPosts);
-  
+
   return slugs.map((slug) => ({
     slug
   }));
@@ -336,14 +336,14 @@ export async function generateMetadata({ params }) {
   const { slug } = params;
   const locale = 'en';
   const post = blogPosts[slug];
-  
+
   if (!post) {
     return {
       title: 'Post Not Found',
       description: 'The requested blog post could not be found.'
     };
   }
-  
+
   return {
     title: post.title[locale],
     description: post.title[locale].substring(0, 160),
@@ -381,16 +381,16 @@ export default function BlogPost({ params }) {
   const { slug } = params;
   const locale = 'en';
   const post = blogPosts[slug];
-  
+
   if (!post) {
     notFound();
   }
-  
+
   return (
     <div className="min-h-screen  to-primary-100 " >
-          {/* <div className="min-h-screen bg-white to-primary-100 " ></div> */}
+      {/* <div className="min-h-screen bg-white to-primary-100 " ></div> */}
       {/* Hero Section */}
-      
+
       <section className="bg-gradient-to-br blog-redirect-bg from-primary-50 to-primary-100 py-20 treadmill-bacgroundimage">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -398,12 +398,12 @@ export default function BlogPost({ params }) {
             <span className="inline-block px-3 py-1 bg-primary-600 text-white text-sm font-medium rounded-full mb-4">
               {post.category[locale]}
             </span>
-            
+
             {/* Title */}
             <h1 className="text-4xl md:text-5xl font-bold  mb-6">
               {post.title[locale]}
             </h1>
-            
+
             {/* Meta */}
             <div className="flex items-center justify-center space-x-4 ">
               <span>By {post.author}</span>
@@ -419,7 +419,7 @@ export default function BlogPost({ params }) {
       {/* Content */}
       <article className="py-20 text-blog-color">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 blog-content-area">
-          <MarkdownContent content={post.content[locale]}  />
+          <MarkdownContent content={post.content[locale]} />
         </div>
       </article>
 

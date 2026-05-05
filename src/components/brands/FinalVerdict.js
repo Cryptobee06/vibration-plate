@@ -66,7 +66,7 @@ export default function FinalVerdict({ brand }) {
                 href={brand.buyLink}
                 target={brand.buyLink !== '#' ? '_blank' : '_self'}
                 rel={brand.buyLink !== '#' ? 'noopener noreferrer' : ''}
-                className="inline-flex items-center px-8 py-4 bg-primary-600 text-white rounded-lg font-semibold text-lg hover:bg-primary-700 transition-colors shadow-lg"
+                className="inline-flex items-center px-8 py-4 bg-violet-500 text-white rounded-lg font-semibold text-lg hover:bg-violet-600 transition-colors shadow-lg"
               >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 6M7 13l-1.5 6m4.5-6v6m4-6v6m4-6v6" />

@@ -1,7 +1,7 @@
 {
   "navigation": {
-    "logo": "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/logo.png",
-    "treadmillReviews": "Walkingpad Reviews",
+    "logo": "https://Walkingpad-vergleich.s3.us-east-1.amazonaws.com/logo.png",
+    "treadmillReviews": "Table",
     "brands": "Brands",
     "guide": "Guide",
     "blog": "Blog",
@@ -9,17 +9,17 @@
   },
   "homepage": {
     "heroTitle": "Honest Reviews - Real User Feedback Smart Buying Decisions",
-    "heroSubtitle": "Looking for the best walking pad for Home, Office, or Small spaces? At Walkingpad Comparison, we combine in-depth testing, Real User Experiences, and Expert analysis to help you choose the Walking pad that truly fits your lifestyle.",
+    "heroSubtitle": "Looking for the best vibration plate for Home, Office, or Small spaces? At Vibration Plate Comparison, we combine in-depth testing, Real User Experiences, and Expert analysis to help you choose the Vibration plate that truly fits your lifestyle.",
     "expertOverview": {
       "title": "Expert Overview",
-      "content": "Our team of certified fitness professionals has spent over 1,200 hours testing Walkingpad in real-world conditions. We evaluate each machine through rigorous performance tests, long-term durability assessments, and user experience analysis. Every review is backed by data, ensuring you get honest, reliable information to make the best purchase decision for your fitness goals."
+      "content": "Our team of certified fitness professionals has spent over 1,200 hours testing Vibration Plates in real-world conditions. We evaluate each machine through rigorous performance tests, long-term durability assessments, and user experience analysis. Every review is backed by data, ensuring you get honest, reliable information to make the best purchase decision for your fitness goals."
     },
     "popularBrands": {
       "title": "Popular Brands We Test",
-      "Subtitle":"Trusted by the most respected fitness brands in the industry."
+      "Subtitle": "Trusted by the most respected fitness brands in the industry."
     },
     "testingProcess": {
-      "title": "How We Test Walking Pads",
+      "title": "How We Test Vibration Plates",
       "speedTest": {
         "title": "Speed & Performance ",
         "description": "How smooth and accurate the speed levels really are."
@@ -44,31 +44,31 @@
     },
     "expertOpinion": {
       "title": "Expert Opinion",
-      "testimonial": "After testing hundreds of Walkingpads over my 12-year career, I can confidently say that the machines we recommend here represent the best value and performance in each category. Our testing methodology ensures that every aspect of usability, durability, and performance is thoroughly evaluated. The Walkingpad featured on this site have all passed our rigorous certification process and continue to perform excellently in real-world conditions.",
+      "testimonial": "After testing hundreds of Vibration Plates over my 12-year career, I can confidently say that the machines we recommend here represent the best value and performance in each category. Our testing methodology ensures that every aspect of usability, durability, and performance is thoroughly evaluated. The Vibration Plate featured on this site have all passed our rigorous certification process and continue to perform excellently in real-world conditions.",
       "trainerName": "Steve Austin",
       "trainerTitle": "Certified Personal Trainer, NASM",
-      "testedCount": "Tested: 18 Walkingpads"
+      "testedCount": "Tested: 18 Vibration Plates"
     },
     "bestTreadmills": {
-      "title": "Best Walkingpads in 2025",
+      "title": "Best Vibration Plates in 2025",
       "sportstech": {
         "name": "Sportstech F15",
-        "description": "Professional-grade Walkingpad with advanced shock absorption and smartphone integration. ",
+        "description": "Professional-grade Vibration Plate with advanced shock absorption and smartphone integration. ",
         "badge": "Test Winner"
       },
       "Citysports": {
         "name": "Citysports Commercial 1750",
-        "description": "Premium Walkingpad 2332 with interactive training and incline technology.",
+        "description": "Premium Vibration Plate with interactive training and incline technology.",
         "badge": "Best Choice"
       },
       "kiddoza": {
         "name": "kiddoza Pro 2000",
-        "description": "Feature-rich Walkingpad with iFit integration and powerful motor.",
+        "description": "Feature-rich Vibration Plate with iFit integration and powerful motor.",
         "badge": "Editor's Pick"
       },
       "Superun": {
         "name": "Superun 7.8 AT",
-        "description": "Reliable mid-range Walkingpad with excellent build quality and warranty.",
+        "description": "Reliable mid-range Vibration Plate with excellent build quality and warranty.",
         "badge": "Best Value"
       },
       "Merach": {
@@ -78,42 +78,40 @@
       },
       "Copant": {
         "name": "Superun 7.8 AT",
-        "description": "Slim, foldable walking pad for light daily movement only.",
+        "description": "Slim, foldable vibration plate for light daily movement only.",
         "badge": "Best Value"
       },
       "buyNow": "Buy Now"
     },
-    
-      "customerReviews": {
-        "title": "User Reviews",
-        "reviews": [
-          {
-            "description": "The comparison tables made it easy to see pros and cons at a glance. Saved me hours of research."
-          },
-          {
-            "description": "I wanted something quiet for my apartment. Thanks to these reviews, I found a walking pad that’s both compact and whisper-quiet."
-          },
-          {
-            "description": "I was worried about assembly, but the model I picked was ready to use right out of the box. Super convenient and easy to move around."
-          },
-          {
-            "description": "Working from home had me sitting all day. With the walking pad I chose here, I can now walk while answering emails — I feel more active and focused."
-          },
-          {
-            "description": "The durability test results gave me confidence. After 6 months of daily use, my walking pad still feels as smooth as day one."
-          }
-        ]
-      }
-    },
-
+    "customerReviews": {
+      "title": "User Reviews",
+      "reviews": [
+        {
+          "description": "The comparison tables made it easy to see pros and cons at a glance. Saved me hours of research."
+        },
+        {
+          "description": "I wanted something quiet for my apartment. Thanks to these reviews, I found a vibration plate that’s both compact and whisper-quiet."
+        },
+        {
+          "description": "I was worried about assembly, but the model I picked was ready to use right out of the box. Super convenient and easy to move around."
+        },
+        {
+          "description": "Working from home had me sitting all day. With the vibration plate I chose here, I can now walk while answering emails — I feel more active and focused."
+        },
+        {
+          "description": "The durability test results gave me confidence. After 6 months of daily use, my vibration plate still feels as smooth as day one."
+        }
+      ]
+    }
+  },
   "guide": {
-    "title": "The Ultimate Walking Pad Buying Guide 2025",
-    "introduction": "Discover the best walking pad for your lifestyle. Whether it's for your home office, small apartment, or daily fitness routine, here’s everything you should know before buying.",
+    "title": "The Ultimate Vibration Plate Buying Guide 2025",
+    "introduction": "Discover the best vibration plate for your lifestyle. Whether it's for your home office, small apartment, or daily fitness routine, here’s everything you should know before buying.",
     "keyFeatures": {
       "title": "What to Look For: Key Buying Criteria",
       "motorPower": {
         "title": "Size & Portability",
-        "description": "Make sure the walking pad fits under your desk. Lightweight models with foldable designs and wheels offer the most flexibility"
+        "description": "Make sure the vibration plate fits under your desk. Lightweight models with foldable designs and wheels offer the most flexibility"
       },
       "inclineSettings": {
         "title": "Speed & Incline Options",
@@ -135,13 +133,12 @@
         "title": "Ease of Use & Controls",
         "description": "Look for tools with user-friendly interfaces- remote control, LED display, or smart app integration help make workouts seamless"
       }
-
     },
     "useCase": {
       "title": "Expert Quick Recommendations",
       "beginners": {
         "title": "For Beginners",
-        "description": "Start with a lightweight, foldable walking pad with simple controls and a max speed around 3–4 km/h. Focus on comfort and ease of use rather than advanced features."
+        "description": "Start with a lightweight, foldable vibration plate with simple controls and a max speed around 3–4 km/h. Focus on comfort and ease of use rather than advanced features."
       },
       "runners": {
         "title": "For Fast Walkers",
@@ -149,7 +146,7 @@
       },
       "seniors": {
         "title": "For Seniors",
-        "description": " Choose a walking pad with strong cushioning, quiet operation, and a stable deck. Look for safety features like auto-stop, non-slip belts, and handrail compatibility."
+        "description": " Choose a vibration plate with strong cushioning, quiet operation, and a stable deck. Look for safety features like auto-stop, non-slip belts, and handrail compatibility."
       },
       "homeGym": {
         "title": "For Small Apartments",
@@ -157,26 +154,26 @@
       }
     },
     "comparisonTips": {
-      "title": "How We Tested Walking Pads",
-      "description": "Real-world testing is at the heart of our reviews. Inspired by leading review sites, we evaluate each pad across: Assembly ease, portability, foldability,Speed and incline accuracy,Noise levels during use,Comfort, cushioning, and build quality,User experience: Comfort, Usability, and Value."
+      "title": "How We Tested Vibration Plates",
+      "description": "Real-world testing is at the heart of our reviews. Inspired by leading review sites, we evaluate each plate across: Assembly ease, portability, foldability,Speed and incline accuracy,Noise levels during use,Comfort, cushioning, and build quality,User experience: Comfort, Usability, and Value."
     },
     "faq": {
       "title": "Frequently Asked Questions"
     }
   },
   "blog": {
-    "title": "Fitness & Walkingpad Blog",
-    "introduction": "Expert insights, training tips, and the latest news in fitness technology and Walkingpad innovation.",
+    "title": "Fitness & Vibration Plate Blog",
+    "introduction": "Expert insights, training tips, and the latest news in fitness technology and vibration plate innovation.",
     "readMore": "Read More"
   },
   "about": {
     "abouthero": {
-      "title": "About Us — Your Walking Pad Experts",
-      "description": "At Walking Pad Comparison, we’re more than just another review site. We’re passionate movers, fitness enthusiasts, and tech lovers committed to helping you find the right walking pad for your lifestyle- whether at home, work, or on the move."
+      "title": "About Us — Your Vibration Plate Experts",
+      "description": "At Vibration Plate Reviews, we’re more than just another review site. We’re passionate movers, fitness enthusiasts, and tech lovers committed to helping you find the right vibration plate for your lifestyle- whether at home, work, or on the move."
     },
     "howWeReview": {
       "title": "How We Do Reviews",
-      "description": "Every walking pad is tested for noise, durability, design, and comfort—because numbers on a spec sheet aren’t enough.From under-desk office setups to home workout spaces, we test walkingpads where you’ll actually use them.We highlight both strengths and weaknesses, so you can make an informed choice without hidden surprises.We include insights from real users, combining expert analysis with everyday experiences."
+      "description": "Every vibration plate is tested for noise, durability, design, and comfort—because numbers on a spec sheet aren’t enough.From under-desk office setups to home workout spaces, we test Vibration Plates where you’ll actually use them.We highlight both strengths and weaknesses, so you can make an informed choice without hidden surprises.We include insights from real users, combining expert analysis with everyday experiences."
     },
     "reviewStandards": {
       "title": "Our Review Standards",

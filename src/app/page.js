@@ -10,17 +10,17 @@ import CustomerReviews from '@/components/homepage/CustomerReviews';
 export async function generateMetadata() {
   return {
 
-    title: 'WalkingpadReviews - Expert Walkingpad Testing & Reviews 2025',
-    description: 'Independent Walkingpad reviews from certified fitness professionals. Comprehensive testing for performance, durability, and value. Find the best Walkingpad for your needs.',
-    keywords: 'Walkingpad reviews, Walkingpad testing, best Walkingpads 2025, fitness equipment reviews, Walkingpad buying guide',
+    title: 'Vibration plateReviews - Expert Vibration Plate Testing & Reviews 2025',
+    description: 'Independent Vibration Plate reviews from certified fitness professionals. Comprehensive testing for performance, durability, and value. Find the best Vibration Plate for your needs.',
+    keywords: 'Vibration Platereviews, Vibration Plate testing, best Vibration Plates 2025, fitness equipment reviews, Vibration Plate buying guide',
     openGraph: {
-      title: 'WalkingpadReviews - Expert Walkingpad Testing & Reviews 2025',
-      description: 'Independent Walkingpad reviews from certified fitness professionals',
+      title: 'Vibration plate Reviews - Expert Vibration Plate Testing & Reviews 2025',
+      description: 'Independent Vibration Plate reviews from certified fitness professionals',
       type: 'website',
     },
     icons: {
-      icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-      },
+      icon: '/VibrationPlateTestlogosvg-blue.svg'
+    },
   };
 }
 

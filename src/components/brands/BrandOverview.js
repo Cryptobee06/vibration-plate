@@ -5,9 +5,12 @@ export default function BrandOverview({ brand }) {
   const t = useTranslations('brands');
   const locale = useLocale();
 
+  const displayName = brand.name?.toLowerCase().startsWith('sportstech')
+    ? 'Sportstech'
+    : brand.name;
+
   return (
     <section>
-
       <div
         className="relative min-h-[20rem] sm:min-h-[30rem] md:min-h-[40rem] lg:min-h-[43rem] 
              bg-bottom bg-cover bg-no-repeat flex items-center justify-center 
@@ -20,20 +23,20 @@ export default function BrandOverview({ brand }) {
         <div className="absolute inset-0 bg-black/30 z-0" />
 
         {/* Content */}
-        <div className="relative z-10 max-w-3xl text-center">
+        <div className="relative z-10 max-w-4xl text-center ">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
                    font-extrabold mb-4 sm:mb-6 drop-shadow-lg leading-tight">
-            {brand.name}{' '}
-            <span className="text-blue-200">{brand.model}</span>
+                   {displayName}
+          
+            <span className="text-violet-200 ml-2">{brand.model}</span>
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl 
-                  font-medium leading-relaxed tracking-wide drop-shadow-md ">
+                  font-medium leading-relaxed tracking-wide drop-shadow-md">
             {brand.description[locale]}
           </p>
         </div>
       </div>
-
     </section>
   );
 }

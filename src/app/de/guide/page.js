@@ -10,8 +10,8 @@ export async function generateMetadata() {
     description: 'Umfassender Walkingpad-Kaufratgeber mit Experten-Tipps zu Motorleistung, Bandgröße, Steigungseinstellungen und mehr. Treffen Sie die richtige Wahl für Ihre Fitnessziele.',
     keywords: 'Walkingpad Kaufratgeber, Walkingpad Eigenschaften, Motorleistung, Bandgröße, Steigungseinstellungen, HeimlWalkingpad Beratung',
     icons: {
-      icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-        },
+      icon: '/VibrationPlateTestlogosvg-blue.svg'
+    },
   };
 }
 

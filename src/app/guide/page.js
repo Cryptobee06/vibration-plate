@@ -10,8 +10,8 @@ export async function generateMetadata() {
     description: 'Complete treadmill buying guide with expert tips on motor power, belt size, incline settings, and more. Make the right choice for your fitness goals.',
     keywords: 'treadmill buying guide, treadmill features, motor power, belt size, incline settings, home treadmill advice',
     icons: {
-      icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-        },
+      icon: '/VibrationPlateTestlogosvg-blue.svg'
+    },
   };
 }
 

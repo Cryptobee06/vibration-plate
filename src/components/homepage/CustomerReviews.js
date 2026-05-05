@@ -9,7 +9,7 @@ const reviewsData = [
     rating: 5,
     review:
       'Durch die detaillierten Testberichte habe ich das perfekte Laufband gefunden. Die Empfehlung des Sportstech sWalk Lite war ein Volltreffer!',
-    avatar: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/customer/cus1.jpg',
+    avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus1.jpg',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const reviewsData = [
     rating: 5,
     review:
       'Very thorough reviews with real performance data. I appreciate the detailed testing process and honest pros/cons for each model.',
-      avatar: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/customer/cus2.webp',
+    avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus2.webp',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const reviewsData = [
     rating: 4.8,
     review:
       'Great resource for treadmill comparisons. The buying guide was especially helpful for understanding what features matter most.',
-      avatar: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/customer/cus3.webp',
+    avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus3.webp',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const reviewsData = [
     rating: 5,
     review:
       "Professional and unbiased reviews. The team clearly knows what they're talking about. Saved me from buying the wrong treadmill!",
-      avatar: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/customer/cus4.webp',
+    avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus4.webp',
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const reviewsData = [
     rating: 4.9,
     review:
       'Comprehensive testing and easy-to-understand explanations. The noise level tests were particularly useful for my apartment living situation.',
-      avatar: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/customer/cus5.jpg',
+    avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus5.jpg',
   },
 ];
 
@@ -55,23 +55,23 @@ const StarRating = ({ rating }) => {
     <div className="flex items-center space-x-1">
       {[...Array(fullStars)].map((_, i) => (
         <svg key={`full-${i}`} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       ))}
       {hasHalfStar && (
         <svg className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
           <defs>
             <linearGradient id="half-star-review">
-              <stop offset="50%" stopColor="currentColor"/>
-              <stop offset="50%" stopColor="#e5e7eb"/>
+              <stop offset="50%" stopColor="currentColor" />
+              <stop offset="50%" stopColor="#e5e7eb" />
             </linearGradient>
           </defs>
-          <path fill="url(#half-star-review)" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          <path fill="url(#half-star-review)" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       )}
       {[...Array(emptyStars)].map((_, i) => (
         <svg key={`empty-${i}`} className="w-5 h-5 text-gray-300" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       ))}
     </div>
@@ -82,8 +82,8 @@ export default function CustomerReviews() {
   const t = useTranslations('homepage.customerReviews');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-console.log(t('firstrev.description'),"4444444444444")
-const translatedReviews = t('reviews', { returnObjects: true });
+  console.log(t('firstrev.description'), "4444444444444")
+  const translatedReviews = t('reviews', { returnObjects: true });
 
   useEffect(() => {
     if (!isAutoPlaying) return;
@@ -114,33 +114,33 @@ const translatedReviews = t('reviews', { returnObjects: true });
               className="flex transition-transform duration-700 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
-             {reviewsData.map((review, index) => {
-  const translatedReview = translatedReviews[index]?.description || review.review;
+              {reviewsData.map((review, index) => {
+                const translatedReview = translatedReviews[index]?.description || review.review;
 
-  return (
-    <div
-      key={review.id}
-      className="w-full flex-shrink-0 px-6 py-12 text-center"
-    >
-      <div className="w-20 h-20 mx-auto rounded-full overflow-hidden ring-4 ring-indigo-400 mb-6 shadow-lg">
-        <img
-          src={review.avatar}
-          alt={review.name}
-          className="w-full h-full object-cover"
-        />
-      </div>
-      <div className="flex justify-center mb-4">
-        <StarRating rating={review.rating} />
-      </div>
-      <blockquote className="relative italic text-xl text-gray-100 leading-relaxed mb-6 max-w-2xl mx-auto">
-        <span className="text-3xl text-white mr-1">“</span>
-        {translatedReview}
-        <span className="text-3xl text-white ml-1">”</span>
-      </blockquote>
-      <p className="text-lg font-semibold text-white">{review.name}</p>
-    </div>
-  );
-})}
+                return (
+                  <div
+                    key={review.id}
+                    className="w-full flex-shrink-0 px-6 py-12 text-center"
+                  >
+                    <div className="w-20 h-20 mx-auto rounded-full overflow-hidden ring-4 ring-indigo-400 mb-6 shadow-lg">
+                      <img
+                        src={review.avatar}
+                        alt={review.name}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <div className="flex justify-center mb-4">
+                      <StarRating rating={review.rating} />
+                    </div>
+                    <blockquote className="relative italic text-xl text-gray-100 leading-relaxed mb-6 max-w-2xl mx-auto">
+                      <span className="text-3xl text-white mr-1">“</span>
+                      {translatedReview}
+                      <span className="text-3xl text-white ml-1">”</span>
+                    </blockquote>
+                    <p className="text-lg font-semibold text-white">{review.name}</p>
+                  </div>
+                );
+              })}
 
             </div>
           </div>
@@ -173,11 +173,10 @@ const translatedReviews = t('reviews', { returnObjects: true });
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === currentIndex
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentIndex
                   ? 'bg-indigo-400 scale-110'
                   : 'bg-white/40 hover:bg-white/60'
-              }`}
+                }`}
               aria-label={`Go to review ${index + 1}`}
             />
           ))}

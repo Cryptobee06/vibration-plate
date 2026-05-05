@@ -12,10 +12,10 @@ export async function generateMetadata() {
     description: 'Learn about our expert team, rigorous testing methodology, and transparent review standards. Professional Walkingpad evaluations you can trust.',
     keywords: 'about Walkingpad reviews, expert testing team, review methodology, fitness equipment standards',
     icons: {
-      icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-        },
+      icon: '/VibrationPlateTestlogosvg-blue.svg'
+    },
   };
-  
+
 }
 
 export default function AboutPage() {

@@ -20,20 +20,20 @@ export async function generateMetadata() {
       type: 'website',
     },
     icons: {
-      icon: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/fav-icon.png'
-        },
+      icon: '/VibrationPlateTestlogosvg-blue.svg'
+    },
   };
 }
 
 export default function HomePage() {
   return (
     <div className="min-h-screen">
-       <HeroSection />
-       {/* <ExpertOverview /> */}
-       <TestingProcess />
-       <ExpertOpinion />
-       <BestTreadmills />
-       <CustomerReviews />
+      <HeroSection />
+      {/* <ExpertOverview /> */}
+      <TestingProcess />
+      <ExpertOpinion />
+      <BestTreadmills />
+      <CustomerReviews />
       <PopularBrands />
     </div>
   );

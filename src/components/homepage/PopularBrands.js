@@ -3,14 +3,14 @@ import { useTranslations } from '@/contexts/LanguageContext';
 import Image from 'next/image';
 
 const brands = [
-  { name: 'Sportstech', logo: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/products/sportstech.png' },
-  { name: 'NordicTrack', logo: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/citysports.png' },
-  { name: 'ProForm', logo: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/superun.png' },
-  { name: 'Horizon Fitness', logo: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/urevo.webp' },
-  { name: 'Life Fitness', logo: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/kiddoza.jpg' },
-  { name: 'Merach', logo: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/Merach-Logo.webp' },
-  { name: 'cursor', logo: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/cursor.png' },
-  { name: 'cazvian', logo: 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/Ace.png' },
+  { name: 'Sportstech', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/products/sportstech.png' },
+  { name: 'NordicTrack', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/citysports.png' },
+  { name: 'ProForm', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/superun.png' },
+  { name: 'Horizon Fitness', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/urevo.webp' },
+  { name: 'Life Fitness', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/kiddoza.jpg' },
+  { name: 'Merach', logo: '/Assets/Merach-Logo.webp' },
+  { name: 'cursor', logo: '/Assets/cursorlogo.png' },
+  { name: 'cazvian', logo: '/Assets/CAZVIAN.png' },
 ];
 
 export default function PopularBrands() {
@@ -53,7 +53,7 @@ export default function PopularBrands() {
                 fill
                 className="object-contain transition-transform duration-300 ease-in-out group-hover:scale-105"
               />
-            
+
             </div>
           ))}
           <h1 className='text-black text-3xl font-serif  ease-in-out group-hover:scale-105 cursor-pointer'>Copant</h1>

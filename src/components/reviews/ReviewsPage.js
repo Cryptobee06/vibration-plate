@@ -1,27 +1,28 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useLocale } from "@/contexts/LanguageContext";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { Star, Award, ArrowLeftToLine,ArrowRightToLine  } from "lucide-react";
+import { Star, Award, ArrowLeftToLine, ArrowRightToLine } from "lucide-react";
 
-// Unified walking pad data
-const walkingPadsData = [
+// Allvibration plates data
+const allWalkingpadsData = [
   {
     id: "sportstech",
     brand: "Sportstech",
-    model: "sWalk Lite",
-    slug: "sportstech",
+    model: "vibration plate",
+    slug: "sportstechswalklite",
     rating: 4.9,
+    category: "both",
     badge: {
       en: "Test Winner 2025",
       de: "Testsieger 2025",
     },
     badgeColor: "bg-green-500",
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/treadmills/sportstech-treadmill.jpg",
+      "/vibration-img1.jpg",
     price: "599.00",
     originalPrice: null,
-
     features: {
       display: {
         en: "Modern LCD display",
@@ -55,45 +56,22 @@ const walkingPadsData = [
         en: "1-8 km/h",
         de: "1-8 km/h",
       },
-      // ledColor: {
-      //   "en": "7 color LEDs depending on speed or pulse",
-      //   "de": "7 Farb-LEDs je nach Geschwindigkeit oder Puls"
-      // },
-      // appCompatibility: {
-      //   "en": "Works with the Sportstech Live app",
-      //   "de": "Kompatibel mit der Sportstech Live App"
-      // },
-      // control: {
-      //   "en": "Speed adjustment, program switching, and LED control via app",
-      //   "de": "Geschwindigkeitsanpassung, Programmwechsel und LED-Steuerung über die App"
-      // },
-      // realTimeData: {
-      //   "en": "Shows real-time training data like speed, steps, and heart rate",
-      //   "de": "Zeigt Echtzeit-Trainingsdaten wie Geschwindigkeit, Schritte und Herzfrequenz an"
-      // },
-      // workouts: {
-      //   "en": "Personalized workouts with trainers in the app",
-      //   "de": "Personalisierte Workouts mit Trainern in der App"
-      // },
-      // videos: {
-      //   "en": "Outdoor and landscape workout videos in the app",
-      //   "de": "Outdoor- und Landschafts-Workout-Videos in der App"
-      // },
     },
   },
   {
     id: "citysports",
     brand: "Citysports",
-    model: "CS-WP6",
+    model: "vibration plate",
     slug: "Citysports",
-    rating: 4.6,
+    rating: 4.0,
+    category: "advanced",
     badge: {
       en: "",
       de: "",
     },
     badgeColor: "bg-blue-500",
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/CITYSPORTS/city04.png",
+      "/vibration-img2.webp",
     price: "299.00",
     originalPrice: "349.00",
     features: {
@@ -134,16 +112,17 @@ const walkingPadsData = [
   {
     id: "kiddoza",
     brand: "Kiddoza",
-    model: "Under Desk Walking Pad",
+    model: "Under Desk Vibration Plate",
     slug: "kiddoza",
-    rating: 4.2,
+    rating: 3.5,
+    category: "advanced",
     badge: {
       en: "",
       de: "",
     },
     badgeColor: "bg-purple-500",
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/Kiddoza/kiddoza04.png",
+      "/vibration-img10.webp",
     price: "449.00",
     originalPrice: "499.00",
     features: {
@@ -186,14 +165,15 @@ const walkingPadsData = [
     brand: "Superun",
     model: "B.A06-C",
     slug: "Superun",
-    rating: 4.5,
+    rating: 3.9,
+    category: "advanced",
     badge: {
       en: "",
       de: "",
     },
     badgeColor: "bg-orange-500",
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/Superun+Raceable+Walking+Pad/superun04.png",
+      "/vibration-img7.jpg",
     price: "399.00",
     originalPrice: null,
     features: {
@@ -236,14 +216,15 @@ const walkingPadsData = [
     brand: "Urevo",
     model: "SpaceWalk E1L",
     slug: "Urevo",
-    rating: 4,
+    rating: 3.9,
+    category: "advanced",
     badge: {
       en: "",
       de: "",
     },
     badgeColor: "bg-teal-500",
     image:
-      "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/UREVO/ureo04.png",
+      "/vibration-img4.webp",
     price: "379.00",
     originalPrice: "429.00",
     features: {
@@ -282,20 +263,72 @@ const walkingPadsData = [
     },
   },
   {
-    id: "Copant",
-    brand: "Copant ",
-    model: "Raceable Walking Pad",
-    slug: "Copant",
-    rating: 4.5,
+    id: "sportstechvibration",
+    brand: "Sportstech",
+    model: "Vibration Plate",
+    slug: "sportstechvibration",
+    rating: 4.9,
+    category: "both",
     badge: {
       en: "Test Winner 2025",
       de: "Testsieger 2025",
     },
     badgeColor: "bg-green-500",
-    image: "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/copant/IMG_0009.png",
+    image:
+      "/vibration-img5.webp",
     price: "599.00",
     originalPrice: null,
-
+    features: {
+      display: {
+        en: "Modern LCD display",
+        de: "LCD Display",
+      },
+      dimensions: {
+        en: "127 x 56.5 x 11.5 cm",
+        de: "109,7×52,1×10,9 cm;",
+      },
+      weight: {
+        en: "up to 120 kg",
+        de: "bis ≤120 kg",
+      },
+      resistance: {
+        en: "Manual incline of 11.5%",
+        de: "1 PS Motor",
+      },
+      programs: {
+        en: "4 pre-installed programs (P01–P04)",
+        de: "4 vorinstallierte Programme",
+      },
+      heartRate: {
+        en: "Hand Pulse Sensors + App",
+        de: "Handpulssensoren + App",
+      },
+      motor: {
+        en: "2.5 HP Motor",
+        de: "1 PS",
+      },
+      speed: {
+        en: "1-8 km/h",
+        de: "1–6 km/h",
+      },
+    },
+  },
+  {
+    id: "Copant",
+    brand: "Copant",
+    model: "Raceable vibration plate",
+    slug: "Copant",
+    rating: 3.5,
+    category: "amateur",
+    badge: {
+      en: "Test Winner 2025",
+      de: "Testsieger 2025",
+    },
+    badgeColor: "bg-green-500",
+    image:
+      "/vibration-img8.jpg",
+    price: "599.00",
+    originalPrice: null,
     features: {
       display: {
         en: "LED display showing speed, time, distance & calories",
@@ -329,47 +362,24 @@ const walkingPadsData = [
         en: "1–6 km/h",
         de: "1-6 km/h",
       },
-      // ledColor: {
-      //   "en": "7 color LEDs depending on speed or pulse",
-      //   "de": "7 Farb-LEDs je nach Geschwindigkeit oder Puls"
-      // },
-      // appCompatibility: {
-      //   "en": "Works with the Sportstech Live app",
-      //   "de": "Kompatibel mit der Sportstech Live App"
-      // },
-      // control: {
-      //   "en": "Speed adjustment, program switching, and LED control via app",
-      //   "de": "Geschwindigkeitsanpassung, Programmwechsel und LED-Steuerung über die App"
-      // },
-      // realTimeData: {
-      //   "en": "Shows real-time training data like speed, steps, and heart rate",
-      //   "de": "Zeigt Echtzeit-Trainingsdaten wie Geschwindigkeit, Schritte und Herzfrequenz an"
-      // },
-      // workouts: {
-      //   "en": "Personalized workouts with trainers in the app",
-      //   "de": "Personalisierte Workouts mit Trainern in der App"
-      // },
-      // videos: {
-      //   "en": "Outdoor and landscape workout videos in the app",
-      //   "de": "Outdoor- und Landschafts-Workout-Videos in der App"
-      // },
     },
   },
   {
     id: "Merach",
     brand: "Merach",
-    model: "T26B1 3-in-1 Treadmill",
+    model: "T26B1 3-in-1 vibration plate",
     slug: "Merach",
-    rating: 4.6,
+    rating: 3.4,
+    category: "amateur",
     badge: {
       en: "Test Winner 2025",
       de: "Testsieger 2025",
     },
     badgeColor: "bg-green-500",
-    image: "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/merach/IMG_0045.png",
+    image:
+      "/vibration-img9.webp",
     price: "599.00",
     originalPrice: null,
-
     features: {
       display: {
         en: "Multi-function LCD console with real-time metrics",
@@ -403,47 +413,24 @@ const walkingPadsData = [
         en: "0.6–3.8 mph (~ 1.0–6.1 km/h)",
         de: "1-6 km/h",
       },
-      // ledColor: {
-      //   "en": "7 color LEDs depending on speed or pulse",
-      //   "de": "7 Farb-LEDs je nach Geschwindigkeit oder Puls"
-      // },
-      // appCompatibility: {
-      //   "en": "Works with the Sportstech Live app",
-      //   "de": "Kompatibel mit der Sportstech Live App"
-      // },
-      // control: {
-      //   "en": "Speed adjustment, program switching, and LED control via app",
-      //   "de": "Geschwindigkeitsanpassung, Programmwechsel und LED-Steuerung über die App"
-      // },
-      // realTimeData: {
-      //   "en": "Shows real-time training data like speed, steps, and heart rate",
-      //   "de": "Zeigt Echtzeit-Trainingsdaten wie Geschwindigkeit, Schritte und Herzfrequenz an"
-      // },
-      // workouts: {
-      //   "en": "Personalized workouts with trainers in the app",
-      //   "de": "Personalisierte Workouts mit Trainern in der App"
-      // },
-      // videos: {
-      //   "en": "Outdoor and landscape workout videos in the app",
-      //   "de": "Outdoor- und Landschafts-Workout-Videos in der App"
-      // },
     },
   },
   {
-    id: "Cursor ",
-    brand: "Cursor  ",
-    model: "Walking Pad",
-    slug: "Cursor ",
-    rating: 3.9,
+    id: "Cursor",
+    brand: "Cursor",
+    model: "Vibration Plate",
+    slug: "Cursor",
+    rating: 3.8,
+    category: "amateur",
     badge: {
       en: "Test Winner 2025",
       de: "Testsieger 2025",
     },
     badgeColor: "bg-green-500",
-    image: "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/cursor/Cursor-fitness-walking-pad-removebg-preview.png",
+    image:
+      "/vibration-img10.webp",
     price: "599.00",
     originalPrice: null,
-
     features: {
       display: {
         en: "Compact LED screen with essential data",
@@ -477,47 +464,24 @@ const walkingPadsData = [
         en: "0.5–6 km/h",
         de: "12 Kilometer pro Stunde",
       },
-      // ledColor: {
-      //   "en": "7 color LEDs depending on speed or pulse",
-      //   "de": "7 Farb-LEDs je nach Geschwindigkeit oder Puls"
-      // },
-      // appCompatibility: {
-      //   "en": "Works with the Sportstech Live app",
-      //   "de": "Kompatibel mit der Sportstech Live App"
-      // },
-      // control: {
-      //   "en": "Speed adjustment, program switching, and LED control via app",
-      //   "de": "Geschwindigkeitsanpassung, Programmwechsel und LED-Steuerung über die App"
-      // },
-      // realTimeData: {
-      //   "en": "Shows real-time training data like speed, steps, and heart rate",
-      //   "de": "Zeigt Echtzeit-Trainingsdaten wie Geschwindigkeit, Schritte und Herzfrequenz an"
-      // },
-      // workouts: {
-      //   "en": "Personalized workouts with trainers in the app",
-      //   "de": "Personalisierte Workouts mit Trainern in der App"
-      // },
-      // videos: {
-      //   "en": "Outdoor and landscape workout videos in the app",
-      //   "de": "Outdoor- und Landschafts-Workout-Videos in der App"
-      // },
     },
   },
   {
-    id: "Cazvian ",
-    brand: "Cazvian ",
-    model: "Walking Pad",
+    id: "Cazvian",
+    brand: "Cazvian",
+    model: "Vibration Plate",
     slug: "Cazvian",
-    rating: 4.1,
+    rating: 3.7,
+    category: "amateur",
     badge: {
       en: "Test Winner 2025",
       de: "Testsieger 2025",
     },
     badgeColor: "bg-green-500",
-    image: "https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/walkingpad+assets/Cazvian/cazianfinal.jpg",
+    image:
+      "/vibration-img1.jpg",
     price: "599.00",
     originalPrice: null,
-
     features: {
       display: {
         en: "Front-facing LED display for clear visibility",
@@ -551,38 +515,41 @@ const walkingPadsData = [
         en: "1-6 km/h",
         de: "1-6 km/h",
       },
-      // ledColor: {
-      //   "en": "7 color LEDs depending on speed or pulse",
-      //   "de": "7 Farb-LEDs je nach Geschwindigkeit oder Puls"
-      // },
-      // appCompatibility: {
-      //   "en": "Works with the Sportstech Live app",
-      //   "de": "Kompatibel mit der Sportstech Live App"
-      // },
-      // control: {
-      //   "en": "Speed adjustment, program switching, and LED control via app",
-      //   "de": "Geschwindigkeitsanpassung, Programmwechsel und LED-Steuerung über die App"
-      // },
-      // realTimeData: {
-      //   "en": "Shows real-time training data like speed, steps, and heart rate",
-      //   "de": "Zeigt Echtzeit-Trainingsdaten wie Geschwindigkeit, Schritte und Herzfrequenz an"
-      // },
-      // workouts: {
-      //   "en": "Personalized workouts with trainers in the app",
-      //   "de": "Personalisierte Workouts mit Trainern in der App"
-      // },
-      // videos: {
-      //   "en": "Outdoor and landscape workout videos in the app",
-      //   "de": "Outdoor- und Landschafts-Workout-Videos in der App"
-      // },
     },
   },
 ];
 
+// Category definitions
+const categoryDefinitions = {
+  amateur: {
+    name: { en: "Amateur Vibration Plate", de: "Amateur-Vibration Plate" },
+    ids: ["sportstechvibration", "Copant", "Merach", "Cursor", "Cazvian"],
+  },
+  advanced: {
+    name: { en: "Advanced Vibration Plate", de: "Advanced Vibration Plate" },
+    ids: ["sportstechvibration", "citysports", "kiddoza", "superun", "urevo"],
+  },
+};
+
 export default function ReviewsPage() {
   const locale = useLocale();
-
+  const searchParams = useSearchParams();
+  const category = searchParams.get("category");
   const tableRef = useRef(null);
+
+  // Filtervibration plates based on category
+  const getFilteredWalkingpads = () => {
+    if (!category || !categoryDefinitions[category]) {
+      return allWalkingpadsData;
+    }
+
+    const categoryIds = categoryDefinitions[category].ids;
+    return allWalkingpadsData.filter(
+      (pad) => categoryIds.includes(pad.id) || categoryIds.includes(pad.slug),
+    );
+  };
+
+  const WalkingpadsData = getFilteredWalkingpads();
 
   const renderStars = (rating) => {
     return (
@@ -590,11 +557,10 @@ export default function ReviewsPage() {
         {[...Array(5)].map((_, i) => (
           <Star
             key={i}
-            className={`w-4 h-4 ${
-              i < Math.floor(rating)
+            className={`w-4 h-4 ${i < Math.floor(rating)
                 ? "fill-yellow-400 text-yellow-400"
                 : "text-gray-300"
-            }`}
+              }`}
           />
         ))}
         <span className="ml-1 text-sm font-semibold text-gray-700">
@@ -604,13 +570,12 @@ export default function ReviewsPage() {
     );
   };
 
-   const scrollToFirstColumn = () => {
+  const scrollToFirstColumn = () => {
     if (tableRef.current) {
       tableRef.current.scrollLeft = 0;
     }
   };
 
-  // Scroll to last column
   const scrollToLastColumn = () => {
     if (tableRef.current) {
       const lastColumn = tableRef.current.querySelector("th:last-child");
@@ -625,71 +590,54 @@ export default function ReviewsPage() {
 
   const featureRows = [
     {
-      label: {
-        en: "Display",
-        de: "Display",
-      },
+      label: { en: "Display", de: "Display" },
       key: "display",
     },
     {
-      label: {
-        en: "Dimensions",
-        de: "Abmessungen",
-      },
+      label: { en: "Dimensions", de: "Abmessungen" },
       key: "dimensions",
     },
     {
-      label: {
-        en: "Max Weight Capacity",
-        de: "bis Körpergewicht",
-      },
+      label: { en: "Max Weight Capacity", de: "bis Körpergewicht" },
       key: "weight",
     },
     {
-      label: {
-        en: "Incline/Resistance",
-        de: "Widerstand",
-      },
+      label: { en: "Incline/Resistance", de: "Widerstand" },
       key: "resistance",
     },
     {
-      label: {
-        en: "Training Programs",
-        de: "Trainingsprogramme",
-      },
+      label: { en: "Training Programs", de: "Trainingsprogramme" },
       key: "programs",
     },
     {
-      label: {
-        en: "Heart Rate Monitoring",
-        de: "Pulsmessung",
-      },
+      label: { en: "Heart Rate Monitoring", de: "Pulsmessung" },
       key: "heartRate",
     },
     {
-      label: {
-        en: "Motor",
-        de: "Motor",
-      },
+      label: { en: "Motor", de: "Motor" },
       key: "motor",
     },
     {
-      label: {
-        en: "Speed Range",
-        de: "Geschwindigkeit",
-      },
+      label: { en: "Speed Range", de: "Geschwindigkeit" },
       key: "speed",
     },
   ];
 
+  const getCategoryTitle = () => {
+    if (category && categoryDefinitions[category]) {
+      return categoryDefinitions[category].name[locale];
+    }
+    return null;
+  };
+
   const pageText = {
     title: {
-      en: "Walking Pad Comparison 2025",
-      de: "Walking Pad Vergleich 2025",
+      en: "vibration Plate Comparison 2025",
+      de: "Vibration Plate Vergleich 2025",
     },
     subtitle: {
-      en: "Compare the best walking pads to find your perfect home fitness solution",
-      de: "Die besten Walking Pads im direkten Vergleich",
+      en: "Compare the best vibration plates to find your perfect home fitness solution",
+      de: "Die besten Vibration Plate im direkten Vergleich",
     },
     model: {
       en: "Model",
@@ -701,17 +649,20 @@ export default function ReviewsPage() {
     },
     recommendation: {
       title: {
-        en: "Our Recommendation: Sportstech sWalk Lite - Winner 2025",
-        de: "Empfehlung: Sportstech sWalk Lite - Testsieger 2025",
+        en: "Our Recommendation: Sportstech sVibe - Winner 2025",
+        de: "Empfehlung: Sportstech sVibe - Testsieger 2025",
       },
       text: {
-        en: "The Sportstech sWalk Lite stands out with the best features, highest quality, and most comprehensive functionality. With 15 incline levels, 21.5\" touch display, and speeds up to 20 km/h, it's the premium choice for demanding users seeking professional-grade home fitness equipment.",
-        de: 'Das Sportstech sWalk Lite überzeugt mit der besten Ausstattung, höchster Qualität und umfangreichsten Features. Mit 15 Neigungsstufen, 21.5" Touch-Display und bis zu 20 km/h ist es die Premium-Wahl für anspruchsvolle Nutzer.',
+        en: "The Sportstech sVibe stands out with the best features, highest quality, and most comprehensive functionality. With 15 incline levels, 21.5\" touch display, and speeds up to 20 km/h, it's the premium choice for demanding users seeking professional-grade home fitness equipment.",
+        de: 'Das Sportstech sVibe überzeugt mit der besten Ausstattung, höchster Qualität und umfangreichsten Features. Mit 15 Neigungsstufen, 21.5" Touch-Display und bis zu 20 km/h ist es die Premium-Wahl für anspruchsvolle Nutzer.',
       },
+    },
+    allVibrationPlates: {
+      en: "All Vibration Plates",
+      de: "Alle Vibration Plate",
     },
   };
 
-  // Get base path for links
   const getBasePath = () => {
     return locale === "de" ? "/de" : "";
   };
@@ -722,31 +673,58 @@ export default function ReviewsPage() {
       <section className="bg-gradient-to-br from-primary-50 to-primary-100 py-20 treadmill-bacgroundimage">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-xl-5">
           <div className="text-center margin-banner mt-xl-5">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 ">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
               {pageText.title[locale]}
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
               {pageText.subtitle[locale]}
             </p>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Category Tabs */}
+      <section className="bg-white border-b sticky top-16 z-40">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-center gap-4 py-4">
+
+            <Link
+              href={`${getBasePath()}/reviews?category=amateur`}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${category === "amateur"
+                  ? "bg-violet-600 text-white shadow-md"
+                  : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                }`}
+            >
+              {categoryDefinitions.amateur.name[locale]}
+            </Link>
+            <Link
+              href={`${getBasePath()}/reviews?category=advanced`}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${category === "advanced"
+                  ? "bg-violet-600 text-white shadow-md"
+                  : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                }`}
+            >
+              {categoryDefinitions.advanced.name[locale]}
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Comparison Table Section */}
       <section className="py-12">
-        <div className="min-h-screen bg-gray-50 px-2 sm:px-4 lg:px-6 ">
+        <div className="min-h-screen bg-gray-50 px-2 sm:px-4 lg:px-6">
           <div className="max-w-8xl mx-auto">
             {/* Mobile Cards View (< 768px) */}
             <div className="text-right mb-6 flex justify-between items-center"></div>
             <div className="md:hidden space-y-4 mb-6">
-              {walkingPadsData.map((brand, index) => (
+              {WalkingpadsData.map((brand, index) => (
                 <div
                   key={brand.id}
-                  className={`bg-white rounded-lg shadow-lg p-4 border transform transition-all duration-500 ease-out hover:scale-105 hover:shadow-xl hover:-translate-y-1 ${
-                    brand.id === "sportstech"
-                      ? "border-green-500 ring-1 ring-green-200 hover:ring-2 hover:ring-green-300"
+                  className={`bg-white rounded-lg shadow-lg p-4 border transform transition-all duration-500 ease-out hover:scale-105 hover:shadow-xl hover:-translate-y-1 ${brand.id === "sportstech"
+                      ? "border-violet-500 ring-1 ring-violet-200 hover:ring-2 hover:ring-violet-300"
                       : "border-gray-200 hover:border-gray-300"
-                  }`}
+                    }`}
                   style={{
                     animationDelay: `${index * 100}ms`,
                   }}
@@ -754,10 +732,10 @@ export default function ReviewsPage() {
                   {/* Badge for mobile */}
                   {brand.id === "sportstech" && brand.badge[locale] && (
                     <div className="flex justify-between items-start mb-3">
-                      <div className="bg-green-500 text-white text-xs px-3 py-1 rounded-full font-semibold">
+                      <div className="bg-violet-500 text-white text-xs px-3 py-1 rounded-full font-semibold">
                         {brand.badge[locale]}
                       </div>
-                      <div className="bg-green-500 text-white p-1 rounded-full">
+                      <div className="bg-violet-500 text-white p-1 rounded-full">
                         <Award className="w-4 h-4" />
                       </div>
                     </div>
@@ -789,11 +767,10 @@ export default function ReviewsPage() {
                           {feature.label[locale]}
                         </span>
                         <span
-                          className={`text-sm text-right flex-1 ${
-                            brand.id === "sportstech"
+                          className={`text-sm text-right flex-1 ${brand.id === "sportstech"
                               ? "text-green-800 font-medium"
                               : "text-gray-700"
-                          }`}
+                            }`}
                         >
                           {brand.features[feature.key][locale]}
                         </span>
@@ -805,11 +782,10 @@ export default function ReviewsPage() {
                   <div className="mt-4">
                     <Link
                       href={`${getBasePath()}/brands/${brand.slug}`}
-                      className={`w-full block text-center py-3 px-4 rounded-lg font-semibold transition-colors ${
-                        brand.id === "sportstech"
-                          ? "bg-green-600 text-white hover:bg-green-700"
-                          : "bg-primary-600 text-white hover:bg-primary-700"
-                      }`}
+                      className={`w-full block text-center py-3 px-4 rounded-lg font-semibold transition-colors ${brand.id === "sportstech"
+                          ? "bg-violet-600 text-white hover:bg-violet-700"
+                          : "bg-violet-600 text-white hover:bg-violet-700"
+                        }`}
                     >
                       {pageText.readReview[locale]}
                     </Link>
@@ -818,29 +794,13 @@ export default function ReviewsPage() {
               ))}
             </div>
 
-            {/* Tablet View (768px - 1024px) */}
-           
-            <div className="w-full flex justify-between items-end mb-4">
-              <button
-             onClick={scrollToFirstColumn}
-                className="px-4 py-2 rounded-lg bg-blue-700 text-gray-600"
-              >
-                 <ArrowLeftToLine  size={20} className="text-white"/>
-              </button>
-              <button
-                onClick={scrollToLastColumn}
-                className="px-4 py-2 rounded-lg bg-blue-700 text-gray-600"
-              >
-                 < ArrowRightToLine  size={20} className="text-white"/>
-              </button>
-            </div>
+
 
             {/* Desktop Table View (>= 1024px) */}
             <div className="hidden md:block bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="w-full relative">
                 {/* TABLE WRAPPER */}
-
-                <div className="w-full overflow-x-auto " ref={tableRef}>
+                <div className="w-full overflow-x-auto" ref={tableRef}>
                   <table className="border-collapse">
                     {/* HEADER */}
                     <thead>
@@ -853,27 +813,26 @@ export default function ReviewsPage() {
                         </th>
 
                         {/* SCROLLABLE BRAND COLUMNS */}
-                        {walkingPadsData.map((brand, index) => (
+                        {WalkingpadsData.map((brand, index) => (
                           <th
                             key={brand.id}
                             className="p-2 text-center align-top w-[300px]"
                           >
                             <div
                               className={`relative bg-white rounded-lg p-4 shadow-md border transition-all duration-500
-                    ${
-                      brand.id === "sportstech"
-                        ? "border-green-500 ring-1 ring-green-200 hover:ring-2 hover:ring-green-300 "
-                        : "border-gray-200 hover:border-gray-300"
-                    }`}
+                    ${brand.id === "sportstech"
+                                  ? "border-violet-500 ring-1 ring-violet-200 hover:ring-2 hover:ring-violet-300"
+                                  : "border-gray-200 hover:border-gray-300"
+                                }`}
                             >
                               {/* Badge only for Sportstech */}
                               {brand.id === "sportstech" &&
                                 brand.badge[locale] && (
                                   <>
-                                    <div className="absolute bg-green-500 text-white  text-xs px-2 rounded-full font-semibold z-10">
+                                    <div className="absolute bg-violet-500 text-white text-xs px-2 rounded-full font-semibold z-10">
                                       {brand.badge[locale]}
                                     </div>
-                                    <div className="absolute -top-2 -right-2 bg-green-500 text-white p-1 rounded-full">
+                                    <div className="absolute -top-2 -right-2 bg-violet-500 text-white p-1 rounded-full">
                                       <Award className="w-4 h-4" />
                                     </div>
                                   </>
@@ -902,11 +861,10 @@ export default function ReviewsPage() {
                                 {/* Review Button */}
                                 <Link
                                   href={`${getBasePath()}/brands/${brand.slug}`}
-                                  className={`inline-block w-full text-center py-2 px-3 rounded-lg font-semibold text-sm transition-colors ${
-                                    brand.id === "sportstech"
-                                      ? "bg-green-600 text-white hover:bg-green-700"
-                                      : "bg-primary-600 text-white hover:bg-primary-700"
-                                  }`}
+                                  className={`inline-block w-full text-center py-2 px-3 rounded-lg font-semibold text-sm transition-colors ${brand.id === "sportstech"
+                                      ? "bg-violet-600 text-white hover:bg-violet-700"
+                                      : "bg-violet-600 text-white hover:bg-violet-700"
+                                    }`}
                                 >
                                   {pageText.readReview[locale]}
                                 </Link>
@@ -922,9 +880,8 @@ export default function ReviewsPage() {
                       {featureRows.map((feature, index) => (
                         <tr
                           key={feature.key}
-                          className={`${
-                            index % 2 === 0 ? "bg-gray-50" : "bg-white"
-                          } border-t`}
+                          className={`${index % 2 === 0 ? "bg-gray-50" : "bg-white"
+                            } border-t`}
                         >
                           {/* FIXED FEATURE NAME COLUMN */}
                           <td className="sticky left-0 z-20 bg-gray-100 border-r w-[260px] p-4 font-semibold text-gray-700">
@@ -934,14 +891,13 @@ export default function ReviewsPage() {
                           </td>
 
                           {/* SCROLLABLE BRAND FEATURE COLUMNS */}
-                          {walkingPadsData.map((brand) => (
+                          {WalkingpadsData.map((brand) => (
                             <td
                               key={brand.id}
-                              className={`p-4 text-center text-base w-[300px] ${
-                                brand.id === "sportstech"
-                                  ? "bg-green-50 text-green-800 font-medium"
+                              className={`p-4 text-center text-base w-[300px] ${brand.id === "sportstech"
+                                  ? "bg-violet-50 text-violet-800 font-medium"
                                   : "text-gray-700"
-                              }`}
+                                }`}
                             >
                               {brand.features[feature.key][locale]}
                             </td>
@@ -953,12 +909,12 @@ export default function ReviewsPage() {
                 </div>
 
                 {/* BOTTOM SUMMARY */}
-                <div className="bg-gradient-to-r from-green-50 to-green-100 p-6 border-t">
+                <div className="bg-gradient-to-r from-violet-50 to-violet-100 p-6 border-t">
                   <div className="text-center">
-                    <h3 className="text-xl font-bold text-green-800 mb-2">
+                    <h3 className="text-xl font-bold text-violet-800 mb-2">
                       {pageText.recommendation.title[locale]}
                     </h3>
-                    <p className="text-green-700 text-lg max-w-3xl mx-auto">
+                    <p className="text-violet-700 text-lg max-w-3xl mx-auto">
                       {pageText.recommendation.text[locale]}
                     </p>
                   </div>

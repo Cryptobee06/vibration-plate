@@ -6,8 +6,8 @@ const faqData = [
   {
     id: 1,
     question: {
-      en: "1. Are walking pads healthy?",
-      de: "1. Sind Walking Pads gesund?",
+      en: "1. Are vibration plates healthy?",
+      de: "1. Sind Vibration Plates gesund?",
     },
     answer: {
       en: "Yes, regular walking during work improves circulation, posture, and helps prevent back pain.",
@@ -17,8 +17,8 @@ const faqData = [
   {
     id: 2,
     question: {
-      en: "2. How loud should a walking pad be for office use?",
-      de: "2. Wie leise sollte ein Walking Pad für’s Büro sein?",
+      en: "2. How loud should a vibration plate be for office use?",
+      de: "2. Wie leise sollte eine Vibration Plate für’s Büro sein?",
     },
     answer: {
       en: "Below 60 dB, so it doesn’t interfere with work.",
@@ -28,7 +28,7 @@ const faqData = [
   {
     id: 3,
     question: {
-      en: "3. Will a walking pad fit under any desk?",
+      en: "3. Will a vibration plate fit under any desk?",
       de: "3. Passt es unter jeden Schreibtisch?",
     },
     answer: {
@@ -44,25 +44,25 @@ const faqData = [
     },
     answer: {
       en: "Soft cushioning protects joints, reduces fatigue, and allows longer walking sessions.",
-      de: "Weiche Polsterung schützt Gelenke, reduziert Ermüdung und ermöglicht längere Sessions — ein Muss bei Walking Pad Vergleich & Test.",
+      de: "Weiche Polsterung schützt Gelenke, reduziert Ermüdung und ermöglicht längere Sessions — ein Muss bei Vibration Plate Vergleich & Test.",
     },
   },
   {
     id: 5,
     question: {
-      en: "5. Which walking pads are best for the home office?",
+      en: "5. Which vibration plates are best for the home office?",
       de: "5. Welche Modelle eignen sich fürs Home-Office?",
     },
     answer: {
       en: "Quiet, compact models with app + remote control, e.g., Sportstech.",
-      de: "Empfohlen: leise, kompakte Walking Pads mit App-Unterstützung, z. B. Sportstech oder Citysports.",
+      de: "Empfohlen: leise, kompakte Vibration Plates mit App-Unterstützung, z. B. Sportstech oder Citysports.",
     },
   },
   {
     id: 6,
     question: {
       en: "6. Do I need an app to control it?",
-      de: "6. Sind Walking Pads für leichtes Jogging geeignet?",
+      de: "6. Sind Vibration Plates für leichtes Jogging geeignet?",
     },
     answer: {
       en: "No, a remote is enough – but the app is useful for stats and motivation.",
@@ -72,19 +72,19 @@ const faqData = [
   {
     id: 7,
     question: {
-      en: "7. How often should I use a walking pad?",
-      de: "7. Wie oft sollte man ein Walking Pad nutzen?",
+      en: "7. How often should I use a vibration plate?",
+      de: "7. Wie oft sollte man eine Vibration Plate nutzen?",
     },
     answer: {
-      en: "1–2 hours a day are enough for benefits; pros can walk longer.",
-      de: "1–2 Stunden pro Tag reichen für positive Effekte, Profis können länger gehen. ",
+      en: "1–2 hours a day are enough for benefits; pros can use it longer.",
+      de: "1–2 Stunden pro Tag reichen für positive Effekte, Profis können länger verwenden. ",
     },
   },
   {
     id: 8,
     question: {
-      en: "8. Can walking pads be used for light jogging?",
-      de: "8. Können Walking Pads auch für leichtes Joggen genutzt werden?",
+      en: "8. Can vibration plates be used for light jogging?",
+      de: "8. Können Vibration Plates auch für leichtes Joggen genutzt werden?",
     },
     answer: {
       en: "Only models with higher speed settings (e.g., UREVO); sWalk Lite is designed for healthy walking.",
@@ -94,12 +94,12 @@ const faqData = [
   {
     id: 9,
     question: {
-      en: "9. What should I look for when buying a walking pad?",
+      en: "9. What should I look for when buying a vibration plate?",
       de: "9. Worauf solltest du besonders achten beim Kauf?",
     },
     answer: {
       en: "Height ≤ 12 cm, quiet motor (< 60 dB), good cushioning, app + remote control, and solid build quality.",
-      de: "Entscheidend sind: flache Bauweise (< 12 cm), leiser Motor (< 60 dB), gute Dämpfung, App + Fernsteuerung und stabile Bauqualität – alles berücksichtigt in unserer Walking Pad Kaufberatung.",
+      de: "Entscheidend sind: flache Bauweise (< 12 cm), leiser Motor (< 60 dB), gute Dämpfung, App + Fernsteuerung und stabile Bauqualität – alles berücksichtigt in unserer Vibration Plate Kaufberatung.",
     },
   },
 ];
@@ -133,7 +133,7 @@ export default function FAQ() {
               <div
                 key={item.id}
                 className={`bg-white rounded-lg transition-all duration-300 shadow-sm hover:shadow-md border ${
-                  isOpen ? "border-blue-500" : "border-blue-300"
+                  isOpen ? "border-violet-500" : "border-violet-400"
                 }`}
               >
                 <button
@@ -148,7 +148,7 @@ export default function FAQ() {
                   <span className="ml-4">
                     {isOpen ? (
                       <svg
-                        className="w-6 h-6 text-blue-500"
+                        className="w-6 h-6 text-violet-500"
                         fill="none"
                         stroke="currentColor"
                         strokeWidth="2"
@@ -162,7 +162,7 @@ export default function FAQ() {
                       </svg>
                     ) : (
                       <svg
-                        className="w-6 h-6 text-blue-500"
+                        className="w-6 h-6 text-violet-500"
                         fill="none"
                         stroke="currentColor"
                         strokeWidth="2"

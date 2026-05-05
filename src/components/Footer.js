@@ -31,12 +31,12 @@ export default function Footer() {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="text-2xl font-bold text-primary-400 mb-4">
-             <img src= 'https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/logo.png' className='xl:w-[50%] lg:w-[50%] md:w-[40%] w-[60%]'></img>
+              Vibration Plate
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              {locale === 'en' 
-                ? 'Expert Walkingpad reviews and testing from certified fitness professionals. Independent, unbiased evaluations to help you make the best purchase decision.'
-                : 'Experten Walkingpad-Tests und Bewertungen von zertifizierten Fitness-Profis. Unabhängige, unvoreingenommene Bewertungen für die beste Kaufentscheidung.'
+              {locale === 'en'
+                ? 'Expert vibration plate reviews and testing from certified fitness professionals. Independent, unbiased evaluations to help you make the best purchase decision.'
+                : 'Experten Vibration Plate-Tests und Bewertungen von zertifizierten Fitness-Profis. Unabhängige, unvoreingenommene Bewertungen für die beste Kaufentscheidung.'
               }
             </p>
             {/* <div className="flex space-x-4">
@@ -97,12 +97,12 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a  className="text-gray-300 hover:text-primary-400 transition-colors" href='/privacy'>
+                <a className="text-gray-300 hover:text-primary-400 transition-colors" href='/privacy'>
                   {locale === 'en' ? 'Privacy Policy' : 'Datenschutz'}
                 </a>
               </li>
               <li>
-                <a  className="text-gray-300 hover:text-primary-400 transition-colors" href='/terms'>
+                <a className="text-gray-300 hover:text-primary-400 transition-colors" href='/terms'>
                   {locale === 'en' ? 'Terms of Service' : 'AGB'}
                 </a>
               </li>
@@ -123,10 +123,10 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Walkingpad Test. {locale === 'en' ? 'All rights reserved.' : 'Alle Rechte vorbehalten.'}
+              © {currentYear} Vibration Plate. {locale === 'en' ? 'All rights reserved.' : 'Alle Rechte vorbehalten.'}
             </p>
             <p className="text-gray-400 text-sm mt-2 md:mt-0">
-              {locale === 'en' 
+              {locale === 'en'
                 ? 'Independent reviews. Expert testing. Honest recommendations.'
                 : 'Unabhängige Bewertungen. Experten-Tests. Ehrliche Empfehlungen.'
               }

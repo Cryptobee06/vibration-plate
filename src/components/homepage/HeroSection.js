@@ -8,7 +8,7 @@ export default function HeroSection() {
   const t = useTranslations('homepage');
 
   return (
-    <section className="relative w-full py-28 sm:py-36 background-banner text-white overflow-hidden">
+    <section className="relative w-full py-28 sm:py-36 background-banner text-white">
       {/* Animated SVG Circles Background */}
       <div className="absolute inset-0 pointer-events-none z-0">
         {/* <svg
@@ -26,12 +26,12 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-8">
           {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight drop-shadow-xl">
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight drop-shadow-xl text-[#ffffff]">
             {t('heroTitle')}
           </h1>
           
           {/* Subtitle */}
-          <p className="text-lg md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-2xl text-[#ffffff] max-w-3xl mx-auto leading-relaxed">
             {t('heroSubtitle')}
           </p>
 
@@ -39,7 +39,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Link href="/#best-treadmills" passHref>
               <button
-                className="w-full sm:w-auto bg-white text-blue-800 px-8 py-4 rounded-xl text-lg font-semibold shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center gap-2"
+                className="w-full sm:w-auto bg-white text-[#a13131] px-8 py-4 rounded-xl text-lg font-semibold shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center gap-2"
                 aria-label={t('bestTreadmills.title')}
               >
                 {t('bestTreadmills.title')}
@@ -49,7 +49,7 @@ export default function HeroSection() {
             
             <Link href="/testing">
               <button
-                className="w-full sm:w-auto bg-white/10 border border-white text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white hover:text-blue-800 transition-all duration-300 shadow-md flex items-center justify-center gap-2"
+                className="w-full sm:w-auto bg-white/10 border border-white text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white hover:text-[#a13131] transition-all duration-300 shadow-md flex items-center justify-center gap-2"
                 aria-label={t('testingProcess.title')}
               >
                 {t('testingProcess.title')}

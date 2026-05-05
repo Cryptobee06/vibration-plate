@@ -3,8 +3,9 @@ import { useTranslations, useLocale } from '@/contexts/LanguageContext';
 import { useState } from 'react';
 
 // ✅ Brand-specific feedback data (all in one place)
+
 const feedbackData = {
-  sportstech: {
+  sportstechswalklite: {
     en: [
       {
         id: 1,
@@ -47,7 +48,7 @@ const feedbackData = {
         name: 'Claudia W',
         avatar: 'CW',
         rating: 5,
-        comment: 'I was surprised by how stable the walking pad is. It feels secure even when I train on it for longer periods.',
+        comment: 'I was surprised by how stable thevibration plate is. It feels secure even when I train on it for longer periods.',
         date: 'a month ago',
 
       }
@@ -58,7 +59,7 @@ const feedbackData = {
         name: 'Lena M',
         avatar: 'LM',
         rating: 5,
-        comment: 'Das Walking Pad ist super leise und passt perfekt unter meinen Schreibtisch.Endlich kann ich mich auch im Home-Office mehr bewegen!',
+        comment: 'Dasvibration plate ist super leise und passt perfekt unter meinen Schreibtisch.Endlich kann ich mich auch im Home-Office mehr bewegen!',
         date: 'Vor 5 Minuten',
 
       },
@@ -94,7 +95,7 @@ const feedbackData = {
         name: 'Claudia W',
         avatar: 'CM',
         rating: 5,
-        comment: 'Ich war überrascht, wie stabil das Walking Pad ist. Es fühlt sich sicher an, auch wenn ich länger darauf trainiere.',
+        comment: 'Ich war überrascht, wie stabil dasvibration plate ist. Es fühlt sich sicher an, auch wenn ich länger darauf trainiere.',
         date: 'vor einem Monat',
 
       }
@@ -330,7 +331,7 @@ const feedbackData = {
     ],
     de: [
       {
-        id: 19,
+        id: 16,
         name: 'Tim',
         avatar: 'T',
         rating: 4,
@@ -339,7 +340,7 @@ const feedbackData = {
 
       },
       {
-        id:20,
+        id: 17,
         name: 'Felix',
         avatar: 'F',
         rating: 3,
@@ -348,7 +349,7 @@ const feedbackData = {
 
       },
       {
-        id: 21,
+        id: 18,
         name: 'Emilia',
         avatar: 'E',
         rating: 3,
@@ -358,7 +359,7 @@ const feedbackData = {
       }
     ]
   },
-  copant : {
+  copant: {
     en: [
       {
         id: 19,
@@ -390,7 +391,7 @@ const feedbackData = {
     ],
     de: [
       {
-        id: 22,
+        id: 19,
         name: 'Jonas',
         avatar: 'J',
         rating: 4,
@@ -399,7 +400,7 @@ const feedbackData = {
 
       },
       {
-        id: 23,
+        id: 20,
         name: 'Sarah',
         avatar: 'S',
         rating: 3,
@@ -408,7 +409,7 @@ const feedbackData = {
 
       },
       {
-        id: 24,
+        id: 21,
         name: 'Felix',
         avatar: 'E',
         rating: 3,
@@ -416,22 +417,22 @@ const feedbackData = {
         date: 'vor 4 Tagen',
 
       },
-      {
-        id: 25,
-        name: 'Maja',
-        avatar: 'M',
-        rating: 3,
-        comment: 'Die Multiplayer-Funktion sorgt für zusätzliche Motivation. Ohne Smartphone gehen einige Funktionen aber nicht, das sollte man wissen',
-        date: 'vor einem Monat',
+      // {
+      //   id: 25,
+      //   name: 'Maja',
+      //   avatar: 'M',
+      //   rating: 3,
+      //   comment: 'Die Multiplayer-Funktion sorgt für zusätzliche Motivation. Ohne Smartphone gehen einige Funktionen aber nicht, das sollte man wissen',
+      //   date: 'vor einem Monat',
 
-      },
-      
+      // },
+
     ]
   },
   merach: {
     en: [
       {
-        id: 28,
+        id: 22,
         name: 'Lucas W.',
         avatar: 'L',
         rating: 3,
@@ -440,7 +441,7 @@ const feedbackData = {
 
       },
       {
-        id: 29,
+        id: 23,
         name: 'Hannah J.',
         avatar: 'H',
         rating: 4,
@@ -449,18 +450,18 @@ const feedbackData = {
 
       },
       {
-        id: 30,
+        id: 24,
         name: 'Ethan B.',
         avatar: 'E',
         rating: 3,
-        comment: '“Good compact treadmill for casual use, but after longer sessions my knees feel some strain due to limited cushioning.”',
+        comment: '“Good compact vibration plate for casual use, but after longer sessions my knees feel some strain due to limited cushioning.”',
         date: '9 days ago',
 
       }
     ],
     de: [
       {
-        id: 31,
+        id: 22,
         name: 'Lea',
         avatar: 'L',
         rating: 4,
@@ -469,7 +470,7 @@ const feedbackData = {
 
       },
       {
-        id: 32,
+        id: 23,
         name: 'Markus',
         avatar: 'M',
         rating: 3,
@@ -478,7 +479,7 @@ const feedbackData = {
 
       },
       {
-        id: 33,
+        id: 24,
         name: 'Timo',
         avatar: 'T',
         rating: 3,
@@ -486,22 +487,22 @@ const feedbackData = {
         date: 'Vor 5 Tagen',
 
       },
-      {
-        id: 34,
-        name: 'Sophie',
-        avatar: 'S',
-        rating: 3,
-        comment: 'Magnetische Fernbedienung ist praktisch, und die App-Games machen Spaß',
-        date: 'vor einem Monat',
+      // {
+      //   id: 34,
+      //   name: 'Sophie',
+      //   avatar: 'S',
+      //   rating: 3,
+      //   comment: 'Magnetische Fernbedienung ist praktisch, und die App-Games machen Spaß',
+      //   date: 'vor einem Monat',
 
-      },
+      // },
 
     ]
   },
-  cursor : {
+  cursor: {
     en: [
       {
-        id: 35,
+        id: 25,
         name: 'Oliver R',
         avatar: 'O',
         rating: 3,
@@ -510,7 +511,7 @@ const feedbackData = {
 
       },
       {
-        id: 36,
+        id: 26,
         name: ' Amelia D',
         avatar: 'A',
         rating: 4,
@@ -519,7 +520,7 @@ const feedbackData = {
 
       },
       {
-        id: 37,
+        id: 27,
         name: ' Viktor S',
         avatar: 'V',
         rating: 3,
@@ -530,7 +531,7 @@ const feedbackData = {
     ],
     de: [
       {
-        id: 38,
+        id: 25,
         name: 'Sophia',
         avatar: 'S',
         rating: 4,
@@ -539,7 +540,7 @@ const feedbackData = {
 
       },
       {
-        id: 39,
+        id: 26,
         name: 'Fritz',
         avatar: 'F',
         rating: 3,
@@ -548,7 +549,7 @@ const feedbackData = {
 
       },
       {
-        id: 40,
+        id: 27,
         name: 'Matilda',
         avatar: 'M',
         rating: 3,
@@ -556,22 +557,22 @@ const feedbackData = {
         date: 'Vor 5 Tagen',
 
       },
-      {
-        id: 41,
-        name: 'Paul',
-        avatar: 'P',
-        rating: 3,
-        comment: 'Etwas billig gemacht der und der an/aus Schalter kommt auf dem Boden und beim transportieren geht er an .Ich hsbe mir eine Steckdose mit einem Schalter besorgt so kann er nicht ungewollt einschalten nicht gerade gut eher schlächt',
-        date: 'vor einem Monat',
+      // {
+      //   id: 41,
+      //   name: 'Paul',
+      //   avatar: 'P',
+      //   rating: 3,
+      //   comment: 'Etwas billig gemacht der und der an/aus Schalter kommt auf dem Boden und beim transportieren geht er an .Ich hsbe mir eine Steckdose mit einem Schalter besorgt so kann er nicht ungewollt einschalten nicht gerade gut eher schlächt',
+      //   date: 'vor einem Monat',
 
-      },
+      // },
 
     ]
   },
-  cazvian : {
+  cazvian: {
     en: [
       {
-        id: 42,
+        id: 28,
         name: ' Sofia K',
         avatar: 'S',
         rating: 3,
@@ -580,7 +581,7 @@ const feedbackData = {
 
       },
       {
-        id: 43,
+        id: 29,
         name: 'Daniel F',
         avatar: 'D',
         rating: 4,
@@ -589,7 +590,7 @@ const feedbackData = {
 
       },
       {
-        id: 44,
+        id: 30,
         name: 'Harper J',
         avatar: 'H',
         rating: 3,
@@ -600,7 +601,7 @@ const feedbackData = {
     ],
     de: [
       {
-        id: 45,
+        id: 28,
         name: 'Anneliese',
         avatar: 'A',
         rating: 4,
@@ -609,7 +610,7 @@ const feedbackData = {
 
       },
       {
-        id: 46,
+        id: 29,
         name: 'Leon',
         avatar: 'L',
         rating: 3,
@@ -618,7 +619,7 @@ const feedbackData = {
 
       },
       {
-        id: 47,
+        id: 30,
         name: 'Albert',
         avatar: 'A',
         rating: 3,
@@ -626,24 +627,103 @@ const feedbackData = {
         date: 'Vor 5 Tagen',
 
       },
+      // {
+      //   id: 48,
+      //   name: 'Sophie',
+      //   avatar: 'S',
+      //   rating: 3,
+      //   comment: 'Es war zu klein als ich vorgestellt habe',
+      //   date: 'vor einem Monat',
+
+      // },
+      //  {
+      //   id: 49,
+      //   name: 'Karl',
+      //   avatar: 'K',
+      //   rating: 3,
+      //   comment: 'Für den Preis gut – aber keine Programme, kein Komfort wie bei teureren Geräten.',
+      //   date: 'vor einem Monat',
+
+      // },
+
+    ]
+  },
+  sportstechwalkmate: {
+    en: [
       {
-        id: 48,
-        name: 'Sophie',
-        avatar: 'S',
-        rating: 3,
-        comment: 'Es war zu klein als ich vorgestellt habe',
-        date: 'vor einem Monat',
+        id: 31,
+        name: 'Lena M',
+        avatar: 'LM',
+        rating: 5,
+        comment: 'Just received mine—and it is top-tier! Build quality is excellent, and the motor runs smooth and silent.!',
+        date: '5 min ago',
 
       },
-       {
-        id: 49,
-        name: 'Karl',
-        avatar: 'K',
-        rating: 3,
-        comment: 'Für den Preis gut – aber keine Programme, kein Komfort wie bei teureren Geräten.',
-        date: 'vor einem Monat',
+      {
+        id: 32,
+        name: 'Markus R',
+        avatar: 'MR',
+        rating: 5,
+        comment: 'Comfort levels are outstanding—very gentle on my knees. The setup guide could be clearer, though.',
+        date: 'a day ago',
 
       },
+      {
+        id: 33,
+        name: 'Sabine K',
+        avatar: 'SK',
+        rating: 5,
+        comment: 'Three months of daily use, and it performs flawlessly. The incline works great, and the belt remains smooth.',
+        date: ' 3 days ago',
+
+      },
+      // {
+      //   id: 34,
+      //   name: 'Jonas P',
+      //   avatar: 'JP',
+      //   rating: 5,
+      //   comment: 'High-quality build and great value for money. I use it almost daily and feel fitter.',
+      //   date: 'a week ago',
+
+      // },
+      // {
+      //   id: 35,
+      //   name: 'Claudia W',
+      //   avatar: 'CW',
+      //   rating: 5,
+      //   comment: 'I was surprised by how stable thevibration plate is. It feels secure even when I train on it for longer periods.',
+      //   date: 'a month ago',
+
+      // }
+    ],
+    de: [
+      {
+        id: 31,
+        name: 'Sophie B.',
+        avatar: 'SB',
+        rating: 5,
+        comment: 'Super stabil und leise, passt perfekt unter den Schreibtisch. Ideal für den ganzen Tag im Home-Office!',
+        date: 'Vor 5 Minuten',
+
+      },
+      {
+        id: 32,
+        name: 'David S.',
+        avatar: 'DS',
+        rating: 5,
+        comment: 'Einfache Montage, tolle App-Tracking – merke direkt den Fitness-Boost. Empfehlung pur!',
+        date: 'vor einem Tag',
+
+      },
+      {
+        id: 33,
+        name: 'Laura H.',
+        avatar: 'LH',
+        rating: 5,
+        comment: 'Kompakt, leicht zu verstauen und motiviert täglich. Beste Investition für mehr Bewegung!',
+        date: 'Vor 3 Tagen',
+      },
+
 
     ]
   },
@@ -665,7 +745,7 @@ const StarRating = ({ rating }) => {
     <div className="flex items-center space-x-1">
       {[...Array(5)].map((_, i) => (
         <svg key={i} className={`w-4 h-4 ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`} fill="currentColor" viewBox="0 0 20 20">
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       ))}
     </div>
@@ -685,9 +765,9 @@ export default function UserFeedback({ brand }) {
   const t = useTranslations('brands');
   const locale = useLocale();
   const [expandedComments, setExpandedComments] = useState(new Set());
-  
+
   const userFeedback = generateUserFeedback(brand.name, locale);
-  
+
   const toggleExpanded = (commentId) => {
     const newExpanded = new Set(expandedComments);
     if (newExpanded.has(commentId)) {
@@ -704,19 +784,19 @@ export default function UserFeedback({ brand }) {
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
           {t('userFeedback')}
         </h2>
-        
+
         <div className="max-w-4xl mx-auto space-y-6">
           {userFeedback.map((feedback) => (
             <div key={feedback.id} className="bg-white rounded-xl shadow-lg overflow-hidden">
               <div className="p-6">
                 {/* User Info */}
                 <div className="flex items-start space-x-4 mb-4">
-                  <div className="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-violet-600 rounded-full flex items-center justify-center flex-shrink-0">
                     <span className="text-white font-semibold">
                       {feedback.avatar}
                     </span>
                   </div>
-                  
+
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="font-semibold text-gray-900">
@@ -726,44 +806,44 @@ export default function UserFeedback({ brand }) {
                         {feedback.date}
                       </span>
                     </div>
-                    
+
                     <StarRating rating={feedback.rating} />
                   </div>
                 </div>
-                
+
                 {/* Comment */}
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {feedback.comment}
                 </p>
-                
+
                 {/* Reply Button */}
                 {expandedComments.has(feedback.id) && feedback.replies.length > 0 && (
                   <button
                     onClick={() => toggleExpanded(feedback.id)}
-                    className="text-primary-600 hover:text-primary-700 font-medium text-sm flex items-center"
+                    className="text-violet-600 hover:text-violet-700 font-medium text-sm flex items-center"
                   >
                     <svg className={`w-4 h-4 mr-1 transition-transform ${expandedComments.has(feedback.id) ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
-                    {expandedComments.has(feedback.id) 
+                    {expandedComments.has(feedback.id)
                       ? (locale === 'en' ? 'Hide replies' : 'Antworten ausblenden')
                       : (locale === 'en' ? `Show ${feedback.replies.length} replies` : `${feedback.replies.length} Antworten anzeigen`)
                     }
                   </button>
                 )}
-                
+
                 {/* Replies */}
                 {expandedComments.has(feedback.id) && feedback.replies.length > 0 && (
                   <div className="mt-4 pl-8 border-l-2 border-gray-200 space-y-4">
                     {feedback.replies.map((reply) => (
                       <div key={reply.id} className="bg-gray-50 rounded-lg p-4">
                         <div className="flex items-start space-x-3">
-                          <div className="w-8 h-8 bg-secondary-600 rounded-full flex items-center justify-center flex-shrink-0">
+                          <div className="w-8 h-8 bg-violet-600 rounded-full flex items-center justify-center flex-shrink-0">
                             <span className="text-white text-sm font-semibold">
                               {reply.avatar}
                             </span>
                           </div>
-                          
+
                           <div className="flex-1">
                             <div className="flex items-center justify-between mb-2">
                               <h5 className="font-medium text-gray-900 text-sm">
@@ -773,7 +853,7 @@ export default function UserFeedback({ brand }) {
                                 {reply.date}
                               </span>
                             </div>
-                            
+
                             <p className="text-gray-700 text-sm leading-relaxed">
                               {reply.comment}
                             </p>

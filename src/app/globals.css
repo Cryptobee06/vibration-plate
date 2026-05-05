@@ -1,59 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .bg-primary-500, .bg-primary-600 {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%) !important;
+  }
+  .hover\:bg-primary-600:hover, .hover\:bg-primary-700:hover {
+    background: linear-gradient(135deg, #2563eb 0%, #1e3a8a 100%) !important;
+  }
+}
+
 @import 'swiper/css';
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination';
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-.treadmill-bacgroundimage{
-  background-image: url('https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/images/treadmills/nor-banner.jpg') !important;
+
+.treadmill-bacgroundimage {
+  background-image: url('/Assets/vibration-plate-banner3.webp') !important;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
- height: 66vh;
-  background-position:bottom;
+  height: 66vh;
+  background-position: bottom;
   object-fit: cover;
 }
-.card-height{
+
+.card-height {
   height: 460px !important;
   margin-bottom: 10% !important;
 }
-.privacy-background{
+
+.privacy-background {
   background-color: #dbeafe !important;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.paragraph-background{
+
+.paragraph-background {
   background-color: #fff;
   padding: 5%;
   color: rgb(75 85 99 / var(--tw-text-opacity, 1)) !important;
   border-radius: 30px;
 }
-.box-white-border{
+
+.box-white-border {
   background-color: #fff !important;
   border-radius: 50px !important;
   padding: 5% !important;
 }
-.review-description{
+
+.review-description {
   color: rgb(75 85 99 / var(--tw-text-opacity, 1)) !important;
 }
-.background-image-size{
+
+.background-image-size {
   background-position: top !important;
 }
-.margin-banner{
+
+.margin-banner {
   margin-top: 10%;
 }
-.text-blog-color{
+
+.text-blog-color {
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
-  background-color:#dbeafe !important ;
+  background-color: #dbeafe !important;
 }
-html{
+
+html {
   scroll-behavior: smooth !important;
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -68,23 +89,23 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
 .background-banner {
-  background-image: url('https://walkingpad-vergleich.s3.us-east-1.amazonaws.com/Banner+2.png');
+  background-image: url('/Assets/hero-vibrationplate-banner1.webp') !important;
   background-repeat: no-repeat;
-  background-size: cover;       /* scales image proportionally to always cover */
-  background-position: center;  /* keeps image centered on all screens */
+  background-size: cover;
+  /* scales image proportionally to always cover */
+  background-position: center;
+  /* keeps image centered on all screens */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -92,4 +113,3 @@ a {
     color-scheme: dark;
   }
 }
-

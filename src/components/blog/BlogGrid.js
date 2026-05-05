@@ -7,11 +7,11 @@ const blogPosts = [
     id: 1,
     slug: 'best-treadmill-workouts-2025',
     title: {
-      en: '10 Best Treadmill Workouts for Weight Loss in 2025',
+      en: '10 Best vibration plate Workouts for Weight Loss in 2025',
       de: '10 Beste Walkingpad-Workouts für Gewichtsverlust 2025'
     },
     excerpt: {
-      en: 'Discover effective treadmill workouts that burn calories and boost metabolism. From HIIT to incline training, these proven routines deliver results.',
+      en: 'Discover effective vibration plate workouts that burn calories and boost metabolism. From HIIT to incline training, these proven routines deliver results.',
       de: 'Entdecken Sie effektive Walkingpad-Workouts, die Kalorien verbrennen und den Stoffwechsel ankurbeln. Von HIIT bis hin zu Steigungstraining - diese bewährten Routinen liefern Ergebnisse.'
     },
     publishDate: '2025-01-15',
@@ -25,12 +25,12 @@ const blogPosts = [
     id: 2,
     slug: 'treadmill-maintenance-guide',
     title: {
-      en: 'Complete Treadmill Maintenance Guide: Keep Your Machine Running Smoothly',
-      de: 'Vollständiger Walkingpad-Wartungsratgeber: Halten Sie Ihr Gerät am Laufen'
+      en: 'Complete Vibration Plate Maintenance Guide: Keep Your Machine Running Smoothly',
+      de: 'Vollständiger Vibration Plate-Wartungsratgeber: Halten Sie Ihr Gerät am Laufen'
     },
     excerpt: {
-      en: 'Learn essential maintenance tips to extend your treadmill\'s lifespan. Regular care prevents costly repairs and ensures optimal performance.',
-      de: 'Lernen Sie wichtige Wartungstipps, um die Lebensdauer Ihres Walkingpads zu verlängern. Regelmäßige Pflege verhindert kostspielige Reparaturen und gewährleistet optimale Leistung.'
+      en: 'Learn essential maintenance tips to extend your vibration plate\'s lifespan. Regular care prevents costly repairs and ensures optimal performance.',
+      de: 'Lernen Sie wichtige Wartungstipps, um die Lebensdauer Ihres Vibration Plate zu verlängern. Regelmäßige Pflege verhindert kostspielige Reparaturen und gewährleistet optimale Leistung.'
     },
     publishDate: '2025-01-10',
     category: {
@@ -43,12 +43,12 @@ const blogPosts = [
     id: 3,
     slug: 'running-vs-walking-treadmill',
     title: {
-      en: 'Running vs Walking on Treadmill: Which Burns More Calories?',
-      de: 'Laufen vs. Gehen auf dem Walkingpad: Was verbrennt mehr Kalorien?'
+      en: 'Running vs Walking on Vibration Plate: Which Burns More Calories?',
+      de: 'Laufen vs. Gehen auf dem Vibration Plate: Was verbrennt mehr Kalorien?'
     },
     excerpt: {
-      en: 'Compare the benefits of running versus walking on treadmills. Understand calorie burn, joint impact, and which approach suits your fitness goals.',
-      de: 'Vergleichen Sie die Vorteile des Laufens gegenüber dem Gehen auf Laufbändern. Verstehen Sie Kalorienverbrennung, Gelenkbelastung und welcher Ansatz zu Ihren Fitnesszielen passt.'
+      en: 'Compare the benefits of running versus walking on vibration plates. Understand calorie burn, joint impact, and which approach suits your fitness goals.',
+      de: 'Vergleichen Sie die Vorteile des Laufens gegenüber dem Gehen auf Vibration Platten. Verstehen Sie Kalorienverbrennung, Gelenkbelastung und welcher Ansatz zu Ihren Fitnesszielen passt.'
     },
     publishDate: '2025-01-05',
     category: {
@@ -61,12 +61,12 @@ const blogPosts = [
     id: 4,
     slug: 'home-gym-treadmill-setup',
     title: {
-      en: 'Setting Up Your Home Gym: Treadmill Placement and Safety Tips',
-      de: 'Heimstudio einrichten: Walkingpad-Platzierung und Sicherheitstipps'
+      en: 'Setting Up Your Home Gym: vibration plate Placement and Safety Tips',
+      de: 'Heimstudio einrichten: Vibration Plate-Platzierung und Sicherheitstipps'
     },
     excerpt: {
-      en: 'Expert advice on positioning your treadmill for optimal use and safety. Learn about space requirements, ventilation, and creating the perfect workout environment.',
-      de: 'Expertenberatung zur optimalen Positionierung Ihres Walkingpads für Nutzung und Sicherheit. Erfahren Sie mehr über Platzanforderungen, Belüftung und die Schaffung der perfekten Trainingsumgebung.'
+      en: 'Expert advice on positioning your vibration plate for optimal use and safety. Learn about space requirements, ventilation, and creating the perfect workout environment.',
+      de: 'Expertenberatung zur optimalen Positionierung Ihres Vibration Plate für Nutzung und Sicherheit. Erfahren Sie mehr über Platzanforderungen, Belüftung und die Schaffung der perfekten Trainingsumgebung.'
     },
     publishDate: '2024-12-28',
     category: {
@@ -79,12 +79,12 @@ const blogPosts = [
     id: 5,
     slug: 'treadmill-technology-2025',
     title: {
-      en: 'Latest Treadmill Technology Trends in 2025: What\'s New?',
-      de: 'Neueste Walkingpad-Technologie-Trends 2025: Was ist neu?'
+      en: 'Latest Vibration Plate Technology Trends in 2025: What\'s New?',
+      de: 'Neueste Vibration Plate-Technologie-Trends 2025: Was ist neu?'
     },
     excerpt: {
-      en: 'Explore cutting-edge treadmill features including AI coaching, virtual reality integration, and smart connectivity. The future of home fitness is here.',
-      de: 'Entdecken Sie modernste Walkingpad-Features einschließlich KI-Coaching, Virtual-Reality-Integration und intelligenter Konnektivität. Die Zukunft des Heimfitness ist da.'
+      en: 'Explore cutting-edge vibration plate features including AI coaching, virtual reality integration, and smart connectivity. The future of home fitness is here.',
+      de: 'Entdecken Sie modernste Vibration Plate-Features einschließlich KI-Coaching, Virtual-Reality-Integration und intelligenter Konnektivität. Die Zukunft des Heimfitness ist da.'
     },
     publishDate: '2024-12-20',
     category: {
@@ -97,12 +97,12 @@ const blogPosts = [
     id: 6,
     slug: 'beginner-treadmill-mistakes',
     title: {
-      en: '7 Common Beginner Treadmill Mistakes and How to Avoid Them',
-      de: '7 Häufige Anfänger-Walkingpad-Fehler und wie man sie vermeidet'
+      en: '7 Common Beginner Vibration Plate Mistakes and How to Avoid Them',
+      de: '7 Häufige Anfänger-Vibration Plate-Fehler und wie man sie vermeidet'
     },
     excerpt: {
-      en: 'Avoid these common treadmill mistakes that can lead to injury or poor results. Learn proper form, speed progression, and safety protocols for beginners.',
-      de: 'Vermeiden Sie diese häufigen Walkingpad-Fehler, die zu Verletzungen oder schlechten Ergebnissen führen können. Lernen Sie richtige Form, Geschwindigkeitssteigerung und Sicherheitsprotokolle für Anfänger.'
+      en: 'Avoid these common vibration plate mistakes that can lead to injury or poor results. Learn proper form, speed progression, and safety protocols for beginners.',
+      de: 'Vermeiden Sie diese häufigen Vibration Plate-Fehler, die zu Verletzungen oder schlechten Ergebnissen führen können. Lernen Sie richtige Form, Geschwindigkeitssteigerung und Sicherheitsprotokolle für Anfänger.'
     },
     publishDate: '2024-12-15',
     category: {
@@ -141,7 +141,7 @@ export default function BlogGrid() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 {/* Category */}
                 <div className="mb-3">
@@ -149,24 +149,24 @@ export default function BlogGrid() {
                     {post.category[locale]}
                   </span>
                 </div>
-                
+
                 {/* Title */}
                 <h2 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">
                   {post.title[locale]}
                 </h2>
-                
+
                 {/* Excerpt */}
                 <p className="text-gray-600 text-sm mb-4 line-clamp-3">
                   {post.excerpt[locale]}
                 </p>
-                
+
                 {/* Meta */}
                 <div className="flex items-center justify-between">
                   <span className="text-gray-500 text-sm">
                     {formatDate(post.publishDate, locale)}
                   </span>
-                  
-                  <Link 
+
+                  <Link
                     href={`/${locale}/blog/${post.slug}`}
                     className="text-primary-600 hover:text-primary-700 font-semibold text-sm transition-colors"
                   >
@@ -177,7 +177,7 @@ export default function BlogGrid() {
             </article>
           ))}
         </div>
-        
+
         {/* Load More Button */}
         <div className="text-center mt-12">
           <button className="bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">

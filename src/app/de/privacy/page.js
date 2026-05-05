@@ -123,7 +123,7 @@ export default function PrivacySection() {
       title: 'Ihre Wahlmöglichkeiten und Verpflichtungen',
       paragraphs: [
         "Je nach Ihrem Standort haben Sie möglicherweise Rechte gemäß Datenschutzgesetzen wie der DSGVO oder CCPA. Dies umfasst Zugang, Berichtigung oder Löschung Ihrer Daten.",
-        "Um diese Rechte auszuüben oder Fragen zu stellen, senden Sie uns eine E-Mail an privacy@walkingpadreviews.com."
+        "Um diese Rechte auszuüben oder Fragen zu stellen, senden Sie uns eine E-Mail an privacy@Walkingpadreviews.com."
       ]
     },
     {
@@ -140,27 +140,27 @@ export default function PrivacySection() {
     <>
       {/* Hero Section */}
       {/* // <section className="relative py-24 sm:py-32 bg-gradient-to-br from-primary-50 to-primary-100 overflow-hidden"> */}
-        <section className="relative w-full py-28 sm:py-36 bg-primary-herobg text-white overflow-hidden">
+      <section className="relative w-full py-28 sm:py-36 bg-primary-herobg text-white overflow-hidden">
 
-      {/* Decorative Background Circles */}
-      <div className="absolute inset-0 pointer-events-none">
-        <svg
-          className="w-full h-full"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-        >
-          <circle cx="20%" cy="30%" r="200" fill="rgba(59, 130, 246, 0.05)" />
-          <circle cx="80%" cy="70%" r="300" fill="rgba(59, 130, 246, 0.06)" />
-        </svg>
-      </div>
+        {/* Decorative Background Circles */}
+        <div className="absolute inset-0 pointer-events-none">
+          <svg
+            className="w-full h-full"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+          >
+            <circle cx="20%" cy="30%" r="200" fill="rgba(59, 130, 246, 0.05)" />
+            <circle cx="80%" cy="70%" r="300" fill="rgba(59, 130, 246, 0.06)" />
+          </svg>
+        </div>
 
-      {/* Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6 drop-shadow-sm">
-        Datenschutzerklärung
-        </h1>
-      </div>
-    </section>
+        {/* Content */}
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6 drop-shadow-sm">
+            Datenschutzerklärung
+          </h1>
+        </div>
+      </section>
 
       {/* Content Section */}
       <section className="bg-white py-16 px-4">

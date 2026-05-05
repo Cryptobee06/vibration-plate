@@ -47,7 +47,7 @@ export default function HowWeReview() {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="200" cy="200" r="200" fill="rgba(59, 130, 246, 0.04)" />
+          <circle cx="200" cy="200" r="200" fill="rgba(255, 81, 0, 0.9)" />
         </svg>
         <svg
           className="absolute right-[-80px] bottom-[-80px] w-[300px] h-[300px]"
@@ -55,7 +55,7 @@ export default function HowWeReview() {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="200" cy="200" r="200" fill="rgba(59, 130, 246, 0.03)" />
+          <circle cx="200" cy="200" r="200" fill="rgba(12, 243, 24, 0.03)" />
         </svg>
       </div>
 
