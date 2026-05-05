@@ -815,10 +815,10 @@ const brandData = {
     name: "Sportstechwalkmate",
     images: [
       "/Assets/sportstech-vibration-plate 1.jpg",
-      "/Assets/Sportstech-vibration-Plate 2.jpg",
-      "/Assets/Sportstech-vibration-Plate 3.png",
-      "/Assets/Sportstech-vibration-plate 4.png",
-      "/Assets/Sportstech-Vibration-plate 5.png",
+      "/Assets/sportstech-vibration-Plate 2.jpg",
+      "/Assets/sportstech-vibration-Plate 3.png",
+      "/Assets/sportstech-vibration-plate 4.png",
+      "/Assets/sportstech-vibration-plate 5.png",
     ],
     productDescription: {
       en: {

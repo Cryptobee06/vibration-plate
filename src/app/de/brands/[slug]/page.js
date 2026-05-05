@@ -792,10 +792,10 @@ const brandData = {
     name: "Sportstech vibration plate ",
     images: [
       "/Assets/sportstech-vibration-plate 1.jpg",
-      "/Assets/Sportstech-vibration-Plate 2.jpg",
-      "/Assets/Sportstech-vibration-Plate 3.png",
-      "/Assets/Sportstech-vibration-plate 4.png",
-      "/Assets/Sportstech-vibration-plate 5.png",
+      "/Assets/sportstech-vibration-Plate 2.jpg",
+      "/Assets/sportstech-vibration-Plate 3.png",
+      "/Assets/sportstech-vibration-plate 4.png",
+      "/Assets/sportstech-vibration-plate 5.png",
     ], productDescription: {
       en: {
         intro: "The vibration plate is a compact vibration plate for home use, specifically designed for limited living spaces and flexible usage. Its slim design makes it easy to store and bring out when needed.",
