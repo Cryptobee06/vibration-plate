@@ -12,8 +12,6 @@ const nextConfig = {
   env: {
     EXPORT_MODE: 'true'
   },
-  output: 'export',
-   
 };
 
 module.exports = nextConfig;
