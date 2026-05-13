@@ -11,15 +11,88 @@ import ComparisonContext from "@/components/brands/ComparisonContext";
 import ConclusionEvaluation from "@/components/brands/ConclusionEvaluation";
 
 const brandData = {
-  Sportstechswalklite: {
-    name: "Sportstechswalklite",
+  Stvp: {
+    name: "SPORTSTECH",
     images: [
-      "/Assets/s-vibration-plate 1.jpg",
-      "/Assets/s-vibration-plate 2.jpg",
-      "/Assets/s-vibration-plate 3.jpg",
-      "/Assets/s-vibration-plate 4.jpg",
-      "/Assets/s-vibration-plate 5.jpg",
+      "/Assets/s-vibration-plate-1.png",
+      "/Assets/s-vibration-plate-2.png",
+      "/Assets/s-vibration-plate-3.jpg",
+      "/Assets/s-vibration-plate-4.png",
+      "/Assets/s-vibration-plate-5.jpg",
     ],
+    productDescription: {
+      de: {
+        intro: "Der Sportstech VP500 ist eine schlanke, kompakte Vibrationsplatte, die speziell für den Einsatz im Homeoffice und in kleinen Wohnräumen entwickelt wurde. Mit einem flachen Profil von nur 10,9 cm Höhe und integrierten Transporträdern gleitet er mühelos unter Schreibtische oder Sofas. Das moderne LCD-Display zeigt Geschwindigkeit, Zeit, Distanz und Schritte in Echtzeit an. Der leise 2,5-PS-Motor ermöglicht ruhiges Arbeiten, ohne Kollegen oder Mitbewohner zu stören. Sein minimalistisches Design und die intuitive Bedienung machen ihn zur idealen Lösung für alle, die mehr Bewegung in ihren Alltag integrieren möchten.",
+        cards: [
+          // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
+          // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Die Sportstech VP500 Vibrationsplatte eignet sich besonders für:",
+        suitableFor: [
+          "Perfekt für Einsteiger, die ein einfaches und gelenkschonendes Ganzkörper-Vibrationstraining zu Hause suchen.",
+          "Ideal für Büroangestellte, die kurze Bewegungseinheiten zur Reduzierung von sitzbedingter Müdigkeit benötigen.",
+          "Hervorragend geeignet für kleine Wohnungen dank ihres platzsparenden und leisen Designs.",
+          "Geeignet für Nutzer mit Fokus auf Regeneration, Durchblutung und tägliche Mobilitätsunterstützung."
+        ],
+        notSuitableForLabel: "Weniger geeignet ist das Gerät für:",
+        notSuitableFor: [
+          "Nicht ideal für fortgeschrittene Sportler, die eine leistungsstarke Vibrationsintensität auf Studio-Niveau erwarten.",
+          "Weniger geeignet für Nutzer, die eine extra große Trainingsfläche für weite Bewegungsabläufe benötigen",
+          "Könnte intensive Fitnessnutzer enttäuschen, die auf starken Muskelaufbau setzen.",
+          "Nicht die beste Wahl für Käufer, die Smart-App-Integration und interaktive Coaching-Funktionen wünschen."
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Comparison and Buying Context",
+        intro: "Die Wahl der richtigen Vibrationsplatte hängt von Ihren Fitnesszielen, dem verfügbaren Platz und der Häufigkeit Ihrer Trainingseinheiten ab. Die Sportstech VP500 wurde für Nutzer entwickelt, die eine kompakte und zugleich leistungsstarke Fitnesslösung für zu Hause suchen. Sie unterstützt tägliches Training, Muskelaktivierung, Gleichgewichtstraining und Regeneration.",
+        box1: {
+          heading: "Viele Käufer entscheiden sich für die Sportstech VP500, weil:",
+          items: [
+            "sie effektive Ganzkörpertrainings in einem kompakten Heimfitness-Design ermöglicht",
+            "sie ideal für tägliche, gelenkschonende Workouts und Muskelaktivierung ist",
+            "sie problemlos in kleine Wohnungen und moderne Wohnräume passt",
+            "sie Balance-, Flexibilitäts- und Regenerationstraining unterstützt",
+            "sie benutzerfreundliche Steuerungen mit smarten Fitnessfunktionen bietet",
+            "sie ein komfortables und leises Trainingserlebnis zu Hause ermöglicht",
+          ]
+        },
+        box2: {
+          heading: "Wer eine Vibrationsplatte kaufen möchte, sollte besonders auf folgende Faktoren achten:",
+          items: [
+            "Vibrationsintensität und anpassbare Trainingsmodi",
+            "Stabilität der Plattform und allgemeiner Trainingskomfort",
+            "kompakte Größe und einfache Aufbewahrung",
+            "Lautstärke im täglichen Heimgebrauch",
+            "smarte Funktionen und digitale Konnektivität",
+            "Verarbeitungsqualität, Langlebigkeit und langfristige Leistung"
+          ]
+        },
+        outro: "Die Sportstech VP500 kombiniert moderne Vibrationstechnologie, kompaktes Design und vielseitige Trainingsfunktionen in einem effizienten Fitnessgerät."
+      }
+    },
+
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die Sportstech VP500 Vibrationsplatte wurde für Nutzer entwickelt, die ein hochwertiges und vielseitiges Vibrations-Trainingserlebnis suchen, ohne dabei auf Komfort, Flexibilität oder modernes Design verzichten zu müssen. Durch die Kombination aus fortschrittlicher 4D-Vibrationstechnologie und intelligenter Trainingsanpassung bietet sie eine besonders intensive Ganzkörper-Fitnesslösung für das Training zu Hause.",
+        cardsTitle: "",
+        cards: [
+          "4D-Multi-Motion-Training",
+          "Leistungsstarke Triple-Motor-Technologie",
+          "Kompaktes Premium-Design für Home Fitness",
+        ],
+        outro: "Nach der Bewertung von Vibrationsintensität, Trainingsflexibilität, Verarbeitungsqualität, Smart-Funktionen und allgemeiner Benutzererfahrung gehört die VP500 zu den fortschrittlichsten Vibrationsplatten im Sportstech-Sortiment. Dank der Kombination aus Oszillation, linearen Bewegungen und Vibrationsmodi sorgt die VP500 für ein dynamischeres und immersiveres Trainingserlebnis als herkömmliche Vibrationsplattformen."
+      }
+    },
     features: {
       en: [
         "Dimensions: 127 x 56.5 x 11.5 cm",
@@ -41,43 +114,41 @@ const brandData = {
       ],
       de: [
         {
-          title: "LED-Anzeige mit Trainingsdaten",
-          description: "Ein besonderes Merkmal des sWalk Lite ist seine patentierte LED-Anzeige, die Trainingsdaten in Echtzeit anzeigt. Dazu gehören Geschwindigkeit, Schritte und Pulsinformationen.",
-          footer: "Die LED-Anzeige wechselt außerdem ihre Farbe je nach Geschwindigkeit. Diese visuelle Funktion dient nicht nur als Design-Element, sondern kann auch als Motivation während des Trainings dienen."
+          title: "Kompaktes Design für Zuhause",
+          description: "Platzsparendes Design — gleitet unter Möbel. Abmessungen: 109,7 × 52,1 × 10,9 cm. Integrierte Transporträder.",
+          footer: ""
         },
         {
-          title: "Verbindung mit der Sportstech Live App",
-          description: "Dasvibration plate kann über Bluetooth mit der Sportstech Live App verbunden werden. Über die App können Trainingsdaten verfolgt und verschiedene Trainingsprogramme genutzt werden. Die App bietet Funktionen wie:",
+          title: " LED-Display",
+          description: "Modernes LCD zeigt wichtige Trainingsmetriken: Geschwindigkeit, Zeit, Distanz und Schritte.",
           bullets: [
-            "Trainingsstatistiken",
-            "personalisierte Empfehlungen",
-            "virtuelle Trainingsstrecken",
-            "Community-Challenges"
+
           ],
-          footer: "Diese Funktionen können die Motivation erhöhen und das Training abwechslungsreicher gestalten."
+          footer: ""
         },
         {
-          title: "Vier Trainingsprogramme",
-          description: "Das sWalk Lite verfügt über vier vorinstallierte Trainingsprogramme, die unterschiedliche Geschwindigkeitsprofile bieten. Diese Programme helfen dabei, das Training strukturierter zu gestalten."
+          title: "  Geschwindigkeit fürs Training",
+          description: "Geschwindigkeitsbereich 1–6 km/h — ideal für lockere Einheiten, flottes Gehen und aktive Arbeitsstunden."
         },
         {
-          title: "Manuelle Steigungsfunktion",
-          description: "Das Gerät besitzt außerdem eine manuelle Steigung von etwa 6 %, die über ausklappbare Steigungsbügel eingestellt wird. Diese Steigung erhöht die Trainingsintensität und kann zusätzliche Muskelgruppen aktivieren."
-        }
+          title: "  Einfaches Verstauen",
+          description: "Nur 15,8 kg schwer mit Transporträdern — lässt sich einfach bewegen und verstauen."
+        },
+
       ],
     },
 
     // name: 'Sportstech',
-    model: "sVibe",
+    model: "VP500",
     logo: "/images/brands/treadmill1.jpg",
 
     description: {
       en: "The Svibe is a compact treadmill for home use, specifically designed for limited living spaces and flexible usage. Its slim design makes it easy to store and bring out when needed.With dimensions of approximately 109.7 × 52.1 × 10.9 cm, the device is among the flattervibration plates on the market. This low height not only makes it easier to store under furniture or behind doors but also appeals to users who want to move it between rooms regularly.The treadmill weighs around 15.8 kg and features built-in transport wheels, making it relatively easy to move. This mobility is a key advantage compared to traditional treadmills, which are often much heavier and require a permanent setup location.The maximum user weight is 120 kg, making it suitable for a wide range of users.",
-      de: "Die innovativen Fitnessgeräte von Sportstech, insbesondere das Vibration plate, stehen für durchdachtes Home-Fitness-Design. Mit smarten Funktionen wie App-Konnektivität, leiser Performance und platzsparender Bauweise gehört Sportstech zu den beliebtesten Marken imvibration plate-Vergleich.",
+      de: "Der Sportstech VP500 ist eine kompakte Vibrationsplatte für bequeme Heimnutzung — besonders für Homeoffice und kleine Wohnräume. Er fokussiert auf einfache, gleichmässige Bewegung statt Hochleistungstraining. Sein schlankes Profil und einfaches Verstauen machen ihn zum idealen Alltags-Bewegungsbegleiter.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
-      "/Assets/sports-vibration-plate-Banner 1.webp",
+      "/Assets/sports-vibration-plate-Banner-2.png",
     // features: {
     //   en: 'The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech F15 verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'
@@ -94,20 +165,20 @@ const brandData = {
       ],
       de: [
         {
-          title: "Platzsparendes Design",
-          description: "Dank seiner flachen Bauweise lässt sich das sWalk Lite leicht verstauen und eignet sich besonders für Wohnungen mit begrenztem Platzangebot."
+          title: "Platzsparend & leicht verstaubar",
+          description: "Belegt deutlich weniger Platz als ein herkömmliches Laufband."
         },
         {
-          title: "Gute Lösung für Homeoffice",
-          description: "Vibration Plates wie das sWalk Lite sind ideal für Menschen, die während der Arbeit aktiv bleiben möchten."
+          title: "Ideal fürs Homeoffice",
+          description: "Für langsame bis moderate Vibrationsgeschwindigkeiten ausgelegt — perfekt zum Arbeiten mit Bewegung."
         },
         {
-          title: "App-Integration und moderne Funktionen",
-          description: "Die Verbindung mit der Sportstech Live App bietet zusätzliche Trainingsmöglichkeiten und ermöglicht eine detaillierte Analyse der Trainingsdaten."
+          title: "Einfache Bedienung",
+          description: "Unkomplizierte Einrichtung, keine komplexen Anpassungen nötig. Ideal für Einsteiger."
         },
         {
-          title: "Robuste Bauweise",
-          description: "Viele Nutzerberichte heben die stabile Konstruktion und die solide Verarbeitung des Geräts hervor."
+          title: "Fördert tägliche Bewegung",
+          description: "Hilft, mehr Schritte in den Alltag zu integrieren."
         }
       ],
     },
@@ -121,59 +192,59 @@ const brandData = {
       ],
       de: [
         {
-          title: "Begrenzte Höchstgeschwindigkeit",
-          description: "Mit maximal 6 km/h ist das Gerät eher für Walking-Training geeignet als für intensives Lauftraining."
+          title: "Keine hohen Laufgeschwindigkeiten",
+          description: "Max. 6 km/h — klar auf Vibrationsplatte-Nutzung ausgelegt,nicht auf Joggen."
         },
         {
-          title: "Weniger Trainingsprogramme als große Laufbänder",
-          description: "Das Gerät bietet vier Programme, während größere Laufbänder oft deutlich mehr Trainingsmodi besitzen."
+          title: "Kleinere Lauffläche",
+          description: "90×40 cm für normale Nutzung ausreichend, aber einschränkend für grössere Nutzer."
         },
         {
-          title: "Fokus auf Heimtraining",
-          description: "Das sWalk Lite ist hauptsächlich für den Heimgebrauch gedacht und weniger für intensives Fitnessstudio-Training."
+          title: "Fokus auf leichtes Training",
+          description: "Ideal für moderate Aktivität, nicht für intensives Ausdauertraining."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Welche Geschwindigkeit bietet das sWalk Lite?",
+          de: "Ist der VP500 eine Vibrationsplatte?",
         },
         answer: {
-          de: "Das Gerät erreicht Geschwindigkeiten von 1 bis 6 km/h, was ideal für Walking-Training ist."
+          de: "Der VP500 ist speziell als kompakte Vibrationsplatte für den Heim- oder Bürobereich konzipiert."
         }
       },
       {
         question: {
-          de: "Wie viel Gewicht kann das Laufband tragen?",
+          de: "Kann man darauf joggen?",
         },
         answer: {
-          de: "Das maximale Benutzergewicht beträgt 120 kg."
+          de: "Der VP500 erreicht max. 6 km/h — besser geeignet für Gehen und leichte Aktivität als für Joggen."
         }
       },
       {
         question: {
-          de: "Hat das Laufband eine Steigung?",
+          de: "Wie viel Platz benötigt er?",
         },
         answer: {
-          de: "Ja, das Gerät besitzt eine manuelle Steigung von etwa 6 %."
+          de: "Er misst 109,7 × 52,1 cm und kann bei Nichtgebrauch unter Möbel geschoben werden."
         }
       },
       {
         question: {
-          de: "Kann man das Laufband mit einer App verbinden?",
+          de: "Für wen ist eine Vibrationsplatte geeignet?",
         },
         answer: {
-          de: "Ja, das sWalk Lite kann über Bluetooth mit der Sportstech Live App verbunden werden."
+          de: "Perfekt für Heimarbeiter, Fitnesseinsteiger und alle, die ihren Schrittzähler erhöhen möchten."
         }
       }
     ],
     verdict: {
-      en: "The Sportstech sWalk Lite delivers exceptional value with its advanced cushioning system and solid build quality. While it may lack some premium features, it excels in the fundamentals that matter most for home fitness.",
-      de: "Das Sportstech sWalk Lite Vibration plate überzeugt als kompakter und leiser Homefitness-Trainer,ideal für das tägliche Training im Büro oder Zuhause. Mit robuster Dämpfung, Smart-App-Integration, platzsparendem Design und einem leisen Motor erreicht es eine Bewertung von 4,9 von 5 – Spitzenklasse im Vibration plate Test.",
+      en: "The Sportstech VP500 delivers exceptional value with its advanced cushioning system and solid build quality. While it may lack some premium features, it excels in the fundamentals that matter most for home fitness.",
+      de: "Der Sportstech VP500 eignet sich am besten für Nutzer, die aktiv bleiben möchten, ohne Platz für ein vollständiges Laufband zu opfern. Er glänzt beim langsamen Gehen, Schrittzählen und bei gleichmässiger Bewegung über den Tag. Nutzer, die Lauf-Workouts oder Neigungstraining suchen, könnten ihn als limitiert empfinden.",
     },
     rating: 4.9,
-    buyLink: "https://www.sportstech.de/laufband/swalk-lite",
+    buyLink: "https://www.sportstech.de/vibrationsplatte/vp500",
   },
   Citysports: {
     name: "Citysports",
@@ -184,6 +255,80 @@ const brandData = {
       "/Assets/citysports-vibration -plate 4.png",
       "/Assets/citysports-vibration-plate 5.png",
     ],
+    productDescription: {
+      de: {
+        intro: "Der Citysports CS-WP6 ist eine erschwingliche, benutzerfreundliche Vibrationsplatte mit leisem Motor, stossdämpfender Oberfläche und praktischer Fernbedienung. Das kompakte Design passt in kleine Räume und lässt sich ohne Aufwand verstauen. Für Erstnutzer und Gelegenheitssportler bietet er ein überzeugendes Gesamtpaket aus Komfort, Einfachheit und Verlässlichkeit.",
+        cards: [
+          // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
+          // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Geeignet für",
+        suitableFor: [
+          "Ideal für Wohnungsbewohner, die eine kompakte und geräuscharme Vibrationsplatte für das tägliche Training suchen.",
+          "Perfekt für Anfänger, die einfache Heimfitness-Routinen ohne komplizierte Programme starten möchten.",
+          "Geeignet für Homeoffice-Nutzer, die kurze Bewegungseinheiten zwischen Arbeitszeiten benötigen.",
+          "Optimal für Wellness-orientierte Nutzer mit Fokus auf Balance, Flexibilität und Regeneration."
+        ],
+        notSuitableForLabel: "Weniger geeignet ist das Gerät für:",
+        notSuitableFor: [
+          "Nicht die beste Wahl für fortgeschrittene Sportler mit Bedarf an hoher Vibrationsleistung.",
+          "Weniger geeignet für Nutzer, die große Plattformen für breite Kraftübungen benötigen.",
+          "Könnte professionelle Fitnessstudios mit Anforderungen an dauerhafte Belastbarkeit nicht zufriedenstellen.",
+          "Nicht ideal für Käufer, die Smart-Coaching oder interaktive Fitnessfunktionen erwarten."
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Comparison and Buying Context",
+        intro: "Die CitysportsCS-WP6 Vibrationsplatte wurde für Nutzer entwickelt, die eine effiziente und platzsparende Trainingslösung für Home-Fitness, tägliche Regeneration und gelenkschonendes Ganzkörpertraining suchen. Dank ihres kompakten Designs und moderner Vibrationstechnologie eignet sie sich ideal für Anfänger, Berufstätige mit wenig Zeit und alle, die aktiv bleiben möchten, ohne in große Fitnessgeräte investieren zu müssen.",
+        box1: {
+          heading: "Warum sich viele Käufer für die CitysportsCS-WP6 Vibrationsplatte entscheiden",
+          items: [
+            "Geeignet für tägliche Fitness- und Regenerationseinheiten",
+            "Einfach zu verstauen und zwischen Räumen zu transportieren",
+            "Gelenkschonendes Training für komfortable Workouts",
+            "Unterstützt Gleichgewicht, Muskelstimulation und Körperaktivierung",
+            "Entwickelt für schnelle Trainingseinheiten ohne komplizierte Einrichtung",
+
+          ]
+        },
+        box2: {
+          heading: "Worauf Käufer bei der CitysportsCS-WP6 Vibrationsplatte besonders achten sollten",
+          items: [
+            "Vibrationsintensität und Trainingsmodi",
+            "Stabilität der Plattform und rutschfestes Oberflächendesign",
+            "Tragbarkeit und Gesamtgewicht des Produkts",
+            "Fernbedienung und benutzerfreundliche Bedienung",
+            "Zusätzliche Funktionen wie Display-Steuerung und Widerstandsbänder",
+            " Komfort und Sicherheit bei Steh- oder Balanceübungen",
+
+          ]
+        },
+        outro: "Die CitysportsCS-WP6 Vibrationsplatte vereint Komfort, Benutzerfreundlichkeit und effektives Vibrationstraining in einem kompakten Fitnessgerät. Sie ist eine ideale Wahl für Nutzer, die eine praktische Heimtrainingslösung suchen, um regelmäßige Bewegung, Körperaktivierung und alltägliche Wellness-Ziele zu unterstützen."
+      }
+    },
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die Citysports Vibrationsplatte richtet sich an Menschen, die eine einfache, kompakte und effektive Möglichkeit suchen, zu Hause aktiv zu bleiben, ohne in große Fitnessgeräte investieren zu müssen. Durch die Kombination aus platzsparendem Design und anfängerfreundlicher Bedienung bietet sie ein komfortables Ganzkörper-Vibrationstraining für moderne Lebensstile.",
+        cardsTitle: "",
+        cards: [
+          "Kompaktes Fitnessgerät für den Alltag",
+          "Benutzerfreundliche Leistung",
+          "Ideal für Home-Workouts",
+        
+        ],
+        outro: "In Bezug auf Leistung, Komfort, Benutzerfreundlichkeit, Mobilität und Preis-Leistungs-Verhältnis überzeugt die Citysports Vibrationsplatte als praktische Lösung für tägliche Bewegung und gelenkschonendes Training. Die kompakte Bauweise eignet sich besonders für Wohnungen, Homeoffices und kleinere Trainingsräume, während die einstellbaren Vibrationsstufen individuelle Trainingseinheiten je nach Komfort und Fitnesslevel ermöglichen."
+      }
+    },
     features: {
       en: [
         "Intelligent LED Console",
@@ -198,35 +343,28 @@ const brandData = {
       ],
       de: [
         {
-          title: "Kompakte Bauweise",
-          description: "Ein Hauptmerkmal des Citysportsvibration plates ist seine kompakte Konstruktion.vibration plates sind bewusst so gestaltet, dass sie wenig Platz benötigen und leicht verstaut werden können.",
-          footer: "Gerade in kleineren Wohnungen oder Büros kann ein großes Laufband schnell unpraktisch werden. Das Citysports Modell bietet hier eine platzsparende Alternative."
+          title: " Kompaktes Design",
+          description: "Platzsparende Konstruktion für minimalen Platzbedarf — einfach zu verstauen und zu transportieren.",
+          footer: ""
         },
         {
-          title: "Leiser Motorbetrieb",
-          description: "Das Laufband verfügt über einen relativ leisen Motor, wodurch es auch während der Arbeit oder beim Fernsehen verwendet werden kann. Für viele Nutzer ist dieser Punkt besonders wichtig, davibration plates häufig im Homeoffice genutzt werden."
+          title: "Stossdämpfende Oberfläche",
+          description: "Reduziert den Aufprall beim Vibrieren und schützt Knie und Gelenke."
         },
         {
-          title: "Stoßdämpfende Laufoberfläche",
-          description: "Das Citysportsvibration plate besitzt eine stoßdämpfende Lauffläche, die Stöße beim Gehen absorbieren kann. Diese Konstruktion kann dazu beitragen, die Belastung auf Knie und Gelenke zu reduzieren.",
-          footer: "Gerade bei regelmäßigem Walking-Training kann eine gute Dämpfung einen wichtigen Beitrag zum Trainingskomfort leisten."
+          title: "Leiser Betrieb",
+          description: "Relativ leiser Motor — geeignet für die Nutzung beim Arbeiten oder TV schauen.",
+          footer: ""
         },
         {
-          title: "LED-Display für Trainingsdaten",
-          description: "Das integrierte Display zeigt wichtige Trainingswerte an, darunter:",
+          title: " LED-Display",
+          description: "Zeigt wichtige Trainingsmetriken: Geschwindigkeit, Zeit,Distanz und Kalorien.",
           bullets: [
-            "Geschwindigkeit",
-            "Trainingsdauer",
-            "Distanz",
-            "Kalorienverbrauch",
+
           ],
-          footer: "Diese Informationen helfen Nutzern, ihre Fortschritte zu verfolgen und ihre Trainingsroutine anzupassen."
+          footer: ""
         },
-        {
-          title: "Fernbedienung zur Steuerung",
-          description: "Das Gerät wird über eine Fernbedienung gesteuert, mit der sich Geschwindigkeit und Einstellungen bequem anpassen lassen.",
-          footer: "Diese einfache Bedienung macht dasvibration plate besonders für Einsteiger attraktiv."
-        }
+
       ],
     },
 
@@ -234,11 +372,11 @@ const brandData = {
     logo: "/images/brands/nordictrack-logo.png",
     description: {
       en: "Citysports is an American fitness equipment company renowned for interactive training technology. The Commercial 1750 is their premium home treadmill featuring iFit integration and professional-grade construction.",
-      de: "Das Citysports CS-WP6 bietet als Under-Desk Vibration plate eine praktische und günstige Einstiegslösung für tägliche Bewegung. Es überzeugt durch leisen Betrieb, einfache Bedienbarkeit und transportfreundliches Design. Wer gelegentlich und platzsparend trainieren will, findet hier eine solide Lösung – auch wenn Profis oder intensivere Nutzer ggf. ein Laufband mit längerer Lauffläche oder mehr Speed bevorzugen.",
+      de: "Citysports bringt Funktionalität und Bequemlichkeit in Ihre Heim- oder Büro-Workout-Routine mit der CS-WP6-Vibrationsplatte. Für leisen Betrieb und kompaktes Verstauen gebaut — eine clevere Wahl für Nutzer, die beim Arbeiten aktiv bleiben oder enge Räume managen möchten",
     },
 
     bannerImage:
-      "/Assets/citysports-vibration-plate-Banner 2.webp",
+      "/Assets/citysports-vibration-plate-Banner-3.png",
 
     pros: {
       en: [
@@ -251,19 +389,19 @@ const brandData = {
       de: [
         {
           title: "Platzsparendes Fitnessgerät",
-          description: "Das Citysportsvibration plate benötigt deutlich weniger Platz als ein klassisches Laufband und eignet sich daher besonders für kleine Wohnungen."
+          description: "Deutlich kompakter als traditionelle Laufbänder — ideal für kleine Wohnräume."
         },
         {
-          title: "Gute Lösung für Homeoffice",
-          description: "Vibration Plates werden häufig während der Arbeit verwendet. Das Citysports Modell ist für genau diesen Zweck gut geeignet."
+          title: "Ideal fürs Homeoffice",
+          description: "Für langsame bis moderate Vibration beim Arbeiten ausgelegt."
         },
         {
-          title: "Einfache Bedienung",
-          description: "Das Gerät lässt sich schnell in Betrieb nehmen und erfordert keine komplizierten Einstellungen."
+          title: "Einfach zu bedienen",
+          description: "Schnelle Einrichtung ohne komplexe Konfigurationen."
         },
         {
-          title: "Unterstützt tägliche Bewegung",
-          description: "Viele Nutzer verwenden Vibration Plates, um ihre tägliche Aktivität zu erhöhen und mehr Schritte zu sammeln."
+          title: "Fördert tägliche Bewegung",
+          description: "Hilft, mehr Bewegung und Schritte in den Alltag zu integrieren."
         }
       ],
     },
@@ -276,55 +414,55 @@ const brandData = {
       de: [
         {
           title: "Begrenzte Höchstgeschwindigkeit",
-          description: "Mit maximal etwa 6 km/h ist das Gerät eher für Walking als für intensives Lauftraining geeignet."
+          description: "Max. ca. 6 km/h — für Vibration, nicht für intensives Laufen."
         },
         {
           title: "Kleinere Lauffläche",
-          description: "Wie bei vielenvibration plates ist die Lauffläche kompakter als bei klassischen Laufbändern."
+          description: "Kompakter als traditionelle Laufbänder."
         },
         {
           title: "Weniger Trainingsprogramme",
-          description: "Einige Modelle bieten nur grundlegende Trainingsfunktionen ohne umfangreiche Programme."
+          description: "Nur Grundfunktionen ohne fortgeschrittene Workout-Programme."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Kann man mit dem Citysportsvibration plate joggen?",
+          de: " Kann man auf dem Citysports CS-WP6 joggen?",
         },
         answer: {
-          de: "Das Gerät ist hauptsächlich für Walking und leichtes Training gedacht."
+          de: "Der CS-WP6 erreicht max. 6 km/h — besser für Vibrationssessions als fürs Joggen geeignet."
         }
       },
       {
         question: {
-          de: "Ist das Laufband für Homeoffice geeignet?",
+          de: "Eignet sich der CS-WP6 fürs Homeoffice?",
         },
         answer: {
-          de: "Ja.vibration plates werden häufig während der Arbeit verwendet, um mehr Bewegung in den Alltag zu integrieren."
+          de: " Ja — der leise Motor macht ihn perfekt für die Nutzung während der Arbeitszeit"
         }
       },
       {
         question: {
-          de: "Welche Trainingsdaten zeigt das Display an?",
+          de: "Welche Trainingsdaten zeigt das Display?",
         },
         answer: {
-          de: "Das LED-Display zeigt Geschwindigkeit, Trainingszeit, Distanz und Kalorienverbrauch an."
+          de: "Geschwindigkeit, Zeit, Schritte und verbrannte Kalorien werden angezeigt."
         }
       },
       {
         question: {
-          de: "Ist das Gerät leicht zu verstauen?",
+          de: "Ist der CS-WP6 einfach zu verstauen?",
         },
         answer: {
-          de: "Ja. Dank seiner kompakten Bauweise lässt sich das Laufband relativ einfach verstauen."
+          de: "Ja — das kompakte Design gleitet mühelos unter Schreibtische oder Sofas."
         }
       }
     ],
     verdict: {
       en: "The Citysportsvibration plate is an excellent choice for serious runners who want gym-quality equipment at home. The iFit integration provides unmatched workout variety, though the subscription cost should be considered.",
-      de: "Das Citysports CS-WP6 bietet als Under-Desk Vibration plate eine praktische und günstige Einstiegslösung für tägliche Bewegung. Es überzeugt durch leisen Betrieb, einfache Bedienbarkeit und transportfreundliches Design. Wer gelegentlich und platzsparend trainieren will, findet hier eine solide Lösung – auch wenn Profis oder intensivere Nutzer ggf. ein Laufband mit längerer Lauffläche oder mehr Speed bevorzugen.",
+      de: "Der Citysports CS-WP6 zeichnet sich als erschwingliche, unkomplizierte Vibrationsplatte aus, die in kleine Räume passt, ohne ruhige, zuverlässige Leistung zu opfern. Ideal für Homeoffice-Profis, Gelegenheitsnutzer oder Erstkäufer.",
     },
     rating: 4.0,
     // buyLink: 'https://www.city-sports.eu/collections/treadmill/products/citysports-under-desk-treadmill-citysports-laufband-citysports-treadmill-citysports-tapis-roulant-citysports-tapis-de-course?spm=..collection_c6816f06-4986-4263-97d0-4377c49999a8.collection_detail_1.9&spm_prev=..index.header_1.1'
@@ -338,6 +476,81 @@ const brandData = {
       "/Assets/Kiddoza-vibration-plate 4.jpg",
       "/Assets/Kiddoza-vibration-plate 5.jpg",
     ],
+    productDescription: {
+      de: {
+        intro: "Die Kiddoza Unter-Tisch-Vibrationsplatte überzeugt mit ihrem 2-in-1-Faltdesign, das minimalen Platzbedarf mit maximaler Nutzungsflexibilität verbindet. Das stossdämpfende System schützt Knie und Gelenke, während das LED-Display Trainingsdaten in Echtzeit liefert. Ohne komplizierte Einrichtung ist das Gerät sofort einsatzbereit — sowohl im Homeoffice als auch beim heimischen Training.",
+        cards: [
+          // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
+          // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Geeignet für",
+        suitableFor: [
+          "Perfekt für Anfänger, die ein sanftes Ganzkörper-Vibrationstraining zu Hause suchen.",
+          "Ideal für Homeoffice-Nutzer, die kurze Bewegungseinheiten zwischen Arbeitszeiten benötigen.",
+          "Hervorragend geeignet für Senioren und leichte Nutzer mit Fokus auf Balance, Durchblutung und Regeneration.",
+          "Geeignet für kleine Wohnungen dank ihres leichten und platzsparenden Designs."
+        ],
+        notSuitableForLabel: "Weniger geeignet ist das Gerät für:",
+        notSuitableFor: [
+          "Nicht ideal für fortgeschrittene Sportler mit Bedarf an hoher Vibrationsintensität.",
+          "Weniger geeignet für intensives Krafttraining mit hoher Motorleistung.",
+          "Könnte Nutzer enttäuschen, die umfangreiche Smart-Fitness-App-Integrationen wünschen.",
+          "Nicht empfohlen für kommerzielle Fitnessstudios mit dauerhafter täglicher Nutzung."
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Comparison and Buying Context",
+        intro: "Die Kiddoza Under Desk Vibrationsplatte ist eine kompakte und benutzerfreundliche Fitnesslösung für moderne Lebensstile zu Hause. Perfekt für Heimtraining, Muskelregeneration, leichtes Cardio-Training und tägliche Körperaktivierung bietet sie ein effektives, gelenkschonendes Training, ohne zusätzlichen Platz zu beanspruchen.",
+        box1: {
+          heading: "Warum viele Käufer die Kiddoza Under Desk Vibrationsplatte bevorzugen",
+          items: [
+            "Kompaktes Design, ideal für kleine Wohnungen und begrenzte Räume",
+            "Leise Motortechnologie für angenehme Nutzung in Innenräumen",
+            "Perfekt für Home-Fitness, Büro-Wellness und tägliche Bewegung",
+            "Benutzerfreundliche Steuerung mit einfacher Bedienung",
+
+
+          ]
+        },
+        box2: {
+          heading: "Worauf Käufer bei einer Kiddoza Vibrationsplatte besonders achten sollten",
+          items: [
+            "Vibrationsleistung und Intensitätsstufen",
+            "Stabilität und Komfort der Plattform",
+            "Kompakte Größe und einfache Tragbarkeit",
+            "Geräuschkontrolle für Indoor-Workouts",
+            "Unterstützung von täglicher Wellness und Regeneration",
+            "Smarte Funktionen und einfache Steuerung",
+            "Platzsparende Home-Fitness-Lösung"
+
+          ]
+        },
+        outro: "Die Kiddoza Under Desk Vibrationsplatte gehört zu einer wachsenden Kategorie smarter, kompakter Fitnessgeräte, die für eine bequeme Unterstützung der täglichen Gesundheit entwickelt wurden. Sie eignet sich besonders für Nutzer, die ihre Mobilität verbessern, trotz eines hektischen Alltags aktiv bleiben oder leichtes Vibrationstraining in ihre tägliche Routine integrieren möchten, ohne große Fitnessmaschinen zu kaufen."
+      }
+    },
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die Kiddoza Under Desk Vibrationsplatte definiert kompaktes Fitness-Training neu, indem sie passive Sitzzeiten in produktive Bewegungseinheiten verwandelt. Entwickelt für moderne Arbeitsplätze und kleinere Wohnräume, bietet sie gelenkschonendes Vibrations-Training, das sich nahtlos in den Alltag integrieren lässt, ohne zusätzliche Trainingszeit zu beanspruchen.",
+        cardsTitle: "",
+        cards: [
+          "Mühelose tägliche Bewegung",
+          "Leiser Komfort unter dem Schreibtisch",
+          "Kompaktes Wellness-orientiertes Design",
+         
+        ],
+        outro: "Nach einer umfassenden Bewertung von Komfort, Mobilität, Benutzerfreundlichkeit, Lautstärke und Alltagstauglichkeit hebt sich die Kiddoza Under Desk Vibrationsplatte als ideale Lösung für Menschen hervor, die während der Arbeit, beim Lernen oder Entspannen sanfte tägliche Aktivität unterstützen möchten. Die platzsparende Konstruktion, die einfache Bedienung und die bürotaugliche Leistung machen sie besonders attraktiv für Nutzer, die unkompliziert und nachhaltig aktiv bleiben möchten."
+      }
+    },
     features: {
       en: [
         "4% Incline for better fat burning",
@@ -350,43 +563,40 @@ const brandData = {
         "Compact & lightweight (20 kg)",
         "Easy to store under sofa/bed/desk",
         "No assembly needed – ready to use",
-        "2-in-1 walking and jogging mode",
+        "2-in-1 vibration and jogging mode",
         "Speed range: 1–6 km/h",
         "1-year warranty with lifetime tech support",
       ],
       de: [
         {
-          title: "Kompakte Bauweise",
-          description: "Ein zentrales Merkmal des Kiddozavibration plates ist seine platzsparende Konstruktion.vibration plates sind speziell dafür entwickelt worden, wenig Raum einzunehmen und sich leicht verstauen zu lassen.",
-          footer: "Gerade in kleineren Wohnungen kann ein großes Laufband schnell unpraktisch werden. Das Kiddoza Modell bietet hier eine kompakte Alternative."
+          title: "Kompaktes Design",
+          description: "Platzsparende Konstruktion für minimalen Platzbedarf — einfach zu verstauen und zu transportieren.",
+          footer: ""
         },
         {
-          title: "Stoßdämpfende Lauffläche",
-          description: "Das Laufband verfügt über eine stoßdämpfende Laufoberfläche, die beim Gehen entstehende Stöße reduziert. Dadurch kann die Belastung auf Knie und Gelenke verringert werden.",
-          footer: "Gerade bei regelmäßigem Walking-Training kann eine solche Dämpfung den Trainingskomfort deutlich verbessern."
+          title: " Stossdämpfende Oberfläche",
+          description: "Reduziert den Aufprall beim Vibrieren und schützt Knie und Gelenke.",
+          footer: ""
         },
         {
-          title: "LED-Display für Trainingsdaten",
-          description: "Das integrierte Display zeigt während des Trainings verschiedene Daten an, darunter:",
+          title: " Leiser Betrieb",
+          description: "Relativ leiser Motor — geeignet für die Nutzung beim Arbeiten oder TV schauen.",
           bullets: [
-            "Geschwindigkeit",
-            "Trainingsdauer",
-            "Distanz",
-            "Kalorienverbrauch",
+
           ],
-          footer: "Diese Informationen geben Nutzern einen guten Überblick über ihre Aktivität."
+          footer: ""
         },
         {
-          title: "Fernbedienung zur Steuerung",
-          description: "Vielevibration plates – einschließlich des Kiddoza Modells – werden über eine Fernbedienung gesteuert. Dadurch können Nutzer Geschwindigkeit und Einstellungen bequem anpassen, ohne ihr Training zu unterbrechen."
+          title: " LED-Display",
+          description: "Zeigt wichtige Trainingsmetriken: Geschwindigkeit, Zeit, Distanz und Kalorien."
         }
       ],
     },
-    model: "Under deskvibration plate",
+    model: "Under desk vibration plate",
     logo: "/images/brands/proform-logo.png",
     description: {
       en: "Kiddoza,  focuses on providing premium features at accessible prices. The Pro 2000 offers professional-grade performance with smart connectivity and iFit compatibility.",
-      de: "Das Kiddoza Under deskvibration plate, ist das optimalevibration plate für Zuhause, das hochwertige Ausstattung zum fairen Preis bietet. Mit iFit-Kompatibilität, smarter Steuerung und starker Leistung ist es eine Top-Wahl für alle, die ein leises Laufband unter dem Schreibtisch suchen.",
+      de: "Kiddoza bringt Vielseitigkeit und Innovation in Ihre Fitnessroutine mit ihrer 2-in-1 faltbaren Vibrationsplatte — perfekt für Heimworkouts, Büronutzung oder platzbeschränktes Wohnen",
     },
 
     bannerImage:
@@ -402,20 +612,20 @@ const brandData = {
       ],
       de: [
         {
-          title: "Platzsparendes Design",
-          description: "Das Kiddozavibration plate ist deutlich kompakter als klassische Laufbänder und eignet sich daher besonders für Wohnungen mit begrenztem Platz."
+          title: "Platzsparendes Fitnessgerät",
+          description: "Deutlich kompakter als traditionelle Laufbänder — ideal für kleine Wohnräume."
         },
         {
-          title: "Gute Lösung für Homeoffice",
-          description: "Vibration Plates werden häufig während der Arbeit verwendet. Das Kiddoza Modell ist gut für langsames bis moderates Gehen geeignet und kann daher während der Arbeit genutzt werden."
+          title: "Ideal fürs Homeoffice",
+          description: "Für langsame bis moderate Vibration beim Arbeiten ausgelegt."
         },
         {
-          title: "Einfache Bedienung",
-          description: "Das Gerät lässt sich unkompliziert bedienen und erfordert keine komplexen Einstellungen."
+          title: "Einfach zu bedienen",
+          description: "Schnelle Einrichtung ohne komplexe Konfigurationen."
         },
         {
-          title: "Unterstützt tägliche Bewegung",
-          description: "Viele Nutzer verwenden Vibration Plates, um ihre tägliche Aktivität zu erhöhen und mehr Schritte zu sammeln."
+          title: "Fördert tägliche Bewegung",
+          description: "Hilft, mehr Bewegung und Schritte in den Alltag zu integrieren."
         }
       ],
     },
@@ -428,55 +638,55 @@ const brandData = {
       de: [
         {
           title: "Begrenzte Höchstgeschwindigkeit",
-          description: "Wie vielevibration plates ist auch dieses Modell hauptsächlich für Walking-Training gedacht und weniger für intensives Lauftraining."
+          description: "Max. ca. 6 km/h — für Vibration, nicht für intensives Laufen."
         },
         {
           title: "Kleinere Lauffläche",
-          description: "Die Lauffläche ist kompakter als bei großen Fitnessstudio-Laufbändern."
+          description: "Kompakter als traditionelle Laufbänder."
         },
         {
           title: "Weniger Trainingsprogramme",
-          description: "Einigevibration plates bieten nur grundlegende Trainingsfunktionen ohne umfangreiche Programme."
+          description: "Nur Grundfunktionen ohne fortgeschrittene Workout-Programme."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Kann man mit dem Kiddozavibration plate joggen?",
+          de: "Kann man auf der Kiddoza joggen?",
         },
         answer: {
-          de: "Das Gerät ist hauptsächlich für Walking und leichtes Training gedacht."
+          de: "Leichte Vibrationssessions sind möglich. Dauerhaftes Joggen ist aufgrund der kompakten Deckgrösse eingeschränkt."
         }
       },
       {
         question: {
-          de: "Ist das Laufband für Homeoffice geeignet?",
+          de: " Ist die Kiddoza für Homeoffice geeignet?",
         },
         answer: {
-          de: "Ja.vibration plates werden häufig während der Arbeit verwendet, um mehr Bewegung in den Alltag zu integrieren."
+          de: "Ja — der leise Betrieb und das kompakte Design machen sie zur idealen Unter-Tisch-Lösung beim Arbeiten"
         }
       },
       {
         question: {
-          de: "Welche Trainingsdaten zeigt das Display an?",
+          de: "Welche Daten zeigt das Display?",
         },
         answer: {
-          de: "Das LED-Display zeigt Geschwindigkeit, Trainingszeit, Distanz und Kalorienverbrauch an."
+          de: "Geschwindigkeit, Zeit, Distanz und verbrannte Kalorien werden auf dem LED-Display angezeigt."
         }
       },
       {
         question: {
-          de: "Ist das Gerät leicht zu verstauen?",
+          de: " Wie wird die Kiddoza verstaut?",
         },
         answer: {
-          de: "Ja. Dank seiner kompakten Bauweise lässt sich das Laufband relativ einfach verstauen."
+          de: " Das 2-in-1-Faltdesign ermöglicht kompaktes Verstauen unter Möbeln oder im Schrank."
         }
       }
     ],
     verdict: {
       en: "The kiddozavibration plate strikes an excellent balance between features and price. It provides many premium capabilities without the premium price tag, making it ideal for budget-conscious fitness enthusiasts.",
-      de: "Das Kiddoza Under-Deskvibration plate bietet ein beeindruckendes Preis-Leistungs-Verhältnis. Es kombiniert Walking-Pad-Essentials wie Neigungsfunktion,App-Anbindung und Kompaktheit – perfekt für alle, die nach einem qualitativ hochwertigen,budgetfreundlichenvibration plate für das Home-Gym suchen.",
+      de: "Eine Top-Wahl für Nutzer, die eine flexible, kompakte und fitnessorientierte Lösung suchen. Ob Vibration während Videokonferenzen oder Steigerung zum leichten Joggen — es bietet Bequemlichkeit, Effektivität und Qualität in einem schicken Gerät.",
     },
     rating: 3.5,
     // buyLink: 'https://www.hometreadmills.uk/products/under-desk-treadmill-2-5hp-incline-running-machine'
@@ -490,6 +700,79 @@ const brandData = {
       "/Assets/super-vibration-plate  4.jpg",
       "/Assets/super-vibration-plate  5.jpg",
     ],
+    productDescription: {
+      de: {
+        intro: "Die Superrun B,A06-C hebt sich durch ihre einzigartige Kombination aus Vibrations-Trainingsplatte und integrierter Shiatsu-Massagefunktion hervor. Das kompakte Unter-Tisch-Design, der leise Motor und die stossdämpfende Oberfläche machen sie zur vielseitigen Wellnessstation für Zuhause und Büro. Das LED-Display liefert alle relevanten Trainingsdaten ohne Ablenkung.",
+        cards: [
+          // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
+          // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Geeignet für",
+        suitableFor: [
+          "Ideal für Anfänger, die eine einfache und gelenkschonende Heimfitness-Routine aufbauen möchten.",
+          "Perfekt für vielbeschäftigte Nutzer, die schnelle tägliche Bewegungseinheiten zu Hause benötigen.",
+          "Geeignet für ältere Erwachsene mit Fokus auf leichte Balance- und Flexibilitätsübungen.",
+          "Hervorragend für kompakte Homegyms, bei denen Mobilität und Platzersparnis wichtig sind."
+        ],
+        notSuitableForLabel: "Weniger geeignet für",
+        notSuitableFor: [
+          "Nicht entwickelt für fortgeschrittene Athleten mit Bedarf an intensiver Vibrationsleistung.",
+          "Weniger geeignet für intensives Muskelaufbau- und Widerstandstraining.",
+          "Könnte Nutzer enttäuschen, die große Plattformen für athletische Bewegungsabläufe benötigen.",
+          "Nicht empfohlen für kommerzielle Fitnessstudios mit hoher Dauerbelastung."
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Comparison and Buying Context",
+        intro: "Die Superun B,A06-C Vibrationsplatte ist eine kompakte und platzsparende Home-Fitness-Lösung, die für tägliches Wellness-Training entwickelt wurde. Ideal für Wohnungen, Home-Gyms und Büroräume unterstützt sie Muskelaktivierung, Gleichgewichtstraining, Regenerationsworkouts und gelenkschonende Trainingsroutinen.",
+        box1: {
+          heading: "Warum sich viele Nutzer für die Superun B,A06-C Vibrationsplatte entscheiden",
+          items: [
+            "Unterstützt gelenkschonende Ganzkörper-Vibrationstrainings",
+            "Ideal für Muskelstimulation und Gleichgewichtstraining",
+            "Anfängerfreundliche Steuerung und Trainingsmodi",
+            "Leiser Betrieb im Vergleich zu größeren Fitnessgeräten",
+
+
+          ]
+        },
+        box2: {
+          heading: "Worauf Käufer bei einer Vibrationsplatte besonders achten sollten",
+          items: [
+            "Größe und Stabilität der Plattform",
+            "Gewichtskapazität und Tragbarkeit",
+            "Geräuschpegel für den Einsatz zu Hause",
+            "Smarte Funktionen und Benutzererlebnis",
+            "Unterstützung für tägliche Fitness und Regeneration",
+
+          ]
+        },
+        outro: "Die Superun B,A06-C Vibrationsplatte kombiniert kompaktes Design, effektive Vibrationstechnologie und komfortable Alltagstauglichkeit für moderne Home-Fitness-Nutzer. Sie ist eine ideale Lösung für Menschen, die ihre Aktivität steigern, die Muskelaktivierung unterstützen und regelmäßige Trainingsroutinen bequem von zu Hause aus durchführen möchten."
+      }
+    },
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die Superun Vibrationsplatte richtet sich an moderne Nutzer, die effizientes Home-Fitness suchen, ohne dabei auf Platz, Komfort oder Alltagstauglichkeit verzichten zu müssen. Durch die Kombination aus kompakter Bauweise und sanfter Vibrationsleistung bietet sie eine praktische Wellness-Lösung für hektische Lebensstile, Wohnungen und tägliche gelenkschonende Trainingsroutinen.",
+        cardsTitle: "",
+        cards: [
+          "Leise Leistung für den Alltag",
+          "Kompaktes & platzsparendes Design",
+          "Anfängerfreundliches Fitnesserlebnis",
+         
+        ],
+        outro: "In Bezug auf Komfort, Mobilität und allgemeine Trainingstauglichkeit überzeugt die Superun Vibrationsplatte als zuverlässige Lösung für tägliches Home-Fitness. Sie richtet sich zwar nicht primär an Leistungssportler, bietet jedoch eine zugängliche, platzsparende und konstante Unterstützung für Nutzer, die aktiv bleiben, die Durchblutung fördern und einen gesünderen Alltag von zu Hause aus aufbauen möchten."
+      }
+    },
     features: {
       en: [
         "Foldable Design with Built-in Wheels",
@@ -508,42 +791,39 @@ const brandData = {
       de: [
         {
           title: "Kompaktes Design",
-          description: "Ein zentrales Merkmal des Superunvibration plates ist seine platzsparende Bauweise.vibration plates sind speziell dafür entwickelt worden, wenig Platz einzunehmen und sich leicht verstauen zu lassen.",
-          footer: "Gerade in kleineren Wohnungen kann ein großes Laufband schnell unpraktisch werden. Das Superun Modell bietet hier eine kompakte Alternative."
+          description: "Platzsparende Konstruktion für minimalen Platzbedarf — einfach zu verstauen und zu transportieren.",
+          footer: ""
         },
         {
-          title: "Stoßdämpfende Lauffläche",
-          description: "Das Laufband verfügt über eine stoßdämpfende Laufoberfläche, die beim Gehen entstehende Stöße absorbieren kann. Dadurch kann die Belastung auf Knie und Gelenke reduziert werden.",
-          footer: "Gerade bei regelmäßigem Walking-Training kann eine gute Dämpfung den Trainingskomfort deutlich verbessern."
+          title: "Stossdämpfende Oberfläche",
+          description: "Reduziert den Aufprall beim Vibrieren und schützt Knie und Gelenke.",
+          footer: ""
         },
         {
-          title: "LED-Display für Trainingsdaten",
-          description: "Das integrierte Display zeigt während des Trainings verschiedene Daten an, darunter:",
+          title: "Leiser Betrieb",
+          description: "Relativ leiser Motor — geeignet für die Nutzung beim Arbeiten oder TV schauen.",
           bullets: [
-            "Geschwindigkeit",
-            "Trainingsdauer",
-            "Distanz",
-            "Kalorienverbrauch",
+
           ],
-          footer: "Diese Informationen geben Nutzern einen guten Überblick über ihre Aktivität und helfen dabei, Trainingsziele zu verfolgen."
+          footer: ""
         },
         {
-          title: "Fernbedienung zur Steuerung",
-          description: "Vielevibration plates – einschließlich Superun Modelle – werden über eine Fernbedienung gesteuert. Damit können Nutzer Geschwindigkeit und Einstellungen bequem anpassen.",
-          footer: "Diese einfache Bedienung macht das Gerät besonders für Einsteiger attraktiv."
+          title: "LED-Display",
+          description: "Zeigt wichtige Trainingsmetriken: Geschwindigkeit, Zeit, Distanz und Kalorien.",
+          footer: ""
         }
       ],
     },
 
-    model: "B,A06-С",
+    model: "B,A06-C ",
     logo: "/images/brands/horizon-logo.png",
     description: {
       en: "Superun is known for reliable, well-built treadmills that focus on simplicity and durability. The 7.8 AT represents their commitment to quality construction and user-friendly design.",
-      de: "Superun ist bekannt für zuverlässige, gut gebaute Laufbänder, die sich auf Einfachheit und Haltbarkeit konzentrieren. Das 7.8 AT repräsentiert ihr Engagement für Qualitätskonstruktion und benutzerfreundliches Design.",
+      de: "Die Superrun-Vibrationsplatte verbindet Innovation mit Komfort. Als kompakte Unter-Tisch-Vibrationsplatte konzipiert, liefert sie solide Leistung und leisen Betrieb — perfekt für Homeoffice, kleine Wohnungen oder beschäftigte Arbeitsbereiche.",
     },
 
     bannerImage:
-      "/Assets/Superun-vibrationplate-Banner-6.png",
+      "/Assets/Superun-vibrationplate-Banner-7.png",
 
     pros: {
       en: [
@@ -556,19 +836,19 @@ const brandData = {
       de: [
         {
           title: "Platzsparendes Fitnessgerät",
-          description: "Das Superunvibration plate ist deutlich kompakter als traditionelle Laufbänder und eignet sich daher besonders für Wohnungen mit wenig Platz."
+          description: "Deutlich kompakter als traditionelle Laufbänder — ideal für kleine Wohnräume."
         },
         {
-          title: "Gute Lösung für Homeoffice",
-          description: "Vibration Plates werden häufig während der Arbeit verwendet. Das Superun Modell eignet sich gut für langsames bis moderates Gehen während der Arbeit."
+          title: "Ideal fürs Homeoffice",
+          description: "Für langsame bis moderate Vibration beim Arbeiten ausgelegt."
         },
         {
-          title: "Einfache Bedienung",
-          description: "Das Gerät lässt sich schnell in Betrieb nehmen und erfordert keine komplizierten Einstellungen."
+          title: "Einfach zu bedienen",
+          description: "Schnelle Einrichtung ohne komplexe Konfigurationen."
         },
         {
-          title: "Unterstützt tägliche Bewegung",
-          description: "Viele Nutzer verwenden Vibration Plates, um ihre tägliche Aktivität zu erhöhen und mehr Schritte zu sammeln."
+          title: "Fördert tägliche Bewegung",
+          description: "Hilft, mehr Bewegung und Schritte in den Alltag zu integrieren."
         }
       ],
     },
@@ -581,68 +861,140 @@ const brandData = {
       de: [
         {
           title: "Begrenzte Höchstgeschwindigkeit",
-          description: "Wie vielevibration plates ist auch dieses Modell hauptsächlich für Walking-Training gedacht und weniger für intensives Lauftraining."
+          description: "Max. ca. 6 km/h — für Vibration, nicht für intensives Laufen."
         },
         {
           title: "Kleinere Lauffläche",
-          description: "Die Lauffläche ist kompakter als bei klassischen Laufbändern."
+          description: "Kompakter als traditionelle Laufbänder."
         },
         {
           title: "Weniger Trainingsprogramme",
-          description: "Einigevibration plates bieten nur grundlegende Trainingsfunktionen ohne umfangreiche Programme."
+          description: "Nur Grundfunktionen ohne fortgeschrittene Workout-Programme."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Kann man mit dem Superunvibration plate joggen?",
+          de: "Kann man auf der Superrun joggen?",
         },
         answer: {
-          de: "Das Gerät ist hauptsächlich für Walking und leichtes Training gedacht."
+          de: "Die Superrun ist für Vibration konzipiert. Leichtes Joggen ist möglich, wird aber für längere Sessions nicht empfohlen."
         }
       },
       {
         question: {
-          de: "Ist das Laufband für Homeoffice geeignet?",
+          de: "Eignet sich die Superrun fürs Homeoffice?",
         },
         answer: {
-          de: "Ja.vibration plates werden häufig während der Arbeit verwendet, um mehr Bewegung in den Alltag zu integrieren."
+          de: " Ja — leiser Betrieb und kompakte Grösse machen sie ideal für die Verwendung unter dem Schreibtisch beim Arbeiten."
         }
       },
       {
         question: {
-          de: "Welche Trainingsdaten zeigt das Display an?",
+          de: "Welche Trainingsdaten zeigt das Display?",
         },
         answer: {
-          de: "Das LED-Display zeigt Geschwindigkeit, Trainingszeit, Distanz und Kalorienverbrauch an."
+          de: "Zeit, Geschwindigkeit, Distanz und verbrannte Kalorien werden auf dem LED-Display angezeigt."
         }
       },
       {
         question: {
-          de: "Ist das Gerät leicht zu verstauen?",
+          de: " Was ist die Magnetmassage-Funktion?",
         },
         answer: {
-          de: "Ja. Dank seiner kompakten Bauweise lässt sich das Laufband relativ einfach verstauen."
+          de: "Integrierte Magnete und Shiatsu-Massagepunkte bieten zusätzliche Wellness-Vorteile über das reine Vibrationstraining hinaus."
         }
       }
     ],
     verdict: {
       en: "The Superunvibration plate excels in reliability and build quality. While it may lack some modern smart features, it delivers consistent performance and represents excellent value for those prioritizing durability.",
-      de: "Das Superun B-A06-C überzeugt imvibration plate Vergleich mit zuverlässiger Technik,hochwertiger Verarbeitung und klarer Benutzerführung. Es ist eine ausgezeichnete Wahl für Fitness-Nutzer, die ein langlebiges, geräuscharmes Gerät ohne überflüssigen Schnickschnack suchen.",
+      de: "Die Superrun-Vibrationsplatte zeichnet sich durch ihre Kombination aus Tragbarkeit, leiser Kraft und minimalem Aufbau aus — eine solide Wahl für Remote-Worker, Fitness-Multitasker und Kompaktwohnen-Befürworter. ",
     },
     rating: 3.9,
     // buyLink: 'https://superuntreadmill.com/products/superun%C2%AE-ba04-ultra-walking-pad-with-remote-control'
   },
-  Urevo: {
-    name: "Urevo",
+  EvoSpark: {
+    name: "EvoSpark",
     images: [
-      "/Assets/urevo-vibration-plate 1.jpg",
-      "/Assets/urevo-vibration-plate 2.jpg",
-      "/Assets/urevo-vibration-plate 3.jpg",
-      "/Assets/urevo-vibration-plate 4.jpg",
-      "/Assets/urevo-vibration-plate 5.jpg",
+      "/Assets/evospark-1.jpg",
+      "/Assets/evospark-2.jpg",
+      "/Assets/evospark-3.jpg",
+      "/Assets/evospark-4.jpg",
+      "/Assets/evospark-5.jpg",
     ],
+    productDescription: {
+      de: {
+        intro: "Die EvoSpark VP2026 ist eine Vibrationsplatte der neuesten Generation, entwickelt für Fitnessbegeisterte, die sowohl Leistung als auch Komfort im Home-Workout suchen. Mit ihrer kompakten und gleichzeitig großzügigen Plattformgröße gehört sie zu den funktionsreichsten Vibrationsplatten ihrer Klasse und passt ideal in Homeoffices, Wohnzimmer oder kleinere Trainingsbereiche.",
+        cards: [
+          "Ausgestattet mit einem leistungsstarken 150-Watt-Dual-Motorsystem erzeugt die EvoSpark VP2026 über 1.000.000 hochfrequente Vibrationen und sorgt so für eine intensive Muskelaktivierung im Bereich von Taille, Bauch, Hüfte und Beinen. Dank 120 individuell einstellbarer Geschwindigkeitsstufen können Nutzer langsam beginnen und die Intensität schrittweise steigern.",
+          "Die Vibrationsplatte wiegt lediglich 16 lbs und verfügt über eine industrielle ABS-Oberfläche, rutschfeste Saugnäpfe, ein LED-Touchdisplay sowie eine kabellose Fernbedienung – für eine einfache Bedienung auf jedem Erfahrungsniveau.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Die EvoSpark Vibrationsplatte Ist Besonders Geeignet Für:",
+        suitableFor: [
+          "Senioren und ältere Erwachsene",
+          "Personen, die von Lymphdrainage profitieren möchten",
+          "Nutzer, die sanftere Workouts bevorzugen",
+
+        ],
+        notSuitableForLabel: "Weniger Geeignet Für:",
+        notSuitableFor: [
+          "Leistungssportler und Bodybuilder",
+          "Personen mit Rehabilitationsbedarf",
+          "Fortgeschrittene Fitnessnutzer mit Fokus auf hohe Widerstände",
+          "Nutzer mit sehr geringer Technikaffinität"
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Comparison and Buying Context",
+        intro: "Beim Kauf einer Vibrationsplatte sollte berücksichtigt werden, wo und wie das Gerät eingesetzt wird. Die EvoSpark VP2026 eignet sich ideal als kompakte Fitnesslösung für regelmäßige Bewegung im Alltag und weniger für intensives Leistungstraining.",
+        box1: {
+          heading: "Warum Viele Käufer EvoSpark Vibrationsplatten Gegenüber Großen Fitnessgeräten Bevorzugen:",
+          items: [
+            "Wenig Platz für Laufbänder oder Heimtrainer vorhanden",
+            "Kein Interesse an intensiven Lauf- oder Cardioeinheiten",
+            "Wunsch nach einem Fitnessgerät für tägliche Bewegung",
+            // "sie Balance-, Flexibilitäts- und Regenerationstraining unterstützt",
+            // "sie benutzerfreundliche Steuerungen mit smarten Fitnessfunktionen bietet",
+            // "sie ein komfortables und leises Trainingserlebnis zu Hause ermöglicht",
+          ]
+        },
+        box2: {
+          heading: "Wichtige Faktoren Bei Der Auswahl Einer EvoSpark Vibrationsplatte:",
+          items: [
+            "Größe der Standfläche und Stabilität",
+            "Geschwindigkeitsbereich und Anzahl der Motoren",
+            "Gewicht und Transportfähigkeit",
+            "Geräuschentwicklung im Betrieb",
+            "Zusatzfunktionen wie App-Steuerung, Fernbedienung und Massagefunktionen",
+          ]
+        },
+        outro: "In all diesen Bereichen bietet die EvoSpark VP2026 ein solides Gesamtpaket für den Heimgebrauch."
+      }
+    },
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die EvoSpark VP2026 Vibrationsplatte ist weit mehr als nur ein weiteres Home-Fitnessgerät – sie ist eine intelligente und wissenschaftlich unterstützte Investition für Menschen, die echte Ergebnisse erzielen möchten, ohne ihren gesamten Lebensstil verändern zu müssen.",
+        cardsTitle: "",
+        cards: [
+          "Leistungsstarke Performance",
+          "Präzise Steuerung",
+          "Entwickelt Für Moderne Wohnräume",
+
+        ],
+        outro: "Nach umfassender Bewertung von Leistung, Verarbeitungsqualität, Benutzerfreundlichkeit und Preis-Leistungs-Verhältnis verdient sich die EvoSpark VP2026 ihren Platz als eine der ausgewogensten Vibrationsplatten des Jahres 2026. Sie verbindet moderne Technologie mit alltagstauglicher Bedienung und ist damit die ideale Wahl für alle, die bequem von zu Hause aus aktiver und gesünder leben möchten."
+      }
+    },
     features: {
       en: [
         "Compact Design with Larger Running Deck",
@@ -662,43 +1014,46 @@ const brandData = {
       ],
       de: [
         {
-          title: "Kompaktes Design",
-          description: "Ein zentrales Merkmal des Urevovibration plates ist seine platzsparende Bauweise.vibration plates sind speziell dafür entwickelt worden, wenig Platz einzunehmen und sich leicht verstauen zu lassen.",
-          footer: "Gerade in kleineren Wohnungen kann ein großes Laufband schnell unpraktisch werden. Das Urevo Modell bietet hier eine kompakte Alternative."
+          title: "150-Watt-Dual-Motor-Leistungssystem",
+          description: "Im Inneren der EvoSpark VP2026 arbeiten zwei Hochleistungsmotoren, die über eine Million Vibrationen pro Trainingseinheit erzeugen. Das Dual-Motor-System ermöglicht 3D- und 4D-Bewegungen – seitlich, vor-zurück und vertikal – für umfassende Muskelstimulation und effektive Fettverbrennung.",
+          footer: ""
         },
         {
-          title: "Stoßdämpfende Lauffläche",
-          description: "Das Laufband verfügt über eine stoßdämpfende Laufoberfläche, die beim Gehen entstehende Stöße absorbieren kann. Dadurch kann die Belastung auf Knie und Gelenke reduziert werden.",
-          footer: "Gerade bei regelmäßigem Walking-Training kann eine gute Dämpfung den Trainingskomfort deutlich verbessern."
+          title: "120 Präzise Geschwindigkeitsstufen",
+          description: "Im Gegensatz zu einfachen Vibrationsplatten mit nur 10–30 Stufen bietet die EvoSpark VP2026 ganze 120 fein abgestimmte Geschwindigkeitsstufen. Dadurch können Anfänger, Fortgeschrittene und erfahrene Nutzer jedes Training exakt an ihre Fitnessziele anpassen.",
+          footer: ""
         },
         {
-          title: "LED-Display für Trainingsdaten",
-          description: "Das integrierte Display zeigt während des Trainings verschiedene Daten an, darunter:",
+          title: "Magnetische Fußmassage & Lymphdrainage",
+          description: "Die Oberfläche der EvoSpark verfügt über 12 magnetische Akupressur-Massagepunkte, die die Durchblutung fördern, die Lymphdrainage unterstützen, Cellulite reduzieren und die Regeneration nach dem Training verbessern.",
           bullets: [
-            "Geschwindigkeit",
-            "Trainingsdauer",
-            "Distanz",
-            "Kalorienverbrauch",
+
           ],
-          footer: "Diese Informationen geben Nutzern einen guten Überblick über ihre Aktivität und helfen dabei, Trainingsziele zu verfolgen."
+          footer: ""
         },
         {
-          title: "Fernbedienung zur Steuerung",
-          description: "Vielevibration plates – einschließlich Urevo Modelle – werden über eine Fernbedienung gesteuert. Damit können Nutzer Geschwindigkeit und Einstellungen bequem anpassen.",
-          footer: "Diese einfache Bedienung macht das Gerät besonders für Einsteiger attraktiv."
-        }
+          title: "LED-Touchscreen + Kabellose Fernbedienung",
+          description: "Das intuitive LED-Touchpanel und die mitgelieferte kabellose Fernbedienung ermöglichen eine einfache Steuerung von Geschwindigkeit, Trainingsmodus und Timer – ganz ohne das Training zu unterbrechen.",
+          footer: ""
+        },
+        {
+          title: "Robuste ABS-Konstruktion – Belastbar bis 204 kg",
+          description: "Gefertigt aus industrietauglichem ABS-Material mit verstärkten rutschfesten Standfüßen ist die EvoSpark VP2026 für eine langfristige und intensive Nutzung ausgelegt. Mit einer maximalen Belastbarkeit von 204 kg gehört sie zu den stabilsten Vibrationsplatten auf dem Markt.",
+          footer: ""
+        },
+
       ],
     },
 
-    model: "SpaceWalk E1L",
+    model: "Vibration plate",
     logo: "/images/brands/lifefitness-logo.png",
     description: {
       en: "Urevo is a premium fitness equipment manufacturer with decades of commercial gym experience. The T5 Track Connect brings commercial-grade quality to the home environment.",
-      de: "Urevo ist ein Premium-Fitnessgeräte-Hersteller mit jahrzehntelanger Erfahrung in kommerziellen Fitnessstudios. Das T5 Track Connect bringt kommerzielle Qualität in die Heimumgebung.",
+      de: "Die EvoSpark Vibrationsplatte kombiniert fortschrittliche Dual-Motor-Vibrationstechnologie mit individuell anpassbaren Trainingseinstellungen, um ein effektives Ganzkörpertraining für zu Hause zu ermöglichen. Sie wurde speziell für Anfänger und fortgeschrittene Einsteiger entwickelt und unterstützt Muskelaktivierung, Gleichgewichtstraining, Durchblutung sowie gelenkschonendes Cardiotraining – und bleibt dabei kompakt und leicht zu verstauen.",
     },
 
     bannerImage:
-      "/Assets/Urevo-vibrationplate-Banner-7.png",
+      "/Assets/Cursor-vibrationplate-Banner-3.png",
     pros: {
       en: [
         "Commercial-grade build quality",
@@ -709,20 +1064,20 @@ const brandData = {
       ],
       de: [
         {
-          title: "Platzsparendes Fitnessgerät",
-          description: "Das Urevovibration plate ist deutlich kompakter als traditionelle Laufbänder und eignet sich daher besonders für Wohnungen mit wenig Platz."
+          title: "Platzsparendes Design und einfache Aufbewahrung",
+          description: "ermöglicht eine einfache Platzierung unter Schreibtischen, neben Sofas oder zwischen Wohnzimmermöbeln."
         },
         {
-          title: "Gute Lösung für Homeoffice",
-          description: "Vibration Plates werden häufig während der Arbeit verwendet. Das Urevo Modell eignet sich gut für langsames bis moderates Gehen während der Arbeit."
+          title: "Ideal für das Homeoffice",
+          description: "Viele Nutzer verwenden die EvoSpark während der Arbeit im Stehen, um die Durchblutung und Körperhaltung zu verbessern."
         },
         {
           title: "Einfache Bedienung",
-          description: "Das Gerät lässt sich schnell in Betrieb nehmen und erfordert keine komplizierten Einstellungen."
+          description: "Der Aufbau ist unkompliziert und in wenigen Schritten erledigt, ideal für Einsteiger."
         },
         {
           title: "Unterstützt tägliche Bewegung",
-          description: "Viele Nutzer verwenden Vibration Plates, um ihre tägliche Aktivität zu erhöhen und mehr Schritte zu sammeln."
+          description: "Eine gelenkschonende Alternative für Menschen, die klassische Trainingsprogramme als belastend empfinden."
         }
       ],
     },
@@ -734,194 +1089,138 @@ const brandData = {
       ],
       de: [
         {
-          title: "Begrenzte Höchstgeschwindigkeit",
-          description: "Wie vielevibration plates ist auch dieses Modell hauptsächlich für Walking-Training gedacht und weniger für intensives Lauftraining."
+          title: "Keine hohen Intensitätsstufen direkt ab Werk ",
+          description: " Die unteren Geschwindigkeitsbereiche sind eher sanft und leise. Für intensiveres Training sind häufige Anpassungen notwendig."
         },
         {
-          title: "Kleinere Lauffläche",
-          description: "Die Lauffläche ist kompakter als bei klassischen Laufbändern."
+          title: "Kein Stretching- oder Widerstandsprogramm enthalten",
+          description: "Widerstandsbänder oder geführte Trainingsprogramme fehlen."
         },
         {
-          title: "Weniger Trainingsprogramme",
-          description: "Einigevibration plates bieten nur grundlegende Trainingsfunktionen ohne umfangreiche Programme."
+          title: "Fokus auf leichtes Training",
+          description: " Die Vibrationsplatte ist eher für moderate tägliche Aktivität als für Hochleistungssport konzipiert."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Kann man mit dem Urevovibration plate joggen?",
+          de: "Ist die EvoSpark VP2026 für Anfänger geeignet?",
         },
         answer: {
-          de: "Das Gerät ist hauptsächlich für Walking und leichtes Training gedacht."
+          de: "Ja, absolut. Die EvoSpark VP2026 verfügt über 120 einstellbare Geschwindigkeitsstufen und beginnt mit sehr niedrigen Vibrationsintensitäten. Anfänger können mit Stufe 1–10 starten und die Intensität schrittweise erhöhen."
         }
       },
       {
         question: {
-          de: "Ist das Laufband für Homeoffice geeignet?",
+          de: " Wer sollte eine Vibrationsplatte verwenden?",
         },
         answer: {
-          de: "Ja.vibration plates werden häufig während der Arbeit verwendet, um mehr Bewegung in den Alltag zu integrieren."
+          de: "Vibrationsplatten eignen sich ideal für Menschen, die gelenkschonendes Training, Lymphdrainage, Muskelregeneration, bessere Durchblutung und leichtes Body-Toning suchen. Die EvoSpark VP2026 eignet sich für Erwachsene aller Fitnesslevel."
         }
       },
       {
         question: {
-          de: "Welche Trainingsdaten zeigt das Display an?",
+          de: "Welche Übungen können auf der Vibrationsplatte durchgeführt werden?",
         },
         answer: {
-          de: "Das LED-Display zeigt Geschwindigkeit, Trainingszeit, Distanz und Kalorienverbrauch an."
+          de: "Nutzer können stehende Übungen, Kniebeugen, Balance-Training, Dehnübungen und regenerative Workouts durchführen."
         }
       },
       {
         question: {
-          de: "Ist das Gerät leicht zu verstauen?",
+          de: " Benötigt die EvoSpark Vibrationsplatte viel Platz?",
         },
         answer: {
-          de: "Ja. Dank seiner kompakten Bauweise lässt sich das Laufband relativ einfach verstauen."
+          de: "Nein, das kompakte Design eignet sich perfekt für Wohnungen und kleinere Homegyms."
         }
       }
     ],
     verdict: {
       en: "The Urevovibration plate Track Connect represents the pinnacle of home treadmill quality. While expensive, it offers unmatched durability and performance for serious fitness enthusiasts.",
-      de: "Urevo Track Connect (SpaceWalk E1L) belegt einen Spitzenplatz im Vibration plate Vergleich für hochwertige Home-Laufbänder. Mit einer Bewertung von 4,5/5 überzeugt es durch hervorragende Verarbeitung, Trainingstiefe und Komfort – ideal für Fitnessenthusiasten mit hohen Ansprüchen.",
+      de: "Die EvoSpark VP2026 Vibrationsplatte eignet sich besonders für Nutzer, die aktiv bleiben möchten, ohne viel Platz für ein komplettes Heimfitnessstudio zu benötigen. Sie funktioniert hervorragend für langsames Gehen, Step-Training und rhythmische Stehübungen im Alltag. Wer kurze, effektive Workouts, aktive Regeneration oder längere Cardioeinheiten sucht, findet hier eine ideale Fitnesslösung für zu Hause.",
     },
-    rating: 3.9,
+    rating: 3.7,
     // buyLink: 'https://www.urevo.com/collections/foldable-treadmill/products/urevo-foldi-3s-treadmill'
   },
-  Sportstechwalkmate: {
-    name: "Sportstech vibration plate ",
+  sVibe: {
+    name: "SPORTSTECH",
     images: [
-      "/Assets/sportstech-vibration-plate 1.jpg",
-      "/Assets/sportstech-vibration-plate 2.jpg",
-      "/Assets/sportstech-vibration-plate 3.png",
-      "/Assets/sportstech-vibration-plate 4.png",
-      "/Assets/sportstech-vibration-plate 5.png",
-    ], productDescription: {
-      en: {
-        intro: "The vibration plate is a compact vibration plate for home use, specifically designed for limited living spaces and flexible usage. Its slim design makes it easy to store and bring out when needed.",
-        cards: [
-          "With dimensions of approximately 109.7 x 52.1 x 10.9 cm, the device is among the flatter vibration plates on the market. This low height not only makes it easier to store under furniture or behind doors but also appeals to users who want to move it between rooms regularly.",
-          "The treadmill weighs around 15.8 kg and features built-in transport wheels, making it relatively easy to move. This mobility is a key advantage compared to traditional treadmills, which are often much heavier and require a permanent setup location."
-        ]
-      },
+      "/Assets/sportstech-vibration-plate-1.png",
+      "/Assets/Sportstech-Vibration-Plate-2.jpg",
+      "/Assets/Sportstech-Vibration-Plate-3.jpg",
+      "/Assets/Sportstech-Vibration-Plate-4.png",
+      "/Assets/Sportstech-Vibration-Plate-5.png",
+    ],
+    productDescription: {
       de: {
-        intro: "Das vibration plate ist ein kompaktes Laufband für den Heimgebrauch, das speziell auf begrenzte Wohnräume und flexible Nutzung ausgelegt ist. Durch seine schlanke Bauform lässt es sich relativ einfach verstauen und bei Bedarf wieder hervorholen.",
+        intro: "Die Sportstech sVibe Vibrationsplatte ist ein hochwertiges 4D-Trainingsgerät für Ganzkörper-Vibrationstraining, das darauf ausgelegt ist, eine äußerst effiziente Muskelaktivierung, eine verbesserte Durchblutung sowie eine optimale Unterstützung der Regeneration in einem kompakten Home-Fitness-Format zu bieten. Durch die fortschrittliche Dual-Motor-Technologie kombiniert sie vertikale Vibrationen mit lateralen Oszillationen, um tiefliegende Muskelfasern gezielt zu stimulieren, die neuromuskuläre Reaktion zu verbessern und den gesamten Körper effektiv einzubeziehen – insbesondere Rumpf-, Unterkörper- und Stabilisationsmuskulatur. Mit einem breiten Intensitätsspektrum und einer präzisen Frequenzsteuerung ermöglicht sie einen nahtlosen Wechsel zwischen sanften Regenerationseinheiten und intensivem Training und eignet sich damit sowohl für Einsteiger als auch für fortgeschrittene Fitnessnutzer. Neben der hohen Leistungsfähigkeit überzeugt die sVibe durch intelligente Trainingsfunktionen und ein ergonomisches Design, das das Home-Workout-Erlebnis deutlich aufwertet. Sie bietet App-Konnektivität, geführte Trainingsprogramme sowie Leistungs-Tracking zur Unterstützung strukturierter und zielorientierter Trainingseinheiten. Die Plattform ist kompakt, stabil konstruiert und mit einer rutschfesten Oberfläche für maximale Sicherheit ausgestattet, während der leise Betrieb eine problemlose Nutzung in Wohnräumen ermöglicht.",
         cards: [
-          "Mit Abmessungen von etwa 109,7 x 52,1 x 10,9 cm gehört das Gerät zu den flacheren vibration plates auf dem Markt. Diese Bauhöhe erleichtert nicht nur die Lagerung unter Möbeln oder hinter Türen, sondern macht es auch interessant für Nutzer, die das Gerät regelmäßig zwischen verschiedenen Räumen bewegen möchten.",
-          "Das Laufband wiegt rund 15,8 kg und verfügt über integrierte Transportrollen, wodurch es sich vergleichsweise leicht verschieben lässt. Diese Mobilität ist ein wichtiger Vorteil gegenüber klassischen Laufbändern, die oft deutlich schwerer sind und dauerhaft einen festen Platz benötigen.",
-          "Die maximale Belastbarkeit beträgt 120 kg, was für die meisten Nutzer ausreichend ist und das Gerät für eine breite Zielgruppe geeignet macht."
+          
         ]
       }
     },
     targetAudience: {
-      en: {
-        title: "Who Is This Product For?",
-        intro: "The vibration plate is a compact treadmill for home use, specifically designed for limited living spaces and flexible usage. Its slim design makes it easy to store and bring out when needed",
-        suitableForLabel: "The Sportstech vibration plate is especially suitable for:",
-        suitableFor: [
-          "people working from home",
-          "individuals with limited living space",
-          "users who want to increase daily step count",
-          "beginners in home fitness",
-          "people who prefer light endurance training"
-        ],
-        notSuitableForLabel: "It is less suitable for:",
-        notSuitableFor: [
-          "serious runners",
-          "intensive running workouts",
-          "users who need higher speeds"
-        ]
-      },
       de: {
         title: "Für wen ist das Produkt geeignet?",
-        intro: "",
-        suitableForLabel: "Das Sportstech vibration plate eignet sich besonders für:",
+        suitableForLabel: "Die Sportstech sVibe Vibrationsplatte eignet sich besonders für:",
         suitableFor: [
-          "Menschen im Homeoffice",
-          "Personen mit wenig Platz in der Wohnung",
-          "Nutzer, die mehr Schritte im Alltag sammeln möchten",
-          "Einsteiger im Bereich Heimfitness",
-          "Menschen, die leichtes Ausdauertraining bevorzugen"
+          "Homeoffice-Nutzer, die während langer Arbeitszeiten aktiv bleiben möchten.",
+          "Wohnungsbewohner, die eine kompakte und leise Fitnesslösung für zu Hause suchen.",
+          "Anfänger, die mit einem gelenkschonenden Vibrationstraining starten möchten.",
+          "Nutzer mit Fokus auf tägliche Durchblutung, Regeneration und leichte Mobilitätsübungen."
         ],
-        notSuitableForLabel: "Weniger geeignet ist das Gerät dagegen für:",
+        notSuitableForLabel: "Weniger geeignet ist das Gerät für:",
         notSuitableFor: [
-          "ambitionierte Läufer",
-          "intensive Lauftrainings",
-          "Nutzer, die hohe Geschwindigkeiten benötigen"
+          "Fortgeschrittene Sportler, die eine hohe Vibrationsintensität erwarten",
+          "Nutzer, die intensive Ganzkörper-Krafttrainings absolvieren möchten",
+          "Professionelle Fitnessumgebungen mit täglicher intensiver Nutzung.",
+          "Läufer, die Cardio- oder ausdauerorientierte Workouts erwarten."
         ]
       }
     },
     comparisonContext: {
-      en: {
-        title: "Comparison and Buying Context",
-        intro: "When purchasing a vibration plate, it is important to consider where and how often it will be used.",
-        box1: {
-          heading: "Many buyers choose vibration plates over large treadmills because:",
-          items: [
-            "space is limited",
-            "they do not plan intense running workouts",
-            "they want a device for everyday activity"
-          ]
-        },
-        middleText: "The vibration plate fits perfectly into this category—a compact fitness device for regular movement rather than maximum athletic performance.",
-        box2: {
-          heading: "Key factors to consider when choosing a vibration plate include:",
-          items: [
-            "maximum speed",
-            "running surface size",
-            "weight and portability",
-            "noise level",
-            "additional features like app integration"
-          ]
-        },
-        outro: "In these areas, the vibration plate offers a solid feature set for its intended use."
-      },
       de: {
-        title: "Vergleichs- und Kaufkontext",
-        intro: "Beim Kauf einesvibration plates sollte man vor allem darauf achten, wo und wie häufig das Gerät genutzt wird.",
+        title: "Comparison and Buying Context",
+        intro: "Die Sportstech sVibe Vibrationsplatte wurde für Menschen entwickelt, die eine effiziente, platzsparende und moderne Fitnesslösung für das Training zu Hause suchen. Vor dem Kauf einer Vibrationsplatte ist es wichtig zu verstehen, wo das Gerät verwendet wird, wie häufig es genutzt wird und welche Funktionen das beste Trainingserlebnis bieten.",
         box1: {
-          heading: "Viele Käufer entscheiden sich bewusst gegen ein großes Laufband, weil:",
+          heading: "Warum sich viele Käufer für die Sportstech sVibe Vibrationsplatte entscheiden",
           items: [
-            "der Platz begrenzt ist",
-            "sie kein intensives Lauftraining planen",
-            "sie ein Gerät für den Alltag suchen"
+            "Kompaktes und modernes Design für Home-Fitness-Umgebungen",
+            "Ideal für schnelle tägliche Workouts und aktive Regenerationseinheiten",
+            "Unterstützt Muskelaktivierung, Flexibilität und Kreislauftraining",
+            "Geeignet für Anfänger, Fitnessbegeisterte und gelenkschonende Trainingsroutinen",
+            "Einfach zu bewegen und zu verstauen im Vergleich zu herkömmlichen Fitnessgeräten",
+
           ]
         },
-        middleText: "Das vibration plate gehört genau zu dieser Kategorie: ein kompaktes Fitnessgerät für regelmäßige Bewegung, nicht für maximale sportliche Leistung.",
         box2: {
-          heading: "Wer einvibration plate sucht, sollte besonders auf folgende Faktoren achten:",
+          heading: "Worauf Käufer bei einer Vibrationsplatte besonders achten sollten",
           items: [
-            "maximale Geschwindigkeit",
-            "Größe der Lauffläche",
-            "Gewicht und Mobilität",
-            "Geräuschentwicklung",
-            "zusätzliche Funktionen wie App-Integration"
+            "Vibrationsintensität und Trainingsleistung",
+            "Stabilität und Qualität der Plattform",
+            "Kompakte Größe und platzsparendes Design",
+            "Leiser Betrieb für den Einsatz zu Hause",
+            "Smarte Funktionen und benutzerfreundliche Steuerung",
+            "Mobilität und Alltagstauglichkeit",
+            "Komfort und vielseitiges Heimtraining",
           ]
         },
-        outro: "In diesen Bereichen bietet das vibration plate eine solide Ausstattung für den vorgesehenen Einsatzzweck."
+        outro: "Die Sportstech sVibe Vibrationsplatte kombiniert intelligente Fitness-Innovation, kompakten Komfort und effektive Trainingsleistung und ist damit eine ausgezeichnete Wahl für Nutzer, die ihr Heimtraining mit moderner Vibrationstechnologie verbessern möchten."
       }
     },
     conclusionEvaluation: {
-      en: {
-        title: "Conclusion / Evaluation",
-        intro: "The Sportstech vibration plate is a compactvibration plate designed primarily for everyday movement, home office use, and space-saving workouts at home.",
-        cards: [
-          "Ease of use",
-          "The ability to integrate movement into daily life",
-          "Its compact design"
-        ],
-        outro: "Anyone looking for a device to walk regularly, track steps, and stay active will find the vibration plate a practical solution. However, it is less suitable for intensive running training or high speeds. Overall, the Svibe is aimed at users who want a simple, space-saving fitness device for daily activity."
-      },
       de: {
         title: "Fazit / Bewertung",
-        intro: "Das Sportstech vibration plate ist ein kompaktesvibration plate, das vor allem für alltägliche Bewegung, Homeoffice-Nutzung und platzsparendes Training zu Hause entwickelt wurde.",
-        cardsTitle: "Seine Stärken liegen vor allem in:",
+        intro: "Die Sportstech sVibe Vibrationsplatte wurde für Menschen entwickelt, die eine intelligentere, leisere und praktischere Möglichkeit suchen, zu Hause aktiv zu bleiben. Durch die Verbindung moderner Oszillationstechnologie mit kompakter Bauweise bietet die sVibe ein effektives Ganzkörpertraining, ohne viel Platz oder komplizierte Einrichtung zu benötigen. Ihre intelligente Funktionsweise, der geräuscharme Betrieb und die einfache Bedienung machen sie zu einer starken Wahl für moderne Home-Fitness-Routinen.",
+        cardsTitle: "",
         cards: [
-          "der kompakten Bauweise",
-          "der einfachen Nutzung",
-          "der Möglichkeit, Bewegung in den Alltag zu integrieren"
+          "Kompakte Leistung für den Alltag",
+          "Sanftes & leises Trainingserlebnis",
+          "Smarte Integration für Home Fitness",
+        
         ],
-        outro: "Wer ein Gerät sucht, um regelmäßig zu gehen, Schritte zu sammeln und aktiv zu bleiben, findet im vibration plate eine praktische Lösung. Für intensives Lauftraining oder hohe Geschwindigkeiten ist das Modell dagegen weniger geeignet.\n\nInsgesamt richtet sich das Svibe vor allem an Nutzer, die ein unkompliziertes, platzsparendes Fitnessgerät für tägliche Bewegung suchen."
+        outro: "Nach der Analyse von Vibrationstechnologie, Benutzerfreundlichkeit, Komfort, Trainingsflexibilität und Gesamtwert zählt die Sportstech sVibe zu den praktischsten Vibrationsplatten für den täglichen Heimgebrauch. Mit bis zu 99 Intensitätsstufen, einem ultra-leisen Motor, ergonomischer Anti-Rutsch-Konstruktion und App-unterstütztem Training verbindet sie Komfort mit effektiver Muskelaktivierung und gelenkschonendem Training."
       }
     },
     features: {
@@ -941,59 +1240,48 @@ const brandData = {
         "Shows real-time training data like speed, steps, and heart rate",
         "Personalized workouts with trainers available in the app",
         "Outdoor and landscape workout videos in the app",
+
       ],
       de: [
         {
-          title: "Kompaktes Design für Zuhause",
-          description: "Eines der wichtigsten Merkmale des vibration plate ist seine platzsparende Konstruktion. Viele Menschen haben zu Hause keinen Platz für ein großes Laufband. Genau hier setzenvibration plates an: Sie sind schlanker, leichter und können nach dem Training schnell verstaut werden.",
+          title: "LED-Display mit Echtzeit-Trainingsdaten",
+          description: "Das herausragende LED-Display zeigt htzeit-Metriken: Geschwindigkeit, Schritte und Herzfrequenz. Das Display wechselt je nach Intensität die Farbe — ein einzigartiges Motivationsmerkmal des sVibe.",
+          footer: ""
         },
         {
-          title: "Geschwindigkeit für Walking-Training",
-          description: "Das Svibe bietet eine Geschwindigkeit von 1 bis 6 km/h. Dieser Bereich ist optimal für:",
+          title: "Überlegenes Dämpfungssystem",
+          description: "Mehrschichtige, stoßabsorbierende Oberfläche reduziert Gelenkbelastung beim Vibrieren. Klinisch getestetes System — komfortabel auch bei Knieempfindlichkeit",
           bullets: [
-            "gemütliches Gehen",
-            "zügiges Walking",
-            "Bewegung während der Arbeit",
-            "lockere Ausdauer-Einheiten",
+
           ],
-          footer: "Für intensives Jogging ist das Gerät dagegen nicht gedacht – und genau darin liegt auch seine klare Positionierung.",
+          footer: ""
         },
         {
-          title: "Trainingsprogramme",
-          description: "Das Laufband verfügt über mehrere integrierte Trainingsprogramme, die unterschiedliche Intensitäten ermöglichen. Diese Programme können dabei helfen, das Training abwechslungsreicher zu gestalten und ein strukturiertes Bewegungsprogramm umzusetzen.",
+          title: " Hochwertige Verarbeitungsqualität",
+          description: "Aus verstärktem ABS-Verbund und kommerziellem Antirutsch-Band gefertigt. Maximale Nutzerlast 120 kg. Für jahrelangen täglichen Einsatz konzipiert."
         },
         {
-          title: "Bluetooth und App-Integration",
-          description: "Über Bluetooth lässt sich das Svibe mit mobilen Geräten verbinden. In Kombination mit einer Fitness-App können Trainingsdaten aufgezeichnet und ausgewertet werden. Dazu gehören beispielsweise:",
-          bullets: [
-            "zurückgelegte Distanz",
-            "Trainingszeit",
-            "Schrittzahl",
-            "geschätzter Kalorienverbrauch",
-          ],
-          footer: "Solche Funktionen können die Motivation erhöhen und helfen, Fortschritte langfristig zu verfolgen.",
+          title: " Sportstech Live App Integration",
+          description: "Via Bluetooth mit der Sportstech Live App verbinden. Trainingsstatistiken verfolgen, Workout-Programme aufrufen und virtuellen Fitness-Challenges beitreten."
         },
         {
-          title: "Anzeige wichtiger Trainingsdaten",
-          description: "Das integrierte LCD-Display zeigt während des Trainings verschiedene Werte an, darunter:",
-          bullets: [
-            "Geschwindigkeit",
-            "Trainingsdauer",
-            "Distanz",
-            "Schritte",
-            "Kalorienverbrauch",
-          ],
-          footer: "Diese Informationen geben Nutzern einen guten Überblick über ihre Aktivität und erleichtern es, Trainingsziele zu verfolgen.",
+          title: "Platzsparendes Flachdesign",
+          description: "Nur 11,5 cm hoch mit integrierten Transporträdern — gleitet mühelos unter Möbel. Ideal für Wohnungen, Homeoffice und kompakte Wohnräume."
         },
+        {
+          title: "4 Vorinstallierte Trainingsprogramme",
+          description: "Programme P01–P04 umfassen Fettverbrennung, Cardio, Intervalltraining und aktive Erholung. Jedes Programm passt Geschwindigkeit und Widerstand automatisch an."
+        }
       ],
     },
 
     // name: 'Sportstech',
-    model: "VP500",
+    model: "sVibe",
     logo: "/images/brands/treadmill1.jpg",
+
     description: {
-      en: "Sportstech is a German fitness equipment manufacturer known for innovative home fitness solutions. The F15 treadmill represents their flagship model, combining advanced shock absorption technology with smart connectivity features.",
-      de: "Das Sportstech VP500 gehört zur Kategorie der sogenanntenvibration plates, also besonders kompakter Laufbänder, die vor allem für Gehen, leichte Bewegungseinheiten und den Einsatz im Homeoffice entwickelt wurden. Anders als klassische Fitnessstudio-Laufbänder liegt der Fokus hier nicht auf hohen Geschwindigkeiten oder intensiven Lauftrainings, sondern auf alltäglicher Bewegung, Komfort und platzsparender Nutzung im eigenen Zuhause.\n\nGerade für Menschen, die viel Zeit am Schreibtisch verbringen, kann einvibration plate eine praktische Lösung sein. Es ermöglicht, während der Arbeit oder in kurzen Pausen aktiv zu bleiben, Schritte zu sammeln und den Kreislauf in Bewegung zu halten. Das VP500 ist genau für diese Art der Nutzung konzipiert.\n\nMit einer maximalen Geschwindigkeit von bis zu 6 km/h, einer kompakten Bauweise, Bluetooth-Verbindung, mehreren Trainingsprogrammen sowie einer Lauffläche von 90 × 40 cm richtet sich das Gerät an Nutzer, die eine einfache und effiziente Möglichkeit suchen, mehr Bewegung in ihren Alltag zu integrieren.",
+      en: "The Svibe is a compact treadmill for home use, specifically designed for limited living spaces and flexible usage. Its slim design makes it easy to store and bring out when needed.With dimensions of approximately 109.7 × 52.1 × 10.9 cm, the device is among the flattervibration plates on the market. This low height not only makes it easier to store under furniture or behind doors but also appeals to users who want to move it between rooms regularly.The treadmill weighs around 15.8 kg and features built-in transport wheels, making it relatively easy to move. This mobility is a key advantage compared to traditional treadmills, which are often much heavier and require a permanent setup location.The maximum user weight is 120 kg, making it suitable for a wide range of users.",
+      de: "Die Sportstech sVibe ist die fortschrittlichste kompakte Vibrationsplatte auf dem Markt — entwickelt für ernsthafte Heimfitness-Enthusiasten, die Premium-Leistung ohne Platzverlust wollen. Mit patentiertem LED-Ring, Bluetooth-App-Verbindung und überlegener Dämpfung definiert sie neu, was eine Heimvibrationsplatte leisten kann.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
@@ -1009,23 +1297,25 @@ const brandData = {
         "Smart app integration",
         "Foldable space-saving design",
         "Good value for money",
+
+
       ],
       de: [
         {
-          title: "Platzsparend und leicht zu verstauen",
-          description: "Der wohl größte Vorteil des VP500 ist seine kompakte Bauweise. Im Vergleich zu traditionellen Laufbändern benötigt es deutlich weniger Platz und kann bei Nichtbenutzung schnell verstaut werden."
+          title: "Platzsparendes Flachdesign",
+          description: "Nur 11,5 cm hoch mit Transporträdern — lässt sich mühelos unter Schreibtischen oder Betten verstauen."
         },
         {
-          title: "Gute Lösung für Homeoffice",
-          description: "Viele Nutzer verwendenvibration plates während der Arbeit. Das VP500 eignet sich besonders gut für diesen Einsatz, da es für langsames bis moderates Gehen ausgelegt ist und keine extrem hohen Geschwindigkeiten benötigt."
+          title: "App-Integration & Smart-Features",
+          description: "Die Sportstech Live App ermöglicht detaillierte Analysen, virtuelles Training und Fortschrittsverfolgung."
         },
         {
-          title: "Einfache Bedienung",
-          description: "Das Gerät ist relativ unkompliziert aufgebaut und lässt sich ohne komplexe Einstellungen nutzen. Gerade für Einsteiger kann das ein wichtiger Vorteil sein."
+          title: "Ideal fürs Homeoffice",
+          description: "Geräuscharmer Motor — perfekt fürs Gehen während Videogesprächen oder konzentrierter Arbeit."
         },
         {
-          title: "Unterstützt tägliche Bewegung",
-          description: "Einvibration plate kann helfen, mehr Schritte in den Alltag zu integrieren. Für Menschen mit überwiegend sitzender Tätigkeit kann das eine einfache Möglichkeit sein, ihre Aktivität zu erhöhen."
+          title: "Überragende Bauqualität",
+          description: "Solider ABS-Rahmen und kommerzielles Band — Nutzer bewerten die Haltbarkeit durchweg besser als Konkurrenzprodukte"
         }
       ],
     },
@@ -1034,68 +1324,64 @@ const brandData = {
         "Assembly can be challenging",
         "Limited preset programs",
         "App interface could be improved",
+
+
       ],
       de: [
         {
-          title: "Keine hohen Laufgeschwindigkeiten",
-          description: "Mit maximal 6 km/h ist das VP500 klar auf Walking ausgelegt. Wer regelmäßig joggen oder laufen möchte, wird mit dieser Geschwindigkeit wahrscheinlich nicht auskommen."
+          title: "Begrenzte Höchstgeschwindigkeit (6 km/h)",
+          description: "Mit max. 6 km/h ist das Gerät für Vibrationsplatten-Nutzung optimiert, nicht für intensives Joggen."
         },
         {
-          title: "Kleinere Lauffläche",
-          description: "Die Lauffläche von 90 × 40 cm ist ausreichend für normales Gehen, aber kleiner als bei vielen klassischen Laufbändern. Größere Nutzer oder Menschen mit sehr langen Schritten könnten dies eventuell als Einschränkung empfinden."
+          title: "Weniger Trainingsprogramme als große Laufbänder",
+          description: "4 Programme — größere Laufbänder bieten typischerweise deutlich mehr Trainingsmodi."
         },
         {
-          title: "Fokus auf leichtes Training",
-          description: "Das Gerät ist ideal für moderate Bewegung, aber weniger geeignet für intensives Ausdauertraining oder ambitionierte Laufprogramme."
+          title: "Primär für den Heimbereich",
+          description: "Der sVibe glänzt im Heim- und Bürobereich, ist aber nicht für Hochleistungstraining im Fitnessstudio konzipiert."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Ist das VP500 ein Laufband oder einvibration plate?",
+          de: "Welche Geschwindigkeit bietet der Sportstech sVibe?",
         },
         answer: {
-          de: "Technisch gesehen handelt es sich um einvibration plate, das speziell für Gehen und leichtes Training entwickelt wurde."
+          de: "Der sVibe bietet einen Geschwindigkeitsbereich von 1 bis 6 km/h — ideal für lockere Vibrationseinheiten, flottes Gehen und aktive Arbeitspausen."
         }
       },
       {
         question: {
-          de: "Kann man damit joggen?",
+          de: "Wie viel Gewicht kann der sVibe tragen?",
         },
         answer: {
-          de: "Mit einer Höchstgeschwindigkeit von 6 km/h eignet sich das Gerät eher für Walking und schnelles Gehen, nicht für intensives Joggen."
+          de: "Die maximale Nutzerlast beträgt 120 kg, sodass er für eine breite Nutzergruppe geeignet ist."
         }
       },
       {
         question: {
-          de: "Wie viel Platz benötigt das Gerät?",
+          de: "Hat der sVibe eine Neigungsfunktion?",
         },
         answer: {
-          de: "Dank seiner kompakten Bauweise benötigt das VP500 deutlich weniger Platz als klassische Laufbänder."
+          de: "Der sVibe verfügt über eine manuelle Neigung von ca. 11,5 %, was die Trainingsintensität und den Kalorienverbrauch erhöht."
         }
       },
       {
         question: {
-          de: "Für wen ist einvibration plate sinnvoll?",
+          de: "Kann der sVibe mit einer App verbunden werden?",
         },
         answer: {
-          de: [
-            "Vibration Plates sind besonders sinnvoll für Menschen, die:",
-            "- viel sitzen",
-            "- zu Hause trainieren möchten",
-            "- nur begrenzten Platz haben",
-            "- Bewegung in ihren Alltag integrieren wollen"
-          ]
+          de: "Ja — der sVibe verbindet sich via Bluetooth mit der Sportstech Live App und bietet Trainingsstatistiken, Workout-Programme und virtuelle Fitness-Events."
         }
       }
     ],
     verdict: {
       en: "The Sportstech sWalk Lite delivers exceptional value with its advanced cushioning system and solid build quality. While it may lack some premium features, it excels in the fundamentals that matter most for home fitness.",
-      de: "Das Sportstech sVibe überzeugt als kompaktes und leises Vibration plate für Homeoffice und Zuhause, ideal für entspanntes Gehen unter dem Schreibtisch. Mit App-Integration, transportabler Bauweise, manueller Steigung und sofortiger Einsatzbereitschaft erreicht es eine Bewertung",
+      de: "Der Sportstech sVibe überzeugt im Vibrationsplatten-Vergleich mit überlegener Dämpfung, solider Verarbeitung und durchdachten Smart-Features. Auch wenn einige fortgeschrittene Voreinstellungen fehlen, glänzt er in den Kernbereichen des Heimfitness: Komfort, Leistung und intelligente Integration. Sieger 2025 — unsere Top-Empfehlung.",
     },
     rating: 4.9,
-    buyLink: "https://www.sportstech.de/laufband/walkmate",
+    buyLink: "https://www.sportstech.de/vibrationsplatte/svibe",
   },
   Copant: {
     name: "Copant",
@@ -1108,11 +1394,82 @@ const brandData = {
     ],
     productDescription: {
       de: {
-        intro: "Das Copantvibration plate ist ein kompaktes Laufband für Zuhause, das sich durch seine einfache Nutzung und moderne Ausstattung auszeichnet. Das Gerät ist so konzipiert, dass es möglichst wenig Platz benötigt und gleichzeitig ein komfortables Training ermöglicht.",
+        intro: "Die Copant Raceable ist eine schlanke, faltbare Vibrationsplatte mit integrierter App-Steuerung für leichte Heim- und Bürosessions. Der 2,5-PS-Motor liefert einen gleichmässigen Geschwindigkeitsbereich von 1 bis 6 km/h. Dank Fernbedienung und Smartphone-App lassen sich Geschwindigkeit und Einstellungen bequem anpassen. Das faltbare Gestell benötigt minimal Platz und ist ohne komplizierte Installation sofort einsatzbereit.",
         cards: [
-          "Ein zentrales Merkmal ist der 2,5-PS-Motor, der ausreichend Leistung für Walking-Training und leichte Joggingeinheiten bietet. Diese Motorleistung sorgt dafür, dass das Laufband stabil und gleichmäßig läuft, selbst wenn die Geschwindigkeit verändert wird.",
-          "Die Geschwindigkeit kann zwischen 1 und 6 km/h eingestellt werden. Dadurch eignet sich das Gerät sowohl für Anfänger als auch für Nutzer, die ein etwas schnelleres Walking-Tempo bevorzugen. Besonders praktisch ist, dass die Geschwindigkeit individuell angepasst werden kann, sodass jeder Nutzer sein persönliches Trainingsniveau wählen kann.",
-          "Das Laufband ist zudem für ein maximales Benutzergewicht von 136 kg ausgelegt. Diese Belastbarkeit sorgt für Stabilität und macht das Gerät für eine breite Zielgruppe geeignet."
+          // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
+          // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Die Copant Raceable Vibrationsplatte eignet sich besonders für:",
+        suitableFor: [
+          "Nutzer, die ein kompaktes und gelenkschonendes Heimtraining bevorzugen.",
+          "Anfänger, die mit Balance- und Regenerationstraining auf Vibrationsplatten starten möchten.",
+          "Wohnungsbewohner, die leise und platzsparende Fitnessgeräte benötigen.",
+          "Personen, die leichte tägliche Durchblutungs- und Muskelaktivierungseinheiten suchen."
+        ],
+        notSuitableForLabel: "Weniger geeignet ist das Gerät für:",
+        notSuitableFor: [
+          "Fortgeschrittene Athleten mit Bedarf an hoher Vibrationsleistung.",
+          "Nutzer mit Fokus auf schweres Krafttraining oder explosive Übungen.",
+          "Fitness-Enthusiasten, die Studioqualität und professionelle Leistung erwarten.",
+          "Läufer, die intensive Cardio- oder Ausdauerunterstützung benötigen."
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Comparison and Buying Context",
+        intro: "Die ideale Vibrationsplatte zu finden bedeutet, ein Fitnessgerät zu wählen, das zu Ihrem Lebensstil, Ihren Trainingsvorlieben und Ihrem verfügbaren Platz passt. Die Copant Raceable Vibration Plate wurde für Nutzer entwickelt, die eine effektive, kompakte und technologieorientierte Trainingslösung für den täglichen Heimfitnessbereich suchen.",
+        box1: {
+          heading: "Viele Käufer entscheiden sich für die Copant Raceable Vibration Plate, weil:",
+          items: [
+            "sie Muskelaktivierung, Durchblutung und Gleichgewichtstraining unterstützt",
+            "sie ein kompaktes Design für moderne Wohnräume bietet",
+            "sie smarte App-Konnektivität und interaktive Trainingsfunktionen ermöglicht",
+            "sie einen leisen Betrieb für angenehme Indoor-Workouts bietet",
+
+          ]
+        },
+        box2: {
+          heading: "Wer eine Vibrationsplatte kaufen möchte, sollte besonders auf folgende Faktoren achten:",
+          items: [
+            "einstellbare Vibrationsintensität und individuelle Trainingsanpassung",
+            "Plattformstabilität und rutschfesten Trainingskomfort",
+            "leise Motorleistung für Innenräume",
+            "smarte Funktionen, App-Integration und digitale Steuerung",
+            "robuste Verarbeitungsqualität und langfristige Zuverlässigkeit",
+
+          ]
+        },
+        outro: "Die Copant Raceable Vibration Plate kombiniert moderne Vibrationstechnologie, platzsparendes Design und vielseitige Trainingsmöglichkeiten zu einer effektiven Heimfitnesslösung für moderne Nutzer."
+      }
+    },
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die Copant Raceable Vibrationsplatte kombiniert leistungsorientiertes Vibrations-Training mit alltagstauglichem Komfort und ist damit eine starke Wahl für Nutzer, die effiziente Ganzkörper-Workouts zu Hause ohne sperrige Fitnessgeräte suchen.",
+        cardsTitle: "",
+        cards: [
+          "Dynamische Ganzkörperaktivierung",
+          "Benutzerfreundliches Trainingserlebnis",
+          "Kompaktes Design für den Alltag",
+        ],
+        outro: "Nach einer umfassenden Bewertung der Vibrationsleistung überzeugt sie besonders durch die ausgewogene Kombination aus sanfter Vibrationstechnologie, praktischer Trainingsfunktionalität und platzsparender Konstruktion. Dadurch eignet sie sich ideal für Anfänger, Berufstätige und Menschen, die zu Hause aktiv bleiben möchten. In Bezug auf Intensität, Stabilität, Komfort, Langlebigkeit und allgemeine Trainingseffizienz hebt sich die Copant Raceable Vibrationsplatte als zuverlässige Lösung für moderne Home-Fitness-Routinen hervor."
+      }
+    },
+    productDescription: {
+      de: {
+        intro: "Die Copant Raceable ist eine schlanke, faltbare Vibrationsplatte mit integrierter App-Steuerung für leichte Heim- und Bürosessions. Der 2,5-PS-Motor liefert einen gleichmässigen Geschwindigkeitsbereich von 1 bis 6 km/h. Dank Fernbedienung und Smartphone-App lassen sich Geschwindigkeit und Einstellungen bequem anpassen. Das faltbare Gestell benötigt minimal Platz und ist ohne komplizierte Installation sofort einsatzbereit.",
+        cards: [
+          // "Ein zentrales Merkmal ist der 2,5-PS-Motor, der ausreichend Leistung für Walking-Training und leichte Joggingeinheiten bietet. Diese Motorleistung sorgt dafür, dass das Laufband stabil und gleichmäßig läuft, selbst wenn die Geschwindigkeit verändert wird.",
+          // "Die Geschwindigkeit kann zwischen 1 und 6 km/h eingestellt werden. Dadurch eignet sich das Gerät sowohl für Anfänger als auch für Nutzer, die ein etwas schnelleres Walking-Tempo bevorzugen. Besonders praktisch ist, dass die Geschwindigkeit individuell angepasst werden kann, sodass jeder Nutzer sein persönliches Trainingsniveau wählen kann.",
+          // "Das Laufband ist zudem für ein maximales Benutzergewicht von 136 kg ausgelegt. Diese Belastbarkeit sorgt für Stabilität und macht das Gerät für eine breite Zielgruppe geeignet."
         ]
       }
     },
@@ -1137,23 +1494,23 @@ const brandData = {
 
       de: [
         {
-          title: "App-Steuerung und Smart-Funktionen",
-          description: "Ein besonderes Highlight des Copantvibration plates ist die Smart-App-Integration. Über eine Smartphone-App können Trainingsdaten verfolgt und analysiert werden. Dazu gehören beispielsweise zurückgelegte Distanz, Trainingszeit oder Kalorienverbrauch.",
-          footer: "Darüber hinaus ermöglicht die App zusätzliche Funktionen wie virtuelle Trainingsszenarien oder die Teilnahme an digitalen Lauf-Events. Nutzer können sich mit anderen Läufern verbinden und ihr Training interaktiver gestalten."
+          title: "App-Steuerung & Smart-Features",
+          description: "Distanz, Trainingszeit und Kalorienverbrauch per Smartphone-App verfolgen. Virtuelle Trainingsszenarien und digitale Laufereignisse.",
+          footer: ""
         },
         {
-          title: "Mehrere Steuerungsmöglichkeiten",
-          description: "Das Gerät kann über verschiedene Methoden gesteuert werden. Neben der App ist auch eine Fernbedienung verfügbar, mit der sich Geschwindigkeit und Einstellungen bequem anpassen lassen.",
-          footer: "Diese Flexibilität erleichtert die Bedienung und ermöglicht es, das Training schnell an persönliche Bedürfnisse anzupassen."
+          title: "Kompaktes & faltbares Design",
+          description: "Platzsparendes faltbares Gestell — keine komplizierte Installation",
+          footer: ""
         },
         {
-          title: "Stoßdämpfung und rutschfeste Lauffläche",
-          description: "Das Copantvibration plate verfügt über ein stoßdämpfendes Design und eine rutschfeste Lauffläche. Diese Konstruktion kann helfen, die Belastung auf Knie und Gelenke zu reduzieren und sorgt gleichzeitig für ein stabileres Laufgefühl.",
-          footer: "Gerade bei regelmäßigem Training kann eine gute Dämpfung einen wichtigen Beitrag zum Komfort leisten."
+          title: " Mehrere Steuerungsoptionen",
+          description: "Steuerung per App oder beiliegender Fernbedienung — Geschwindigkeit und Einstellungen bequem anpassen.",
+          footer: ""
         },
         {
-          title: "Intelligente Technologie",
-          description: "Das Gerät ist mit einem intelligenten Chip ausgestattet, der zukünftige Updates ermöglicht und zusätzliche Funktionen unterstützt. Dadurch bleibt das System langfristig kompatibel mit verschiedenen Smart-Geräten."
+          title: " 2,5-PS-Motor",
+          description: "Konstanter 1–6 km/h Geschwindigkeitsbereich mit stabiler Leistung."
         }
       ],
     },
@@ -1163,7 +1520,7 @@ const brandData = {
 
     description: {
       en: "Sportstech is a German fitness equipment manufacturer known for innovative home fitness solutions. The F15 treadmill represents their flagship model, combining advanced shock absorption technology with smart connectivity features.",
-      de: "Das Copant Raceable vibration plate ist ein interaktives Vibration plate mit App-Anbindung und KI-Unterstützung.Es kombiniert einen leisen 2,5-PS-Motor mit bis zu 6 km/h Geschwindigkeit und trägt Nutzer bis 136 kg. Mit Features wie AI-Training, Multiplayer-Rennen und Wearable-Kompatibilität richtet es sich an tech-affine Nutzer, die beim Home-Workout Spaß und Abwechslung suchen",
+      de: "Die Copant Raceable ist eine schlanke, app-verbundene Vibrationsplatte für leichte Heim- und Büro-Vibrationssitzungen. Kompakt und faltbar — passt perfekt in kleine Räume. Aufgrund des begrenzten Geschwindigkeitsbereichs und der kürzeren Vibrationsplattform ist sie nicht für intensives Joggen oder fortgeschrittene Workouts gedacht.",
     },
 
     bannerImage:
@@ -1180,19 +1537,19 @@ const brandData = {
       de: [
         {
           title: "Platzsparendes Design",
-          description: "Einer der größten Vorteile des Copantvibration plates ist seine kompakte Bauweise."
+          description: "Kompakte Bauweise — einer der grössten Vorteile."
         },
         {
-          title: "Gute Lösung für Homeoffice",
-          description: "Vibration Plates werden häufig während der Arbeit genutzt. Das Copant Modell eignet sich gut dafür, da die Geschwindigkeit perfekt für langsames bis moderates Gehen ausgelegt ist."
+          title: "Ideal fürs Homeoffice",
+          description: "Für langsame bis moderate Vibration während der Arbeit geeignet."
         },
         {
-          title: "Smart-Funktionen und App-Integration",
-          description: "Die Möglichkeit, Trainingsdaten über eine App zu verfolgen, kann motivierend wirken und hilft vielen Nutzern, ihre Fortschritte besser zu überwachen."
+          title: "Smart-Features & App-Integration",
+          description: "Workout-Tracking per App hält Nutzer motiviert."
         },
         {
           title: "Einfache Bedienung",
-          description: "Das Gerät ist relativ einfach zu bedienen und erfordert keine komplizierte Installation. Dadurch eignet es sich auch gut für Einsteiger im Bereich Heimfitness."
+          description: "Einfache Bedienung, keine komplizierte Installation."
         }
       ],
     },
@@ -1206,15 +1563,15 @@ const brandData = {
       de: [
         {
           title: "Begrenzte Höchstgeschwindigkeit",
-          description: "Mit einer maximalen Geschwindigkeit von 6 km/h ist das Copantvibration plate eher für Walking als für intensives Lauftraining gedacht."
+          description: "Max. 6 km/h — eher für Vibration als intensives Training."
         },
         {
           title: "Fokus auf leichtes Training",
-          description: "Das Gerät richtet sich eher an Nutzer, die moderate Bewegung suchen, und weniger an ambitionierte Läufer."
+          description: "Für moderate Aktivität ausgelegt, nicht für Hochleistungssportler."
         },
         {
-          title: "Kleinere Trainingsfläche im Vergleich zu großen Laufbändern",
-          description: "Wie bei vielenvibration plates ist auch hier die Lauffläche kompakter als bei klassischen Fitnessstudio-Laufbändern."
+          title: "Kleinere Lauffläche",
+          description: "Lauffläche kompakter als bei traditionellen Fitnessstudio-Laufbändern."
         }
       ],
     },
@@ -1222,18 +1579,18 @@ const brandData = {
     faq: [
       {
         question: {
-          de: "Ist das Copantvibration plate für das Homeoffice geeignet?",
+          de: "Ist die Copant-Vibrationsplatte fürs Homeoffice geeignet?",
         },
         answer: {
-          de: "Ja, viele Nutzer verwenden Vibration Plates während der Arbeit, um mehr Bewegung in den Alltag zu integrieren."
+          de: "Ja — für langsame bis moderate Vibration konzipiert, gut für Bewegung während der Arbeit."
         }
       },
       {
         question: {
-          de: "Kann man mit diesem Gerät joggen?",
+          de: "Kann man auf diesem Gerät joggen?",
         },
         answer: {
-          de: "Die maximale Geschwindigkeit von 6 km/h eignet sich eher für Walking oder schnelles Gehen."
+          de: "Max. 6 km/h eignet sich für Gehen und leichtes Joggen — nicht für dauerhaftes Laufen"
         }
       },
       {
@@ -1241,22 +1598,22 @@ const brandData = {
           de: "Welche Funktionen bietet die App?",
         },
         answer: {
-          de: "Über die App können Trainingsdaten verfolgt und zusätzliche Trainingsfunktionen genutzt werden."
+          de: "Distanzverfolgung, Kalorienmonitoring, virtuelle Events und Trainingszeit-Protokollierung."
         }
       },
       {
         question: {
-          de: "Wie viel Gewicht kann das Laufband tragen?",
+          de: "Wie viel Gewicht kann die Vibrationsplatte tragen?",
         },
         answer: {
-          de: "Das maximale Benutzergewicht liegt bei 136 kg."
+          de: "Die Copant Raceable trägt bis zu 100 kg Nutzergewicht."
         }
       }
     ],
 
     verdict: {
       en: "The Copant delivers exceptional features with AI coaching, multiplayer races, and quiet motor performance.",
-      de: "Das Copant Raceablevibration plate vereint klassische Vibration plate-Funktionen mit modernem AI-Coaching und Online-Racing. Der 2,5-PS-Motor, die App-Steuerung und die gelenkschonende Lauffläche bieten ein komfortables Training für Nutzer bis 136 kg.Besonders überzeugend sind die interaktiven Funktionen: professionelle Trainingskurse,KI-Begleitung und Multiplayer-Rennen sorgen für Abwechslung und Motivation.Wer schnellere Laufgeschwindigkeiten sucht oder sich nicht mit Apps beschäftigen möchte,wird durch das begrenzte Tempo und die App-Abhängigkeit jedoch eingeschränkt",
+      de: "Eine praktische Wahl für Nutzer, die eine einfache Vibrationslösung für Zuhause oder Büro suchen. Ideal um bei der Arbeit leicht aktiv zu bleiben oder für entspannte tägliche Bewegung. Nutzer, die Laufen, Neigungstraining oder längere Schrittunterstützung erwarten, könnten ihn als limitiert erleben.",
     },
 
     rating: 3.5,
@@ -1269,8 +1626,82 @@ const brandData = {
       "/Assets/Merach-vibration-plate3.webp",
       "/Assets/Merach_Vibrationsplatte-4.webp",
       "/Assets/Merach_Vibrationsplatte-5.webp",
-      "/Assets/Merach_Vibrationsplatte-6.webp",
+      // "/Assets/Merach_Vibrationsplatte-6.webp",
     ],
+    productDescription: {
+      de: {
+        intro: "Die Merach T26B1 ist eine kompakte 3-in-1-Vibrationsplatte, die Unter-Tisch-Bewegung, leichtes Joggen und normales Gehen vereint. Mit faltbarem Rahmen, integrierten Handpuls-Sensoren und ca. 6% Neigung bietet sie vielseitige Trainingsmöglichkeiten auf kleinstem Raum. Der 2,75-PS-Motor und das Multi-LCD-Display mit Herzfrequenzanzeige überzeugen im Amateur-Segment.",
+        cards: [
+          // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
+          // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Die MERACH Vibrationsplatte eignet sich besonders für:",
+        suitableFor: [
+          "Entwickelt für Fitness-Einsteiger, die einfache und benutzerfreundliche Vibrationstrainings suchen.",
+          "Ideal für Homeoffice-Nutzer, die während langer Sitzzeiten leichte Bewegung integrieren möchten.",
+          "Hilfreich für Regenerationsroutinen mit Fokus auf Balance, Durchblutung und tägliche Mobilität.",
+          "Perfekt für kleine Wohnräume, in denen leiser Betrieb und kompakte Aufbewahrung wichtig sind."
+        ],
+        notSuitableForLabel: "Weniger geeignet ist das Gerät für:",
+        notSuitableFor: [
+          "Nicht leistungsstark genug für Profisportler mit Bedarf an intensiver Muskelaktivierung.",
+          "Weniger geeignet für intensive tägliche Trainingsumgebungen mit Anforderungen an Studioqualität.",
+          "Könnte für fortgeschrittene Nutzer mit Wunsch nach größeren Plattformen und stärkerer Vibrationsintensität eingeschränkt wirken.",
+          "Nicht empfohlen für Käufer, die KI-Coaching oder umfangreiche Smart-App-Funktionen suchen."
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Comparison and Buying Context",
+        intro: "Die Merach Vibration Plate wurde für Nutzer entwickelt, die eine kompakte und benutzerfreundliche Fitnesslösung für tägliche Workouts, Regenerationseinheiten und gelenkschonende Trainingsroutinen suchen. Ob in einer kleinen Wohnung, im Homeoffice oder im privaten Fitnessraum – diese Vibrationsplatte ermöglicht ein effizientes Training, ohne viel Platz zu benötigen.",
+        box1: {
+          heading: "Viele Käufer entscheiden sich für die Merach Vibration Plate, weil:",
+          items: [
+            "das kompakte Design ideal für kleine Räume und Wohnungen ist",
+            "sie sich hervorragend für regelmäßige Heimtrainings und Regeneration eignet",
+            "sie leicht zu transportieren, zu verstauen und im Alltag zu verwenden ist",
+            "sie Muskelstimulation, Durchblutung und Balance verbessert",
+            "der leise Betrieb ideal für Innenräume geeignet ist"
+
+          ]
+        },
+        box2: {
+          heading: "Wer eine Merach Vibration Plate kaufen möchte, sollte besonders auf folgende Faktoren achten:",
+          items: [
+            "Vibrationsstufen und Trainingsmodi",
+            "maximale Belastbarkeit und allgemeine Stabilität",
+            "Lautstärke während des Betriebs im Heimgebrauch",
+            "Transportfähigkeit und einfache Aufbewahrung",
+            "smarte Funktionen wie Fernbedienung oder App-Integration",
+            "Verarbeitungsqualität und langfristige Haltbarkeit"
+
+          ]
+        },
+        outro: "Die Merach Vibration Plate ist eine starke Wahl für Menschen, die ein kompaktes Fitnessgerät für Mobilitätstraining, Muskelaktivierung, Entspannung und leichte Ganzkörper-Workouts zu Hause suchen. "
+      }
+    },
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die Merach SurgeVib V55 4D Vibrationsplatte wurde für Menschen entwickelt, die zu Hause aktiv bleiben möchten, ohne auf intensive Fitnessstudio-Routinen angewiesen zu sein. Durch die Kombination aus Triple-Motor-4D-Technologie und benutzerfreundlicher Steuerung bietet sie eine ausgewogene Mischung aus Regeneration, Unterstützung der Durchblutung, Muskelaktivierung und gelenkschonendem Wellness-Training.",
+        cardsTitle: "",
+        cards: [
+          "Triple-Motor-4D-Performance",
+          "Sanfte, aber effektive Ganzkörperaktivierung",
+          "Entwickelt für tägliches Home-Wellness",
+       
+        ],
+        outro: "Nach sorgfältiger Bewertung von Vibrationstechnologie, Komfortdesign, Stabilität, Benutzerfreundlichkeit und Gesamtwert zählt die Merach SurgeVib V55 zu den vielseitigsten Vibrationsplatten für Zuhause im Jahr 2026. Das multidirektionale 4D-Vibrationssystem, 120 einstellbare Geschwindigkeitsstufen und intelligente Trainingsprogramme schaffen ein hochwertiges Fitness- und Regenerationserlebnis für Anfänger, Senioren, Büroangestellte und alltägliche Nutzer."
+      }
+    },
     features: {
       en: [
         "Dimensions: 127 x 56.5 x 11.5 cm",
@@ -1291,54 +1722,40 @@ const brandData = {
       ],
       de: [
         {
-          title: "3-in-1 Trainingsmodus",
-          description: "Ein zentrales Merkmal des MERACH Laufbands ist seine 3-in-1 Funktion. Das Gerät bietet verschiedene Trainingsmodi, die unterschiedliche Nutzungsarten ermöglichen:",
+          title: " 3-in-1 Trainingsmodus",
+          description: "Unter-Tisch-Vibration · Leichte Vibration · Standard-Vibration. Vielseitig für den ganzen Tag.",
           bullets: [
-            "Walking unter dem Schreibtisch",
-            "leichtes Jogging",
-            "normales Lauftraining",
+
           ],
-          footer: "Diese Flexibilität macht das Gerät besonders interessant für Menschen, die ein vielseitiges Fitnessgerät für den Alltag suchen."
-        },
-        {
-          title: "Steigungsfunktion",
-          description: "Das Laufband verfügt über eine Steigung von etwa 6 %, die das Training anspruchsvoller machen kann. Eine Steigung erhöht die Trainingsintensität und kann den Kalorienverbrauch deutlich steigern.",
-          footer: "Gerade bei Walking-Training kann eine moderate Steigung das Training effektiver machen, ohne dass die Geschwindigkeit stark erhöht werden muss."
-        },
-        {
-          title: "Stoßdämpfungssystem",
-          description: "Das MERACHvibration plate nutzt ein mehrschichtiges Stoßdämpfungssystem, das Stöße beim Laufen reduziert und dadurch die Gelenke entlasten kann. Dieses System besteht aus mehreren Schichten, darunter eine rutschfeste Oberfläche und eine stoßabsorbierende Schicht."
+          footer: ""
         },
         {
           title: "App-Integration",
-          description: "Das Gerät kann mit der MERACH Fitness App verbunden werden. Über die App lassen sich Trainingsdaten verfolgen und verschiedene Trainingsprogramme nutzen. Dazu gehören:",
-          bullets: [
-            "Trainingsstatistiken",
-            "virtuelle Trainingsszenarien",
-            "personalisierte Trainingspläne",
-          ],
-          footer: "Solche Funktionen können die Motivation erhöhen und helfen, Trainingsziele besser zu verfolgen."
+          description: "Per App detailliertes Workout-Tracking und Zugang zu zusätzlichen Trainingsprogrammen.",
+          footer: ""
         },
         {
-          title: "Fernbedienung und Display",
-          description: "Das Laufband wird über eine Fernbedienung oder ein LED-Display gesteuert. Das Display zeigt während des Trainings wichtige Daten wie:",
+          title: " Neigungsfunktion",
+          description: "Ca. 6 % Neigung erhöht Trainingsintensität und Kalorienverbrauch. Mehrere manuelle Stufen für progressives Training."
+        },
+        {
+          title: "Kompakt & tragbar",
+          description: "Vollständige Vibrationsplatte mit faltbarem Rahmen — hohe Tragfähigkeit für schwerere Nutzer.",
           bullets: [
-            "Geschwindigkeit",
-            "Trainingszeit",
-            "Distanz",
-            "Kalorienverbrauch",
+
           ],
-          footer: "Dadurch behalten Nutzer jederzeit den Überblick über ihre Aktivität."
-        }
+          footer: ""
+        },
+
       ],
     },
 
     // name: 'Sportstech',
-    model: "Vibration plate",
+    model: "T26B1",
     logo: "/images/brands/treadmill1.jpg",
     description: {
       en: "Sportstech is a German fitness equipment manufacturer known for innovative home fitness solutions. The F15 treadmill represents their flagship model, combining advanced shock absorption technology with smart connectivity features.",
-      de: "Das Merach  ist ein Vibration plate mit robustem Stahlrahmen und flüsterleisem 2,75-HP-Motor. Es eignet sich ideal für Homeoffice und Wohnräume: Mit 1–6 km/h Höchstgeschwindigkeit, 120 kg Traglast und einem Gewicht von nur ca. 18 kg lässt es sich platzsparend verstauen und sorgt für ungestörte Bewegung.",
+      de: "Die Merach T26B1 ist eine kompakte 3-in-1-Vibrationsplatte für Vibration, leichtes Joggen und Unter-Tisch-Bewegung. Für Heimnutzer konzipiert, die Flexibilität und minimalen Platzbedarf benötigen — flach als Vibrationsplatte oder mit Griffen für leichte Workouts nutzbar.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
@@ -1358,19 +1775,19 @@ const brandData = {
       de: [
         {
           title: "Vielseitige Nutzung",
-          description: "Durch die Kombination aus Walking-Pad-Modus und Laufband-Modus ist das MERACH Gerät vielseitiger als viele andere kompakte Laufbänder."
+          description: "Kombination aus Vibrations- und Laufmodi bietet mehr Flexibilität als viele kompakte Alternativen."
         },
         {
-          title: "Gute Option für Homeoffice",
-          description: "Viele Nutzer verwendenvibration plates während der Arbeit. Mit seiner niedrigen Geschwindigkeit und kompakten Bauweise eignet sich das MERACH Modell gut für diesen Einsatz."
+          title: "Ideal fürs Homeoffice",
+          description: "Niedrige Geschwindigkeit und kompaktes Design — gut für Arbeit mit Bewegung."
         },
         {
-          title: "App-Integration und moderne Technik",
-          description: "Die Verbindung mit der MERACH App ermöglicht eine detaillierte Analyse des Trainings und zusätzliche Trainingsprogramme."
+          title: "App-Integration",
+          description: "Detailliertes Workout-Tracking und zusätzliche Trainingsprogramme per App."
         },
         {
-          title: "Stoßdämpfung und Komfort",
-          description: "Das Stoßdämpfungssystem kann helfen, Gelenke zu schonen und das Training angenehmer zu gestalten."
+          title: "Komfort & Gelenkschutz",
+          description: "Stossdämpfungssystem reduziert Gelenkbelastung und verbessert den Trainingskomfort."
         }
       ],
     },
@@ -1382,69 +1799,142 @@ const brandData = {
       ],
       de: [
         {
-          title: "Begrenzte Trainingsfläche",
-          description: "Die Lauffläche ist kompakter als bei großen Laufbändern. Für intensives Lauftraining oder sehr große Nutzer könnte sie etwas klein sein."
+          title: "Begrenzte Lauffläche",
+          description: "Kleiner als vollgrosse Laufbänder — einschränkend für grössere Nutzer."
         },
         {
-          title: "Fokus auf Heimtraining",
-          description: "Das Gerät ist vor allem für den Heimgebrauch gedacht und weniger für intensives Fitnessstudio-Training."
+          title: "Primär für Heimnutzung",
+          description: "Nicht für schweres Fitnessstudio-Training konzipiert."
         },
         {
-          title: "Kein Ersatz für professionelle Laufbänder",
-          description: "Wer regelmäßig lange Strecken oder sehr intensives Lauftraining absolviert, wird möglicherweise ein leistungsstärkeres Laufband bevorzugen."
+          title: "Kein professioneller Ersatz",
+          description: "Intensive Trainer bevorzugen möglicherweise ein leistungsstärkeres Profi-Laufband."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Kann man mit dem MERACHvibration plate joggen?",
+          de: "Kann man auf der Merach-Vibrationsplatte joggen?",
         },
         answer: {
-          de: "Ja. Mit hochgeklapptem Handlauf kann das Gerät Geschwindigkeiten von bis zu etwa 12 km/h erreichen."
+          de: "Leichtes Joggen bis ca. 3,8 km/h ist möglich, für dauerhaftes Joggen wird ein größeres Laufband empfohlen."
         }
       },
       {
         question: {
-          de: "Ist das Laufband für Homeoffice geeignet?",
+          de: "Eignet sie sich fürs Homeoffice?",
         },
         answer: {
-          de: "Ja. Im Walking-Modus kann das Gerät mit niedriger Geschwindigkeit verwendet werden, was ideal für Bewegung während der Arbeit ist."
+          de: "Ja — der leise Motor und das kompakte Design machen sie für die Nutzung beim Arbeiten praktisch."
         }
       },
       {
         question: {
-          de: "Welche Trainingsdaten zeigt das Display an?",
+          de: "Welche Daten zeigt das Display?",
         },
         answer: {
-          de: "Das LED-Display zeigt unter anderem Geschwindigkeit, Zeit, Distanz und Kalorienverbrauch an."
+          de: "Geschwindigkeit, Zeit, Distanz, Kalorien und Herzfrequenz über integrierte Handpuls-Sensoren."
         }
       },
       {
         question: {
-          de: "Kann das Laufband mit einer App verbunden werden?",
+          de: "Kann sie mit einer App verbunden werden?",
         },
         answer: {
-          de: "Ja. Das Gerät kann mit der MERACH Fitness App synchronisiert werden, um Trainingsdaten zu verfolgen und Trainingsprogramme zu nutzen."
+          de: "Ja — Bluetooth-Verbindung ermöglicht Datensynchronisierung und Zugang zu zusätzlichen Programmen."
         }
       }
     ],
     verdict: {
       en: "The Sportstech sWalk Lite delivers exceptional value with its advanced cushioning system and solid build quality. While it may lack some premium features, it excels in the fundamentals that matter most for home fitness.",
-      de: "Das Merach T26B1 bietet ein leises und platzsparendes Laufband-Erlebnis für den Alltag.Der stabile Stahlrahmen, die flexible 3-in-1-Nutzung und die komfortable Bedienung machen es zur optimalen Wahl für das Homeoffice oder kleine Wohnungen.Ambitionierte Läufer, die höhere Geschwindigkeiten oder längere Laufflächen benötigen,sollten sich allerdings nach größeren Modellen umsehen",
+      de: "Gute Wahl für Nutzer, die eine platzsparende Vibrationsplatte hauptsächlich fürs Gehen oder leichte Joggen zu Hause suchen. Für schrittbasierte Innenaktivität und alltägliche Bewegung — besonders in kleinen Wohnungen. Nutzer, die höhere Geschwindigkeiten oder längeren Komfort suchen, könnten Grenzen spüren.",
     },
     rating: 3.4,
     // buyLink: ''
   },
-  Cursor: {
-    name: "Cursor",
+  Homefitnesscode: {
+    name: "Home Fitness Code",
     images: [
-      "/Assets/cursor-vibration-plate 1.png",
-      "/Assets/cursor-vibration-plate 2.png",
-      "/Assets/cursor-vibration-plate 3.png",
-      "/Assets/cursor-vibration-plate 4.png",
-      "/Assets/cursor-vibration-plate 5.png",
+      "/Assets/home-fitness-1.png",
+      "/Assets/home-fitness-2.png",
+      "/Assets/home-fitness-3.png",
+      "/Assets/home-fitness-4.png",
+      "/Assets/home-fitness-5.png",
     ],
+    productDescription: {
+      de: {
+        intro: "Die HomeFitnessCode Vibrationsplatte B1 ist eine kompakte Vibrations-Fitnessplattform, die speziell für den komfortablen Einsatz zu Hause entwickelt wurde – besonders für Homeoffices und kleinere Wohnräume. Sie arbeitet mit oszillationsbasierter Vibration anstelle von linearen oder dreidimensionalen Vibrationssystemen und bietet dadurch ein platzsparendes Design für tägliche Bewegungseinheiten, leichtes Cardio-Training und Einsteiger- bis Mittelstufen-Workouts.",
+        cards: [
+          "Mit Abmessungen von 56 cm × 33 cm × 12 cm zählt die B1 zu den kompaktesten Vibrationsplatten in voller Größe auf dem Markt. Dank ihrer schlanken Bauweise lässt sie sich einfach unter dem Bett verstauen oder im Schrank aufbewahren – ideal für Nutzer, die möglichst wenig Platz beanspruchen möchten.",
+          "Die Vibrationsplatte wiegt etwa 7 kg und verfügt über integrierte Transportrollen für einen einfachen Standortwechsel. Im Lieferumfang enthalten sind zusätzlich Widerstandsbänder, ein Springseil sowie eine kabellose Fernbedienung. Mit einer maximalen Benutzerbelastung von 150 kg ist das Gerät für eine Vielzahl von Nutzern geeignet.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Die Vibrationsplatte B1 eignet sich besonders für:",
+        suitableFor: [
+          "Menschen im Homeoffice, die leichte Bewegung in ihren Arbeitsalltag integrieren möchten, ohne ihre Produktivität zu beeinträchtigen",
+          "Personen mit wenig Wohnraum, die ein Fitnessgerät für Wohnung, Apartment oder kleines Schlafzimmer suchen",
+          "Nutzer, die tägliche Bewegung als Anfänger oder Wiedereinsteiger unkompliziert in ihre Routine aufnehmen möchten",
+          "Fitness-Einsteiger, die ein gelenkschonendes Ganzkörpertraining ohne Fitnessstudio-Mitgliedschaft suchen",
+          "Menschen, die leichte Trainingsformen wie vibrationsbasiertes Yoga, Stretching, Balanceübungen oder leichtes Widerstandstraining bevorzugen"
+        ],
+        notSuitableForLabel: "Weniger geeignet ist sie für:",
+        notSuitableFor: [
+          "Leistungsorientierte Sportler, die hochintensives Vibrations-Performance-Training suchen",
+          "Nutzer, die höhere Geschwindigkeitsstufen wünschen (diese sollten eher die Vibrationsplatte F1 mit 250 Intensitätsstufen in Betracht ziehen)",
+
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Vergleich und Kaufkontext",
+        intro: "Die Home Fitness Code Vibrationsplatte wurde für Menschen entwickelt, die eine einfache, platzsparende und effektive Fitnesslösung für tägliche Heimworkouts suchen. Diese kompakte Vibrationsplattform unterstützt leichtes Cardio-Training, Muskelaktivierung, Balanceverbesserung und Regeneration nach dem Training – ganz ohne großes Homegym.",
+        box1: {
+          heading: "Viele Käufer entscheiden sich für Vibrationsplatten anstelle großer Fitnessgeräte, weil:",
+          items: [
+            "der verfügbare Platz begrenzt ist und kein separater Fitnessraum vorhanden ist",
+            "keine intensiven Lauf- oder Hochleistungsworkouts geplant sind",
+            "ein kompaktes Fitnessgerät für regelmäßige Bewegung im Alltag gewünscht wird",
+            // "sie Balance-, Flexibilitäts- und Regenerationstraining unterstützt",
+            // "sie benutzerfreundliche Steuerungen mit smarten Fitnessfunktionen bietet",
+            // "sie ein komfortables und leises Trainingserlebnis zu Hause ermöglicht",
+          ]
+        },
+        box2: {
+          heading: "Wichtige Faktoren bei der Auswahl einer Vibrationsplatte:",
+          items: [
+            "Größe der Vibrationsfläche",
+            "Vibrationsart und Amplitude",
+            "Gewicht und Transportfähigkeit",
+            "Geräuschentwicklung während des Betriebs",
+            "Zusätzliche Funktionen wie App- oder Bluetooth-Integration",
+
+          ]
+        },
+        outro: "Im Vergleich zu professionellen Premium-Vibrationsplattformen liegt der Fokus dieses Modells stärker auf Benutzerfreundlichkeit, Komfort und platzsparender Nutzung statt auf leistungsorientiertem Training."
+      }
+    },
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die HomeFitnessCode Vibrationsplatte B1 ist eine kompakte Vibrationsplattform, die speziell für tägliche Heimfitness und platzsparendes Training entwickelt wurde. Besonders hervorzuheben sind drei zentrale Vorteile:",
+        cardsTitle: "",
+        cards: [
+          "Das kompakte Design",
+          "Die einfache Bedienung",
+          "Die unkomplizierte tägliche Nutzung",
+
+        ],
+        outro: "Wer eine praktische Möglichkeit sucht, regelmäßige Ganzkörperbewegung und leichtes Herz-Kreislauf-Training ohne teure Fitnessstudio-Mitgliedschaften in den Alltag zu integrieren, findet in dieser Vibrationsplattform eine komfortable und zugängliche Lösung. Die B1 ist besonders für moderne Homeoffice- und platzsparende Fitnesskonzepte eine attraktive Wahl."
+      }
+    },
     features: {
       en: [
         "Slim, space-saving foldable frame",
@@ -1463,42 +1953,52 @@ const brandData = {
       ],
       de: [
         {
-          title: "Kompakte Bauweise",
-          description: "Ein Hauptvorteil des Cursorvibration plates ist seine kompakte Konstruktion. Viele Modelle sind bewusst so gebaut, dass sie wenig Platz benötigen und problemlos in kleinen Wohnungen genutzt werden können.",
-          footer: "Diese Bauweise macht das Gerät besonders interessant für Menschen, die kein großes Fitnessgerät dauerhaft im Raum stehen haben möchten."
+          title: "Kompakte, platzsparende Vibrationsplatte für kleine Homegyms",
+          description: "",
+          footer: ""
         },
         {
-          title: "Leistungsstarker und leiser Motor",
-          description: "Der 2,5-PS-Motor sorgt für eine stabile Leistung während des Trainings und arbeitet gleichzeitig relativ leise. Dadurch kann das Gerät auch während der Arbeit oder beim Fernsehen verwendet werden, ohne störende Geräusche zu verursachen."
+          title: "Einstellbare Vibrationsintensität mit 1–99 Geschwindigkeitsstufen",
+          description: ""
         },
         {
-          title: "Stoßdämpfungssystem",
-          description: "Viele Cursor-Walking-Pads verfügen über eine mehrschichtige Lauffläche, die Stöße beim Gehen absorbieren kann. Diese Stoßdämpfung reduziert die Belastung auf Knie und Gelenke und erhöht den Trainingskomfort."
+          title: "Inklusive Widerstandsbändern für Oberkörperübungen",
+          description: ""
         },
         {
-          title: "LED-Display und Trainingsdaten",
-          description: "Das integrierte LED-Display zeigt wichtige Trainingsinformationen an, darunter:",
+          title: "Bluetooth-Lautsprecherfunktion für mehr Unterhaltung beim Training",
+          description: "",
           bullets: [
-            "Geschwindigkeit",
-            "Distanz",
-            "Trainingszeit",
-            "Kalorienverbrauch",
+
           ],
-          footer: "Diese Daten helfen Nutzern, ihre Fortschritte zu verfolgen und ihre Trainingsroutine anzupassen."
+          footer: ""
         },
         {
-          title: "Fernbedienung zur Steuerung",
-          description: "Viele Cursor-Walking-Pads werden über eine Fernbedienung gesteuert. Dadurch können Nutzer Geschwindigkeit und Einstellungen bequem anpassen, ohne ihr Training unterbrechen zu müssen."
-        }
+          title: "Fernbedienung und LED-Display für eine komfortable Bedienung",
+          description: ""
+        },
+        {
+          title: "Rutschfeste Akupressur-Oberfläche für zusätzlichen Komfort und Stabilität",
+          description: ""
+        },
+        {
+          title: "Geeignet für Nutzer bis 150 kg Körpergewicht",
+          description: ""
+        },
+        {
+          title: "Mehrere voreingestellte Trainingsprogramme für ein einsteigerfreundliches Workout",
+          description: ""
+        },
+
       ],
     },
 
     // name: 'Sportstech',
-    model: "Walking Pad",
+    model: "Vibrationsplatte B1",
     logo: "/images/brands/treadmill1.jpg",
     description: {
       en: "The Cursor vibration plate is a compact, foldable walking treadmill designed for home and office users who prefer light movement throughout the day. It focuses on simplicity, portability, and ease of use, making it suitable for beginners or those who want to stay active while working.",
-      de: "Das CURSOR vibration plate steht für durchdachtes Home-Fitness-Design und starke Performance. Mit Features wie der 9-%-Steigung, der hochwertigen Dreifach-Dämpfung und dem leisen 2,75-PS-Motor eignet es sich ideal für Wohnungen und Büros. Dank einer Tragkraft von 136 kg und der kompakten 114×55×11-cm-Bauweise zählt das Gerät zu den vielseitigsten und platzsparendsten Modellen im vibration plate-Vergleich.",
+      de: "Die HomeFitnessCode Vibrationsplatte B1 ist eine kompakte und leistungsstarke Vibrationsplattform für den Heimgebrauch, die bereits mit nur 15–20 Minuten täglichem Training effektive Ganzkörper-Workout-Ergebnisse liefert. Mit 99 einstellbaren Geschwindigkeitsstufen, 9 voreingestellten Programmen, einer Akupressur-Massageoberfläche, Bluetooth-Konnektivität und einer maximalen Belastbarkeit von 150 kg eignet sie sich ideal für Nutzer aller Fitnesslevel, die Muskeln stärken, Kalorien verbrennen und die Durchblutung verbessern möchten – ganz bequem von zu Hause aus.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
@@ -1515,20 +2015,20 @@ const brandData = {
       ],
       de: [
         {
-          title: "Kompakt und platzsparend",
-          description: "Das Cursorvibration plate ist deutlich kleiner als traditionelle Laufbänder und eignet sich daher besonders für Wohnungen mit wenig Platz."
+          title: "Platzsparend und leicht zu verstauen:",
+          description: "Die kompakte Stellfläche der Vibrationsplatte (56 × 33 cm) spart deutlich Platz und macht sie ideal für Homeoffices und kleine Wohnungen, in denen jeder Quadratmeter zählt."
         },
         {
-          title: "Gute Lösung für Homeoffice",
-          description: "Viele Nutzer verwendenvibration plates während der Arbeit. Das Cursor Modell ist für genau diesen Einsatz entwickelt worden."
+          title: "Ideal für Homeoffice-Nutzer:",
+          description: "Viele Nutzer trainieren effektiv, während sie auf der Vibrationsplatte stehen und gleichzeitig arbeiten. Das Gerät eignet sich besonders gut dafür, da kein aufwendiger Aufbau oder separater Trainingsbereich erforderlich ist."
         },
         {
-          title: "Leiser Motor",
-          description: "Dank des brushless-Motors arbeitet das Gerät relativ geräuscharm und eignet sich daher auch für Wohnungen oder Büros."
+          title: "Einfache Bedienung:",
+          description: "Die Nutzung ist unkompliziert und erfordert kaum Vorbereitung – keine Montage notwendig. Nutzer können direkt nach dem Auspacken mit dem Training beginnen."
         },
         {
-          title: "Einfache Bedienung",
-          description: "Das Laufband ist in der Regel sofort einsatzbereit und benötigt nur wenig Einrichtung."
+          title: "Unterstützt tägliche Bewegung:",
+          description: "Perfekt für Menschen, die keine Zeit für klassische Fitnessstudio-Routinen haben. Bereits 15–20 Minuten täglich helfen dabei, die persönliche Bewegungsroutine einzuhalten."
         }
       ],
     },
@@ -1541,58 +2041,58 @@ const brandData = {
       ],
       de: [
         {
-          title: "Begrenzte Höchstgeschwindigkeit",
-          description: "Mit einer maximalen Geschwindigkeit von etwa 6 km/h eignet sich das Gerät eher für Walking als für intensives Lauftraining."
+          title: "Nicht für intensives Sporttraining geeignet:",
+          description: "Mit einer Amplitude von 9–11 mm eignet sich diese Vibrationsplatte weniger für leistungsorientiertes Athletiktraining. Fortgeschrittene Nutzer könnten die Trainingsintensität langfristig als begrenzt empfinden."
         },
         {
-          title: "Kleinere Lauffläche",
-          description: "Die Lauffläche ist kompakter als bei klassischen Laufbändern, was für größere Nutzer eventuell etwas weniger komfortabel sein kann."
+          title: "Vibrationsgeräusche:",
+          description: "Das Gerät arbeitet nicht vollkommen geräuschlos – je nach Intensitätsstufe entstehen moderate Betriebsgeräusche. Nutzer in Wohnungen mit dünnen Wänden oder empfindlichen Nachbarn sollten Trainingszeiten entsprechend planen."
         },
         {
-          title: "Weniger Trainingsprogramme",
-          description: "Einige Modelle bieten weniger vorinstallierte Trainingsprogramme als größere Fitnessgeräte."
+          title: "Fokus auf leichtes Training:",
+          description: "Das Gerät ist hauptsächlich für Fitness auf leichtem bis mittlerem Intensitätsniveau konzipiert und weniger geeignet für Muskelaufbau, intensives Krafttraining oder anspruchsvolle sportliche Leistungssteigerung."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Kann man mit dem Cursorvibration plate joggen?",
+          de: "Ist die HomeFitnessCode Vibrationsplatte B1 eine echte Vibrationsplatte?",
         },
         answer: {
-          de: "Die meisten Cursorvibration plates sind für Walking und leichtes Training ausgelegt und erreichen Geschwindigkeiten bis etwa 6 km/h."
+          de: "Ja, die HomeFitnessCode Vibrationsplatte B1 ist eine vollwertige oszillierende Vibrationsplatte für den Heimfitnessbereich. Sie nutzt seitliche Kippbewegungen, um die Muskulatur im gesamten Körper zu stimulieren und dadurch Muskelaktivierung, Durchblutung und gelenkschonendes Cardio-Training zu unterstützen."
         }
       },
       {
         question: {
-          de: "Ist das Gerät laut?",
+          de: " Kann man auf der HomeFitnessCode Vibrationsplatte B1 joggen?",
         },
         answer: {
-          de: "Der Motor arbeitet relativ leise und ist daher gut für Wohnungen oder Büros geeignet."
+          de: "Nein, die Vibrationsplatte B1 ist nicht für Jogging oder intensives Lauftraining konzipiert. Sie ist für Übungen wie Kniebeugen, Balanceübungen, leichtes Training mit Widerstandsbändern und Stretching gedacht. Für Laufbewegungen empfiehlt sich eher ein Laufband oder ein Incline Trainer."
         }
       },
       {
         question: {
-          de: "Welche Trainingsdaten werden angezeigt?",
+          de: "Wie viel Platz benötigt die Vibrationsplatte B1?",
         },
         answer: {
-          de: "Das LED-Display zeigt Geschwindigkeit, Zeit, Distanz und Kalorienverbrauch an."
+          de: "Die Vibrationsplatte B1 misst 56 cm × 33 cm × 12 cm und benötigt nur sehr wenig Stellfläche. Damit gehört sie zu den kompaktesten Vibrationsplatten ihrer Klasse und eignet sich ideal für kleine Wohnungen, Homeoffices, Schlafzimmer oder Wohnzimmer."
         }
       },
       {
         question: {
-          de: "Ist das Gerät leicht zu verstauen?",
+          de: " Für wen eignet sich die HomeFitnessCode Vibrationsplatte B1?",
         },
         answer: {
-          de: "Ja. Viele Modelle sind kompakt und lassen sich leicht unter Möbeln oder in kleinen Räumen verstauen."
+          de: "Die Vibrationsplatte B1 eignet sich besonders für Anfänger und Nutzer mit mittlerem Fitnessniveau, die eine praktische, gelenkschonende Ganzkörper-Trainingslösung für zu Hause suchen. Besonders geeignet ist sie für Menschen im Homeoffice und Personen mit begrenztem Wohnraum."
         }
       }
     ],
     verdict: {
       en: "The Sportstech sWalk Lite delivers exceptional value with its advanced cushioning system and solid build quality. While it may lack some premium features, it excels in the fundamentals that matter most for home fitness.",
-      de: "Das CURSO vibration plate bietet eine solide Performance für leichtes bis moderates Training und punktet vor allem mit seiner 9-%-Steigung und der hohen Tragkraft. Für Nutzer, die ein flaches, preiswertes vibration plate für regelmäßiges Walken oder gelegentliches Joggen suchen, ist es eine gute Wahl. Allerdings zeigt das Gerät Schwächen bei der Steigungsverstellung, der kurzen Lauffläche und der Stabilität bei höherem Tempo, weshalb es für anspruchsvollere Läufer weniger geeignet ist.",
+      de: "Die HomeFitnessCode Vibrationsplatte B1 eignet sich besonders für Nutzer, die aktiv bleiben möchten, ohne regelmäßig ins Fitnessstudio gehen oder große Fitnessgeräte kaufen zu müssen. Sie funktioniert hervorragend für Homeoffice-Fitness, leichtes Stretching, Stehübungen und vibrationsbasiertes Ganzkörpertraining für Einsteiger. Das mitgelieferte Zubehör – Widerstandsbänder, Springseil und Fernbedienung – bietet zusätzlich ein attraktives Preis-Leistungs-Verhältnis.",
     },
-    rating: 3.8,
+    rating: 3.5,
     // buyLink: ''
   },
   Cazvian: {
@@ -1604,6 +2104,80 @@ const brandData = {
       "/Assets/Cazvian-vibration-plate 4.jpg",
       "/Assets/Cazvian-vibration-plate 5.jpg",
     ],
+    productDescription: {
+      de: {
+        intro: "Die Cazvian Vibrationsplatte 2.0 ist ein leichtgewichtiges Einstiegsmodell mit stossdämpfender Oberfläche und übersichtlichem LED-Display. Multifunktionale Intensitätszonen ermöglichen Gehen, leichtes Joggen und Vibration auf einer einzigen Plattform. Das schlanke, tragbare Design macht sie zur unkomplizierten Alltagslösung für mehr tägliche Bewegung.",
+        cards: [
+          // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
+          // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
+          // "Mit Abmessungen von etwa 122 × 53 × 12 cm gehört das Gerät zu den kompakteren Laufbändern auf dem Markt. Diese flache Bauweise ermöglicht es, das Laufband nach dem Training unter Möbeln oder an der Wand zu verstauen.",
+          // "Zusätzlich verfügt das sWalk Lite über Transportrollen, wodurch es relativ leicht bewegt werden kann."
+        ]
+      }
+    },
+    targetAudience: {
+      de: {
+        title: "Für wen ist das Produkt geeignet?",
+        suitableForLabel: "Geeignet für",
+        suitableFor: [
+          "Perfekt für Heimanwender, die ein einfaches und anfängerfreundliches Vibrationstraining suchen.",
+          "Eine starke Wahl für Homeoffice-Nutzer, die während langer Sitzzeiten leichte tägliche Aktivität benötigen.",
+          "Geeignet für wellnessorientierte Nutzer, die sanfte Körperstimulation ohne intensive Workouts bevorzugen.",
+          "Ideal für kleinere Wohnräume, in denen Mobilität und schnelle Aufbewahrung wichtig sind."
+        ],
+        notSuitableForLabel: "Weniger geeignet für",
+        notSuitableFor: [
+          "Nicht ausgelegt für Profi-Sportler mit Bedarf an intensiver Ganzkörper-Vibration.",
+          "Weniger effektiv für intensive Fitnessroutinen mit Fokus auf Muskelaufbau.",
+          "Könnte ungeeignet sein für Nutzer, die moderne App-Integration und Smart-Tracking-Technologie erwarten.",
+          "Nicht die beste Wahl für stark frequentierte kommerzielle Fitnessumgebungen.",
+        ]
+      }
+    },
+    comparisonContext: {
+      de: {
+        title: "Comparison and Buying Context",
+        intro: "Die Cazvian Vibration Plate wurde speziell für den modernen Alltag entwickelt und bietet eine praktische Möglichkeit, zu Hause aktiv zu bleiben – ganz ohne separates Fitnessstudio. Sie eignet sich besonders für Nutzer, die kurze, aber effektive tägliche Trainingseinheiten bevorzugen.",
+        box1: {
+          heading: "Viele Käufer entscheiden sich für die Cazvian Vibration Plate, weil:",
+          items: [
+            "sie schnelle Morgen-, Abend- oder Regenerationsworkouts unterstützt",
+            "sie ideal für Anfänger, Büroangestellte und Heimfitness-Nutzer geeignet ist",
+            "sie sich leicht transportieren und verstauen lässt",
+            "sie perfekt für kleine Wohnungen und begrenzte Trainingsflächen ist",
+            "sie eine praktische tägliche Wellness-Routine zu Hause ermöglicht",
+            "das moderne Design gut in zeitgemäße Wohnräume passt"
+
+          ]
+        },
+        box2: {
+          heading: "Wer eine Cazvian Vibration Plate kaufen möchte, sollte besonders auf folgende Faktoren achten:",
+          items: [
+            "geräuscharme Motorleistung für den Heimgebrauch",
+            "leichte Bauweise für bessere Mobilität und Aufbewahrung",
+            "verschiedene Trainingsmodi für mehr Flexibilität und Abwechslung",
+            "robuste Konstruktion für langfristige tägliche Nutzung",
+            "smarte Steuerungsfunktionen und einfache Bedienung",
+            "ergonomisches Design für komfortables Ganzkörpertraining"
+
+          ]
+        },
+        outro: "Die Cazvian Vibration Plate kombiniert kompakte Funktionalität mit benutzerfreundlichen Features und ist eine starke Wahl für Nutzer, die zuverlässiges Heimfitness-Equipment für tägliches Wohlbefinden, Flexibilitätstraining, Muskelaktivierung und komfortable Indoor-Workouts suchen."
+      }
+    },
+    conclusionEvaluation: {
+      de: {
+        title: "Fazit / Bewertung",
+        intro: "Die Cazvian Vibrationsplatte für Zuhause & Büro wurde für moderne Nutzer entwickelt, die aktiv, energiegeladen und körperlich in Bewegung bleiben möchten, ohne ein eigenes Fitnessstudio zu benötigen. Kompakt, leise und einfach zu bedienen bietet sie ein effektives, gelenkschonendes Fitnesserlebnis, das sich problemlos in den Alltag integrieren lässt.",
+        cardsTitle: "",
+        cards: [
+          "Komfort für den Alltag",
+          "Sanfter & leiser Betrieb",
+          "Platzsparende Wellness-Lösung",
+      ],
+        outro: "Durch Komfort, Mobilität, Benutzerfreundlichkeit und Alltagstauglichkeit hebt sich die Cazvian Vibrationsplatte als zuverlässige Wahl für Homeoffice-Nutzer, Anfänger und Menschen hervor, die sich regelmäßig bewegen möchten. Ihr benutzerfreundliches Design und die kompakte Bauweise machen sie besonders wertvoll für Wohnungen, Büros und kleinere Trainingsbereiche."
+      }
+    },
     features: {
       en: [
         "User-friendly control panel",
@@ -1622,40 +2196,37 @@ const brandData = {
       ],
       de: [
         {
-          title: "Kompaktes Design",
-          description: "Ein Hauptmerkmal des Cazvianvibration plates ist seine kompakte Bauweise.vibration plates sind speziell dafür entwickelt, wenig Platz zu benötigen und leicht zu transportieren zu sein.",
-          footer: "Gerade in kleineren Wohnungen oder Büros kann ein großes Laufband schnell unpraktisch werden. Das Cazvian Modell bietet hier eine platzsparende Alternative."
+          title: " Kompaktes Design",
+          description: "Platzsparende Bauweise — praktische Alternative zu sperrigen Laufbändern in kleineren Haushalten.",
+          footer: ""
         },
         {
-          title: "Stoßdämpfende Laufoberfläche",
-          description: "Das Laufband verfügt über eine stoßdämpfende Lauffläche, die Stöße beim Gehen absorbieren kann. Eine solche Konstruktion kann dazu beitragen, die Belastung auf Knie und Gelenke zu reduzieren.",
-          footer: "Für Nutzer, die regelmäßig Walking-Training durchführen möchten, ist dieser Komfortfaktor besonders wichtig."
+          title: " Stossdämpfende Oberfläche",
+          description: "Reduziert den Aufprall beim Vibrieren — schont Knie und Gelenke für regelmässige Nutzer.",
+          footer: ""
         },
         {
-          title: "LED-Display für Trainingsdaten",
-          description: "Das integrierte Display zeigt verschiedene Trainingswerte an, darunter:",
+          title: "LED-Display",
+          description: "Zeigt wichtige Trainingsmetriken: Zeit, Geschwindigkeit, Distanz und verbrannte Kalorien.",
           bullets: [
-            "Geschwindigkeit",
-            "Trainingszeit",
-            "zurückgelegte Distanz",
-            "Kalorienverbrauch",
+
           ],
-          footer: "Diese Informationen geben Nutzern einen Überblick über ihre Aktivität und helfen dabei, Fortschritte zu verfolgen."
+          footer: ""
         },
         {
-          title: "Fernbedienung zur Steuerung",
-          description: "Vielevibration plates, darunter auch das Cazvian Modell, werden über eine Fernbedienung gesteuert. Damit können Nutzer Geschwindigkeit und Einstellungen bequem anpassen.",
-          footer: "Diese einfache Bedienung macht das Gerät besonders für Einsteiger attraktiv."
+          title: "Multifunktionale Zonen",
+          description: "Plattform mit verschiedenen Intensitätszonen — Laufen, Joggen und Gehen.",
+          footer: ""
         }
       ],
     },
 
     // name: 'Sportstech',
-    model: "–vibration plate für Zuhause & Büro",
+    model: "Vibration plate 2.0",
     logo: "/images/brands/treadmill1.jpg",
     description: {
       en: "The Cazvian Treadlite 2.0 is a lightweight treadmill designed for home users who want straightforward daily walking and light cardio. It focuses on portability and simple functionality rather than heavy-duty performance.",
-      de: "Das Cazvianvibration plate kombiniert ein kompaktes Design mit hoher Funktionalität und flexiblem Einsatzbereich. Mit 5 % Steigung, einem strömungsleisen Motor und einem stoßdämpfenden Laufgurt bietet es ein natürliches, gelenkschonendes Laufgefühl – ideal für Homeoffice, tägliche Schrittziele und leichte Fitness-Einheiten. Dank der sehr flachen Bauweise lässt sich das Gerät mühelos verstauen und passt perfekt in kleine Räume oder Büros.",
+      de: "Die Cazvian Vibrationsplatte 2.0 ist eine leichte Vibrationsplatte für Heimnutzer, die unkomplizierte tägliche Vibration und leichtes Cardio möchten. Fokus auf Tragbarkeit und einfache Funktionalität — eine gute Einstiegsoption.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
@@ -1673,19 +2244,19 @@ const brandData = {
       de: [
         {
           title: "Platzsparendes Fitnessgerät",
-          description: "Das Cazvianvibration plate benötigt deutlich weniger Platz als ein klassisches Laufband und eignet sich daher besonders für kleine Wohnungen."
+          description: "Benötigt deutlich weniger Platz als traditionelle Laufbänder — ideal für kleine Wohnungen."
         },
         {
-          title: "Gute Option für Homeoffice",
-          description: "Vibration Plates werden häufig während der Arbeit verwendet. Das Cazvian Modell ist ideal für langsames bis moderates Gehen, wodurch es sich gut für diesen Zweck eignet."
+          title: "Ideal fürs Homeoffice",
+          description: "Geeignet für langsame bis moderate Vibration beim Arbeiten."
         },
         {
-          title: "Einfache Bedienung",
-          description: "Das Gerät ist unkompliziert aufgebaut und kann ohne komplexe Einstellungen genutzt werden."
+          title: "Einfach zu bedienen",
+          description: "Einfach zu bedienen — keine komplexe Einrichtung"
         },
         {
-          title: "Unterstützt tägliche Bewegung",
-          description: "Viele Menschen verwenden Vibration Plates, um ihre tägliche Aktivität zu erhöhen und mehr Schritte zu sammeln."
+          title: "Fördert tägliche Bewegung",
+          description: "Hilft Nutzern, tägliche Aktivität und Schritte zu erhöhen."
         }
       ],
     },
@@ -1698,55 +2269,55 @@ const brandData = {
       de: [
         {
           title: "Begrenzte Höchstgeschwindigkeit",
-          description: "Wie vielevibration plates ist auch dieses Modell vor allem für Gehen ausgelegt und weniger für intensives Lauftraining geeignet."
+          description: "Hauptsächlich für Vibration, nicht für intensive Lauftrainings ausgelegt."
         },
         {
-          title: "Kleinere Trainingsfläche",
-          description: "Die Lauffläche ist kompakter als bei großen Laufbändern, was für größere Nutzer eventuell etwas weniger komfortabel sein kann."
+          title: "Kleinere Lauffläche",
+          description: "Kompakter als grössere Laufbänder — für grössere Nutzer möglicherweise weniger komfortabel."
         },
         {
           title: "Weniger Trainingsprogramme",
-          description: "Einigevibration plates bieten nur grundlegende Trainingsfunktionen ohne umfangreiche Programme."
+          description: "Grundlegende Funktionen ohne fortgeschrittene Workout-Programme."
         }
       ],
     },
     faq: [
       {
         question: {
-          de: "Kann man mit dem Cazvianvibration plate joggen?",
+          de: "Kann man auf der Cazvian-Vibrationsplatte joggen?",
         },
         answer: {
-          de: "Das Gerät ist hauptsächlich für Walking und leichtes Training gedacht."
+          de: "Am besten für Gehen und leichte Aktivität — dauerhaftes Joggen wird nicht empfohlen."
         }
       },
       {
         question: {
-          de: "Ist das Laufband für Homeoffice geeignet?",
+          de: "Eignet sich die Vibrationsplatte fürs Homeoffice?",
         },
         answer: {
-          de: "Ja.vibration plates werden häufig während der Arbeit verwendet, um mehr Bewegung in den Alltag zu integrieren."
+          de: "Ja — kompakte Größe und leiser Motor sind praktisch für die Nutzung am Stehpult."
         }
       },
       {
         question: {
-          de: "Welche Trainingsdaten zeigt das Display an?",
+          de: "Welche Daten zeigt das Display?",
         },
         answer: {
-          de: "Das LED-Display zeigt Geschwindigkeit, Trainingszeit, Distanz und Kalorienverbrauch an."
+          de: "Zeit, Geschwindigkeit, Distanz und verbrannte Kalorien."
         }
       },
       {
         question: {
-          de: "Ist das Gerät leicht zu verstauen?",
+          de: "Ist sie einfach zu verstauen?",
         },
         answer: {
-          de: "Ja. Dank seiner kompakten Bauweise lässt sich das Laufband relativ einfach verstauen."
+          de: "Ja — leichtes Design mit schlankem Profil für einfaches Verstauen unter Möbeln"
         }
       }
     ],
     verdict: {
       en: "The Cazvian vibration plate performs well for short, simple workouts. It’s suitable for users who prefer occasional vibration but may feel too limited for those looking for long-duration training, higher speeds, or more versatile workout features.",
-      de: "Das Cazvian vibration plate ist eine gute Lösung für leichte, alltägliche Bewegung im Homeoffice — besonders für Nutzer, die ein leichtes, flaches, unkompliziertes Gerät suchen.Es ist ideal für Walking-Sessions bis 6 km/h und kurze Nutzungseinheiten.Weniger geeignet ist es für größere Personen, intensives Training oder Nutzer, die ein sehr stabiles und komfortables Laufgefühl erwarten",
+      de: "Gut für kurze, einfache Workouts geeignet. Passend für Nutzer, die gelegentliche Vibration bevorzugen, aber möglicherweise zu eingeschränkt für Langzeittraining, höhere Geschwindigkeiten oder vielseitigere Workout-Funktionen.",
     },
     rating: 3.7,
     // buyLink: ''

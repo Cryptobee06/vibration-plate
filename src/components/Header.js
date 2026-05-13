@@ -10,10 +10,10 @@ const brandCategories = [
     nameDE: 'Amateur-vibration Plates',
     slug: 'amateur',
     brands: [
-      { name: 'VP500', slug: 'Sportstechwalkmate' },
+      { name: 'VP500', slug: 'Stvp' },
       { name: 'Copant', slug: 'Copant' },
       { name: 'Merach', slug: 'Merach' },
-      { name: 'Cursor', slug: 'Cursor' },
+      { name: 'Homefitnesscode', slug: 'Homefitnesscode' },
       { name: 'Cazvian', slug: 'Cazvian' },
     ]
   },
@@ -22,11 +22,11 @@ const brandCategories = [
     nameDE: 'Advanced-vibration Plates',
     slug: 'advanced',
     brands: [
-      { name: 'sVibe', slug: 'Sportstechswalklite' },
+      { name: 'sVibe', slug: 'sVibe' },
       { name: 'Citysports', slug: 'Citysports' },
       { name: 'kiddoza', slug: 'kiddoza' },
       { name: 'Superun', slug: 'Superun' },
-      { name: 'Urevo', slug: 'Urevo' },
+      { name: '	EvoSpark', slug: 'EvoSpark' },
     ]
   }
 ];
@@ -139,9 +139,9 @@ export default function Header() {
   if (!isLoaded) {
     return (
       <header className="bg-white shadow-lg sticky top-0 z-50">
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="text-2xl font-bold text-primary-600">Loading...</div>
+            <div className="text-2xl font-bold text-violet-600">Loading...</div>
           </div>
         </nav>
       </header>
@@ -150,10 +150,10 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href={`${getBasePath()}/`} className="flex items-center">
-            <div className="text-2xl font-bold text-violet-600"><img src="\VibrationPlateTestlogosvg-blue.svg" className="h-20 w-30" alt="Logo" /></div>
+            <div className="text-2xl font-bold text-violet-600"><img src="/VibrationPlateTestlogosvg-nav-blue.svg" className=" w-48" alt="Logo" />  </div>
           </Link>
 
           <div className="hidden md:flex items-center space-x-10">

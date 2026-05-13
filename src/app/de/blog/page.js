@@ -2,7 +2,7 @@ import BlogPage from '@/components/blog/BlogPage';
 
 export async function generateMetadata() {
   return {
-    title: 'Fitness & Treadmill Blog - Expert Tips & Training Advice',
+    title: 'Vibration plate Blog - Expert Tips & Training Advice',
     description:
       'Expert insights, training tips, and the latest news in fitness technology and treadmill innovation. Stay updated with professional advice.',
     keywords:

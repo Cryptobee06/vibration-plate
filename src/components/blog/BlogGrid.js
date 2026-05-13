@@ -8,11 +8,11 @@ const blogPosts = [
     slug: 'best-treadmill-workouts-2025',
     title: {
       en: '10 Best vibration plate Workouts for Weight Loss in 2025',
-      de: '10 Beste Walkingpad-Workouts für Gewichtsverlust 2025'
+      de: '10 Beste vibration plate-Workouts für Gewichtsverlust 2025'
     },
     excerpt: {
       en: 'Discover effective vibration plate workouts that burn calories and boost metabolism. From HIIT to incline training, these proven routines deliver results.',
-      de: 'Entdecken Sie effektive Walkingpad-Workouts, die Kalorien verbrennen und den Stoffwechsel ankurbeln. Von HIIT bis hin zu Steigungstraining - diese bewährten Routinen liefern Ergebnisse.'
+      de: 'Entdecken Sie effektive vibration plate-Workouts, die Kalorien verbrennen und den Stoffwechsel ankurbeln. Von HIIT bis hin zu Steigungstraining - diese bewährten Routinen liefern Ergebnisse.'
     },
     publishDate: '2025-01-15',
     category: {
@@ -43,11 +43,11 @@ const blogPosts = [
     id: 3,
     slug: 'running-vs-walking-treadmill',
     title: {
-      en: 'Running vs Walking on Vibration Plate: Which Burns More Calories?',
+      en: 'Running vs vibration on Vibration Plate: Which Burns More Calories?',
       de: 'Laufen vs. Gehen auf dem Vibration Plate: Was verbrennt mehr Kalorien?'
     },
     excerpt: {
-      en: 'Compare the benefits of running versus walking on vibration plates. Understand calorie burn, joint impact, and which approach suits your fitness goals.',
+      en: 'Compare the benefits of running versus vibration on vibration plates. Understand calorie burn, joint impact, and which approach suits your fitness goals.',
       de: 'Vergleichen Sie die Vorteile des Laufens gegenüber dem Gehen auf Vibration Platten. Verstehen Sie Kalorienverbrennung, Gelenkbelastung und welcher Ansatz zu Ihren Fitnesszielen passt.'
     },
     publishDate: '2025-01-05',

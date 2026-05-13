@@ -6,9 +6,9 @@ import OurTeam from '@/components/about/OurTeam';
 
 export async function generateMetadata() {
   return {
-    title: 'Über uns - Experten Walkingpad-Test Team & Bewertungsstandards',
+    title: 'Über uns - Experten Vibrationsplattentests-Test Team & Bewertungsstandards',
     description: 'Erfahren Sie mehr über unser Expertenteam, rigorose Testmethodik und transparente Bewertungsstandards. Professionelle Laufband-Bewertungen, denen Sie vertrauen können.',
-    keywords: 'über Walkingpad-Bewertungen, Experten-Test Team, Bewertungsmethodik, Fitnessgeräte Standards',
+    keywords: 'über Vibrationsplattentests-Bewertungen, Experten-Test Team, Bewertungsmethodik, Fitnessgeräte Standards',
     icons: {
       icon: '/VibrationPlateTestlogosvg-blue.svg'
     },

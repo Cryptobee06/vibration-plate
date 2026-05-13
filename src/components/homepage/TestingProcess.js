@@ -13,27 +13,27 @@ const testData = [
   {
     id: 'speedTest',
     icon: Gauge,
-    image: '/landing-vibration-1.webp',
+    image: '/landing-image-2.png',
   },
   {
     id: 'durabilityTest',
     icon: Wrench,
-    image: '/landing-vibration-2.jpg',
+    image: '/landing-image-5.jpg',
   },
   {
     id: 'inclineTest',
     icon: Mountain,
-    image: '/landing-vibration-3.jpg',
+    image: '/landing-image-4.png',
   },
   {
     id: 'noiseTest',
     icon: Volume2,
-    image: '/landing-vibration-4 .webp',
+    image: '/landing-image-6.jpg',
   },
   {
     id: 'comfortTest',
     icon: Sparkles,
-    image: '/landing-vibrtion-5.jpg',
+    image: '/landing-image-3.jpg',
   },
 ];
 
@@ -95,7 +95,7 @@ export default function TestingProcess() {
                 <img
                   src={testData[activeTest].image}
                   alt={t(`${getTestKey(testData[activeTest].id)}.title`)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-100% object-cover"
                 />
               </div>
 

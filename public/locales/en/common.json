@@ -8,8 +8,8 @@
     "about": "About"
   },
   "homepage": {
-    "heroTitle": "Honest Reviews - Real User Feedback Smart Buying Decisions",
-    "heroSubtitle": "Looking for the best vibration plate for Home, Office, or Small spaces? At Vibration Plate Comparison, we combine in-depth testing, Real User Experiences, and Expert analysis to help you choose the Vibration plate that truly fits your lifestyle.",
+    "heroTitle": "Germany's Most Trusted Vibration Plate Reviews - Independent. Precise. Honest.",
+    "heroSubtitle": "Our certified team of fitness physiologists, physiotherapists, and sports engineers evaluates vibration frequency accuracy, build durability, noise output, platform stability, and overall comfort so that you can make a confident, well-informed purchase for your home.",
     "expertOverview": {
       "title": "Expert Overview",
       "content": "Our team of certified fitness professionals has spent over 1,200 hours testing Vibration Plates in real-world conditions. We evaluate each machine through rigorous performance tests, long-term durability assessments, and user experience analysis. Every review is backed by data, ensuring you get honest, reliable information to make the best purchase decision for your fitness goals."
@@ -19,51 +19,51 @@
       "Subtitle": "Trusted by the most respected fitness brands in the industry."
     },
     "testingProcess": {
-      "title": "How We Test Vibration Plates",
+      "title": " How We Test — Our 6-Point Quality Protocol",
       "speedTest": {
-        "title": "Speed & Performance ",
-        "description": "How smooth and accurate the speed levels really are."
+        "title": "Performance Accuracy ",
+        "description": "Each vibration plate undergoes frequency testing with precision measurement equipment to confirm consistent output within the ideal 25–50 Hz range for muscle stimulation and recovery support. "
       },
       "inclineTest": {
-        "title": "Smart Features",
-        "description": "App connectivity, Tracking, Remote controls, or Incline options."
+        "title": "Structural Strength & Reliability ",
+        "description": "Every machine undergoes extended endurance testing to assess frame stability, anti-slip surface durability, and long-term performance under heavy daily use."
       },
       "durabilityTest": {
-        "title": "Durability Test",
-        "description": "Long-term usage checks to ensure reliability."
+        "title": "Operational Sound Control",
+        "description": "Sound output levels are recorded at multiple intensity settings using professional audio measurement tools to determine suitability for quiet indoor environments."
       },
       "noiseTest": {
-        "title": "Noise Level",
-        "description": "We measure motor and belt sound, crucial for office or apartment use."
+        "title": "User Comfort & Design Quality",
+        "description": "Platform dimensions, cushioning materials, controller accessibility, and overall usability are reviewed to ensure comfort across varying fitness levels and body types."
       },
       "comfortTest": {
-        "title": "Comfort & Cushioning",
-        "description": "Shock absorption, belt size, and joint-friendly performance."
+        "title": "Protection Standards & Compliance",
+        "description": "Safety inspections include CE certification verification, load-bearing stability analysis, electrical component assessment, and confirmation of automatic shut-off protection systems."
       },
       "passed": "Passed"
     },
     "expertOpinion": {
       "title": "Expert Opinion",
-      "testimonial": "After testing hundreds of Vibration Plates over my 12-year career, I can confidently say that the machines we recommend here represent the best value and performance in each category. Our testing methodology ensures that every aspect of usability, durability, and performance is thoroughly evaluated. The Vibration Plate featured on this site have all passed our rigorous certification process and continue to perform excellently in real-world conditions.",
-      "trainerName": "Steve Austin",
-      "trainerTitle": "Certified Personal Trainer, NASM",
-      "testedCount": "Tested: 18 Vibration Plates"
+      "testimonial": "After years of hands-on experience, I can say with confidence that quality makes all the difference. Not every plate is created equal, and not every plate suits every body. That is exactly why independent, rigorous reviews like these are so valuable. They cut through the marketing noise and give people something they can actually rely on.",
+      "trainerName": "Marcus Breitner",
+      "trainerTitle": "Certified Sports Physiologist | 14 Years of Coaching Experience",
+      "testedCount": "Tested: Over 50 vibration plates "
     },
     "bestTreadmills": {
-      "title": "Best Vibration Plates in 2025",
+      "title": "Best Vibration Plates  — Our Expert Verdict",
       "sportstech": {
         "name": "Sportstech F15",
-        "description": "Professional-grade Vibration Plate with advanced shock absorption and smartphone integration. ",
+        "description": "A compact whole-body vibration machine designed for effective home workouts and muscle activation. ",
         "badge": "Test Winner"
       },
       "Citysports": {
         "name": "Citysports Commercial 1750",
-        "description": "Premium Vibration Plate with interactive training and incline technology.",
+        "description": "A slim and quiet Vibration Plate ideal for daily convenience and light fitness routines.",
         "badge": "Best Choice"
       },
       "kiddoza": {
         "name": "kiddoza Pro 2000",
-        "description": "Feature-rich Vibration Plate with iFit integration and powerful motor.",
+        "description": " A lightweight under-desk treadmill built for convenient",
         "badge": "Editor's Pick"
       },
       "Superun": {
@@ -81,57 +81,67 @@
         "description": "Slim, foldable vibration plate for light daily movement only.",
         "badge": "Best Value"
       },
+       "Cursor": {
+        "name": "Cursor Vibration Plate",
+        "description": " Tone muscles, improve balance, and boost circulation — all from home with Homefitness.",
+        "badge": "Editor's Pick"
+      },
+      "Cazvian": {
+        "name": "Cazvian Vibration Plate",
+        "description": "A versatile vibration plate designed to support weight loss and flexibility.",
+        "badge": "Best Value"
+      },
       "buyNow": "Buy Now"
     },
     "customerReviews": {
-      "title": "User Reviews",
+      "title": "What Our Readers Are Saying",
       "reviews": [
         {
-          "description": "The comparison tables made it easy to see pros and cons at a glance. Saved me hours of research."
+          "description": "I never realised how much variation there is between vibration plates until I read the frequency data on this site. The breakdown of each model's actual performance versus its marketed specs was eye-opening. On the back of the VP500 review, I went ahead and ordered one and three months in, it is still performing exactly as described. Genuinely useful, genuinely honest."
         },
         {
-          "description": "I wanted something quiet for my apartment. Thanks to these reviews, I found a vibration plate that’s both compact and whisper-quiet."
+          "description":"Very thorough reviews with real performance data. What sets this site apart is that the testing criteria are explained up front, so you understand why a machine scores the way it does. I appreciate the detailed testing process and the honest pros and cons breakdown for each model. I finally found a machine that suits my needs perfectly."
         },
         {
-          "description": "I was worried about assembly, but the model I picked was ready to use right out of the box. Super convenient and easy to move around."
+          "description":"Great resource for comparing vibration plates side by side. The buying guidance was especially helpful for me as a complete beginner. I had no idea what to look for before I found this site. The explanations are clear, the recommendations make sense, and there is no sense that any particular brand is being pushed over another."
         },
         {
-          "description": "Working from home had me sitting all day. With the vibration plate I chose here, I can now walk while answering emails — I feel more active and focused."
+          "description": "Professional and genuinely unbiased reviews. The team clearly knows what they are talking about. I had been going back and forth between two models for weeks, and a single read of the comparison section made the decision straightforward. Saved me from a purchase I would have regretted."
         },
         {
-          "description": "The durability test results gave me confidence. After 6 months of daily use, my vibration plate still feels as smooth as day one."
+          "description": "The vibration plate durability test results gave me confidence. After 6 months of daily vibration plate use, my vibration plate still feels as smooth as day one."
         }
       ]
     }
   },
   "guide": {
     "title": "The Ultimate Vibration Plate Buying Guide 2025",
-    "introduction": "Discover the best vibration plate for your lifestyle. Whether it's for your home office, small apartment, or daily fitness routine, here’s everything you should know before buying.",
+    "introduction": "Discover the best vibration plate for your lifestyle. Whether it's for your home office, small apartment, or daily fitnessroutine — here's everything you should know before buying.",
     "keyFeatures": {
       "title": "What to Look For: Key Buying Criteria",
       "motorPower": {
         "title": "Size & Portability",
-        "description": "Make sure the vibration plate fits under your desk. Lightweight models with foldable designs and wheels offer the most flexibility"
+        "description": "Make sure the vibration plate fits under your desk.Lightweight models with foldable designs and wheels offerthe most flexibility for small spaces."
       },
       "inclineSettings": {
         "title": "Speed & Incline Options",
-        "description": "Most pads max out between 2–4 mph. For more intense sessions, look for models with adjustable incline- few include this, but it boosts calorie burn and workout versatility"
+        "description": "Most pads max out between 2–4 mph. For more intensesessions, look for models with adjustable incline — itboosts calorie burn and workout versatility."
       },
       "beltSize": {
         "title": "Belt Size & Deck Length",
-        "description": "Aim for a belt wide and long enough for a natural stride- especially important if you're taller or walk at a fast pace"
+        "description": "Aim for a belt wide and long enough for a natural stride —especially important if you're taller or vibration at a fast pace."
       },
       "weightCapacity": {
         "title": "Weight Capacity & Build Quality",
-        "description": "A higher weight rating typically means a more durable, strengthened frame- something to prioritize in long-term use"
+        "description": "A higher weight rating typically means a more durable,strengthened frame — something to prioritise forlong-term use."
       },
       "display": {
         "title": "Noise Level",
-        "description": "If you plan to walk while working or during video calls, choose a pad with a motor rated under 60dB-quiet operation is key"
+        "description": "If you plan to Vibration while working or during video calls,choose a pad with a motor rated under 60 dB — quietoperation is key."
       },
       "foldability": {
         "title": "Ease of Use & Controls",
-        "description": "Look for tools with user-friendly interfaces- remote control, LED display, or smart app integration help make workouts seamless"
+        "description": "Look for user-friendly interfaces — remote control, LEDdisplay, or smart app integration help make workoutsseamless and enjoyable."
       }
     },
     "useCase": {
@@ -141,7 +151,7 @@
         "description": "Start with a lightweight, foldable vibration plate with simple controls and a max speed around 3–4 km/h. Focus on comfort and ease of use rather than advanced features."
       },
       "runners": {
-        "title": "For Fast Walkers",
+        "title": "For Fast Vibration",
         "description": "Opt for a longer belt (at least 45 inches / 115 cm) and slightly higher top speed (up to 6–7 km/h) for natural strides without feeling restricted."
       },
       "seniors": {
@@ -155,10 +165,10 @@
     },
     "comparisonTips": {
       "title": "How We Tested Vibration Plates",
-      "description": "Real-world testing is at the heart of our reviews. Inspired by leading review sites, we evaluate each plate across: Assembly ease, portability, foldability,Speed and incline accuracy,Noise levels during use,Comfort, cushioning, and build quality,User experience: Comfort, Usability, and Value."
+      "description": "Real-world testing is at the heart of our reviews. Inspired by leading review sites, we evaluate each plate across:Assembly ease, Portability, Foldability, Speed and incline accuracy, Noise levels during use, Comfort, cushioning, andbuild quality, User experience: Comfort, Usability, and Value."
     },
     "faq": {
-      "title": "Frequently Asked Questions"
+      "title": "Frequently Asked Questions (FAQ) — Vibration Plate Use & Buying"
     }
   },
   "blog": {
@@ -169,11 +179,11 @@
   "about": {
     "abouthero": {
       "title": "About Us — Your Vibration Plate Experts",
-      "description": "At Vibration Plate Reviews, we’re more than just another review site. We’re passionate movers, fitness enthusiasts, and tech lovers committed to helping you find the right vibration plate for your lifestyle- whether at home, work, or on the move."
+      "description": "At Vibration Plate Reviews, we're more than just another review site. We're passionate movers, fitness enthusiasts, andtech lovers committed to helping you find the right vibration plate for your lifestyle — whether at home, work, or on theove."
     },
     "howWeReview": {
       "title": "How We Do Reviews",
-      "description": "Every vibration plate is tested for noise, durability, design, and comfort—because numbers on a spec sheet aren’t enough.From under-desk office setups to home workout spaces, we test Vibration Plates where you’ll actually use them.We highlight both strengths and weaknesses, so you can make an informed choice without hidden surprises.We include insights from real users, combining expert analysis with everyday experiences."
+      "description": "Every vibration plate is tested for noise, durability, design, and comfort — because numbers on a spec sheet aren'tenough. From under-desk office setups to home workout spaces, we test vibration plates where you'll actually usethem. We highlight both strengths and weaknesses so you can make an informed choice without hidden surprises. Weinclude insights from real users, combining expert analysis with everyday experiences."
     },
     "reviewStandards": {
       "title": "Our Review Standards",

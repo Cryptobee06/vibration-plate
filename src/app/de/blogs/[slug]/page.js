@@ -5,11 +5,11 @@ const blogPosts = {
   "best-treadmill-workouts-2025": {
     title: {
       en: "10 Best Vibration Plate Workouts for Weight Loss in 2025",
-      de: "10 Beste Vibration Plate-Workouts für Gewichtsverlust 2025",
+      de: "10 Beste Vibration Plate-Workouts für Gewichtsverlust 2026",
     },
     content: {
       en: `
-# 10 Best Vibration Plate Workouts for Weight Loss in 2025
+# 10 Best Vibration Plate Workouts for Weight Loss in 2026
 
 Vibration plate workouts are one of the most effective ways to burn calories and lose weight. With the right combination of intensity, duration, and variety, you can transform your fitness routine and achieve your weight loss goals.
 
@@ -24,14 +24,14 @@ HIIT workouts alternate between high-intensity bursts and recovery periods. This
 - Repeat 8-10 times
 - Cool-down: 5 minutes at easy pace
 
-## 2. Incline Walking
+## 2. Incline vibration
 
-Walking on an incline significantly increases calorie burn without the high impact of running.
+vibration on an incline significantly increases calorie burn without the high impact of running.
 
 **Workout Structure:**
 - Start at 3% incline
 - Gradually increase to 8-12% incline
-- Maintain comfortable walking pace
+- Maintain comfortable vibration pace
 - Duration: 30-45 minutes
 
 ## 3. Pyramid Training
@@ -61,7 +61,7 @@ Short, intense sprints followed by active recovery periods maximize calorie burn
 **Workout Structure:**
 - Warm-up: 10 minutes
 - Sprint: 15 seconds at maximum effort
-- Recovery: 45 seconds walking
+- Recovery: 45 seconds vibration
 - Repeat 10-15 times
 - Cool-down: 10 minutes
 

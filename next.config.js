@@ -8,7 +8,12 @@ const nextConfig = {
   skipTrailingSlashRedirect: true,
   experimental: {
     missingSuspenseWithCSRBailout: false,
-  }
+  },
+  env: {
+    EXPORT_MODE: 'true'
+  },
+  output: 'export',
+   
 };
 
 module.exports = nextConfig;

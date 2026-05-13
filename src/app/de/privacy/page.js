@@ -89,8 +89,8 @@ export default function PrivacySection() {
       id: 'introduction',
       title: 'Einführung und Geltungsbereich der Richtlinie',
       paragraphs: [
-        "Bei WalkingpadReviews schätzen wir das Vertrauen, das unsere Besucher in uns setzen, und verpflichten uns zum Schutz Ihrer Privatsphäre. Diese Datenschutzerklärung beschreibt, wie wir Ihre personenbezogenen Daten erfassen, verwenden, speichern und schützen, wenn Sie unsere Website besuchen oder mit ihr interagieren. Ob Sie Walkingpad-Vergleiche durchstöbern, Fitness-Ratschläge lesen oder sich für Newsletter anmelden - Ihre Privatsphäre ist uns wichtig. Wir verstehen, dass Sie möglicherweise besorgt darüber sind, wie die von Ihnen bereitgestellten Informationen verwendet werden. Diese Richtlinie gilt für alle Nutzer von WalkingpadReviews und regelt die Datenerfassung und -nutzung in Übereinstimmung mit den geltenden Datenschutzgesetzen, einschließlich der Datenschutz-Grundverordnung (DSGVO) und des California Consumer Privacy Act (CCPA).",
-        "Wir erfassen nur Informationen, die notwendig sind, um Ihnen Dienstleistungen zu erbringen, Ihre Benutzererfahrung zu verbessern und die Funktionalität der Website zu gewährleisten. Durch die Nutzung von WalkingpadReviews erkennen Sie die in dieser Datenschutzerklärung beschriebenen Praktiken an und akzeptieren sie."
+        "Bei vibration plate Reviews schätzen wir das Vertrauen, das unsere Besucher in uns setzen, und verpflichten uns zum Schutz Ihrer Privatsphäre. Diese Datenschutzerklärung beschreibt, wie wir Ihre personenbezogenen Daten erfassen, verwenden, speichern und schützen, wenn Sie unsere Website besuchen oder mit ihr interagieren. Ob Sie vibration plate-Vergleiche durchstöbern, Fitness-Ratschläge lesen oder sich für Newsletter anmelden - Ihre Privatsphäre ist uns wichtig. Wir verstehen, dass Sie möglicherweise besorgt darüber sind, wie die von Ihnen bereitgestellten Informationen verwendet werden. Diese Richtlinie gilt für alle Nutzer von vibration plate Reviews und regelt die Datenerfassung und -nutzung in Übereinstimmung mit den geltenden Datenschutzgesetzen, einschließlich der Datenschutz-Grundverordnung (DSGVO) und des California Consumer Privacy Act (CCPA).",
+        "Wir erfassen nur Informationen, die notwendig sind, um Ihnen Dienstleistungen zu erbringen, Ihre Benutzererfahrung zu verbessern und die Funktionalität der Website zu gewährleisten. Durch die Nutzung von vibration plate Reviews erkennen Sie die in dieser Datenschutzerklärung beschriebenen Praktiken an und akzeptieren sie."
       ]
     },
     {
@@ -185,7 +185,7 @@ export default function PrivacySection() {
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-2">Ihre Privatsphäre ist wichtig</h2>
               <p className="text-gray-700 text-base mb-2">
-                WalkingpadReviews verpflichtet sich zu Transparenz über die Daten, die wir über Sie erfassen, wie sie verwendet werden und mit wem sie geteilt werden.
+                vibration plateReviews verpflichtet sich zu Transparenz über die Daten, die wir über Sie erfassen, wie sie verwendet werden und mit wem sie geteilt werden.
               </p>
               <p className="text-gray-700 text-base">
                 Diese Datenschutzerklärung gilt, wenn Sie unsere Dienste nutzen. Wir bieten Nutzern Wahlmöglichkeiten über die Daten, die wir erfassen, verwenden und teilen, wie in dieser Richtlinie, unserer Cookie-Richtlinie und unseren Nutzungsbedingungen beschrieben.

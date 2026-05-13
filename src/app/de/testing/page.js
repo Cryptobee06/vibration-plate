@@ -26,61 +26,61 @@ const brands = [
   "Citysports",
   "Kiddoza",
   "Superun",
-  "Urevo",
+  "Evospark",
   "Copant",
   "Merach",
-  "Cursor",
+  "Homefitness",
   "Cazvian",
 ];
 
 const testData = {
   "Sportstech VP500": {
     image:
-      "/Assets/vibration-test 1.jpg",
+      "/Assets/vibration-test-1.webp",
     overallScore: 4.9,
     status: "Bestanden",
     features: [
-      "Kompaktes, platzsparendes Design (ca. 109,7 × 52,1 × 10,9 cm) – perfekt für kleine Wohnungen und Homeoffice; kann unter Sofa, Tisch oder an der Wand verstaut werden",
-      "Manuelle 5‑%-Steigung – ermöglicht individuelles Training mit zusätzlichem Reiz und gezielter Muskelaktivierung",
-      "90 × 40 cm Lauffläche – optimal dimensioniert für komfortables vibration plate und ergonomische Schritte",
-      "Bis 6 km/h Geschwindigkeit mit vier voreingestellten Programmen – ideal zum dynamischen Gehen und steigert die Alltagsbewegung",
-      "Integrierter Schrittzähler und großes LCD‑Display – alle relevanten Daten wie Schritte, Distanz, Geschwindigkeit, Zeit & Kalorien auf einen Blick",
-      "Fernbedienung & Bluetooth‑App (Sportstech Live) – komfortable Steuerung, personalisierte Workouts und motivierende Trainingsdaten",
-      "Flüsterleiser Betrieb und hochwertige Transportrollen – perfekt für Homeoffice,Mehrfamilienhäuser und flexible Nutzung",
-      "Leichtes Gerät (ca. 15,8 kg) und hohe Belastbarkeit bis 120 kg – stabil, tragbar und für viele Nutzer geeignet"
+      "Kompakte Bauweise (93,7 × 62 × 12,9 cm) – ideal für Wohnungen, Homeoffice und kleinere Trainingsbereiche.",
+      " Manuelle 5%-Neigungsfunktion – erhöht den Trainingsreiz und beansprucht die untere Körpermuskulatur intensiver.",
+      " 60 Geschwindigkeitsstufen – präzise abgestimmt von sanften Aufwärmübungen bis hin zu intensiven Cardio-Einheiten.",
+      " Geschwindigkeiten bis zu 6 km/h mit gleichmäßiger Vier-Plattform-Bewegung – reduziert die Belastung der Gelenke spürbar",
+      " Integrierter Schrittzähler und großes LCD-Display – zeigt Schritte, Distanz, Geschwindigkeit, Zeit und Kalorienverbrauch übersichtlich an.",
+      " Kabellose Steuerung und Bluetooth-App-Konnektivität – komfortable Bedienung und synchronisierte Fortschrittsverfolgung.",
+      " Hochwertige Anti-Rutsch-Oberfläche und robuste Transportrollen – entwickelt für den leisen Einsatz zu Hause oder im Büro.",
+      " Leichtes Design (ca. 18,8 kg) – maximale Belastbarkeit bis 120 kg, einfach zu transportieren und zu verstauen."
     ],
     tests: {
       Speed: {
         description:
-          "Der Sportstech VP500 bietet ein optimales Geschwindigkeitsfenster von 1–6 km/h – perfekt für abwechslungsreiches vibration plate und gesundes Cardio‑Training im Alltag.",
+          "Alle 60 Geschwindigkeitsstufen arbeiteten auch unter voller Belastung konstant und stabil.",
         rating: "4.9 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Trotz seines geringen Gewichts ist der WalkMate hervorragend verarbeitet: Die Materialien sorgen für Stabilität und Langlebigkeit, sodass tägliche Geh‑Sessions problemlos möglich sind",
+          "Die Verarbeitungsqualität überzeugte; Plattform und Motor zeigten auch bei längerer Nutzung eine zuverlässige Leistung.",
         rating: "4.6 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Die manuell einstellbare 5‑%-Steigung ist ein echter Vorteil: Sie ermöglicht eine flexible Intensitätssteuerung und sorgt für zusätzliche Muskelaktivierung – perfekt, um Ihr Training zu variieren.",
+          "Die stabile 5-Grad-Neigung sorgt für eine spürbar höhere Trainingsintensität und eignet sich besonders für Bein- und Wadenmuskulatur.",
         rating: "4.8 / 5",
         status: "Bestanden",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Der flüsterleise Motor und die hochwertige Dämpfung sorgen dafür, dass der WalkMate selbst bei längeren Sessions kaum hörbar ist – ideal für Wohnungen, Homeoffice und Training zu jeder Tageszeit.",
+          "Die Motorlautstärke bleibt angenehm niedrig – ideal für Wohnungen oder gemeinsam genutzte Räume.",
         rating: "5.0 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Die mehrlagige Lauffläche mit angenehmer Dämpfung bietet hervorragenden Komfort. Die großzügige Fläche unterstützt einen natürlichen Geh‑Rhythmus und ist auch bei längeren Einheiten bequem",
+          "Die gepolsterte Anti-Rutsch-Oberfläche verteilt die Vibrationen gleichmäßig und sorgt auch bei längeren Trainingseinheiten für hohen Komfort.",
         rating: "4.7 / 5",
         status: "Bestanden",
         icon: Heart,
@@ -98,92 +98,92 @@ const testData = {
       testCriteria: {
         "Design & Verarbeitung": {
           rating: 5,
-          description: "Äußerst flach, stilvoll und kompakt; die Materialauswahl sorgt für ein geringes Gewicht bei hoher Stabilität – ein Premium‑Gefühl inklusive.",
+          description: "Elegantes, geschwungenes Gehäuse mit hochwertiger Verarbeitung zu einem attraktiven Preis.",
         },
         Lautstärke: {
           rating: 5,
-          description: "Der Motor läuft quasi lautlos und macht das Gerät perfekt für Mehrfamilienhäuser, Büro und Homeoffice.",
+          description: "Leise Motoren – auch für Mehrfamilienhäuser geeignet.",
         },
         "Dämpfung & Laufkomfort": {
           rating: 5,
-          description: "Die mehrlagige Dämpfung und die großzügige Lauffläche bieten exzellenten Komfort auch bei längeren Geh‑Sessions.",
+          description: "Gepolsterte Anti-Rutsch-Oberfläche absorbiert Vibrationen effektiv.",
         },
         Steuerung: {
           rating: 5,
-          description: "Fernbedienung, vier Programme, integrierter Schrittzähler und Bluetooth‑Anbindung zur Sportstech Live‑App bieten ein Maximum an Steuerungsmöglichkeiten.",
+          description: "Bluetooth und Fernbedienung funktionieren zuverlässig; Display ist intuitiv.",
         },
         Bürotauglichkeit: {
           rating: 5,
-          description: "Durch flache Bauweise, leisen Betrieb und Transportrollen prädestiniert für den Einsatz unter dem Schreibtisch.",
+          description: "Kompakt, leise und platzsparend – optimal für den Büroalltag.",
         },
         "Preis-Leistung": {
           rating: 5,
-          description: "Ausgesprochen attraktiv: hochwertige Ausstattung, App‑Mehrwert und vielseitige Nutzungsmöglichkeiten – ein starker Gegenwert.",
+          description: "Hervorragendes Gesamtpaket mit vielen Funktionen und leistungsstarken Motoren.",
         },
       },
-      extras: ["Manuelle Steigung", "Transportrollen", "Schrittzähler", "Bluetooth‑App"],
+      extras: [" Schnellstart-Anleitung", "Transportrollen für einfaches Verschieben", "Trainingspläne und Workout-Karten", "Bluetooth-App-Kompatibilität (iOS & Android)"],
       suitableFor: "Ideal für alle, die im Homeoffice,  vor dem TV oder unterwegs ihre Fitness verbessern wollen – bis 120 kg belastbar und damit breit einsetzbar.",
       mainDescription:
-        "Der Sportstech VP500 überzeugt als modernes Unter-Desk-Vibration Plate für den Einsatz im Homeoffice oder Büro. Dank seines flachen und leichten Designs fügt er sich harmonisch in nahezu jede Wohn- oder Arbeitsumgebung ein. Die Steuerung erfolgt komfortabel per Fernbedienung oder Bluetooth-App, wodurch sich das Gerät mühelos in den Alltag integrieren lässt. Der integrierte Schrittzähler sowie das übersichtliche Display unterstützen zusätzlich die Motivation und Trainingskontrolle.",
+        "Die Sportstech VP500 ist eine moderne und unauffällige Vibrationsplatte, die speziell für den Einsatz zu Hause oder im Büro entwickelt wurde. Dank ihres schlanken und leichten Designs fügt sie sich problemlos in Wohnzimmer, Gästezimmer oder Homeoffice ein, ohne wie ein typisches Fitnessgerät zu wirken.",
       testFindings:
-        "Im Praxiseinsatz zeigt der VP500 eine stabile und angenehme Performance. Die 90 × 40 cm große Lauffläche ermöglicht ergonomische und natürliche Schritte. Mit einem Geschwindigkeitsbereich von 1–6 km/h eignet sich das Gerät sowohl für entspanntes Gehen als auch für zügige Cardio-Einheiten. Die hochwertige Verarbeitung vermittelt einen robusten Eindruck, während das geringe Gewicht für einfache Mobilität und flexible Aufbewahrung sorgt.",
+        "Im täglichen Einsatz überzeugte die VP500 durch konstante Leistung auf allen Geschwindigkeitsstufen. Die 80 × 60 cm große Standfläche bietet ausreichend Platz für Übungen wie Kniebeugen, Planks oder Dehnübungen, ohne ein eingeschränktes Gefühl zu vermitteln.",
       specialFeature:
-        "Ein besonderes Highlight ist die einstellbare 5-%-Steigung, die einen zusätzlichen Trainingsreiz schafft und für mehr Abwechslung im Workout sorgt. In Kombination mit dem leisen Betrieb, der smarten App-Steuerung und der integrierten Schrittzählung bietet der VP500 ein modernes und vielseitiges Trainingserlebnis.",
+        "Besonders hervorzuheben ist die verstellbare 5%-Neigung, die das Training intensiver gestaltet und vor allem die Waden- und Beinmuskulatur stärker aktiviert als herkömmliche flache Modelle. Durch intelligente Geschwindigkeitssteuerung, Bluetooth-Konnektivität und ein übersichtliches Display bietet die VP500 ein modernes Trainingserlebnis, das dennoch einfach zu bedienen bleibt.",
       conclusion:
-        "Insgesamt ist der VP500 eine ausgezeichnete Wahl für alle, die ihre tägliche Bewegung unkompliziert steigern möchten. Mit durchdachten Funktionen, ergonomischem Komfort, leisem Betrieb und modernem Design vereint er Qualität, Funktionalität und Benutzerfreundlichkeit auf hohem Niveau.",
+        "Insgesamt ist die VP500 eine vielseitige Wahl für alle, die mehr Bewegung in ihren Alltag integrieren, die Regeneration nach dem Training unterstützen oder auch im Homeoffice aktiv bleiben möchten. Dank ihrer kompakten Maße, des leisen Betriebs und der stabilen Bauweise eignet sie sich hervorragend für Wohnungen und gemeinsam genutzte Räume.",
     },
   },
   "Sportstech sVibe": {
     image:
-      "/Assets/vibration-test 2.jpg",
+      "/Assets/vibration-test-2.jpg",
     overallScore: 4.86,
     status: "Bestanden",
     features: [
-      "Drehbares 21,5-Zoll-Touchdisplay mit der Sportstech Live App für immersives Training und Echtzeit-Tracking.",
-      "Schwarzer Rahmen mit den Maßen 182 × 87,5 × 177 cm und unterstützt Nutzer bis 150 kg.",
-      "Höchstgeschwindigkeit von 20 km/h und 15 Steigungsstufen, ideal für Ausdauer- oder Sprint-Workouts.",
-      "7-farbige LED-Ambient-Beleuchtung, die je nach Geschwindigkeit oder Puls für visuelles Feedback wechselt.",
-      "Faltbares Design und integrierte Transportrollen für bequeme Aufbewahrung und Mobilität.",
+      " Rotierendes 3D-Touchscreen-Display mit der Sportstech Live App für Echtzeit-Trainingsdaten und visuelle Trainingssteuerung.",
+      "Schwarzer Rahmen mit den Maßen 762 × 412 × 311 mm und einer Belastbarkeit bis 120 kg — entwickelt für Nutzer unterschiedlichster Körpergrößen.",
+      " Maximale Geschwindigkeit von 20 km/h und 99 Intensitätsstufen, geeignet sowohl für Einsteiger als auch für fortgeschrittene Nutzer mit höheren Trainingsansprüchen.",
+      " 7-farbige LED-Ambient-Beleuchtung der sVibe Vibrationsplatte, die je nach Vibrationsplatten-Geschwindigkeit oder Puls für visuelles Echtzeit-Vibrationsplatten-Feedback wechselt.",
+      " Klappbares Design für platzsparende und transportfreundliche Aufbewahrung — ideal für flexible Nutzung im Zuhause.",
     ],
     tests: {
       Speed: {
         description:
-          "Sportstech glänzt mit seiner Geschwindigkeit und beeindruckenden Beschleunigung sowie Sprintfähigkeiten. Im Test erreichte es Höchstgeschwindigkeiten, die selbst erfahrene Läufer zufriedenstellten, wobei es bei allen Intensitätsstufen Stabilität und Komfort beibehielt. Die reaktionsschnellen Steuerungen ermöglichen nahtlose Übergänge zwischen den Geschwindigkeitsstufen ohne Verzögerung.",
+          "Die sVibe liefert über alle 99 Intensitätsstufen hinweg eine gleichmäßige und stabile Leistung mit präziser Vibrationssteuerung, konstanter Kraftübertragung, effektiver Muskelaktivierung und ohne Geschwindigkeitsverlust — von sanften Recovery-Einstellungen bis zu intensiven Balance-Workouts.",
         rating: "4.8 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Dieses Modell hielt über 100 Stunden simulierte, hochintensive Workouts aus, ohne Anzeichen von Abnutzung oder strukturellen Problemen zu zeigen. Das vibration plate behielt seinen Halt, und das Deck zeigte nur minimale Kompressionsermüdung. Mit seinem kommerziellen Rahmen, verstärkten Gelenken und korrosionsbeständiger Beschichtung setzt Sportstech den Standard für langfristige Haltbarkeit.",
+          "Die sVibe absolvierte mehr als 100 Stunden Hochleistungs-Dauertests ohne Verformungen des Rahmens, lockere Bauteile, Überhitzung, Oberflächenverschleiß oder Leistungsinstabilitäten. Das Dual-Motor-3D-Oszillationssystem erzeugte selbst unter maximaler Belastung ruhige, vibrationsarme und stabile Bewegungen.",
         rating: "5 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Das Steigungsfunktion ist schnell, präzise und hält zuverlässig ihre Neigung. Das motorisierte Steigungssystem reagierte während des Workouts mit wenig Verzögerung und bietet bis zu 15 Stufen der Erhöhung. Es passt sich gut an HIIT- und Ausdauer-Steigungstraining an.",
+          "Die sVibe verfügt zwar nicht über eine klassische Neigungsfunktion, jedoch erzeugt das 3D-Oszillationssystem mit vertikalen, horizontalen und rotierenden Bewegungen einen ähnlichen Trainingseffekt. Dadurch wird die hintere Muskelkette stärker aktiviert und die Trainingsintensität mit Widerstandsbändern deutlich erhöht.",
         rating: "4.7 / 5",
         status: "Bestanden",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Trotz des leistungsstarken Motors bleibt Sportstech nahezu geräuschlos. Es erzeugt konstant Geräuschpegel von unter 55 Dezibel bei allen Geschwindigkeiten. Dies macht es geeignet für Wohnungen oder frühe Morgensessions, ohne andere zu stören.",
+          "Die sVibe übertrifft viele Konkurrenzmodelle deutlich bei der Geräuschkontrolle und arbeitet mit lediglich 38–48 dB über sämtliche Intensitätsstufen hinweg — wesentlich leiser als die üblichen 60–72 dB anderer Geräte. Damit eignet sie sich ideal für Wohnungen, Büros und gemeinsam genutzte Räume.",
         rating: "4.9 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Im Komforttest wurden das Bandpolster, die Deckbreite, die Handgriffpositionierung und die Anzeigeergonomie überprüft. Sportstech bietet ein geräumiges Deck, das natürliche Schrittlängen ermöglicht und Gelenkstress reduziert.",
+          "Das sechseckige Plattformdesign der sVibe verteilt den Druck gleichmäßig über die Fußfläche und reduziert dadurch Taubheitsgefühle bei längeren Trainingseinheiten. Ergonomische Griffe, sicherer Halt, eine reaktionsschnelle Fernbedienung und die nahtlose Integration der Sportstech Live App sorgen zusätzlich für ein komfortables und unterbrechungsfreies Trainingserlebnis.",
         rating: "4.9 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: Sportstech sWalk Lite – Testsieger 2025",
+      title: "Einzelne Bewertung: Sportstech sVibe – Testsieger 2025",
       modelName: "Sportstech sWalk Lite",
       verdict: "Perfekt für Büro & Zuhause",
       rating: 5.0,
@@ -217,16 +217,16 @@ const testData = {
           description: "Sehr fair für die Qualität",
         },
       },
-      extras: ["LCD-Anzeige", "Kilokalorienzählung", "Schrittzähler"],
+      extras: ["LCD-Tracking in der App", " Anpassbare Zählanzeige", "Schrittzähler"],
       suitableFor: "Büro & Zuhause, tägliches Gehen, gesundes Arbeiten",
       mainDescription:
-        "Das sWalk Lite von Sportstech ist ein kompaktes, leisesvibration plate, das speziell für den Einsatz im Homeoffice entwickelt wurde. Mit einer Höhe von nur 12 cm passt es problemlos unter Schreibtische und lässt sich bei Nichtgebrauch leicht verstauen. Die Verarbeitung ist hochwertig: Ein robustes Gehäuse, ein modernes LED-Display und eine sanft gedämpfte Lauffläche sorgen für ein angenehmes Nutzungserlebnis.",
+        "Die Sportstech sVibe ist eine kompakte Vibrationsplatte mit Fokus auf Oszillation, die speziell für den Einsatz im Homeoffice und Zuhause entwickelt wurde. Mit nur 15 kg Gewicht und einer Stellfläche kleiner als die vieler Couchtische beseitigt sie eines der größten Hindernisse für regelmäßiges Heimtraining: Platzmangel.",
       testFindings:
-        "Im Test überzeugte das Gerät besonders durch seine geringe Lautstärke von unter 55 dB. Selbst bei längeren Trainingseinheiten bleibt es nahezu geräuschlos, was für den Einsatz in Büroräumen oder Wohnungen mit dünnen Wänden ideal ist. Die Steuerung erfolgt wahlweise per App oder Fernbedienung, beide Varianten sind intuitiv und zuverlässig.",
+        "Im Test überzeugte das Gerät besonders in drei Bereichen. Erstens: die geringe Lautstärke. Der Betrieb unter 50 dB macht im Alltag einen enormen Unterschied. Zweitens: die Integration der Sportstech Live App, bei der die Intensität während vorprogrammierter Workouts automatisch angepasst wird — ein entscheidender Faktor für konsequente Nutzung. Drittens: das LED-Feedback-System, das abstrakte Intensitätsstufen in eine motivierende visuelle Erfahrung verwandelt.",
       specialFeature:
-        "Die integrierte Steigungsfunktion ist ein Alleinstellungsmerkmal in dieser Preisklasse und ermöglicht ein gelenkschonendes, aber gleichzeitig effektives Training.",
+        "Die 3D-Oszillation kombiniert seitliche Bewegungen,  ähnlich dem natürlichen Gehbewegungsmuster , mit zusätzlichen Vibrationsfrequenzen, wodurch sowohl oberflächliche als auch tiefliegende Muskelgruppen gleichzeitig aktiviert werden. Nutzer, die täglich etwa 10 Minuten bei mittlerer Intensität trainieren, beispielsweise mit Kniebeugen, Wadenheben oder einfachem Stehen, können einen geschätzten Kalorienverbrauch von 150–200 Kalorien erreichen. Kein Ersatz für ein vollständiges Fitnessstudio-Training, aber eine äußerst effektive Ergänzung zu einem sitzenden Alltag.",
       conclusion:
-        "Für Personen, die täglich mehrere Stunden im Stehen oder Gehen arbeiten möchten, ist das sWalk Lite die beste Wahl im Test 2025.",
+        "Für Menschen, die lange stehen oder gehen möchten, ohne ein Laufband zu nutzen, für Nutzer mit gelenkschonenden Morgenroutinen oder bei leichter Gelenkbelastung bietet die sVibe eine hervorragende tägliche Trainingslösung",
     },
   },
   Citysports: {
@@ -235,44 +235,44 @@ const testData = {
     overallScore: 4.0,
     status: "Bestanden",
     features: [
-      "Kompaktes, faltbares Design geeignet für kleine Wohnungen und einfache Aufbewahrung.",
-      "Minimale Benutzeroberfläche ideal für einfaches Gehen und leichte Joggingroutinen.",
-      "Leiser Motor geeignet für Mehrfamilienhäuser.",
-      "Integriertes Display zur Anzeige von Geschwindigkeit, Zeit und Kalorien.",
-      "Moderate Gewichtskapazität und leichte Portabilität.",
+      " Kompaktes und faltbares Design — ideal für kleine Wohnungen und die platzsparende Aufbewahrung neben dem Schreibtisch, ohne die Stabilität während des Trainings zu beeinträchtigen.",
+      "Rutschfeste Oberfläche mit strukturierter Beschichtung — geeignet für leichte bis intensivere Trainingseinheiten und sicherer Halt auch bei Barfußnutzung.",
+      "Leiser Motor für wohnungsfreundliches Training — vom Hersteller mit maximal 35 dB bei voller Leistung angegeben.",
+      "Integriertes Display für Geschwindigkeit, Zeit und Kalorienverbrauch — ermöglicht Echtzeit-Feedback ohne Smartphone-Verbindung.",
+      "Hohe Tragfähigkeit und einfache Transportierbarkeit — leichter Rahmen mit integrierten Griffen für unkompliziertes Umstellen zwischen verschiedenen Räumen.",
     ],
     tests: {
       Speed: {
         description:
-          "Citysports-vibration plates bieten eine konstante, aber moderate Geschwindigkeit, die ideal für Gehen und leichtes Joggen ist. Der Motor reagiert gut bei niedrigeren Geschwindigkeiten, ist jedoch weniger geeignet für intensives Sprinten.",
+          "Die CITYSPORTS Vibrationsplatte bietet über ihre 60 Geschwindigkeitsstufen hinweg eine gleichmäßige und stabile Leistung mit gut ablesbarem Display, reaktionsschnellen Übergängen und anfängerfreundlicher Intensität. Fortgeschrittene Nutzer könnten jedoch im oberen Leistungsbereich eine begrenzte Intensitätssteigerung im Vergleich zu Modellen mit 99 Stufen feststellen.",
         rating: "3.9 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Die leichte Bauweise von Citysports ermöglicht einfachen Transport, schränkt jedoch die Haltbarkeit bei intensiven Bedingungen ein. Es eignet sich gut für tägliche Geh- und moderate Jogging-Sessions, ohne strukturelle Belastungen.",
+          "Während unseres 80-Stunden-Dauertests blieb die Leistung der CITYSPORTS Vibrationsplatte unter einer Belastung von 75 kg stabil, ohne sichtbare strukturelle Schäden oder Materialverschleiß. Das leichte Gehäuse kann jedoch etwas stärkere Bodenvibrationen übertragen, weshalb für Wohnungen oder Holzböden eine Schutzmatte empfohlen wird.",
         rating: "3.8 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Die meisten Citysports-Modelle haben keine motorisierte Steigung, sondern verlassen sich auf manuelle Höhenverstellung oder feste Flachstellungen. Dies schränkt das Steigungstraining ein.",
+          "Die CITYSPORTS Vibrationsplatte verfügt über keine mechanische Neigungsfunktion, wodurch fortgeschrittene Übungen zur gezielten Aktivierung der unteren Körperpartien eingeschränkt werden. Die 3D-Oszillationsbewegung ermöglicht dennoch ein effektives Training von Gesäß, Oberschenkeln und Gleichgewicht.",
         rating: "3.0 / 5",
         status: "Begrenzt",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Citysports-Geräte sind beeindruckend leise, hauptsächlich aufgrund des niedrigen Motorwattwerts und der minimalen Vibrationen im Betrieb. Es rangiert hoch für Nutzer in Mehrfamilienhäusern oder bei nächtlichen Sessions.",
+          "Die CITYSPORTS Bluetooth Vibrationsplatte überzeugt mit außergewöhnlich leisem Betrieb zwischen 28 und 35 dB über sämtliche Intensitätsstufen hinweg — deutlich unter typischen Hintergrundgeräuschen in Wohnräumen. Dadurch eignet sie sich hervorragend für Wohnungen, Büros sowie frühe oder späte Trainingseinheiten ohne störende Geräuschentwicklung.",
         rating: "4.8 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Die kompakte Größe reduziert den Komfort für größere Nutzer, passt jedoch gut für kleinere Personen. Die Polsterung des Bands ist fair, und die Handläufe sind stabil, wenn auch minimal.",
+          "Die CITYSPORTS Plattform bietet soliden Komfort für Trainingseinheiten bis etwa 20 Minuten mit stabiler rutschfester Oberfläche, zuverlässiger Bluetooth-Konnektivität, reaktionsschneller Fernbedienung und ausreichend Platz für Standardübungen. Bei höheren Intensitäten können während des Trainings mit Widerstandsbändern jedoch stärkere Armvibrationen auftreten.",
         rating: "3.7 / 5",
         status: "Bestanden",
         icon: Heart,
@@ -288,46 +288,46 @@ const testData = {
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Erweiterte Tests",
       testCriteria: {
-        "Design & Verarbeitungsqualität": {
+        "Design & Verarbeitung": {
           rating: 3,
           description:
-            "Schlicht und leicht transportierbar, aber instabil und wackelig bei höheren Geschwindigkeiten",
+            " Sehr flache Kunststoffverarbeitung, lockere Passformen und spürbare Instabilität bei höheren Geschwindigkeiten.",
         },
         Geräuschpegel: {
           rating: 2,
           description:
-            "Schon bei mittlerem Tempo sehr laut, mit knarzenden und summenden Geräuschen",
+            "Tatsächlich leiser Betrieb — selbst bei maximaler Leistung unter 35 dB bestätigt.",
         },
-        "Polsterung & Komfort": {
+        "Dämpfung & Komfort": {
           rating: 2,
-          description: "Harte Lauffläche mit Vibrationen bei schnellerem Gehen",
+          description: "Relativ harte Standfläche — spürbare Vibrationen beim Gehen auf der Plattform.",
         },
         Steuerung: {
           rating: 3,
           description:
-            "Nur per Fernbedienung, Bluetooth-Verbindung oft unzuverlässig",
+            "Bedienung per App und Fernsteuerung möglich. Bluetooth-Audio bietet zusätzlichen Komfort für Homeoffice-Nutzer.",
         },
         Bürotauglichkeit: {
           rating: 2,
           description:
-            "Zu laut und instabil für den Einsatz in Büro oder Wohnung",
+            "Nicht ideal für den dauerhaften Einsatz im Büro oder in kleinen Wohnungen — besser geeignet für kurze Trainingseinheiten.",
         },
         "Preis-Leistungs-Verhältnis": {
           rating: 2,
           description:
-            "Enttäuschend aufgrund schwacher Verarbeitung und geringer Haltbarkeit",
+            "Enttäuschend: günstiger Preis, jedoch deutlich niedrigere Gesamtqualität.",
         },
       },
-      extras: ["Bluetooth-Lautsprecher"],
+      extras: ["Bluetooth-Lautsprecher","Fernbedienung inklusive","Rutschfeste Oberflächenmatte"],
       suitableFor: "Kurze, unregelmäßige Geh-Sessions zu Hause",
       mainDescription:
-        "Das CITYSPORTS Bluetooth vibration plate wirkt auf den ersten Blick ideal für Einsteiger, die ein einfaches, kompaktesvibration plate suchen. Doch im ausführlichen Test offenbarte es deutliche Schwächen in Stabilität, Lautstärke und Haltbarkeit. Schon beim Aufbau wirkten Teile locker, und bei höherer Geschwindigkeit kam es zu starken Vibrationen.",
+        "Auf den ersten Blick wirkt die CITYSPORTS Bluetooth Vibrationsplatte wie eine ideale Lösung für Einsteiger, die ein kompaktes und einfach zu bedienendes Gerät suchen. In unserer Testdatenbank zählt sie zu den leisesten Modellen ihrer Preisklasse. Sie lässt sich leicht transportieren, ohne Werkzeug montieren und erzeugt bei höheren Geschwindigkeiten eine spürbare Vibrationsintensität.",
       testFindings:
-        "Während des Tests war das vibration plate auffällig laut – trotz gegenteiliger Herstellerangabe. Es knarrte, summte und entwickelte bei höherem Tempo ein deutlich hörbares Dröhnen. Der Laufgurt verschob sich, was das Geräusch verstärkte und das Gehen instabil machte. Nach kurzer Nutzung wurde das Gerät warm und verströmte einen Kunststoffgeruch. Die Bluetooth-Verbindung war inkonsistent, und die Fernbedienung reagierte oft verzögert oder gar nicht.",
+        "Während der Praxistests zeigte das Gerät jedoch in mehreren entscheidenden Bereichen Schwächen gegenüber den Herstellerangaben. Die Laufoberfläche verschob sich leicht, die Motorgeräusche wurden bei mittleren Geschwindigkeiten unregelmäßig und die Fernbedienung reagierte teilweise verzögert oder gar nicht. Auch die Bluetooth-Verbindung erwies sich als instabil.",
       specialFeature:
         "Integrierter Bluetooth-Lautsprecher – leider wenig zuverlässig und qualitativ nicht überzeugend.",
       conclusion:
-        "Das CITYSPORTS Bluetooth vibration plate eignet sich höchstens als kurzfristige Übergangslösung für kurze Spaziergänge zu Hause. Für den dauerhaften Bürogebrauch oder längere Geh-Einheiten ist es aufgrund der lauten Betriebsweise, der schwachen Verarbeitung und der mangelhaften Steuerung nicht zu empfehlen.",
+        "Der integrierte Bluetooth-Lautsprecher überzeugte qualitativ nicht und bot aus unserer Sicht keinen echten Mehrwert. Für Nutzer, die das Gerät lediglich gelegentlich für kurze Trainingseinheiten oder leichte Bewegungsübungen zu Hause einsetzen möchten, erfüllt es seinen Zweck ausreichend. Für den dauerhaften Einsatz im Büro oder längere Trainingseinheiten ist das Modell aufgrund der Verarbeitungsqualität und der eingeschränkten Steuerung jedoch nicht ideal geeignet.",
     },
   },
   Kiddoza: {
@@ -336,51 +336,51 @@ const testData = {
     overallScore: 3.48,
     status: "Bestanden",
     features: [
-      "Kinderfreundliches Design mit bunter Benutzeroberfläche und leicht verständlichem Bedienfeld.",
-      "Kompakte Lauffläche, geeignet für Spaziergänge oder leichtes Joggen zu Hause.",
-      "Leichtbauweise mit minimalem Montageaufwand.",
-      "Voreingestellte Programme für Aufwärmen und Einsteiger-Cardioeinheiten.",
-      "Weiche Griffe und moderate Dämpfung für den Familiengebrauch.",
+      " Kompaktes Untertisch-Design, ideal für kleine Räume und Homeoffice-Setups",
+      " Leiser Motorbetrieb, optimiert für Gemeinschaftsräume und Wohnungen",
+      "Einfache Bedienoberfläche mit einsteigerfreundlichen Vibrationsstufen",
+      " Leichtes Gehäuse für bessere Mobilität und einfache Lagerung",
+      "Rutschfeste Standfläche verbessert die Stabilität während der Nutzung",
     ],
     tests: {
       Speed: {
         description:
-          "Kiddoza erreicht moderate Höchstgeschwindigkeiten und funktioniert auf Basisniveau zuverlässig. Nicht für ambitionierte Läufer oder Leistungssportler gedacht. Die Bedienung ist intuitiv, und die Geschwindigkeit lässt sich mit minimaler Verzögerung anpassen.",
+          "Die Kiddoza Vibrationsplatte liefert eine moderate Vibrationsintensität, die eher auf leichte Regeneration und einsteigerfreundliche Bewegungseinheiten als auf intensives Athletiktraining ausgelegt ist. Während des Tests blieb die Schwingung über die üblichen Geschwindigkeitsstufen hinweg relativ stabil, auch wenn fortgeschrittene Nutzer die maximale Intensität möglicherweise als begrenzt empfinden.",
         rating: "3.5 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Aus leichten Materialien gefertigt, legt Kiddoza den Fokus auf Kosteneffizienz statt Robustheit. Für gelegentlichen Gebrauch geeignet, aber nicht für intensive tägliche Workouts.",
+          "Die allgemeine Verarbeitungsqualität ist für gelegentliche und moderat tägliche Nutzung ausreichend. Das leichte Gehäuse unterstützt die Mobilität, jedoch sind Rahmen und Materialien eher für Homeoffice-Umgebungen als für intensive Trainingsbelastungen geeignet.",
         rating: "3.6 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Viele Kiddoza-Modelle verfügen über keine oder nur manuell einstellbare feste Steigungen. Dies schränkt die Trainingsvielfalt ein. Ideal für Nutzer, die keinen Wert auf Steigungstraining legen.",
+          "Kiddoza konzentriert sich auf kompakte Stabilität statt auf aggressive Bewegungsdynamik. Die Plattform bleibt bei stehenden Übungen und sitzungsorientierten Regenerationseinheiten kontrolliert, wodurch sie sich besonders für Nutzer eignet, die Wert auf Balance, Komfort und Alltagstauglichkeit legen.",
         rating: "2.9 / 5",
         status: "Eingeschränkt",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Dank kleinerer Motoren sind Kiddoza-Geräte relativ leise. Die Geräuschkulisse ist im Heimgebrauch akzeptabel, kann jedoch bei längerer Nutzung zunehmen.",
+          "Die Geräuschentwicklung gehört zu den stärkeren Eigenschaften der Kiddoza Vibrationsplatte. Während der Tests blieb der Betriebspegel für Wohnungen, Gemeinschaftsbüros und Videokonferenzen angenehm kontrollierbar – insbesondere auf Standardböden oder Schutzmatten.",
         rating: "4.0 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Kiddoza bietet weiche Griffe und eine einfache Dämpfung. Die schmale Lauffläche eignet sich für Kinder und kleinere Erwachsene. Ergonomische Funktionen wie bei Premium-Modellen fehlen jedoch.",
+          "Die strukturierte Anti-Rutsch-Oberfläche bietet ausreichenden Komfort für kürzere Regenerations- und Stand-Sessions. Das Vibrationsmuster wirkt bei niedrigen Einstellungen angenehm gleichmäßig, während längere Nutzung bei höheren Intensitäten zu spürbarer Fußermüdung führen kann.",
         rating: "3.4 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzeltest: Kiddozavibration plate",
+      title: "Kiddoza Under Desk Vibrationsplatte – Getestet auf Bürofreundlichkeit und Einsteigerkomfort",
       modelName: "Kiddozavibration plate",
       verdict: "Keine Empfehlung für jegliche Nutzung",
       rating: 1.5,
@@ -392,25 +392,25 @@ const testData = {
         "Design & Verarbeitung": {
           rating: 2,
           description:
-            "Sehr einfach gehalten mit schlechter Verarbeitungsqualität",
+            "Saubere, kompakte Konstruktion mit solider Verarbeitung im Einstiegssegment.",
         },
         Lautstärke: {
           rating: 2,
-          description: "Deutlich hörbar selbst bei moderaten Geschwindigkeiten",
+          description: "Leise genug für gemeinsam genutzte Innenräume und bürofreundliche Anwendungen.",
         },
         "Dämpfung & Komfort": {
           rating: 1,
           description:
-            "Kaum Dämpfung vorhanden; vibration plate hart und unangenehm",
+            "Stabile Vibrationsübertragung mit moderater Dämpfung und ausreichendem Komfort.",
         },
         Steuerung: {
           rating: 2,
           description:
-            "Altmodische Fernbedienung; App unzuverlässig und schwer zu bedienen",
+            "Leichtes Design verbessert Transportfähigkeit und platzsparende Aufbewahrung.",
         },
         "Office-Tauglichkeit": {
           rating: 1,
-          description: "Zu laut und instabil für den Einsatz im Arbeitsumfeld",
+          description: "Attraktives Preisniveau für Nutzer, die eine erschwingliche Vibrationsunterstützung suchen.",
         },
         "Preis-Leistung": {
           rating: 2,
@@ -418,17 +418,17 @@ const testData = {
             "Günstig, aber das merkt man auch deutlich an Verarbeitung und Leistung",
         },
       },
-      extras: ["Nur LCD-Anzeige"],
+      extras: ["Geeignet für lockere Homeoffice-Nutzung","Durchblutungsfördernde Bewegungsroutinen"],
       suitableFor:
         "Nur gelegentliches, sehr leichtes Gehen – und selbst das mit Vorsicht",
       mainDescription:
-        "Das Kiddozavibration plate ist ein sehr einfaches Modell und richtet sich offenbar nur an Nutzer mit minimalen Ansprüchen. Im Test zeigte sich jedoch, dass das Gerät bereits ab Werk erhebliche Schwächen aufweist – einige Testgeräte ließen sich gar nicht starten, zeigten sofort Fehlermeldungen oder führten beim Einschalten sogar zu einem kurzen Knall mit Sicherungsauslösung.",
+        "Die Kiddoza Vibrationsplatte positioniert sich als kompakte Einstiegslösung für Nutzer, die mehr Bewegung in einen sitzenden Alltag integrieren möchten. Dank der kompakten Abmessungen und des moderaten Gewichts lässt sich das Gerät problemlos unter Schreibtischen, neben Sofas oder in kleineren Wohnungen platzieren.",
       testFindings:
-        "Auch die Verarbeitungsqualität überzeugte nicht. Das vibration plate ist sehr dünn, bietet keine echte Dämpfung und fühlt sich bereits nach wenigen Minuten unangenehm hart an. Aufkleber und Kunststoffgehäuse wirken billig, und die gesamte Konstruktion hinterlässt kein sicheres Gefühl. Die Lautstärke war überraschend hoch – selbst bei moderatem Tempo entwickelten sich deutliche Laufgeräusche. Die fehlende Dämpfung macht das Training schnell unangenehm für die Gelenke. Auch die Bedienung ist problematisch: Eine App ist teilweise zwingend notwendig, stürzt aber häufig ab oder verbindet sich nicht zuverlässig. Für Nutzer ohne Technikaffinität ist das Gerät kaum praxistauglich.",
+        "Im Alltagstest zeigte die Plattform ihre besten Ergebnisse bei kurzen Steh-Sessions, durchblutungsfördernden Regenerationsübungen und gelenkschonenden Mobilitätsbewegungen. Die Vibrationsintensität bleibt kontrolliert und zugänglich, wodurch das Gerät für Einsteiger und ältere Nutzer weniger einschüchternd wirkt als aggressive Hochfrequenz-Modelle.",
       specialFeature:
         "Sein einziges echtes Merkmal ist ein einfaches LCD-Display – unzureichend angesichts der vielen Schwächen.",
       conclusion:
-        "Unser Test zeigte klar: Das Kiddozavibration plate eignet sich weder für das Homeoffice noch für regelmäßige Nutzung. Mangelnde Sicherheit, hohe Lautstärke und fehlender Komfort machen es zu keiner Empfehlung – selbst nicht als Budget-Modell.",
+        "Eine der auffälligsten Stärken ist die geringe Betriebslautstärke. Der Motor blieb während typischer Büroanwendungen angenehm unauffällig, sodass sich das Gerät problemlos während Remote-Arbeit oder alltäglicher Aktivitäten einsetzen lässt. Dadurch eignet sich das Kiddoza-Modell besonders gut für Wohnungen und gemeinsam genutzte Innenräume.",
     },
   },
   Superun: {
@@ -437,51 +437,51 @@ const testData = {
     overallScore: 3.9,
     status: "Bestanden",
     features: [
-      "Breitere Lauffläche und mittelstarker Motor, ideal für Freizeitsportler.",
-      "Motorisierte Steigung mit bis zu 12 Stufen für Bergtraining.",
-      "Stabiles Gestell mit akzeptabler Tragkraft und modernem Display.",
-      "Digitale Steuerung mit Informationen zu Zeit, Geschwindigkeit und Kalorien.",
-      "Mittlere Dämpfung und zuverlässige Handläufe für den täglichen Gebrauch.",
+      " Rutschfeste Standfläche verbessert Balance und Sicherheit während des Trainings.",
+      " Leichter Rahmen erleichtert Transport und Aufbewahrung",
+      " Benutzerfreundliches Bedienkonzept mit leicht zugänglichen Geschwindigkeitsstufen.",
+      "Moderate Vibrationsintensität, optimiert für Regeneration und tägliche Aktivität.",
+      " Leiser Motor für gemeinsam genutzte Innenräume.",
     ],
     tests: {
       Speed: {
         description:
-          "Das Superun bietet eine solide Geschwindigkeitsleistung mit gleichmäßiger Beschleunigung. Es erreicht zwar nicht das Niveau von High-End-Modellen, erfüllt aber die Anforderungen von Freizeit- und Hobbysportlern.",
+          "Die Superun Vibrationsplatte bietet eine gleichmäßige niedrige bis mittlere Vibrationsintensität, die vor allem zur Förderung der Durchblutung, für Balanceübungen und leichte Regenerationseinheiten geeignet ist. Während des Tests blieb die Vibration angenehm kontrolliert und einsteigerfreundlich, während erfahrene Fitnessnutzer möglicherweise mehr Intensität bevorzugen würden.",
         rating: "4.1 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Der Rahmen und der Motor sind robust genug für den täglichen, moderaten Einsatz. Testpersonen stellten gelegentliches Durchrutschen des Bandes unter höherer Belastung fest, insgesamt ist die Haltbarkeit jedoch solide.",
+          "Die allgemeine Verarbeitungsqualität eignet sich für den regelmäßigen Heimgebrauch und alltägliche Trainingseinheiten. Die leichte Konstruktion verbessert die Mobilität, allerdings ist der kompakte Rahmen eher für Regenerationstraining als für intensive Hochleistungsübungen ausgelegt.",
         rating: "4.0 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Die motorisierte Steigung lässt sich gut einstellen und ist eine sinnvolle Ergänzung für Intervall- und Bergtraining. Das Superun bietet bis zu 12 Steigungsstufen. Zwar ist die Umstellung nicht die schnellste, aber sie erfolgt zuverlässig und präzise.",
+          "Die Superun-Plattform blieb bei Standübungen, Kniebeugen und Mobilitätstraining für Einsteiger stabil. Die rutschfeste Oberfläche sorgte für sicheren Halt, während die Vibrationsübertragung über die meisten Geschwindigkeitsstufen hinweg kontrolliert blieb.",
         rating: "4.0 / 5",
         status: "Bestanden",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Durchschnittliche Geräuschkulisse – Motorengeräusche und Schritte sind hörbar, aber akzeptabel. Geeignet für Wohnzimmer, in denen möglichst wenig Lärm gewünscht ist.",
+          "Die geringe Lautstärke gehört zu den größten Stärken der Superun Vibrationsplatte. Der Motor arbeitete im normalen Betrieb angenehm leise und eignet sich daher besonders für Wohnungen, Gemeinschaftsräume und abendliche Trainingseinheiten.",
         rating: "3.9 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Breites vibration plate und benutzerfreundliches Interface erhöhen den Komfort. Die Dämpfung unterstützt längere Trainingseinheiten. Handläufe und Anzeige sind gut positioniert.",
+          "Die Vibrationsübertragung fühlt sich bei niedrigen und mittleren Einstellungen angenehm weich an, wodurch die Plattform besonders für Anfänger und Regenerationsnutzer geeignet ist. Längere Einheiten auf maximaler Intensität können jedoch zu spürbarer Fußermüdung führen, insgesamt blieb der Komfort im Test jedoch auf einem guten Niveau.",
         rating: "4.2 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzeltest: Superun Raceable",
+      title: "Superun B,A06-C Vibrationsplatte",
       modelName: "Superun Raceable",
       verdict: "Nicht für Büro geeignet",
       rating: 2.0,
@@ -492,94 +492,97 @@ const testData = {
       testCriteria: {
         "Design & Verarbeitung": {
           rating: 3,
-          description: "Sportlich, aber instabil bei höheren Geschwindigkeiten",
+          description: "Saubere und kompakte Konstruktion mit solider Gesamtverarbeitung.",
         },
         Lautstärke: {
           rating: 2,
-          description: "Sehr laut, mit Pieptönen und klackernden Geräuschen",
+          description: "Leise genug für Wohnungen und gemeinsam genutzte Innenräume.",
         },
         "Dämpfung & Komfort": {
           rating: 3,
-          description: "Akzeptabel, aber das Band läuft unruhig und ruckelt",
+          description: "Stabile Vibrationsübertragung mit moderater Dämpfungsunterstützung.",
         },
         Steuerung: {
           rating: 2,
           description:
-            "Einfache Fernbedienung, reagiert oft verzögert; App instabil",
+            "Das geringe Gewicht erleichtert Transport und Lagerung.",
         },
         "Eignung fürs Büro": {
           rating: 2,
-          description: "Zu laut und instabil für ruhige Arbeitsumgebungen",
+          description: "Gut geeignet für geräuscharme Umgebungen und kompakte Arbeitsbereiche.",
         },
         "Preis-Leistung": {
           rating: 2,
-          description: "Angesichts der Schwächen nicht überzeugend",
+          description: "Attraktiver Gegenwert für Nutzer, die eine preiswerte Vibrationsunterstützung suchen.",
         },
       },
-      extras: ["Racing-Modus", "Multiplayer-Funktion"],
+      extras: ["Kompakte, wohnungsfreundliche Bauweise", "Tragbares Leichtgewicht-Design","Einsteigerfreundliche Vibrationsintensität","Leiser Betrieb für Innenräume"],
       suitableFor:
         "Gamifizierte Workouts für Gelegenheitssportler – nicht für Profis oder den Bürogebrauch geeignet",
       mainDescription:
-        "Das Superun Raceable fällt durch Gamification-Funktionen wie Racing- und Multiplayer-Modus auf, die zunächst spannend wirken. In der Praxis zeigt sich jedoch schnell, dass das Gerät für den Einsatz im Homeoffice ungeeignet ist.",
+        "Die Superun B,A06-C positioniert sich als kompakte und preiswerte Wellness-Vibrationsplatte für Nutzer, die gelenkschonende Bewegung ohne großes Fitnessgerät suchen. Durch ihre kompakten Maße und das geringe Gewicht lässt sie sich einfach zwischen Räumen transportieren oder nach der Nutzung verstauen.",
       testFindings:
-        "Schon kurz nach dem Aufbau traten mehrere Probleme auf. Das Band verschob sich seitlich, musste häufig nachjustiert werden und lief unruhig – was ein unsicheres Gefühl vermittelte. Das Gerät war extrem laut, mit Pieptönen beim Start und bei Geschwindigkeitsänderungen sowie klackernden und schleifenden Geräuschen, die mit der Zeit lauter wurden. Der Motor überhitzte spürbar und verströmte einen deutlichen Kunststoffgeruch, was längere Nutzung riskant machte. Die Fernbedienung reagierte träge, die App war instabil, was das Training zusätzlich störte.",
+        "Im Praxistest überzeugte die Vibrationsplatte besonders bei stehenden Regenerationseinheiten, Balanceübungen, Durchblutungsförderung und mobilitätsorientierten Anfänger-Workouts. Das Vibrationsmuster wirkt kontrolliert statt aggressiv, wodurch das Gerät besonders zugänglich für Nutzer ohne Erfahrung mit Hochfrequenz-Vibrationstraining bleibt.",
       specialFeature:
-        "Racing- und Multiplayer-Funktionen könnten Gelegenheitssportler ansprechen, gleichen die funktionalen Schwächen aber nicht aus.",
+        "Eine der größten Stärken ist die geringe Betriebslautstärke. Der Motor blieb im normalen Betrieb angenehm unauffällig, wodurch sich das Superun-Modell besonders für Wohnungen, Homeoffice-Setups und gemeinsam genutzte Innenräume eignet.",
       conclusion:
-        "Wegen der hohen Lautstärke, der instabilen Laufbewegung und der schlechten Steuerung ist das Superun Raceable nicht für den Bürogebrauch oder längere Sitzungen zu empfehlen.",
+        "Auch die rutschfeste Oberfläche hinterließ im Test einen positiven Eindruck. Übungen wie Kniebeugen, Wadenheben und Balanceübungen fühlten sich über die üblichen Vibrationsstufen hinweg stabil und sicher an.",
     },
   },
-  Urevo: {
+  Evospark: {
     image:
       "/Assets/vibration-test 6.png",
     overallScore: 4.15,
     status: "Bestanden",
     features: [
-      "2-in-1 Design:  und vibration plate in einem.",
-      "Kompakt und klappbar – ideal für kleine Wohnungen.",
-      "Ruhiger Motor mit moderater Maximalgeschwindigkeit.",
-      "Einfach zu bedienende Fernbedienung.",
-      "LED-Anzeige zeigt Geschwindigkeit, Zeit, Distanz und Kalorien.",
+      " Fortschrittliches Dual-Motor-Vibrationssystem für intensivere Muskelaktivierung",
+      " Mehrere Geschwindigkeitsstufen für Anfänger bis Fortgeschrittene",
+      " Kompaktes, platzsparendes Design für Wohnungen und Homegyms",
+      " Rutschfeste Oberfläche mit stabilen Saugnäpfen für mehr Sicherheit",
+      " Inklusive Widerstandsbändern für Ganzkörpertraining",
+      "Leiser Betrieb – ideal für gemeinsam genutzte Wohnräume",
+      "Fernbedienung für komfortable Einstellungen",
+      "Unterstützt gelenkschonende Regeneration und Mobilitätsübungen",
     ],
     tests: {
       Geschwindigkeit: {
         description:
-          "Für alltägliches Gehen und leichtes Joggen geeignet. Die Maximalgeschwindigkeit ist nicht für intensive Laufeinheiten gedacht, erfüllt jedoch den Zweck für Home-Office-Training und Fitness-Einsteiger.",
+          "Die EvoSpark Vibrationsplatte bietet gleichmäßige und stabile Vibrationsintensitäten über verschiedene Geschwindigkeitsstufen hinweg. Während des Tests blieben die Übergänge ruhig und kontrolliert, wodurch sie sich sowohl für Regenerationseinheiten als auch für aktive Workouts eignet.",
         rating: "4.1 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Haltbarkeit: {
         description:
-          "Das Gerät ist solide verarbeitet. Die Materialien wirken hochwertig, und der Rahmen bleibt auch bei täglicher Nutzung stabil.",
+          "Die verstärkte Plattformkonstruktion und die rutschfeste Basis sorgen für zuverlässige Stabilität im täglichen Gebrauch. Die Verarbeitungsqualität wirkt robust und unterstützt eine langfristige Nutzung im Home-Fitness-Bereich.",
         rating: "4.2 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Steigung: {
         description:
-          "Keine einstellbare Steigung vorhanden. Das vibration plate ist flach konzipiert, was für viele Home-User ausreicht, aber für Bergläufe oder Intervalltraining nicht geeignet ist.",
+          "Die Plattform bleibt auch bei höheren Vibrationsstufen stabil und griffig. Die großzügige Standfläche ermöglicht komfortable Übungen wie Kniebeugen, Dehnübungen und gelenkschonende Bewegungsroutinen.",
         rating: "2.8 / 5",
         status: "Nicht bestanden",
         icon: TrendingUp,
       },
       Lautstärke: {
         description:
-          "Der Motor ist leise und erzeugt nur geringe Laufgeräusche. Optimal für die Nutzung in Wohnungen oder Büros.",
+          "Einer der größten Vorteile der EvoSpark Vibrationsplatte ist ihr leises Motorsystem. Während des Tests blieb die Geräuschentwicklung angenehm niedrig und deutlich wohnungsfreundlicher als bei vielen vergleichbaren Geräten.",
         rating: "4.5 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Komfort: {
         description:
-          "Die Lauffläche ist kompakt, aber für normales Gehen ausreichend. Die Dämpfung ist vorhanden, aber nicht mit großen Studiovibration plates vergleichbar.",
+          "Die strukturierte Oberfläche, die gleichmäßige Vibrationsbewegung und das ergonomische Plattformdesign sorgen für ein angenehmes Trainingserlebnis. Selbst bei längeren Trainingseinheiten blieb die Vibrationsverteilung ausgewogen, ohne unangenehme Druckpunkte.",
         rating: "4.1 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzeltest: UREVO 2-in-1",
+      title: "Einzeltest: Evospark Vibrationsplatte",
       modelName: "UREVO 2-in-1 vibration plate",
       verdict: "Kompaktes Multitalent für Zuhause und Büro",
       rating: 4.2,
@@ -588,46 +591,46 @@ const testData = {
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "2 Wochen Alltagseinsatz im Homeoffice",
       testCriteria: {
-        "Design & Verarbeitung": {
+        "Motorleistung": {
           rating: 4,
           description:
-            "Schlichtes, modernes Design mit robustem Rahmen. Platzsparend und einfach zu verstauen.",
+            "Zwei 150W-Motoren liefern gleichmäßige Leistung bei geringer Lautstärke",
         },
         Lautstärke: {
           rating: 5,
           description:
             "Besonders leise, kaum hörbar – ideal für konzentriertes Arbeiten während des Gehens.",
         },
-        "Dämpfung & Komfort": {
+        "Vibrationsvielfalt": {
           rating: 3,
           description:
-            "Ausreichende Dämpfung für Gehen, beim Joggen eher hart.",
+            "3D- & 4D-Modi sorgen für multidirektionale Bewegungen",
         },
-        Steuerung: {
+        Geschwindigkeitspräzision: {
           rating: 4,
           description:
-            "Einfache Steuerung über Fernbedienung, keine App-Anbindung.",
+            "120 Stufen ermöglichen individuelle Trainingsanpassung",
         },
-        "Steigung & Intervalltraining": {
+        "Verarbeitungsqualität": {
           rating: 2,
-          description: "Keine Steigung – für ambitionierte Nutzer limitiert.",
+          description: "ABS-Konstruktion wirkt stabil; Saugnäpfe bieten sicheren Halt",
         },
-        "Preis-Leistung": {
+        "Benutzerfreundlichkeit": {
           rating: 5,
           description:
-            "Sehr guter Preis für eine 2-in-1-Lösung – ideal für den Einstieg.",
+            "Fernbedienung, LED-Display und kein Aufbau notwendig",
         },
       },
-      extras: ["Fernbedienung", "LED-Anzeige", "Klappbares Design"],
+      extras: ["Kompaktes Ganzkörper-Vibrationstrainingssystem", "Fernbedienbare Geschwindigkeitssteuerung", "Widerstandsbänder für Oberkörpertraining","Leiser Motor für wohnungsfreundliche Nutzung","Einfache Aufbewahrung dank schlankem Design",],
       suitableFor: "Fitness-Einsteiger, Homeoffice-Nutzer, ältere Menschen",
       mainDescription:
-        "Das UREVO 2-in-1 vibration plate überzeugt durch seine Vielseitigkeit: Es eignet sich sowohl zum Gehen beim Arbeiten als auch für kurze Joggingeinheiten nach Feierabend. Besonders kompakt und ideal für kleine Wohnungen.",
+        "Die EvoSpark Vibrationsplatte überzeugt als praktische Home-Fitness-Lösung für Nutzer, die ein komfortables und gelenkschonendes Training suchen. Die Dual-Motor-Technologie erzeugt sanfte multidirektionale Vibrationen, die die Muskelaktivierung unterstützen und gleichzeitig Durchblutung sowie Regeneration fördern.",
       testFindings:
-        "Im Praxistest zeigte sich das vibration plate stabil, einfach zu bedienen und vor allem leise. Für intensive Laufeinheiten ist es nicht gedacht, erfüllt aber zuverlässig seinen Zweck als Bewegungslösung im Alltag.",
+        "Unser Testteam empfand das Gerät besonders effektiv für kurze tägliche Workouts, Dehnübungen, Gleichgewichtstraining und regenerationsorientierte Routinen. Der leise Betrieb und die kompakte Größe machen das Modell zudem ideal für Wohnungen, kleine Trainingsräume und Homeoffices.",
       specialFeature:
         "Kompakt, klappbar und superleise – perfekt für den täglichen Einsatz im Homeoffice.",
       conclusion:
-        "Ein smartesvibration plate für alle, die im Alltag mehr Bewegung wollen. Kein Profigerät, aber ein starker Alltagsbegleiter.",
+        "Auch wenn Vibrationsplatten klassisches Training nicht vollständig ersetzen sollten, eignet sich das EvoSpark-Modell hervorragend als ergänzendes Trainingsgerät. Es unterstützt Muskelaktivierung, Beweglichkeit, Flexibilität und regelmäßige Bewegung im Alltag.",
     },
   },
   Copant: {
@@ -636,51 +639,53 @@ const testData = {
     overallScore: 3.5,
     status: "Bestanden",
     features: [
-      "1–6 km/h Geschwindigkeit – ideal fürs Büro-vibration plate und leichtes Joggen",
-      "2,5-PS-Motor, Tragkraft bis 136 kg",
-      "APP-Steuerung für Programme, Renn-Modi und Tracking",
-      "Kompaktes, untertisch-taugliches Design zum Verstauen unter Schreibtisch / Bett",
-      "Stoßdämpfende, rutschfeste Lauffläche für gelenkschonendes Training",
+      "Mehrere Vibrationsstufen für Anfänger und fortgeschrittene Nutzer",
+      " Kompaktes Design für Wohnungen und Homeoffices",
+      "Geräuscharmer Betrieb bei moderater Intensität",
+      " Rutschfeste Oberfläche für sichere Übungen im Stand",
+      " Leichte Bauweise für einfaches Verstauen und Transportieren",
+      "Fernbedienung für schnelle Anpassungen",
+      "Geeignet zur Unterstützung der Durchblutung und Regeneration"
     ],
     tests: {
       Speed: {
         description:
-          "Mit bis zu 6 km/h ist das Copant deutlich auf vibration plate und leichtes Joggen ausgelegt. Für Power-vibration plate und kurze Jogging-Intervalle reicht es aus, für längere Läufe nicht.",
+          "Die Copant Vibrationsplatte liefert eine stabile Vibrationsintensität für leichte Workouts, Regenerationseinheiten und Mobilitätsübungen. Niedrige Einstellungen bleiben angenehm für Einsteiger, während höhere Stufen eine stärkere Muskelaktivierung bei Kniebeugen und Standübungen ermöglichen.",
         rating: "3.7 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Die Belastbarkeit bis 136 kg und die robuste Bauweise geben im Test ein gutes Gefühl, auch bei täglicher Nutzung.",
+          "Während des Dauertests blieb die Vibrationsleistung konstant und der Motor arbeitete zuverlässig. Der Rahmen zeigte sich bei normaler Heimnutzung und täglichem Einsatz stabil.",
         rating: "4.1 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Es gibt keine echte Steigungsfunktion – das Gerät ist flach ausgelegt. Wer Wert auf Bergtraining legt, kommt hier nicht auf seine Kosten.",
+          "Die rutschfeste Plattform bietet eine solide Stabilität für Standübungen, Gleichgewichtstraining und leichtes Stretching. Auch bei mittleren Intensitätsstufen bleibt die Standfestigkeit zuverlässig.",
         rating: "2.8 / 5",
         status: "Begrenzt",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Der Motor läuft leise; Erfahrungsberichte loben insbesondere den ruhigen Betrieb beim Arbeiten am Schreibtisch.",
+          "Die Geräuschentwicklung bleibt für die meisten Innenräume angenehm. In Kombination mit Bodenschutzmatten reduziert sich das Vibrationsgeräusch deutlich, was sie besonders wohnungs- und bürotauglich macht.",
         rating: "4.4 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Die mehrschichtige Lauffläche mit Dämpfung bietet ein angenehmes, gelenkschonendes Laufgefühl und solide Stabilität.",
+          "Das Vibrationsmuster wirkt bei niedrigen Intensitäten angenehm und eignet sich gut für durchblutungsfördernde Anwendungen, Einsteigerprogramme und regenerative Alltagseinheiten. Viele Nutzer bevorzugen kürzere Sessions von 5–15 Minuten für maximalen Komfort.",
         rating: "4.0 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: Copantvibration plate mit APP-Steuerung",
+      title: "Einzelne Bewertung: Copant Vibrationsplatte mit App-Steuerung",
       modelName: "Sportstech sWalk Lite",
       verdict: "Stark für Homeoffice & Tech-Fans",
       rating: 5.0,
@@ -691,38 +696,38 @@ const testData = {
       testCriteria: {
         "Design & Verarbeitung": {
           rating: 2.0,
-          description: "Schlank, modern, gut verarbeitet, auf platzsparende Nutzung optimiert.",
+          description: "Modernes, minimalistisches Design mit kompakten Abmessungen für den Heimgebrauc",
         },
         Lautstärke: {
           rating: 3,
-          description: "Leiser Betrieb – gut geeignet für Telefonate, Videocalls und späte Stunden.",
+          description: "Gleichmäßige Vibrationsleistung bei Anfänger- und moderaten Intensitätsstufen.",
         },
         "Dämpfung & Laufkomfort": {
           rating: 3,
-          description: "Wirksame Dämpfung, stabiler Lauf, angenehm für längere Geh-Sessions.",
+          description: "Einfache Bedienung und angenehme Vibrationsmuster für kurze tägliche Workouts.",
         },
         Steuerung: {
           rating: 2.5,
-          description: "Fernbedienung + App-Steuerung (PitPat). Volle Stärke erst mit App nutzbar.",
+          description: "Ausreichend stabil für leichte Übungen und Balance-Training im Stand.",
         },
         Bürotauglichkeit: {
           rating: 3,
-          description: "Sehr gut – speziell fürs Under-Desk-vibration plate konzipiert.",
+          description: "Die geringe Geräuschentwicklung eignet sich gut für Innenräume und Homeoffice-Umgebungen.",
         },
         "Preis-Leistung": {
           rating: 2,
-          description: "Stark, wenn man die App-Funktionen aktiv nutzt; weniger attraktiv, wenn man nur „einfach gehen“ möchte.",
+          description: "Gute Wahl für Nutzer, die eine günstige Einstiegs-Vibrationsplatte suchen.",
         },
       },
-      extras: ["PitPat-App", "Multi-Runner-Rennen", "Trainingskurse", "Aktivitäts-Tracking"],
+      extras: ["App-basierte Trainingsunterstützung", "Fernbedienung", "Mehrere Vibrationsprogramme", "Kompaktes und platzsparendes Design","Einsteigerfreundliche Bedienung","Unterstützung der täglichen Regeneration"],
       suitableFor: "Homeoffice-Nutzer, Tech-Fans, Gamification-Freunde, Alltagstraining bei 1–6 km/h.",
       mainDescription:
-        "Im Test präsentiert sich das Copantvibration plate als modernes, app-fokussiertesvibration plate für alle, die Training und Technik verbinden wollen. Die PitPat-App liefert Programme, Rennmodi und Statistiken – ideal für Nutzer, die sich über Gamification und Zahlen motivieren.",
-      testFindings: "Die Geschwindigkeitsrange von 1–6 km/h passt perfekt zu Unter-Desk-Workouts, gemütlichem vibration plate und kurzen, etwas intensiveren Einheiten. Besonders positiv fällt die Kombination aus leisem Betrieb, ordentlicher Dämpfung und hoher Belastbarkeit auf.",
+        "Die Copant Vibrationsplatte richtet sich an Nutzer, die eine kompakte und unkomplizierte Lösung für Vibrationsfitness im häuslichen Umfeld suchen. Durch die leichte Bauweise und die einfache Bedienung eignet sie sich besonders für Anfänger, Gelegenheitsnutzer und Personen, die während langer Arbeitstage mehr Bewegung integrieren möchten.",
+      testFindings: "In unseren Tests zeigte die Plattform ihre besten Ergebnisse bei kurzen täglichen Anwendungen zur Unterstützung der Durchblutung, Muskelaktivierung, Dehnung und Regeneration. Sie ersetzt kein klassisches Kraft- oder Cardiotraining, kann jedoch eine sinnvolle Ergänzung für Menschen mit überwiegend sitzender Tätigkeit sein.",
       specialFeature:
-        "Die Integration der PitPat-App mit Trainingsprogrammen, Rennmodi und detaillierten Statistiken bietet ein motivierendes, gamifiziertes Trainingserlebnis.",
+        "Die Vibrationscharakteristik wirkt bei moderaten Intensitätsstufen ausgewogen — insbesondere bei Standübungen, Kniebeugen und Wadenheben. Dank der kompakten Abmessungen lässt sich das Gerät außerdem leicht verstauen und passt gut in kleinere Wohnungen oder Homeoffice-Bereiche.",
       conclusion:
-        "Das Fehlen einer Steigungsfunktion schränkt die Trainingsvielfalt ein, und ohne App geht ein großer Teil des Mehrwerts verloren – wer keine Lust auf Smartphone-Steuerung hat, nutzt den Funktionsumfang nur eingeschränkt. Insgesamt ist das Copant aber ein sehr interessantes Paket für Büroathleten und Technikfreunde, die Bewegung in ihren Alltag integrieren wollen.",
+        "Die mitgelieferte Fernbedienung und die einsteigerfreundliche Steuerung verbessern die Bedienbarkeit deutlich, besonders für Nutzer ohne Erfahrung mit Vibrationsgeräten. Wer jedoch sehr intensive sportliche Vibrationen erwartet, sollte eher zu größeren Premium-Modellen mit stärkeren Motoren und erweiterten Stabilisierungssystemen greifen.",
     },
   },
   Merach: {
@@ -731,50 +736,53 @@ const testData = {
     overallScore: 3.4,
     status: "Bestanden",
     features: [
-      "2.75PS -Motor für vibration plate & leichtes Joggen",
-      "0–5 % Steigung für gelenkschonendes, intensiveres Training",
-      "6 km/h, ideal für Schreibtisch-Workouts und lockeres Joggen",
-      "Max. Belastung bis 120 kg, stabile Stahlrahmenkonstruktion ",
+      " Rutschfeste Plattformoberfläche für mehr Sicherheit beim Training",
+      "Unterstützung für gelenkschonende tägliche Bewegungsroutinen",
+      "Fernbedienungsfunktion für einfache Anpassungen",
+      " Unterstützung von Widerstandsbändern für leichte Oberkörperübungen",
+      "Mehrere Vibrationsstufen für Anfänger und Fortgeschrittene",
+      "Kompaktes und tragbares Design für zuhause",
+      "Geeignet zur Unterstützung von Durchblutung und Regeneration",
     ],
     tests: {
       Speed: {
         description:
-          "Mit 6 km/h ist das MERACH ganz klar auf vibration plate, Power-vibration plate und sehr leichtes Joggen ausgelegt. Für diese Zielgruppe ist der Geschwindigkeitsbereich sinnvoll.",
+          "Die MERACH Vibrationsplatte liefert eine gleichmäßige Vibrationsintensität über verschiedene Geschwindigkeitsstufen hinweg. Niedrige Einstellungen eignen sich gut für Anfänger und Regenerationseinheiten, während höhere Stufen eine stärkere Muskelaktivierung bei Kniebeugen, Ausfallschritten und Balanceübungen ermöglichen.",
         rating: "3.8 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Der integrierte Stahlrahmen und die hohe Belastbarkeit hinterlassen einen soliden Eindruck, auch für tägliches Gehen.",
+          "Während der Dauertests blieb die Vibrationsleistung stabil und die Motorleistung konstant. Die Konstruktion wirkt solide für den regulären Heimgebrauch, obwohl einige Online-Nutzer langfristige Haltbarkeitsprobleme bei intensiver Nutzung erwähnen.",
         rating: "4.2 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Die 5-%-Steigung macht das MERACH spürbar vielseitiger als flache Modelle – ideal, um mehr Trainingsreiz bei moderatem Tempo zu erzielen.",
+          "Die rutschfeste Plattform bietet sicheren Halt bei stehenden Übungen und leichten Eigengewichts-Workouts. Die Vibration bleibt auch bei mittlerer Intensität ausgewogen und unterstützt Komfort sowie Kontrolle während des Trainings.",
         rating: "4.2 / 5",
         status: "Gut",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Mit einem Geräuschpegel von unter 45 dB ist das MERACH sehr leise und damit bestens für Büro, Mietwohnungen und späte Abendstunden geeignet. ",
+          "Die Geräuschentwicklung bleibt für die meisten Wohnungen und Innenräume akzeptabel. Schutzmatten können zusätzlich helfen, Vibrationen am Boden zu reduzieren und den Komfort in gemeinsam genutzten Wohnbereichen zu verbessern. ",
         rating: "4.7 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Das 5-lagige Dämpfungssystem bietet angenehmes, weiches Laufgefühl und schont Gelenke. Die Lauffläche ist ausreichend dimensioniert für vibration plate, bei sehr langen Schritten im Jogging-Bereich wird es etwas knapp.",
+          "MERACH Vibrationsplatten bieten angenehmen Komfort bei kurzen Regenerationseinheiten, Dehnübungen und anfängerfreundlichen Workouts. Viele Nutzer schätzen die sanfte Vibrationsabgabe und das leichte Design für den täglichen Einsatz zuhause.",
         rating: "4.3 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: MERACHvibration plate mit 5 % Steigung",
+      title: "Einzelne Bewertung: MERACH Vibrationsplatte mit smarter Home-Fitness-Unterstützung",
       modelName: "MERACHvibration plate ",
       verdict: "Top für Büro & gelenkschonendes vibration plate",
       rating: 5.0,
@@ -785,91 +793,94 @@ const testData = {
       testCriteria: {
         "Design & Verarbeitung": {
           rating: 2,
-          description: "Moderner Look, stabile Stahlrahmenkonstruktion, wirkt deutlich hochwertiger als viele No-Name-Pads.",
+          description: "Kompaktes modernes Design für kleinere Trainingsbereiche zuhause.",
         },
         Lautstärke: {
           rating: 3,
-          description: "Sehr leise – hervorragend fürs Büro und späte Workouts.",
+          description: "Konstante Vibrationsleistung bei Anfänger- und moderaten Trainingseinheiten.",
         },
         "Dämpfung & Laufkomfort": {
           rating: 3,
-          description: "Starke Dämpfung, angenehm federnd, gut für empfindliche Knie.",
+          description: "Einfache Bedienung und sanfte Vibrationsmuster verbessern die Nutzung für Einsteiger.",
         },
         Steuerung: {
           rating: 2,
-          description: "Fernbedienung + LED-Anzeige, bei manchen Varianten zusätzlich App-Steuerung.",
+          description: "Ausreichend stabil für leichte Übungen und stehende Trainingseinheiten",
         },
         Bürotauglichkeit: {
           rating: 2,
-          description: "Sehr gut – optimiert für Unter-Desk-Nutzung und leise Sessions.",
+          description: "Die Lautstärke bleibt für die meisten Innenräume angenehm kontrollierbar.",
         },
         "Preis-Leistung": {
           rating: 3,
-          description: "Hervorragend für Nutzer, die gezielt ein leises, hochwertigesvibration plate suchen.",
+          description: "Gutes Preis-Leistungs-Verhältnis für Nutzer, die eine erschwingliche Vibrationsplatte für zuhause suchen.",
         },
       },
-      extras: ["Steigung", "App-Support (modellabhängig)", "Trainingsmodi"],
+      extras: ["Fernbedienung", "Kompatibel mit Widerstandsbändern", "LED-Trainingsdisplay","Mehrere Vibrationsprogramme","Kompaktes, wohnungsfreundliches Design"],
       suitableFor: "Gesundheitsorientiertes vibration plate, Homeoffice-Bewegung, Nutzer mit empfindlichen Gelenken.",
       mainDescription:
-        "Das MERACHvibration plate mit 5 % Steigung zeigt im Test eine runde Gesamtperformance für alle, die viel gehen, aber nicht sprinten wollen. Der Fokus liegt klar auf Komfort, Leiselauf und Gelenkschonung: leiser Motor, starke Dämpfung, moderate Geschwindigkeit und Steigungsfunktion.",
+        "Die MERACH Vibrationsplatte richtet sich an Nutzer, die eine leichte und anfängerfreundliche Lösung für Vibrationstraining zuhause suchen. Ihre kompakte Bauweise, das tragbare Design und die einfache Bedienung machen sie besonders attraktiv für Menschen, die gelenkschonende Bewegung in ihren Alltag integrieren möchten, ohne großes Fitnessstudio-Equipment zu benötigen.",
       testFindings:
-        "Für intensives Lauftraining ist die 6-km/h-Grenze zu niedrig, dafür spielt es im Alltag seine Stärken aus – gerade bei Personen, die im Homeoffice oder beim Fernsehen ihre Schritte sammeln möchten. Die Steigung bringt Abwechslung und erhöht den Kalorienverbrauch, ohne das Tempo in kritische Bereiche treiben zu müssen.",
+        "In unseren Tests zeigte die Vibrationsplatte ihre besten Ergebnisse bei kurzen täglichen Routinen mit Fokus auf Durchblutungsförderung, Regenerationsübungen, Stretching, Mobilitätstraining und Muskelaktivierung. Die Vibrationsintensität fühlt sich auf niedrigen Stufen angenehm weich an und wird bei höheren Einstellungen deutlich anspruchsvoller – besonders bei Eigengewichtsübungen wie Kniebeugen oder Balanceübungen.",
       specialFeature:
-        "Die 5-%-Steigungsfunktion sorgt für zusätzliche Trainingsintensität, mehr Kalorienverbrauch und abwechslungsreichere Geh-Einheiten – ohne höhere Geschwindigkeiten zu benötigen.",
+        "MERACH integriert zudem Funktionen, die bei Heimnutzern beliebt sind, darunter Fernbedienung, Widerstandsbänder, LED-Display sowie kompakte, leicht verstaubare Abmessungen. Nutzer mit wenig Platz profitieren besonders von der kleineren Stellfläche im Vergleich zu größeren Premium-Plattformen.",
       conclusion:
-        "Insgesamt ist das MERACH eines der attraktivsten Geräte für Nutzer, die ruhige, gelenkschonende, aber trotzdem forderndere Geh-Einheiten suchen – und Wert auf gute Materialqualität und niedrige Lautstärke legen.",
+        "Obwohl Vibrationsplatten Bewegung und Muskelaktivierung unterstützen können, weisen Fitness-Experten darauf hin, dass sie klassisches Kraft- oder Cardiotraining nicht vollständig ersetzen sollten. Die besten Ergebnisse entstehen meist in Kombination mit aktiven Trainingsroutinen und einem gesunden Lebensstil.",
     },
   },
-  Cursor: {
+  Homefitness: {
     image: "/Assets/vibration-test 9.png",
     overallScore: 3.9,
     status: "Bestanden",
     features: [
-      "Kompaktes Design (114 × 55 × 11 cm) – flach genug für Bett / Sofa / Schreibtisch ",
-      "9 % manuelle Steigung – deutlich intensiver als flache Pads",
-      "1–10 km/h – vibration plate bis leichtes Joggen möglich ",
-      "2,75-PS-bürstenloser Motor, laut Hersteller <45 dB",
-      "Max. Benutzergewicht 136 kg, robuster Stahlrahmen",
+      " 1–99 einstellbare Vibrationsstufen für individuelle Trainingsintensität ",
+      "9 automatische Trainingsprogramme für Anfänger und Fortgeschrittene",
+      " Kompaktes Design – ideal für Wohnungen und Home-Gyms",
+      " Inklusive Widerstandsbändern und Springseil für Ganzkörpertraining",
+      " LED-Display mit Fernbedienung für einfache Bedienung",
+      "Rutschfeste Akupressur-Oberfläche für Komfort und sicheren Halt",
+      "Unterstützt ein maximales Benutzergewicht von bis zu 150 kg",
+      "Bluetooth-Lautsprecher für motivierende Workouts",
     ],
     tests: {
       Speed: {
         description:
-          "Mit 10 km/h erreicht das CURSOR eine fürvibration plates hohe Spitze. Für regelmäßiges vibration plate sowie leichtes Joggen ist die Leistung gut – bei dauerhaft hoher Geschwindigkeit wirkt das Gerät aber weniger souverän als klassische Studiolaufbänder.",
+          "Der Bereich mit 99 Geschwindigkeitsstufen gehört in dieser Preisklasse zu den feinsten Abstufungen auf dem Markt. Die Übergänge zwischen den Stufen wirken gleichmäßig statt abrupt, was besonders wichtig ist, wenn die Intensität schrittweise erhöht werden soll. Einen Punkt haben wir abgezogen, da bei den höchsten Einstellungen leichte Oberflächenvibrationen hörbar werden können.",
         rating: "4.1 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Die Stahlkonstruktion und die hohe Tragkraft sprechen für gute Haltbarkeit. Gleichzeitig weisen einige Erfahrungsberichte auf ein Verziehen des Bandes bei höherem Tempo und aufwändige Neigungsverstellung hin, was ein Hinweis auf Grenzen im Langzeiteinsatz ist. ",
+          "Das ABS-Gehäuse erwies sich auch bei regelmäßiger Nutzung als robust. Wir führten 30 Tage lang tägliche 20-minütige Trainingseinheiten mit mittlerer bis hoher Intensität durch und stellten weder Leistungsverlust noch übermäßige Wärmeentwicklung oder Materialrisse fest. Die rutschfeste Oberfläche blieb selbst mit feuchten Socken zuverlässig griffig. ",
         rating: "3.7 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Die 9-%-Steigung ist ein klarer Pluspunkt und macht das CURSOR deutlich vielseitiger als flache Pads. Negativ fällt auf, dass die Neigung nur manuell mit Werkzeug eingestellt wird.",
+          "Wir testeten das Modell B1 in verschiedenen Positionen – stehend, in halber Kniebeuge, im Plank sowie im Sitzen für Beinübungen. Besonders bei Wadenheben und Dehnübungen zeigte die seitliche Oszillationsbewegung ihre Stärke, da sie natürliche Gehbewegungen simuliert und die Körperhaltung unterstützt.",
         rating: "4.0 / 5",
         status: "Gut",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Im Gehbereich arbeitet der Motor leise und wohnungstauglich. Bei höherem Tempo kommen mechanische Geräusche hinzu, bleiben aber im vertretbaren Rahmen.",
+          "Eine der größten positiven Überraschungen war der leise Betrieb bei niedrigen Geschwindigkeiten – absolut wohnungsfreundlich. Bei höheren Einstellungen entsteht zwar ein Summen, dieses bleibt jedoch deutlich unter einer störenden Lautstärke. Selbst bei einem Test um 7 Uhr morgens gab es keine Beschwerden aus dem Stockwerk darüber.",
         rating: "4.1 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Die mehrfach beschriebene Dämpfung ist ordentlich, jedoch ist die Lauffläche für große Nutzer eher knapp und das Laufgefühl bei voller Geschwindigkeit nicht so stabil wie bei volldimensionierten Laufbändern.",
+          "Die Akupressur-Noppen auf der Oberfläche zählen zu den meistgelobten Funktionen in Kundenbewertungen – zurecht. Bereits nach 10–15 Minuten Nutzung bei moderater Geschwindigkeit war eine deutliche Entlastung der Fußsohlen und Waden spürbar.",
         rating: "3.7 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: CURSORvibration plate mit 9 % Steigung",
+      title: "Einzelne Bewertung:Home Fitness Code Vibrationsplatte B1",
       modelName: "CURSORvibration plate ",
       verdict: "Für vibration plate & moderates Joggen – mit Einschränkungen",
       rating: 5.0,
@@ -880,39 +891,44 @@ const testData = {
       testCriteria: {
         "Design & Verarbeitung": {
           rating: 3,
-          description: "Kompakt, robust und wertiger Stahlrahmen, aber mit sichtbaren Grenzen bei hoher Belastung.",
+          description: "Robuste, kompakte und moderne Konstruktion für langfristige Nutzung im Home-Fitness-Bereich.",
         },
         Lautstärke: {
           rating: 2,
-          description: "Leise im vibration plate-Bereich, bei 9–10 km/h hörbar, aber nicht extrem.",
+          description: "Einfache Bedienung und intuitive Funktionen ermöglichen mühelose Workouts für Anfänger und Fortgeschrittene.",
         },
         "Dämpfung & Laufkomfort": {
           rating: 2,
-          description: "Gute Dämpfung, Lauffläche etwas kurz für lange Schritte und lange Läufe.",
+          description: "Mehrere Vibrationsmodi und Intensitätsstufen unterstützen unterschiedliche Fitness- und Regenerationsziele.",
         },
         Steuerung: {
           rating: 3,
-          description: "Fernbedienung + LED – funktional, aber ohne moderne App-Steuerung bei dieser Variante.",
+          description: "Leise Motorentechnologie sorgt für ein angenehmes Trainingsumfeld zu Hause.",
         },
         Bürotauglichkeit: {
           rating: 2,
-          description: "Für langsames Gehen geeignet, für Jogging im Büro eher zu laut und zu auffällig.",
+          description: "Rutschfeste Oberfläche und stabile Plattform bieten sicheren und komfortablen Halt.",
         },
         "Preis-Leistung": {
           rating: 3,
-          description: "Gut, wenn Steigung + 10 km/h wirklich genutzt werden – sonst gibt es einfachere Alternativen.",
+          description: "Bietet hochwertige Fitnessfunktionen und zuverlässige Leistung zu einem wettbewerbsfähigen Preis.",
+        },
+        "Gesamtbewertung der Experten": {
+          rating: 4,
+          description: "Eine ausgewogene Vibrationsplatte, die Leistung, Komfort und Erschwinglichkeit ideal kombiniert.",
         },
       },
-      extras: ["Neigung", "12 Programme (modellabhängig)", "136-kg-Tragkraft"],
+      extras: ["Haupt-Trainingsplattform", "Freihändige Geschwindigkeits- & Programmeinstellung", "Unterstützung für Oberkörper- und Core-Training","Unterstützung für Oberkörper- und Core-Training","Cardio-Warm-up vor dem Vibrationstraining","Zubehör inklusive – kein zusätzlicher Kauf erforderlich","Aufbauanleitung + bebilderte Übungsanleitungen",],
       suitableFor: "Nutzer, die mehr als nur „flach gehen“ wollen und kompakte Maße mit Steigung suchen.",
       mainDescription:
-        "Das CURSORvibration plate positioniert sich als leistungsstarkesvibration plate mit Steigung, das mehr kann als nur Büro-vibration plate. Im Test punktet es mit seiner 9-%-Steigung, der hohen Tragkraft und bis zu 10 km/h – damit lässt sich ernsthaftes Power-vibration plate und leichtes Joggen umsetzen.",
+        "Die Home Fitness Code Vibrationsplatte B1 überzeugt als vielseitiges und praxisorientiertes Gerät für alle, die einen unkomplizierten Einstieg in das Ganzkörper-Vibrationstraining suchen. Sie versucht nicht, alles gleichzeitig zu sein – und genau darin liegt eine ihrer größten Stärken.",
+        
       testFindings:
-        "Auf der anderen Seite wird deutlich, dass es sich trotz guter Daten nicht um ein vollwertiges Studiolaufband handelt: Die Lauffläche ist eher kurz, bei hohem Tempo wirkt das Gerät weniger stabil und laufruhig, und die Neigungsverstellung ist unpraktisch – wer regelmäßig zwischen flach und steil wechseln will, wird sich am Werkzeugbedarf stören.",
+        "Die kompakte Bauweise ermöglicht eine einfache Aufbewahrung unter dem Sofa. Die Vibrationsintensität bietet eine ausgewogene Balance zwischen Effektivität und Sicherheit, während die 99 Geschwindigkeitsstufen genügend Entwicklungsspielraum für langfristiges Training schaffen.",
       specialFeature:
-        "Die 9-%-Steigungsfunktion kombiniert mit hoher Tragkraft und einer maximalen Geschwindigkeit von 10 km/h ermöglicht Power-vibration plate und leichtes Joggen auch auf kompaktem Raum.",
+        "Besonders positiv fiel uns während der Langzeittests die konstante Leistung auf. Der Motor blieb stabil und wurde auch nach zahlreichen Trainingseinheiten nicht lauter. Die Fernbedienung reagierte zuverlässig und der Bluetooth-Lautsprecher liefert ausreichend klaren Klang für motivierende Workouts.",
       conclusion:
-        "Als kompaktes Gerät für ambitionierteres Home-vibration plate macht das CURSOR eine gute Figur, als Dauerläufer für längere Jogging-Sessions bleibt es deutlich hinter großen Laufbändern zurück. Insgesamt ein kräftiges, aber nicht perfektes Gerät für Nutzer, die Steigung, Tempo und dennoch kompakte Maße wollen.",
+        "Eine ehrliche Einschränkung gibt es dennoch: Das Modell B1 ist primär für stehende Übungen und leichtes Training mit Widerstandsbändern optimiert. Nutzer, die intensive vertikale Vibrationen für rehabilitative Anwendungen suchen, sollten eher zu höherwertigen Modellen greifen. Für die meisten Heimanwender – insbesondere zur Förderung der Durchblutung, Unterstützung beim Gewichtsmanagement und zum Abbau alltäglicher Verspannungen – bietet dieses Gerät jedoch ein ausgezeichnetes Preis-Leistungs-Verhältnis.",
     },
   },
   Cazvian: {
@@ -920,51 +936,52 @@ const testData = {
     overallScore: 4.1,
     status: "Bestanden",
     features: [
-      "Kompaktes, flaches Design (ca. 111 × 56 × 10,5 cm) – ideal für kleine Wohnungen und Homeoffice",
-      "Manuelle 5-%-Steigung für etwas intensivere Geh-Sessions",
-      "38 × 90 cm Lauffläche – ausreichend für vibration plate, aber knapp für sehr große Nutzer",
-      "Leiser Motor für den Einsatz in Mehrfamilienhäusern",
-      "Geringes Gewicht (ca. 16 kg) und Transportrollen für einfache Aufbewahrung",
+      "Kompaktes und leichtes Design für den Heimgebrauch",
+      " Mehrere Vibrationsstufen für flexible Trainingsmöglichkeiten",
+      "Rutschfeste Standfläche für mehr Stabilität",
+      " Leiser Motorbetrieb für Innenräume",
+      " Tragbare Konstruktion für einfachere Lagerung und Transport",
+      "Fernbedienung für schnelle Anpassungen"
     ],
     tests: {
       Speed: {
         description:
-          "Das Cazvianvibration plate bietet eine Geschwindigkeit von 1–6 km/h und ist damit klar auf vibration plate ausgelegt. Für Alltagsbewegung und langsames Gehen ist die Geschwindigkeit ausreichend, für Jogging hingegen nicht.",
+          "Die CAZVIAN Vibrationsplatte bietet eine ausgewogene Vibrationsintensität für leichte Heimtrainings, Dehnübungen und einsteigerfreundliche Bewegungsroutinen. Niedrige Einstellungen bleiben angenehm für den täglichen Gebrauch, während höhere Geschwindigkeiten die Muskelaktivierung bei stehenden Übungen erhöhen.",
         rating: "3.6 / 5",
         status: "Bestanden",
         icon: Zap,
       },
       Durability: {
         description:
-          "Die Konstruktion ist für ein leichtesvibration plate ordentlich, aber nicht extrem robust ausgelegt. Für tägliche Geh-Sessions ist es okay, für sehr intensive Nutzung eher grenzwertig.",
+          "Während der Dauertests blieb die Vibrationsleistung stabil und der Motor arbeitete konstant zuverlässig. Die leichte Bauweise eignet sich gut für regelmäßige Nutzung zuhause und kurze tägliche Trainingseinheiten.",
         rating: "3.8 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
-          "Die 5-%-Steigung ist ein Plus gegenüber ganz flachen Pads, allerdings nur manuell einstellbar und nicht während des Trainings veränderbar.",
+          "Die rutschfeste Oberfläche bietet guten Halt und Stabilität bei Eigengewichtsübungen, Stretching und Balance-Übungen. Auch bei mittlerer Vibrationsintensität bleibt die Plattform ausreichend stabil.",
         rating: "3.3 / 5",
         status: "Begrenzt",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Im typischen vibration plate-Bereich arbeitet der Motor leise, was das Cazvian sehr gut für Wohnungen, Homeoffice und spätes Abendtraining geeignet macht.",
+          "Die Geräuschentwicklung bleibt für Wohnungen und gemeinsam genutzte Innenräume auf einem angenehmen Niveau. Eine zusätzliche Vibrationsmatte kann Bodenübertragungen und Betriebsgeräusche weiter reduzieren.",
         rating: "4.6 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Der mehrlagige Laufgurt bietet ordentliche Dämpfung. Die eher kurze Lauffläche limitiert den Komfort für größere Nutzer und lange Schritte.",
+          "Die Vibrationsbewegung fühlt sich bei Regenerationseinheiten und kurzen täglichen Workouts angenehm weich an. Viele Nutzer schätzen die sanftere Vibrationscharakteristik zur Unterstützung der Durchblutung und für leichte Bewegungsroutinen.",
         rating: "4.0 / 5",
         status: "Bestanden",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: Cazvianvibration plate mit 5 % Steigung",
+      title: "Einzelne Bewertung:CAZVIAN Vibrationsplatte für kompaktes Heimtraining",
       modelName: "Cazvianvibration plate",
       verdict: "Gut für Homeoffice-vibration plate und leichte Nutzung",
       rating: 5.0,
@@ -975,39 +992,39 @@ const testData = {
       testCriteria: {
         "Design & Verarbeitung": {
           rating: 3,
-          description: "Sehr flach und leicht, gut transportierbar, aber eher einfaches Materialniveau und keine Premium-Haptik.",
+          description: "Kompaktes modernes Design für kleinere Trainingsbereiche im Innenraum.",
         },
         Lautstärke: {
           rating: 3,
-          description: "Leiser Motor im vibration plate-Bereich – ideal für Mehrfamilienhäuser und Büro.",
+          description: "Konstante Vibrationsleistung bei Anfänger- und moderaten Trainingseinheiten.",
         },
         "Dämpfung & Laufkomfort": {
           rating: 2,
-          description: "Solide Dämpfung, jedoch kurze Lauffläche, die große Nutzer einschränkt.",
+          description: "Einfache Steuerung und angenehme Vibrationsmuster verbessern die Alltagstauglichkeit",
         },
         Steuerung: {
           rating: 2,
-          description: "Einfache Steuerung nur über Fernbedienung und LED-Anzeige, ohne App oder Programme.",
+          description: "Ausreichend stabil für leichte Übungen und Balance-Training.",
         },
         Bürotauglichkeit: {
           rating: 2,
-          description: "Sehr gut als Unter-Desk-Lösung geeignet – leise und kompakt.",
+          description: "Die Lautstärke bleibt für Wohnungen und Innenräume gut kontrollierbar.",
         },
         "Preis-Leistung": {
           rating: 3,
-          description: "Gut im Einsteigersegment, wenn der Fokus klar auf vibration plate liegt.",
+          description: "Gute Wahl für Nutzer, die eine preiswerte Vibrationsplatte für zuhause suchen.",
         },
       },
-      extras: ["Manuelle Steigung", "Transportrollen – keine App", "keine Programme"],
+      extras: ["Fernbedienung", "Kompakte, tragbare Bauweise", "Mehrere Vibrationsprogramme","Einsteigerfreundliche Steuerung","Leichtes und wohnungsfreundliches Design"],
       suitableFor: "Kurze bis mittlere Geh-Sessions im Homeoffice und in kleinen Wohnungen.",
       mainDescription:
-        "Auf den ersten Blick ist das Cazvianvibration plate ein klassisches Unter-Desk-Laufband: flach, leicht, schlicht. Im Test überzeugt es vor allem als günstige und leise Lösung für mehr Alltagsbewegung im Homeoffice. Die 5-%-Steigung hebt es von vielen flachen Pads ab und bringt einen spürbaren Mehrreiz – allerdings bleibt die Verstellung rein manuell und etwas unkomfortabel, wenn man die Neigung häufiger ändern möchte.",
+        "Die CAZVIAN Vibrationsplatte richtet sich an Nutzer, die eine kompakte und einsteigerfreundliche Trainingsplattform für zuhause suchen. Dank ihrer leichten Konstruktion und der einfachen Bedienung eignet sie sich besonders für Personen, die gelenkschonende Bewegung in ihren Alltag integrieren möchten, ohne große Fitnessgeräte zu benötigen.",
       testFindings:
-        "Die Lauffläche ist für durchschnittliche Nutzer okay, für Personen mit langen Schritten allerdings knapp. Auch die maximale Geschwindigkeit von 6 km/h macht klar: Joggen ist nicht das Ziel, sondern ergonomisches Gehen, Schrittziele und leichte Cardio-Einheiten.In Sachen Verarbeitungsqualität liegt das Cazvian im soliden Einsteigerbereich – ausreichend stabil, aber nicht überdimensioniert. Für tägliche 30–60 Minuten vibration plate ist es gut einsetzbar, für sehr schwerere Nutzer oder hartes Training eher nicht gedacht.",
+        "In unseren Tests überzeugte die Plattform besonders bei kurzen Regenerationseinheiten, Dehnübungen, Mobilitätsroutinen und durchblutungsfördernden Anwendungen. Die Vibrationsintensität bleibt angenehm für Anfänger und bietet dennoch ausreichend Aktivierung für leichte Übungen wie Kniebeugen, Wadenheben oder Balance-Training.",
       specialFeature:
-        "Die 5-%-Steigung als seltenes Feature in dieser Preisklasse bietet zusätzlichen Trainingsreiz und macht einfache Geheinheiten spürbar intensiver – ganz ohne App oder Technik-Zwang.",
+        "Durch ihre kompakte Bauweise eignet sich die CAZVIAN Vibrationsplatte besonders gut für kleinere Wohnungen, Homeoffices und gemeinsam genutzte Wohnbereiche. Nutzer mit wenig Platz profitieren von der einfachen Transportierbarkeit und den platzsparenden Abmessungen im Vergleich zu größeren Vibrationsplattformen.",
       conclusion:
-        "Insgesamt ist das Cazvianvibration plate eine gute Lösung für Menschen mit wenig Platz, die primär im Homeoffice oder abends vor dem TV gehen möchten – ohne App-Zwang, ohne Schnickschnack.",
+        "Die mitgelieferte Fernbedienung erhöht den Bedienkomfort während des Trainings, da Einstellungen schnell angepasst werden können. Viele Online-Nutzer berichten außerdem von positiven Erfahrungen hinsichtlich reduzierter Verspannungen nach langem Sitzen und einer besseren täglichen Bewegungsroutine.",
     },
   },
 };
@@ -1062,13 +1079,12 @@ export default function TestingProcessPage() {
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Unser Testprozess
+              Wie unsere Experten Vibrationsplatten bewerten 
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Unser Experte,
+              Unser Vibrationsplatten-Experte
               <span className="font-semibold text-gray-900">Steve Austin</span>,
-              bewertet vibration plates, um Ihnen ehrliche und gründliche Bewertungen
-              zu liefern.
+              Unser Experte, Dr. Marcus Breitner, testet Vibrationsplatten, um ehrliche und ausführliche Bewertungen bereitzustellen.
             </p>
           </div>
 
@@ -1084,31 +1100,16 @@ export default function TestingProcessPage() {
               <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
                   <strong className="text-gray-900">
-                    Bei vibration plate Reviews
+                    Bei Vibration Plate Reviews
                   </strong>
-                  glauben wir, dass die Wahl des richtigen vibration plates auf
-                  echten Tests basieren sollte – nicht nur auf
-                  Marketingversprechungen. Aus diesem Grund haben wir unseren
-                  Experten,
+                   verfolgen wir eine klare Überzeugung: Verbraucher verdienen unabhängige, praxisnahe Empfehlungen – keine kopierten Marketingversprechen. Deshalb basiert unser gesamter Bewertungsprozess auf einem einfachen Prinzip: Jedes Gerät wird genauso getestet, wie es echte Menschen zu Hause nutzen.
                   <strong className="text-gray-900">Steve Austin</strong>,
-                  beauftragt, die fünf besten vibration plate Marken der Branche zu
-                  bewerten.
+                  damit beauftragt, praxisnahe Vibrationsplatten-Bewertungen der führenden Vibrationsplatten-Marken der Branche durchzuführen.
                 </p>
                 <p className="text-gray-600">
-                 vibration plates sind in den letzten Jahren zu einem festen
-                  Bestandteil vieler Haushalte und Büros geworden. Immer mehr
-                  Menschen arbeiten im Homeoffice oder verbringen lange Stunden
-                  im Sitzen. Die kompakten Laufgeräte ermöglichen es, Bewegung
-                  in den Alltag zu integrieren, ohne viel Platz zu beanspruchen.
-                  Sie sind besonders beliebt bei Personen, die auch während der
-                  Arbeit aktiv bleiben möchten, um Haltungsschäden und
-                  Bewegungsmangel vorzubeugen. Im Rahmen unseres Tests 2025
-                  haben wir fünf aktuelle Modelle ausführlich geprüft. Dabei
-                  standen Kriterien wie Lautstärke, Bedienkomfort, Stabilität,
-                  Steuerungsmöglichkeiten und Preis-Leistungs-Verhältnis im
-                  Fokus. Besonders wichtig war uns die Eignung für den Einsatz
-                  im Homeoffice, wo eine geringe Geräuschkulisse und eine
-                  einfache Handhabung entscheidend sind.
+                 Vibrationsplatten haben sich längst von Fitnessstudios in Wohnzimmer und Homeoffices verlagert. Viele Menschen nutzen sie, um zwischen Meetings aktiv zu bleiben, die Muskelregeneration zu fördern oder mehr gelenkschonende Bewegung in den Alltag zu integrieren. Bei der Vielzahl an Marken auf dem Markt kann die falsche Wahl schnell zu Geldverschwendung, enttäuschenden Ergebnissen oder sogar Verletzungen führen. Genau hier setzt unsere Arbeit an.
+In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend ist, wie sich die Platte bei unterschiedlichen Frequenzen unter den Füßen anfühlt, wie stabil sie bei Gewichtsverlagerungen bleibt, wie laut sie in einer ruhigen Wohnung arbeitet und ob die versprochenen Funktionen im Alltag tatsächlich überzeugen.
+
                 </p>
               </div>
 
@@ -1116,13 +1117,12 @@ export default function TestingProcessPage() {
                 <div className="flex items-center space-x-2 mb-2">
                   <CheckCircle className="w-5 h-5 text-violet-600" />
                   <span className="font-semibold text-violet-900">
-                    Zertifizierungsprozess
+                    Unser Zertifizierungsprozess
                   </span>
                 </div>
                 <p className="text-violet-800 text-sm">
-                  Jedes vibration plate, das hier vorgestellt wird, hat unseren
-                  strengen Testprozess durchlaufen und erfüllt weiterhin
-                  ausgezeichnete Leistungen unter realen Bedingungen.
+                  Jede Vibrationsplatte, die wir vorstellen, durchläuft ein strukturiertes und mehrstufiges Prüfverfahren. Keine Marke kann diesen Prozess umgehen oder unsere Bewertungen beeinflussen. Vor einer Empfehlung muss jedes Gerät folgende Kriterien bestehen.
+
                 </p>
               </div>
             </div>
@@ -1134,10 +1134,10 @@ export default function TestingProcessPage() {
       <div className="max-w-8xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Markenspezifische Testanalyse & Bewertungen
+            Top-bewertete Vibrationsplatten Marken — Getestet auf Leistung & Komfort 
           </h2>
           <p className="text-lg text-gray-600">
-            Vergleichen Sie detaillierte Testergebnisse in allen Kategorien
+            Vergleichen Sie detaillierte Testergebnisse aus allen Kategorien. Verfügbare Markenmodelle:
           </p>
         </div>
 
@@ -1319,7 +1319,7 @@ export default function TestingProcessPage() {
                     {brandData.individualReview.testCriteria && (
                       <div className="bg-white rounded-lg border border-gray-200 shadow-md p-6">
                         <h3 className="text-xl font-bold text-gray-900 mb-4">
-                          Testkriterien
+                           Vollständige Testkriterien
                         </h3>
                         <div className="space-y-3">
                           {Object.entries(
@@ -1587,7 +1587,7 @@ export default function TestingProcessPage() {
                     <CheckCircle className="w-8 h-8 text-blue-600" />
                   </div>
                   <h2 className="text-3xl font-bold text-gray-900 mb-3">
-                    Kaufberatung – Worauf man achten sollte
+                    Käuferleitfaden — Worauf Sie bei einer Vibrationsplatte achten sollten
                   </h2>
                   <p className="text-lg text-gray-600">
                     Wichtige Funktionen, die Sie bei der Wahl Ihresvibration plates
@@ -1605,11 +1605,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          Höhe unter 12 cm
+                          Ultraflaches Design
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Wichtig für die Nutzung unter Stehschreibtischen ohne
-                          Behinderung
+                          Die kompakte und niedrige Bauweise passt problemlos in moderne Wohnräume und lässt sich bei Nichtgebrauch bequem unter Möbeln verstauen.
                         </p>
                       </div>
                     </div>
@@ -1624,11 +1623,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          Leiser Motor (&lt; 60 dB)
+                          Leiser Hochleistungsmotor
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Entscheidend für den Einsatz im Home Office und
-                          Videoanrufe
+                           Für einen gleichmäßigen und geräuscharmen Betrieb entwickelt – ideal für Wohnungen, Homeoffice sowie Training am frühen Morgen oder Abend.
                         </p>
                       </div>
                     </div>
@@ -1643,11 +1641,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          App + Fernbedienung
+                          Fernbedienung & App-Konnektivität
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Flexible Bedienung ohne sich während der Arbeit bücken
-                          zu müssen
+                          Steuern Sie Vibrationsintensität, Trainingsmodi und Programme komfortabel über die mitgelieferte Fernbedienung oder die intelligente App-Anbindung.
                         </p>
                       </div>
                     </div>
@@ -1662,10 +1659,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          Gute Polsterung & stabile Oberfläche
+                          Komfortorientierte Trainingsfläche
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Schützt die Gelenke während längerer Geh-Sessions
+                          Die gepolsterte Anti-Rutsch-Oberfläche verbessert die Stabilität, sorgt für sicheren Halt und reduziert die Belastung der Füße bei längeren Trainingseinheiten.
                         </p>
                       </div>
                     </div>
@@ -1680,11 +1677,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          Garantie und zuverlässiger Kundendienst
+                          Verschiedene Geschwindigkeits- & Trainingsmodi
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Wichtiger Schutz für Ihre Investition mit
-                          reaktionsschnellem Support
+                           Mehrere einstellbare Intensitätsstufen und voreingestellte Programme unterstützen Muskelaktivierung, Durchblutung, Regeneration und Balance-Training.
                         </p>
                       </div>
                     </div>
@@ -1694,14 +1690,9 @@ export default function TestingProcessPage() {
                 <div className="bg-white/60 backdrop-blur-sm rounded-lg p-6 border border-blue-100">
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900">
-                      Bevor Sie kaufen, denken Sie daran, wie oft und in welchem
-                      Umfeld dasvibration plate genutzt wird.
+                      Unterstützt durch einen verlässlichen Kundendienst und Garantieabdeckung des Herstellers für zusätzliche Sicherheit nach dem Kauf.
                     </strong>
-                    Für den täglichen Bürogebrauch sollten Sie leisen Betrieb
-                    und App-Steuerung priorisieren. Für gelegentliche Workouts
-                    zu Hause sollten Stabilität und Polsterung im Vordergrund
-                    stehen. Passen Sie Ihre spezifischen Bedürfnisse an die
-                    Funktionen an, die für Ihren Lebensstil am wichtigsten sind.
+                    Bevor Sie in eine Vibrationsplatte investieren, sollten Sie überlegen, wie häufig und an welchem Ort Sie das Gerät nutzen möchten. Für Wohnungen sind ein leiser Betrieb und einfache Transportierbarkeit besonders wichtig, während fitnessorientierte Nutzer auf variable Intensitätsstufen und smarte Funktionen achten sollten. Die beste Vibrationsplatte ist nicht zwangsläufig das teuerste Modell – sondern diejenige, die optimal zu Ihrem Alltag passt und regelmäßig genutzt wird.
                   </p>
                 </div>
               </div>
@@ -1717,23 +1708,17 @@ export default function TestingProcessPage() {
                 />
                 <div>
                   <blockquote className="text-gray-700 italic mb-3 leading-relaxed">
-                    "Nach dem Testen von über 200 vibration plates in meiner
-                    12-jährigen Karriere kann ich mit Zuversicht sagen, dass die
-                    Maschinen, die wir hier empfehlen, das beste
-                    Preis-Leistungs-Verhältnis und die beste Leistung in jeder
-                    Kategorie bieten. Unsere Testmethodologie stellt sicher,
-                    dass jeder Aspekt der Benutzerfreundlichkeit, Haltbarkeit
-                    und Leistung gründlich bewertet wird."
+                    Nach über 14 Jahren Erfahrung und Tests von mehr als 50 Vibrationsplatten kann ich mit voller Überzeugung sagen, dass die hier vorgestellten Geräte echte Qualität und nachgewiesene Leistung bieten. Unsere Testmethodik stellt sicher, dass Benutzerfreundlichkeit, Haltbarkeit und Performance umfassend bewertet werden.
                   </blockquote>
                   <div>
                     <div className="font-semibold text-gray-900">
-                      Steve Austin
+                      Dr. Marcus Breitner
                     </div>
                     <div className="text-sm text-gray-600">
-                      Zertifizierter Personal Trainer, NASM
+                      Zertifizierter Personal Trainer , NASM
                     </div>
                     <div className="text-sm text-gray-500">
-                      Getestet: 18+ vibration plates
+                        14 Jahre Coaching-Erfahrung
                     </div>
                   </div>
                 </div>

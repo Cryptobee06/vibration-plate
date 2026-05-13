@@ -19,7 +19,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 .treadmill-bacgroundimage {
-  background-image: url('/Assets/vibration-plate-banner3.webp') !important;
+  background-image: url('/Assets/vibration-plate-Banner-4.png') !important;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -100,7 +100,7 @@ a {
 }
 
 .background-banner {
-  background-image: url('/Assets/hero-vibrationplate-banner1.webp') !important;
+  background-image: url('/Assets/hero 1-vibration-plate-2.png') !important;
   background-repeat: no-repeat;
   background-size: cover;
   /* scales image proportionally to always cover */

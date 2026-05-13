@@ -8,7 +8,7 @@ const standards = [
     color: 'bg-yellow-100 text-yellow-700',
     content: {
       en: 'We run intensive speed, power, and responsiveness tests to ensure each product performs to its full potential under real-world conditions.',
-      de: 'Wir messen realistisch die Geschwindigkeit, Motorleistung und Reaktionsfähigkeit – das A und O für fundierte Walkingpad Testberichte.'
+      de: 'Wir führen intensive Geschwindigkeits-, Leistungs- undReaktionsfähigkeitstests durch, um sicherzustellen,dass jedes Produkt sein volles Potenzial unter realenBedingungen erreicht.'
 
     }
 
@@ -19,7 +19,7 @@ const standards = [
     color: 'bg-blue-100 text-blue-700',
     content: {
       en: 'Products are evaluated over time for wear, stability, and consistency—so you know they’ll last beyond the initial shine',
-      de: 'Geräte werden auf Langzeithaltbarkeit getestet. So stellen wir sicher, dass jedes Laufband das „Test-Potenzial“ für echte Käufer übertrifft.'
+      de: 'Produkte werden über Zeit auf Verschleiss, Stabilitätund Konsistenz bewertet — damit Sie wissen, dass sieüber den ersten Glanz hinaus halten.'
 
     }
     //  content:"Products are evaluated over time for wear, stability, and consistency—so you know they’ll last beyond the initial shine."
@@ -30,7 +30,7 @@ const standards = [
     color: 'bg-green-100 text-green-700',
     content: {
       en: 'We collect insights from real users to understand actual experiences, ensuring our reviews reflect practical performance and satisfaction.',
-      de: 'Feedback eines breiten Nutzerkreises, z. B. in Kategorien wie Walkingpad leise, Under-Desk Treadmills, Laufband Vergleich,fließt in unsere Bewertung ein.'
+      de: 'Wir sammeln Einblicke von echten Nutzern, umtatsächliche Erfahrungen zu verstehen undsicherzustellen, dass unsere Bewertungen praktischeLeistung widerspiegeln.'
 
     }
     //  content:""
@@ -41,7 +41,7 @@ const standards = [
     color: 'bg-purple-100 text-purple-700',
     content: {
       en: 'Every test is validated by industry experts to ensure accuracy, reliability, and transparency in our review process.',
-      de: 'Jedes Review wird abschließend von Fachleuten geprüft – für maximal unabhängige Laufband-Vergleiche.'
+      de: 'Jeder Test wird von Branchenexperten validiert, umGenauigkeit, Zuverlässigkeit und Transparenz inunserem Bewertungsprozess sicherzustellen.'
 
     }
     //  content:""
@@ -52,7 +52,7 @@ const standards = [
     color: 'bg-red-100 text-red-700',
     content: {
       en: 'Our scoring is data-backed, clearly explained, and free from bias—so you can make confident decisions with full clarity.',
-      de: 'Unsere Bewertung basiert auf Daten, ist klar erklärt und frei von Voreingenommenheit – so können Sie sichere Entscheidungen mit voller Klarheit treffen.Desc'
+      de: 'Unsere Bewertung ist datenbasiert, klar erklärt undvorurteilsfrei — damit Sie zuversichtlicheEntscheidungen mit voller Klarheit treffen können.'
 
     }
     // content:""

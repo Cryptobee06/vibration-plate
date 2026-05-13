@@ -6,89 +6,89 @@ const faqData = [
   {
     id: 1,
     question: {
-      en: "1. Are vibration plates healthy?",
-      de: "1. Sind Vibration Plates gesund?",
+      en: "1. Do vibration plates actually support overall wellness?",
+      de: "1. Sind Vibrationsplatten gut für die Gesundheit?",
     },
     answer: {
-      en: "Yes, regular walking during work improves circulation, posture, and helps prevent back pain.",
-      de: "Ja — regelmäßiges Gehen im Office verbessert Durchblutung, Haltung und beugt Rückenschmerzen vor.",
+      en: "Yes. When used consistently and at the correct intensity, vibration plates can help stimulate muscles, improve circulation, enhance stability, and aid post-workout recovery. Beginners should start slowly and increase intensity over time. Anyone with existing medical concerns should consult a healthcare professional before starting.",
+      de: "Ja. Bei richtiger und regelmäßiger Anwendung können Vibrationsplatten die Muskelaktivierung fördern, die Durchblutung verbessern, das Gleichgewicht stärken und die Regeneration unterstützen. Anfänger sollten mit niedriger Intensität beginnen und diese schrittweise steigern. Personen mit gesundheitlichen Beschwerden sollten vor der Nutzung ärztlichen Rat einholen.",
     },
   },
   {
     id: 2,
     question: {
-      en: "2. How loud should a vibration plate be for office use?",
-      de: "2. Wie leise sollte eine Vibration Plate für’s Büro sein?",
+      en: "2.What is considered a quiet vibration plate for office environments?",
+      de: "2.Wie leise sollte eine Vibrationsplatte im Büro sein?",
     },
     answer: {
-      en: "Below 60 dB, so it doesn’t interfere with work.",
-      de: "Max. 60 dB — so arbeitet es leise genug, um Konzentration und Telefonate nicht zu stören. ",
+      en: "For office or apartment use, a good vibration plate should stay around or below 65 dB during normal operation. This sound level is similar to everyday conversation and helps avoid distractions during work, calls, or meetings.",
+      de: "Für Büro- oder Wohnungsnutzung sollte eine Vibrationsplatte idealerweise unter 65 dB bleiben. Das entspricht ungefähr der Lautstärke eines normalen Gesprächs und sorgt für eine angenehme Arbeitsumgebung ohne störende Geräusche. ",
     },
   },
   {
     id: 3,
     question: {
-      en: "3. Will a vibration plate fit under any desk?",
-      de: "3. Passt es unter jeden Schreibtisch?",
+      en: "3.Can compact vibration plates be stored under a desk?",
+      de: "3. Passt eine kompakte Vibrationsplatte unter den Schreibtisch?",
     },
     answer: {
-      en: "Only flat models under 12 cm height will fit easily under most desks.",
-      de: "Nur flache Modelle (≤ 12 cm Höhe) lassen sich mühelos unter Schreibtische oder Sofas schieben.",
+      en: "Yes. Many slim vibration plates are specifically designed for home office setups and can fit beneath standard desks or furniture. Always review the product dimensions before purchasing to ensure proper clearance and storage compatibility.",
+      de: "Ja. Viele moderne Vibrationsplatten sind besonders flach konstruiert und passen problemlos unter Standard-Schreibtische oder Möbel. Vor dem Kauf sollten jedoch immer die genauen Maße überprüft werden.",
     },
   },
   {
     id: 4,
     question: {
-      en: "4.What are the benefits of good cushioning?",
-      de: "4.Warum ist gute Dämpfung wichtig?",
+      en: "4. Why does shock absorption matter on a vibration platform?",
+      de: "4. Warum ist eine gute Stoßdämpfung wichtig?",
     },
     answer: {
-      en: "Soft cushioning protects joints, reduces fatigue, and allows longer walking sessions.",
-      de: "Weiche Polsterung schützt Gelenke, reduziert Ermüdung und ermöglicht längere Sessions — ein Muss bei Vibration Plate Vergleich & Test.",
+      en: "Proper cushioning helps reduce unnecessary stress on joints and muscles by controlling excess vibration impact. A well-padded, anti-slip surface improves comfort and makes longer sessions safer, especially for the knees, ankles, and lower back.",
+      de: "Eine hochwertige Dämpfung reduziert die Belastung auf Gelenke und Muskulatur, indem überschüssige Vibrationen abgefangen werden. Gepolsterte Anti-Rutsch-Oberflächen erhöhen den Komfort und machen längere Trainingseinheiten angenehmer und sicherer.",
     },
   },
   {
     id: 5,
     question: {
-      en: "5. Which vibration plates are best for the home office?",
-      de: "5. Welche Modelle eignen sich fürs Home-Office?",
+      en: " 5.What type of vibration plate works best for remote workers?",
+      de: "5. Welche Vibrationsplatten eignen sich am besten fürs Homeoffice?",
     },
     answer: {
-      en: "Quiet, compact models with app + remote control, e.g., Sportstech.",
-      de: "Empfohlen: leise, kompakte Vibration Plates mit App-Unterstützung, z. B. Sportstech oder Citysports.",
+      en: "The best models for home office use are compact, quiet, and easy to move. Features like transport wheels, Bluetooth controls, and low-noise motors make certain models ideal for adding movement throughout the workday without disrupting the workspace.",
+      de: "Für das Arbeiten von zu Hause eignen sich vor allem kompakte, leise und leicht transportierbare Modelle. Funktionen wie Transportrollen, Bluetooth-Steuerung und geräuscharme Motoren machen die Nutzung im Alltag besonders praktisch.",
     },
   },
   {
     id: 6,
     question: {
-      en: "6. Do I need an app to control it?",
-      de: "6. Sind Vibration Plates für leichtes Jogging geeignet?",
+      en: "6. Can a vibration plate replace jogging or cardio workouts?",
+      de: "6. Können Vibrationsplatten Jogging oder Cardio ersetzen?",
     },
     answer: {
-      en: "No, a remote is enough – but the app is useful for stats and motivation.",
-      de: "Nur robuste Modelle mit hoher Geschwindigkeit – z. B. UREVO – sind dafür geeignet.Einsteiger-Modelle wie sWalk Lite eignen sich eher für gesundes Gehen.",
+      en: "Not entirely. Vibration plates are better used as a supplement to traditional cardio rather than a full replacement. They can help activate muscles before exercise and reduce stiffness afterward, but regular vibration, jogging, or cardio training should still be part of a balanced routine.",
+      de: "Nicht vollständig. Vibrationsplatten sollten eher als Ergänzung zum klassischen Cardio-Training genutzt werden. Sie können die Muskulatur vor dem Training aktivieren und nach Belastung die Regeneration unterstützen, ersetzen jedoch kein regelmäßiges Ausdauertraining.",
     },
   },
   {
     id: 7,
     question: {
-      en: "7. How often should I use a vibration plate?",
-      de: "7. Wie oft sollte man eine Vibration Plate nutzen?",
+      en: "7. How many times per week should a vibration plate be used?",
+      de: "7. Wie oft sollte man eine Vibrationsplatte pro Woche nutzen?",
     },
     answer: {
-      en: "1–2 hours a day are enough for benefits; pros can use it longer.",
-      de: "1–2 Stunden pro Tag reichen für positive Effekte, Profis können länger verwenden. ",
+      en: "Most users benefit from three to five sessions weekly, with each session lasting around 10–20 minutes. New users should begin with shorter workouts and gradually increase speed and duration as their body adapts.",
+      de: "Die meisten Nutzer profitieren von drei bis fünf Trainingseinheiten pro Woche mit jeweils etwa 10 bis 20 Minuten Dauer. Anfänger sollten mit kurzen Einheiten beginnen und Intensität sowie Dauer langsam steigern.",
     },
   },
   {
     id: 8,
     question: {
-      en: "8. Can vibration plates be used for light jogging?",
-      de: "8. Können Vibration Plates auch für leichtes Joggen genutzt werden?",
+      en: "8. Are vibration plates useful for light movement exercises?",
+      de: "8.Eignen sich Vibrationsplatten für leichte Bewegungsübungen?",
     },
     answer: {
-      en: "Only models with higher speed settings (e.g., UREVO); sWalk Lite is designed for healthy walking.",
-      de: "Nur Modelle mit höherer Geschwindigkeit (z. B. UREVO), sWalk Lite ist auf gesundes Gehen optimiert.",
+      en: "Yes. Movements such as marching in place, side steps, or controlled balance exercises on a vibrating platform can improve coordination, circulation, and lower-body activation while adding light cardiovascular benefits.",
+      de: "Ja. Übungen wie Marschieren auf der Stelle, seitliche Schritte oder kontrollierte Balancebewegungen auf der vibrierenden Plattform können die Koordination, Durchblutung und Aktivierung der Beinmuskulatur verbessern und gleichzeitig leichte Cardio-Effekte erzeugen.",
     },
   },
   {

@@ -9,8 +9,8 @@ const teamMembers = [
       de: 'Lead Fitness Specialist'
     },
     description: {
-      en: 'NASM certified trainer with 12+ years experience testing fitness equipment.',
-      de: 'NASM zertifizierter Trainer mit 12+ Jahren Erfahrung im Testen von Fitnessgeräten.'
+      en: 'NASM certified trainer with 12+ years experience testingfitness equipment.',
+      de: 'NASM-zertifizierter Trainer mit über 12 Jahren Erfahrungbeim Testen von Fitnessgeräten.'
     },
     image: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg'
   },
@@ -22,8 +22,8 @@ const teamMembers = [
       de: 'Biomechanics Expert'
     },
     description: {
-      en: 'PhD in Exercise Science, specializing in gait analysis and injury prevention.',
-      de: 'PhD in Sportwissenschaft, spezialisiert auf Ganganalyse und Verletzungsprävention.'
+      en: 'PhD in Exercise Science, specialising in gait analysis andinjury prevention.',
+      de: 'Doktorat in Sportwissenschaft, spezialisiert auf Ganganalyseund Verletzungsprävention.'
     },
     image: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/team1.png'
   },
@@ -35,8 +35,8 @@ const teamMembers = [
       de: 'Technical Engineer'
     },
     description: {
-      en: 'Mechanical engineer focused on motor performance and durability testing.',
-      de: 'Experte in Motorentechnologie und Haltbarkeitstests'
+      en: 'Mechanical engineer focused on motor performance anddurability testing.',
+      de: 'Maschinenbauingenieur mit Fokus auf Motorleistung undHaltbarkeitstests.'
     },
     image: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/team3.png'
   },
@@ -48,8 +48,8 @@ const teamMembers = [
       de: 'User Experience Analyst'
     },
     description: {
-      en: 'Certified personal trainer specializing in home fitness solutions.',
-      de: 'Zertifizierte Fitnesstrainerin mit Fokus auf Home-Fitness-Lösungen und Nutzerfreundlichkeit'
+      en: 'Certified personal trainer specialising in home fitnesssolutions.',
+      de: 'Zertifizierte Personaltrainerin, spezialisiert aufHeimfitness-Lösungen.'
     },
     image: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/team4.png'
   }

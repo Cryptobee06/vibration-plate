@@ -30,13 +30,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
-            <div className="text-2xl font-bold text-primary-400 mb-4">
-              Vibration Plate
-            </div>
+            <div className="text-2xl font-bold text-primary-400 mb-4"><img src="/VibrationPlateTestlogosvg-nav-blue.svg" className=" w-48" alt="Logo" /></div>
             <p className="text-gray-300 mb-4 max-w-md">
               {locale === 'en'
                 ? 'Expert vibration plate reviews and testing from certified fitness professionals. Independent, unbiased evaluations to help you make the best purchase decision.'
-                : 'Experten Vibration Plate-Tests und Bewertungen von zertifizierten Fitness-Profis. Unabhängige, unvoreingenommene Bewertungen für die beste Kaufentscheidung.'
+                : 'Experten-Tests von zertifizierten Fitnessprofis. Unabhängige Bewertungen für Ihre beste Kaufentscheidung.'
               }
             </p>
             {/* <div className="flex space-x-4">

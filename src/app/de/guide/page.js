@@ -6,9 +6,9 @@ import FAQ from '@/components/guide/FAQ';
 
 export async function generateMetadata() {
   return {
-    title: 'Walkingpad Kaufratgeber 2025 - Experten Tipps & Beratung',
-    description: 'Umfassender Walkingpad-Kaufratgeber mit Experten-Tipps zu Motorleistung, Bandgröße, Steigungseinstellungen und mehr. Treffen Sie die richtige Wahl für Ihre Fitnessziele.',
-    keywords: 'Walkingpad Kaufratgeber, Walkingpad Eigenschaften, Motorleistung, Bandgröße, Steigungseinstellungen, HeimlWalkingpad Beratung',
+    title: 'Vibrationsplattentests Kaufratgeber 2025 - Experten Tipps & Beratung',
+    description: 'Umfassender Vibrationsplattentests-Kaufratgeber mit Experten-Tipps zu Motorleistung, Bandgröße, Steigungseinstellungen und mehr. Treffen Sie die richtige Wahl für Ihre Fitnessziele.',
+    keywords: 'Vibrationsplattentests Kaufratgeber, vibration plate Eigenschaften, Motorleistung, Bandgröße, Steigungseinstellungen, Heimlvibration plate Beratung',
     icons: {
       icon: '/VibrationPlateTestlogosvg-blue.svg'
     },

@@ -4,14 +4,14 @@ import { useLocale } from "@/contexts/LanguageContext";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Star, Award, ArrowLeftToLine, ArrowRightToLine } from "lucide-react";
- 
+
 // Allvibration plates data
 const allWalkingpadsData = [
   {
     id: "sportstech",
     brand: "Sportstech",
-    model: "vibration plate",
-    slug: "sportstechswalklite",
+    model: "VP500",
+    slug: "Stvp",
     rating: 4.9,
     category: "both",
     badge: {
@@ -20,41 +20,41 @@ const allWalkingpadsData = [
     },
     badgeColor: "bg-green-500",
     image:
-      "/vibration-img1.jpg",
+      "/vibration-vp500-1.png",
     price: "599.00",
     originalPrice: null,
     features: {
       display: {
-        en: "Modern LCD display",
-        de: "Modernes LCD-Display",
+        en: "LED Touch Display, 300 × 57.5 mm",
+        de: "LED-Touch-Display, 300 × 57,5 mm",
       },
       dimensions: {
-        en: "127 x 56.5 x 11.5 cm",
-        de: "127 x 56,5 x 11,5 cm",
+        en: "79.7 × 46.3 × 18.2 cm",
+        de: "79,7 × 46,3 × 18,2 cm",
       },
-      weight: {
-        en: "up to 120 kg",
-        de: "bis 120 kg",
+      uptobodyweight: {
+        en: "120 kg",
+        de: "Bis zu 120 kg",
       },
       resistance: {
-        en: "Manual incline of 11.5%",
-        de: "Manuelle Steigung von 11,5%",
+        en: "60 speed/intensity levels",
+        de: "60 Geschwindigkeits-/Intensitätsstufen",
       },
-      programs: {
-        en: "4 pre-installed programs (P01–P04)",
-        de: "4 vorinstallierte Programme (P01–P04)",
+      Trainingprograms: {
+        en: "3 automatic programs + 7 manual modes",
+        de: "3 automatische Programme + 7 manuelle Modi",
       },
-      heartRate: {
-        en: "Hand Pulse Sensors + App",
-        de: "Handpulssensoren + App",
+      Pulsemeasurement: {
+        en: "No built-in pulse measurement",
+        de: "Keine integrierte Pulsmessung",
       },
       motor: {
-        en: "2.5 HP Motor",
-        de: "2.5 HP Motor",
+        en: "3 Motors: Oscillation DC 200W + Linear DC 200W + Vibration DC 40W",
+        de: "3 Motoren: Oszillation DC 200W + Linear DC 200W + Vibration DC 40W",
       },
       speed: {
-        en: "1-8 km/h",
-        de: "1-8 km/h",
+        en: "60 speed levels",
+        de: "60 Geschwindigkeitsstufen",
       },
     },
   },
@@ -76,36 +76,36 @@ const allWalkingpadsData = [
     originalPrice: "349.00",
     features: {
       display: {
-        en: "LED Console",
-        de: "LED Konsole",
+        en: "LED Display",
+        de: "LED-Display",
       },
       dimensions: {
-        en: "Compact Foldable",
-        de: "Kompakt faltbar",
+        en: "Approx. 53 × 32 × 12 cm",
+        de: "Ca. 53 × 32 × 12 cm",
       },
-      weight: {
-        en: "up to 100kg",
-        de: "bis 100kg",
+      uptobodyweight: {
+        en: "Up to 120 kg",
+        de: "Bis zu 120 kg",
       },
       resistance: {
-        en: "No Incline",
-        de: "Keine Neigung",
+        en: "Resistance Bands Included",
+        de: "Inklusive Widerstandsbändern",
       },
-      programs: {
-        en: "2 Programs",
-        de: "2 Programme",
+      Trainingprograms: {
+        en: "5 Automatic Programs",
+        de: "5 automatische Programme",
       },
-      heartRate: {
-        en: "Remote Control",
-        de: "Fernbedienung",
+      Pulsemeasurement: {
+        en: "No",
+        de: "Nein",
       },
       motor: {
-        en: "440W Motor",
-        de: "440W Motor",
+        en: "400W Motor",
+        de: "400W Motor",
       },
       speed: {
-        en: "1-8 km/h",
-        de: "1-8 km/h",
+        en: "1–60 Speed Levels",
+        de: "1–60 Geschwindigkeitsstufen",
       },
     },
   },
@@ -131,32 +131,32 @@ const allWalkingpadsData = [
         de: "LCD Display",
       },
       dimensions: {
-        en: "20kg Weight",
-        de: "20kg Gewicht",
+        en: "Compact under-desk design",
+        de: "Kompaktes Untertisch-Design",
       },
-      weight: {
+      uptobodyweight: {
         en: "up to 120kg",
-        de: "bis 120kg",
+        de: "Bis zu 120 kg",
       },
       resistance: {
-        en: "4% Incline",
-        de: "4% Neigung",
+        en: "Adjustable vibration intensity levels",
+        de: "Einstellbare Vibrationsintensitätsstufen",
       },
-      programs: {
-        en: "3 Programs",
-        de: "3 Programme",
+      Trainingprograms: {
+        en: "Multiple preset workout modes",
+        de: "Mehrere voreingestellte Trainingsmodi",
       },
-      heartRate: {
-        en: "Mobile App",
-        de: "Mobile App",
+      Pulsemeasurement: {
+        en: "No",
+        de: "Nein",
       },
       motor: {
-        en: "2.5 HP Motor",
-        de: "2.5 HP Motor",
+        en: "Quiet vibration motor",
+        de: "Leiser Vibrationsmotor",
       },
       speed: {
-        en: "1-6 km/h",
-        de: "1-6 km/h",
+        en: "Adjustable speed settings",
+        de: "Einstellbare Geschwindigkeitseinstellungen",
       },
     },
   },
@@ -178,44 +178,44 @@ const allWalkingpadsData = [
     originalPrice: null,
     features: {
       display: {
-        en: "Basic LCD",
-        de: "Basic LCD",
+        en: "LED Display with touch controls",
+        de: "LED-Display mit Touch-Bedienung",
       },
       dimensions: {
-        en: "86 lbs Weight",
-        de: "86 lbs Gewicht",
+        en: "Approx. 53 × 32 × 12 cm",
+        de: "Ca. 53 × 32 × 12 cm",
       },
-      weight: {
-        en: "up to 159kg",
-        de: "bis 159kg",
+      uptobodyweight: {
+        en: "Up to 120 kg",
+        de: "Bis zu 120 kg",
       },
       resistance: {
-        en: "0-6% Manual",
-        de: "0-6% manuell",
+        en: "Adjustable vibration intensity levels",
+        de: "Einstellbare Vibrationsintensitätsstufen",
       },
-      programs: {
-        en: "4 Programs",
-        de: "4 Programme",
+      Trainingprograms: {
+        en: "Multiple automatic workout programs",
+        de: "Mehrere automatische Trainingsprogramme",
       },
-      heartRate: {
-        en: "PitPat App",
-        de: "PitPat App",
+      Pulsemeasurement: {
+        en: "No",
+        de: "Nein",
       },
       motor: {
-        en: "3 HP Brushless",
-        de: "3 HP Brushless",
+        en: "Dual vibration motor system",
+        de: "Duales Vibrationsmotorsystem",
       },
       speed: {
-        en: "0.6-16 km/h",
-        de: "0.6-16 km/h",
+        en: "1–99 speed levels",
+        de: "1–99 Geschwindigkeitsstufen",
       },
     },
   },
   {
     id: "urevo",
-    brand: "Urevo",
-    model: "SpaceWalk E1L",
-    slug: "Urevo",
+    brand: "Evo",
+    model: "Spark",
+    slug: "EvoSpark",
     rating: 3.9,
     category: "advanced",
     badge: {
@@ -224,49 +224,49 @@ const allWalkingpadsData = [
     },
     badgeColor: "bg-teal-500",
     image:
-      "/vibration-img4.webp",
+      "/vibration-plate-5.png",
     price: "379.00",
     originalPrice: "429.00",
     features: {
       display: {
-        en: "Smart Display",
-        de: "Smart Display",
+        en: "LED Display with touch controls",
+        de: "LED-Display mit Touch-Bedienung",
       },
       dimensions: {
-        en: "Fold-flat Design",
-        de: "Fold-flat Design",
+        en: "22.6 x 16.2 x 7.4 inches",
+        de: "22,6 × 16,2 × 7,4 Zoll",
       },
-      weight: {
-        en: "up to 120kg",
-        de: "bis 120kg",
+      uptobodyweight: {
+        en: "Up to 204 kg / 450 lbs",
+        de: "Bis zu 204 kg / 450 lbs",
       },
       resistance: {
-        en: "14% Auto-Incline",
-        de: "14% Auto-Neigung",
+        en: "Includes resistance bands",
+        de: "Inklusive Widerstandsbändern",
       },
-      programs: {
-        en: "1 Programs",
-        de: "1 Programme",
+      Trainingprograms: {
+        en: "3 preset programs (P1, P2, P3) + Manual Mode",
+        de: "3 voreingestellte Programme (P1, P2, P3) + manueller Modus",
       },
-      heartRate: {
-        en: "UREVO App + Sensors",
-        de: "UREVO App + Sensoren",
+      Pulsemeasurement: {
+        en: "No built-in pulse measurement",
+        de: "Keine integrierte Pulsmessung",
       },
       motor: {
-        en: "Ultra-quiet Brushless",
-        de: "Ultra-leise Brushless",
+        en: "Dual Motor System",
+        de: "Duales Motorsystem",
       },
       speed: {
-        en: "1-8 km/h",
-        de: "1-8 km/h",
+        en: "120 adjustable speed levels",
+        de: "120 einstellbare Geschwindigkeitsstufen",
       },
     },
   },
   {
     id: "sportstechvibration",
     brand: "Sportstech",
-    model: "Vibration Plate",
-    slug: "sportstechvibration",
+    model: "sVibe",
+    slug: "sVibe",
     rating: 4.9,
     category: "both",
     badge: {
@@ -275,41 +275,41 @@ const allWalkingpadsData = [
     },
     badgeColor: "bg-green-500",
     image:
-      "/vibration-img5.webp",
+      "/vibration-sVibe-2.png",                  
     price: "599.00",
     originalPrice: null,
     features: {
       display: {
-        en: "Modern LCD display",
-        de: "LCD Display",
+        en: "LED display with 7 LED color indicators",
+        de: "LED-Display mit 7 LED-Farbindikatoren",
       },
       dimensions: {
-        en: "127 x 56.5 x 11.5 cm",
-        de: "109,7×52,1×10,9 cm;",
+        en: "78 × 42 × 14 cm",
+        de: "78 × 42 × 14 cm;",
       },
-      weight: {
-        en: "up to 120 kg",
-        de: "bis ≤120 kg",
+      uptobodyweight: {
+        en: "120 kg maximum user weight",
+        de: "Maximales Benutzergewicht 120 kg",
       },
       resistance: {
-        en: "Manual incline of 11.5%",
-        de: "1 PS Motor",
+        en: "Includes resistance training bands",
+        de: "Inklusive Widerstandstrainingsbändern",
       },
-      programs: {
-        en: "4 pre-installed programs (P01–P04)",
-        de: "4 vorinstallierte Programme",
+      Trainingprograms: {
+        en: "3 automatic programs + 1 manual mode",
+        de: "3 automatische Programme + 1 manueller Modus",
       },
-      heartRate: {
-        en: "Hand Pulse Sensors + App",
-        de: "Handpulssensoren + App",
+      Pulsemeasurement: {
+        en: "No integrated pulse measurement",
+        de: "Keine integrierte Pulsmessungp",
       },
       motor: {
-        en: "2.5 HP Motor",
-        de: "1 PS",
+        en: "Dual ultra-quiet DC motors, 200W max power",
+        de: "Duale ultra-leise DC-Motoren, max. 200W Leistung",
       },
       speed: {
-        en: "1-8 km/h",
-        de: "1–6 km/h",
+        en: "99 adjustable speed/intensity levels",
+        de: "99 einstellbare Geschwindigkeits-/Intensitätsstufen",
       },
     },
   },
@@ -331,36 +331,36 @@ const allWalkingpadsData = [
     originalPrice: null,
     features: {
       display: {
-        en: "LED display showing speed, time, distance & calories",
-        de: "LCD-Display",
+        en: "LED Display",
+        de: "LED-Display",
       },
       dimensions: {
-        en: "Slim, space-saving design for desks & small rooms",
-        de: "107,8T x 51,4B x 10,5H cm",
+        en: "Approx. 53 × 32 × 12 cm",
+        de: "Ca. 53 × 32 × 12 cm",
       },
-      weight: {
-        en: "Up to 100 kg",
-        de: "136 KG",
+      uptobodyweight: {
+        en: "Up to 120 kg",
+        de: "Bis zu 120 kg",
       },
       resistance: {
-        en: "No incline",
-        de: "ohne",
+        en: "Adjustable vibration intensity levels",
+        de: "Einstellbare Vibrationsintensitätsstufen",
       },
-      programs: {
-        en: "Basic walking modes with manual controls",
-        de: "ohne",
+      Trainingprograms: {
+        en: "Multiple automatic workout programs",
+        de: "Mehrere automatische Trainingsprogramme",
       },
-      heartRate: {
-        en: "Not available",
-        de: "No data",
+      Pulsemeasurement: {
+        en: "No",
+        de: "Nein",
       },
       motor: {
-        en: "2.5 HP Motor",
-        de: "No data",
+        en: "Dual vibration motor system",
+        de: "Duales Vibrationsmotorsystem",
       },
       speed: {
-        en: "1–6 km/h",
-        de: "1-6 km/h",
+        en: "1–99 speed levels",
+        de: "1–99 Geschwindigkeitsstufen",
       },
     },
   },
@@ -382,44 +382,44 @@ const allWalkingpadsData = [
     originalPrice: null,
     features: {
       display: {
-        en: "Multi-function LCD console with real-time metrics",
-        de: "LED",
+        en: "LED Display",
+        de: "LED-Display",
       },
       dimensions: {
-        en: "Full treadmill size with foldable frame",
-        de: "1160*476*131MM",
+        en: "116 × 47.6 × 13 cm",
+        de: "116 × 47,6 × 13 cm",
       },
-      weight: {
-        en: "Higher capacity suitable for heavier users",
-        de: "110 Kilogramm",
+      uptobodyweight: {
+        en: "120 kg",
+        de: "120 kg",
       },
       resistance: {
-        en: "Multiple manual incline levels",
-        de: "0%-5% Steigung",
+        en: "Multiple vibration/speed intensity levels",
+        de: "Mehrere Vibrations-/Geschwindigkeitsintensitätsstufen",
       },
-      programs: {
-        en: "Built-in programs for walking, jogging & climbing",
-        de: "ohne",
+      Trainingprograms: {
+        en: "3 Training Modes",
+        de: "3 Trainingsmodi",
       },
-      heartRate: {
-        en: "Integrated hand pulse sensors",
-        de: "No data",
+      Pulsemeasurement: {
+        en: "No",
+        de: "Nein",
       },
       motor: {
-        en: "2.75 HP Motor",
-        de: "2.5 HP Motor",
+        en: "2.75 HP Quiet Motor",
+        de: "2,75 HP leiser Motor",
       },
       speed: {
-        en: "0.6–3.8 mph (~ 1.0–6.1 km/h)",
-        de: "1-6 km/h",
+        en: "1–6 km/h adjustable speed",
+        de: "Einstellbare Geschwindigkeit von 1–6 km/h",
       },
     },
   },
   {
     id: "Cursor",
-    brand: "Cursor",
-    model: "Vibration Plate",
-    slug: "Cursor",
+    brand: "Home",
+    model: "fitness Code",
+    slug: "Homefitnesscode",
     rating: 3.8,
     category: "amateur",
     badge: {
@@ -428,41 +428,41 @@ const allWalkingpadsData = [
     },
     badgeColor: "bg-green-500",
     image:
-      "/vibration-img10.webp",
+      "/vibration-plate-4.png",
     price: "599.00",
     originalPrice: null,
     features: {
       display: {
-        en: "Compact LED screen with essential data",
-        de: "LED",
+        en: "LED Screen",
+        de: "LED-Bildschirm",
       },
       dimensions: {
-        en: "Ultra-compact under-desk footprint",
-        de: "114 x 55 x 11 cm",
+        en: "56 × 33 × 12 cm",
+        de: "56 × 33 × 12 cm",
       },
-      weight: {
-        en: "Up to 110 kg",
-        de: "136 kg",
+      uptobodyweight: {
+        en: "150 kg",
+        de: "150 kg",
       },
       resistance: {
-        en: "No incline",
-        de: "16% Steigung",
+        en: "Resistance Bands Included",
+        de: "Inklusive Widerstandsbändern",
       },
-      programs: {
-        en: "Simple presets for daily walking",
-        de: "ohne",
+      Trainingprograms: {
+        en: "9 Pre-set Programs",
+        de: "9 voreingestellte Programme",
       },
-      heartRate: {
-        en: "Not included",
-        de: "No data",
+      Pulsemeasurement: {
+        en: "No",
+        de: "Nein",
       },
       motor: {
-        en: "2.5 HP Motor",
-        de: "2.5HP",
+        en: "200W Motor",
+        de: "200W Motor",
       },
       speed: {
-        en: "0.5–6 km/h",
-        de: "12 Kilometer pro Stunde",
+        en: "1–99 Adjustable Speed Levels",
+        de: "1–99 einstellbare Geschwindigkeitsstufen",
       },
     },
   },
@@ -484,70 +484,70 @@ const allWalkingpadsData = [
     originalPrice: null,
     features: {
       display: {
-        en: "Front-facing LED display for clear visibility",
-        de: "LED",
+        en: "LED Display",
+        de: "LED-Display",
       },
       dimensions: {
-        en: "Lightweight, low-profile frame for easy storage",
-        de: "111 x 56 x 12 cm",
+        en: "Approx. 54 × 32 × 13.5 cm",
+        de: "Ca. 54 × 32 × 13,5 cm",
       },
-      weight: {
-        en: "Up to 120 kg",
-        de: "110kg",
+      uptobodyweight: {
+        en: "Up to 150 kg",
+        de: "Bis zu 150 kg",
       },
       resistance: {
-        en: "Flat deck (no incline)",
-        de: "5% Steigung",
+        en: "Resistance Bands Included",
+        de: "Inklusive Widerstandsbändern",
       },
-      programs: {
-        en: "Core routines for calorie burn & step training",
-        de: "1 program",
+      Trainingprograms: {
+        en: "5 Preset Programs",
+        de: "5 voreingestellte Programme",
       },
-      heartRate: {
-        en: "Not available",
-        de: "No data",
+      Pulsemeasurement: {
+        en: "No",
+        de: "Nein",
       },
       motor: {
-        en: "2 HP Motor",
-        de: "2.0HP",
+        en: "200W Motor",
+        de: "200W Motor",
       },
       speed: {
-        en: "1-6 km/h",
-        de: "1-6 km/h",
+        en: "1–99 Speed Levels",
+        de: "1–99 Geschwindigkeitsstufen",
       },
     },
   },
 ];
- 
+
 // Category definitions
 const categoryDefinitions = {
   amateur: {
     name: { en: "Amateur Vibration Plate", de: "Amateur-Vibration Plate" },
-    ids: ["sportstechvibration", "Copant", "Merach", "Cursor", "Cazvian"],
+    ids: ["sportstech", "Copant", "Merach", "Homefitnesscode", "Cazvian"],
   },
   advanced: {
     name: { en: "Advanced Vibration Plate", de: "Advanced Vibration Plate" },
-    ids: ["sportstechvibration", "citysports", "kiddoza", "superun", "urevo"],
+    ids: ["sportstechvibration", "citysports", "kiddoza", "superun", "EvoSpark"],
   },
 };
- 
+
 export default function ReviewsPage() {
   const locale = useLocale();
   const searchParams = useSearchParams();
   const category = searchParams.get("category");
   const tableRef = useRef(null);
- 
+
   // Filtervibration plates based on category
   const getFilteredWalkingpads = () => {
     if (!category || !categoryDefinitions[category]) {
       return allWalkingpadsData;
     }
- 
+
     const categoryIds = categoryDefinitions[category].ids;
     const filtered = allWalkingpadsData.filter(
       (pad) => categoryIds.includes(pad.id) || categoryIds.includes(pad.slug),
     );
- 
+
     // For advanced category, move sportstechvibration to first position
     if (category === "advanced") {
       const sportsTechIndex = filtered.findIndex(pad => pad.id === "sportstechvibration");
@@ -556,12 +556,12 @@ export default function ReviewsPage() {
         filtered.unshift(sportsTech);
       }
     }
- 
+
     return filtered;
   };
- 
+
   const WalkingpadsData = getFilteredWalkingpads();
- 
+
   const renderStars = (rating) => {
     return (
       <div className="flex items-center justify-center gap-1">
@@ -580,13 +580,13 @@ export default function ReviewsPage() {
       </div>
     );
   };
- 
+
   const scrollToFirstColumn = () => {
     if (tableRef.current) {
       tableRef.current.scrollLeft = 0;
     }
   };
- 
+
   const scrollToLastColumn = () => {
     if (tableRef.current) {
       const lastColumn = tableRef.current.querySelector("th:last-child");
@@ -598,52 +598,28 @@ export default function ReviewsPage() {
       }
     }
   };
- 
-  const featureRows = [
-    {
-      label: { en: "Display", de: "Display" },
-      key: "display",
-    },
-    {
-      label: { en: "Dimensions", de: "Abmessungen" },
-      key: "dimensions",
-    },
-    {
-      label: { en: "Max Weight Capacity", de: "bis Körpergewicht" },
-      key: "weight",
-    },
-    {
-      label: { en: "Incline/Resistance", de: "Widerstand" },
-      key: "resistance",
-    },
-    {
-      label: { en: "Training Programs", de: "Trainingsprogramme" },
-      key: "programs",
-    },
-    {
-      label: { en: "Heart Rate Monitoring", de: "Pulsmessung" },
-      key: "heartRate",
-    },
-    {
-      label: { en: "Motor", de: "Motor" },
-      key: "motor",
-    },
-    {
-      label: { en: "Speed Range", de: "Geschwindigkeit" },
-      key: "speed",
-    },
-  ];
- 
+
+const featureRows = [
+  { label: { en: "Display", de: "Display" }, key: "display" },
+  { label: { en: "Dimensions", de: "Abmessungen" }, key: "dimensions" },
+  { label: { en: "Up to body weight", de: "Maximales Körpergewicht" }, key: "weight", fallbackKey: "uptobodyweight" },
+  { label: { en: "Resistance", de: "Widerstand" }, key: "resistance" },
+  { label: { en: "Training programs", de: "Trainingsprogramme" }, key: "programs", fallbackKey: "Trainingprograms" },
+  { label: { en: "Pulse measurement", de: "Pulsmessung" }, key: "heartRate", fallbackKey: "Pulsemeasurement" },
+  { label: { en: "Motor", de: "Motor" }, key: "motor" },
+  { label: { en: "Speed", de: "Geschwindigkeit" }, key: "speed" },
+];
+
   const getCategoryTitle = () => {
     if (category && categoryDefinitions[category]) {
       return categoryDefinitions[category].name[locale];
     }
     return null;
   };
- 
+
   const pageText = {
     title: {
-      en: "vibration Plate Comparison 2025",
+      en: "Vibration Plate Comparison 2025",
       de: "Vibration Plate Vergleich 2025",
     },
     subtitle: {
@@ -673,11 +649,11 @@ export default function ReviewsPage() {
       de: "Alle Vibration Plate",
     },
   };
- 
+
   const getBasePath = () => {
     return locale === "de" ? "/de" : "";
   };
- 
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -690,16 +666,16 @@ export default function ReviewsPage() {
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
               {pageText.subtitle[locale]}
             </p>
- 
+
           </div>
         </div>
       </section>
- 
+
       {/* Category Tabs */}
       <section className="bg-white border-b sticky top-16 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center gap-4 py-4">
- 
+
             <Link
               href={`${getBasePath()}/reviews?category=amateur`}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${category === "amateur"
@@ -721,7 +697,7 @@ export default function ReviewsPage() {
           </div>
         </div>
       </section>
- 
+
       {/* Comparison Table Section */}
       <section className="py-12">
         <div className="min-h-screen bg-gray-50 px-2 sm:px-4 lg:px-6">
@@ -751,7 +727,7 @@ export default function ReviewsPage() {
                       </div>
                     </div>
                   )}
- 
+
                   {/* Product Info */}
                   <div className="text-center mb-4">
                     <div className="w-full h-32 mb-3 bg-gray-50 rounded-md flex items-center justify-center overflow-hidden p-2">
@@ -766,7 +742,7 @@ export default function ReviewsPage() {
                     </h3>
                     <div className="mb-3">{renderStars(brand.rating)}</div>
                   </div>
- 
+
                   {/* Features List for Mobile */}
                   <div className="space-y-3 mb-4">
                     {featureRows.map((feature) => (
@@ -783,12 +759,12 @@ export default function ReviewsPage() {
                               : "text-gray-700"
                             }`}
                         >
-                          {brand.features[feature.key][locale]}
+                          {(brand.features[feature.key] ?? brand.features[feature.fallbackKey])?.[locale] ?? "—"}
                         </span>
                       </div>
                     ))}
                   </div>
- 
+
                   {/* Review Button for Mobile */}
                   <div className="mt-4">
                     <Link
@@ -804,9 +780,9 @@ export default function ReviewsPage() {
                 </div>
               ))}
             </div>
- 
- 
- 
+
+
+
             {/* Desktop Table View (>= 1024px) */}
             <div className="hidden md:block bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="w-full relative">
@@ -817,17 +793,17 @@ export default function ReviewsPage() {
                     <thead>
                       <tr className="bg-gray-100">
                         {/* FIXED FIRST COLUMN */}
-                        <th className="sticky left-0 z-30 bg-gray-100 border-r w-[260px] p-3 text-center font-semibold text-gray-700">
+                        <th className="sticky left-0 z-30 bg-gray-100 border-r w-[300px] p-3 text-center font-semibold text-gray-700">
                           <span className="text-lg">
                             {pageText.model[locale]}
                           </span>
                         </th>
- 
+
                         {/* SCROLLABLE BRAND COLUMNS */}
                         {WalkingpadsData.map((brand, index) => (
                           <th
                             key={brand.id}
-                            className="p-2 text-center align-top w-[300px]"
+                            className="p-2 text-center align-top w-[330px]"
                           >
                             <div
                               className={`relative rounded-lg p-4 shadow-md border transition-all duration-500
@@ -848,7 +824,7 @@ export default function ReviewsPage() {
                                     </div>
                                   </>
                                 )}
- 
+
                               {/* Product Image */}
                               <div className="pt-2">
                                 <div className="w-full h-32 mb-4 bg-gray-50 rounded-md flex items-center justify-center overflow-hidden">
@@ -858,17 +834,17 @@ export default function ReviewsPage() {
                                     className="max-w-full max-h-full object-contain"
                                   />
                                 </div>
- 
+
                                 {/* Title */}
                                 <h3 className="font-bold text-base mb-3 text-gray-800 leading-tight h-[70px]">
                                   {brand.brand} {brand.model}
                                 </h3>
- 
+
                                 {/* Rating */}
                                 <div className="mb-3">
                                   {renderStars(brand.rating)}
                                 </div>
- 
+
                                 {/* Review Button */}
                                 <Link
                                   href={`${getBasePath()}/brands/${brand.slug}`}
@@ -885,7 +861,7 @@ export default function ReviewsPage() {
                         ))}
                       </tr>
                     </thead>
- 
+
                     {/* BODY ROWS */}
                     <tbody>
                       {featureRows.map((feature, index) => (
@@ -900,7 +876,7 @@ export default function ReviewsPage() {
                               {feature.label[locale]}
                             </span>
                           </td>
- 
+
                           {/* SCROLLABLE BRAND FEATURE COLUMNS */}
                           {WalkingpadsData.map((brand) => (
                             <td
@@ -910,7 +886,7 @@ export default function ReviewsPage() {
                                   : "text-gray-700"
                                 }`}
                             >
-                              {brand.features[feature.key][locale]}
+                             {(brand.features[feature.key] ?? brand.features[feature.fallbackKey])?.[locale] ?? "—"}
                             </td>
                           ))}
                         </tr>
@@ -918,7 +894,7 @@ export default function ReviewsPage() {
                     </tbody>
                   </table>
                 </div>
- 
+
                 {/* BOTTOM SUMMARY */}
                 <div className="bg-gradient-to-r from-violet-50 to-violet-100 p-6 border-t">
                   <div className="text-center">

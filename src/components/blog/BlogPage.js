@@ -8,29 +8,29 @@ const blogPosts = [
     id: 1,
     slug: 'best-treadmill-workouts-2025',
     title: {
-      en: '10 Best Vibration Plate Workouts for Weight Loss',
-      de: '10 Beste Vibration Plate-Workouts für Gewichtsverlust'
+      en: '10 Best Vibration Plate Workouts for Faster Weight Loss in 2026',
+      de: 'Die 10 besten Vibrationsplatten-Workouts für schnellen Gewichtsverlust 2026'
     },
     excerpt: {
-      en: 'Discover effective Vibration Plate workout routines that maximize calorie burn and accelerate weight loss.',
-      de: 'Entdecken Sie effektive Vibration Plate-Workouts, die die Kalorienverbrennung maximieren und den Gewichtsverlust beschleunigen.'
+      en: 'Discover the best vibration plate workouts in 2026 for faster weight loss, fat burning, muscle toning, and effective home fitness training.',
+      de: 'Entdecke die besten Vibrationsplatten-Workouts 2026 für Fettverbrennung, Muskelstraffung und effektive Home-Workouts zur Unterstützung deiner Fitnessziele.'
     },
     date: {
       en: 'Jan 15, 2025',
       de: '15. Jan 2025'
     },
-    image: '/Assets/blog-vibrationplate-1.png'
+    image: '/Assets/blog-vibrationplate-5.png'
   },
   {
     id: 2,
     slug: 'treadmill-maintenance-guide',
     title: {
-      en: 'Vibration Plate Maintenance Tips for Longevity',
-      de: 'Vibration Plate-Wartungstipps für Langlebigkeit'
+      en: ' Vibration Plate Maintenance Tips for Better Performance & Longer Lifespan',
+      de: 'Wartungstipps für Vibrationsplatten für bessere Leistung & längere Lebensdauer'
     },
     excerpt: {
-      en: 'Learn essential maintenance practices to keep your Vibration Plate running smoothly for years.',
-      de: 'Lernen Sie wichtige Wartungspraktiken, um Ihr Vibration Plate jahrelang reibungslos laufen zu lassen.'
+      en: ' Discover practical vibration plate maintenance tips to improve performance, extend lifespan, reduce motor strain, and keep your home fitness equipment running smoothly.',
+      de: 'Entdecke praktische Wartungstipps für Vibrationsplatten, um Leistung zu verbessern, die Lebensdauer zu verlängern und dein Fitnessgerät langfristig effizient zu nutzen.'
     },
     date: {
       en: 'Jan 10, 2025',
@@ -42,12 +42,12 @@ const blogPosts = [
     id: 3,
     slug: 'treadmill-motor-guide',
     title: {
-      en: 'Understanding Vibration Plate Motor Power',
-      de: 'Vibration Plate-Motorleistung verstehen'
+      en: 'Understanding Vibration Plate Motor Power | Better Performance & Home Workouts ',
+      de: ' Vibrationsplatten-Motorleistung verstehen | Bessere Performance & Home-Workouts'
     },
     excerpt: {
-      en: 'A comprehensive guide to Vibration Plate motor specifications and what they mean for performance.',
-      de: 'Ein umfassender Leitfaden zu Vibration Plate-Motorspezifikationen und was sie für die Leistung bedeuten.'
+      en: 'Understand how vibration plate motor power impacts performance, stability, and workout quality for better home fitness results.',
+      de: ' Erfahre, wie die Motorleistung von Vibrationsplatten Performance, Stabilität und Trainingsqualität für bessere Home-Workout-Ergebnisse beeinflusst.'
     },
     date: {
       en: 'Jan 5, 2025',
@@ -67,12 +67,12 @@ export default function BlogPage() {
 
   const pageTitle = {
     en: 'Fitness & Vibration Plate Blog',
-    de: 'Fitness & Vibration Plate Blog'
+    de: 'Fitness- & Vibrationsplatten-Blog'
   };
 
   const pageSubtitle = {
-    en: 'Expert insights, training tips, and the latest news in fitness technology and Vibration Plate innovation.',
-    de: 'Experten-Einblicke, Trainingstipps und die neuesten Nachrichten in Fitness-Technologie und Vibration Plate-Innovation.'
+    en: 'Explore easy-to-follow vibration plate workouts, fitness tips, and recovery ideas to support your home fitness and wellness goals.',
+    de: ' Entdecke einfache Vibrationsplatten-Workouts, Fitness-Tipps und Recovery-Ideen für deine Home-Fitness- und Wellness-Ziele.'
   };
 
   const readMore = {

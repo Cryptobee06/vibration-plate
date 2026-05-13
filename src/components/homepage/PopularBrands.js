@@ -6,10 +6,10 @@ const brands = [
   { name: 'Sportstech', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/products/sportstech.png' },
   { name: 'NordicTrack', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/citysports.png' },
   { name: 'ProForm', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/superun.png' },
-  { name: 'Horizon Fitness', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/urevo.webp' },
+  { name: 'EvoSpark', logo: '/Assets/Evospark-logo.png' },
   { name: 'Life Fitness', logo: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/kiddoza.jpg' },
   { name: 'Merach', logo: '/Assets/Merach-Logo.webp' },
-  { name: 'cursor', logo: '/Assets/cursorlogo.png' },
+  { name: 'Homefitnesscode', logo: '/Assets/Homefitness-logo.png' },
   { name: 'cazvian', logo: '/Assets/CAZVIAN.png' },
 ];
 

@@ -32,8 +32,8 @@ const loadTranslations = async () => {
     translations = {
       en: {
         navigation: {
-          logo: "Walkingpadreviews",
-          TreadmillReviews: "Walkingpadreviews",
+          logo: "vibration plate reviews",
+          TreadmillReviews: "vibration plate reviews",
           brands: "Brands",
           guide: "Guide",
           blog: "Blog",

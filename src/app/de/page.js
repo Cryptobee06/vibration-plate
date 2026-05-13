@@ -11,11 +11,11 @@ import CustomerReviews from '@/components/homepage/CustomerReviews';
 
 export async function generateMetadata() {
   return {
-    title: 'LaufbandTests - Experten Laufband Tests & Bewertungen 2025',
+    title: 'Vibrationsplattentests - Experten Vibrationsplattentests & Bewertungen 2025',
     description: 'Unabhängige Laufband-Bewertungen von zertifizierten Fitness-Profis. Umfassende Tests für Leistung, Haltbarkeit und Wert. Finden Sie das beste Laufband für Ihre Bedürfnisse.',
     keywords: 'Laufband Tests, Laufband Bewertungen, beste Laufbänder 2025, Fitnessgeräte Tests, Laufband Kaufratgeber',
     openGraph: {
-      title: 'LaufbandTests - Experten Laufband Tests & Bewertungen 2025',
+      title: 'Vibrationsplattentests - Experten Vibrationsplattentests & Bewertungen 2025',
       description: 'Unabhängige Laufband-Bewertungen von zertifizierten Fitness-Profis',
       type: 'website',
     },

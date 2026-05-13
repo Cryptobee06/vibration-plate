@@ -78,13 +78,13 @@
     }
   },
   "guide": {
-    "title": "Treadmill Buying Guide",
+    "title": "vibration plate Guide",
     "introduction": "Our comprehensive guide helps you choose the perfect treadmill for your fitness goals, space, and budget.",
     "keyFeatures": {
       "title": "Key Features to Consider",
       "motorPower": {
         "title": "Motor Power",
-        "description": "Look for continuous duty horsepower (CHP) rating. 2.5+ CHP for walking, 3.0+ CHP for running."
+        "description": "Look for continuous duty horsepower (CHP) rating. 2.5+ CHP for vibration plate, 3.0+ CHP for running."
       },
       "inclineSettings": {
         "title": "Incline Settings",
@@ -139,7 +139,7 @@
     }
   },
   "blog": {
-    "title": "Fitness & Treadmill Blog",
+    "title": "vibration plate",
     "introduction": "Expert insights, training tips, and the latest news in fitness technology and treadmill innovation.",
     "readMore": "Read More"
   },

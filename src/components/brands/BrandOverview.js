@@ -23,7 +23,7 @@ export default function BrandOverview({ brand }) {
         <div className="absolute inset-0 bg-black/30 z-0" />
 
         {/* Content */}
-        <div className="relative z-10 max-w-4xl text-center ">
+        <div className="relative z-10 max-w-5xl text-center ">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
                    font-extrabold mb-4 sm:mb-6 drop-shadow-lg leading-tight">
                    {displayName}

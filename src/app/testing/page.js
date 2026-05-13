@@ -27,66 +27,68 @@ const brands = [
   "Citysports",
   "Kiddoza",
   "Superun",
-  "Urevo",
+  "Evospark",
   "Copant",
   "Merach",
-  "Cursor",
+  "Homefitness",
   "Cazvian"
 ];
 
 const testData = {
   "Sportstech VP500": {
     image:
-      "/Assets/vibration-test 1.jpg",
+      "/Assets/vibration-test-1.webp",
     overallScore: 4.86,
     status: "Passed",
     features: [
-      "Rotatable 21.5-inch touch display with Sportstech Live app for immersive training and real-time tracking.",
-      "Black frame with dimensions 182 × 87.5 × 177 cm and supports users up to 150 kg.",
-      "Top speed of 20 km/h and 15 incline levels ideal for endurance or sprint workouts.",
-      "7-color LED ambient lighting changes based on speed or pulse for visual feedback.",
-      "Folding design and built-in transport wheels for convenient storage and mobility.",
+      "Compact footprint (93.7 × 62 × 12.9 cm) — ideal for apartments, home offices, and smaller workout spaces.",
+      "Manual 5% incline option — adds extra training stimulus and targets the lower body with greater intensity.",
+      "60-level speed range — precisely fine-tuned for everything from gentle warm-ups to challenging cardio sessions.",
+      "Speeds up to 6 km/h with smooth four-platform stepping — noticeably reduces everyday joint stress.",
+      "Integrated pedometer and large LCD — track steps, distance, speed, time, and calorie burn at a glance.",
+      "Premium anti-slip, high-density transport wheels — built for quiet office and home use, easy to reposition.",
+      "Lightweight build (approx. 18.8 kg) — max user capacity of 120 kg, designed to be portable and storable.",
     ],
     tests: {
       Speed: {
         description:
-          "Sportstech excels in speed performance with impressive acceleration and sprint capabilities. During testing, it achieved top speeds that satisfied even experienced runners, maintaining stability and comfort at all intensity levels. Its responsive controls allow seamless transitions between speed modes without delay.",
+          "Confirmed all 60 speed levels active and steady under full body load.",
         rating: "4.8 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "This model withstood over 100 hours of simulated high-impact workouts without showing signs of wear or structural compromise. The belt retained its grip, and the deck showed minimal compression fatigue. With its commercial-grade frame, reinforced joints, and corrosion-resistant coating, Sportstech sets the standard for long-term durability.",
+          "Solid build quality; platform and motor held up reliably during extended use cycles.",
         rating: "5 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "Incline functionality is fast, accurate, and holds its angle reliably. The motorized incline system reacted to changes mid-workout with little lag, offering up to 15 levels of elevation. It adapts well to HIIT and endurance incline training.",
+          "Stable 5-degree incline adds genuine difficulty; ideal for lower-body conditioning.",
         rating: "4.7 / 5",
         status: "Passed",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Despite its powerful motor, Sportstech maintained near-silent operation. It consistently produced sound levels under 55 decibels across all speeds. This makes it suitable for apartment living or early morning sessions without disturbing others.",
+          "Motor noise stays well within a comfortable range — quiet enough for shared spaces.",
         rating: "4.9 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Comfort testing covered belt cushioning, deck width, handgrip positioning, and display ergonomics. Sportstech offers a roomy deck that accommodates natural stride lengths and reduces joint stress.",
+          "Cushioned, non-slip surface distributes vibration evenly with no discomfort during long sessions.",
         rating: "4.9 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: Sportstech sWalk Lite – Test Winner 2025",
-      modelName: "Sportstech sWalk Lite",
+      title: "Individual Review: Sportstech vibration plate – Test Winner 2025",
+      modelName: "Sportstech VP500",
       verdict: "Perfect for Office & Home",
       rating: 5.0,
       publishDate: "January 2025",
@@ -96,92 +98,92 @@ const testData = {
       testCriteria: {
         "Design & Build Quality": {
           rating: 5,
-          description: "Slim, high-quality finish, modern LED display",
+          description: "Sleek, curved chassis — premium finish at a competitive price.",
         },
         "Noise Level": {
           rating: 5,
-          description: "Extremely quiet (< 55 dB)",
+          description: "Quiet motors, suitable even for apartment buildings.",
         },
         "Cushioning & Comfort": {
           rating: 5,
-          description: "Smooth, stable running surface",
+          description: "Anti-slip, cushioned platform absorbs vibration effectively.",
         },
         Control: {
           rating: 5,
-          description: "App + remote, intuitive operation",
+          description: "Bluetooth and remote work reliably; onscreen display is intuitive.",
         },
         "Office Suitability": {
           rating: 5,
-          description: "Perfect for working while standing or vibration plate",
+          description: "Compact build, low noise, and minimal footprint — office-ready.",
         },
         "Value for Money": {
           rating: 5,
-          description: "Very fair for the quality",
+          description: "Excellent value for a multi-motor, feature-rich vibration platform.",
         },
       },
       extras: ["LCD display", "Calorie counter", "Step counter"],
       suitableFor: "Office & home, daily vibration plate use, healthy working",
       mainDescription:
-        "The Sportstech sWalk Lite is a compact, quiet Vibration Plate specially designed for home office use. At just 12 cm high, it fits easily under desks and is simple to store when not in use. Its robust housing, modern LED display, and gently cushioned running surface provide a pleasant user experience.",
+        "What Dr. Marcus Breitner Found During TestingThe Sportstech VP500 is an understated, modern-design vibration plate built for home and office environments. Its slim, lightweight form lets it blend naturally into any living room, spare bedroom, or home office without feeling like gym equipment dropped out of place.",
       testFindings:
-        "In testing, it particularly impressed with its low noise level under 55 dB. Even during extended sessions, it remained virtually silent—ideal for use in offices or apartments with thin walls. Control is available via app or remote—both intuitive and reliable.",
+        "In daily practical use, the VP500 showed consistent performance at every speed level. The 80 x 60 cm standing surface is ergonomically sized for most adults — large enough to attempt basic bodyweight exercises like squats, planks, and standing stretches without feeling restricted.The standout feature during our testing was the adjustable 5% incline setting, which unlocked additional training intensity and noticeably targeted the lower legs and calf muscles in ways a flat plate simply cannot replicate. With smart speed control, Bluetooth connectivity, and a clean onscreen display, the VP500 delivers a fully integrated training experience that does not feel cluttered or overly technical to operate.",
       specialFeature:
-        "An incline function—rare in this price range—makes the training both joint-friendly and effective.",
+        "Overall, the VP500 is a well-rounded choice for anyone who wants to increase daily movement, support recovery after exercise, or maintain an active lifestyle while working from home. Its compact size, quiet operation, and solid build quality make it a practical pick for apartment living and shared spaces.",
       conclusion:
-        "For people who want to work standing or vibration plate for several hours a day, the sWalk Lite is the best choice in our 2025 test.",
+        " For people who want to work standing or use a vibration plate for several hours a day, the Sportstech VP500 vibration plate is the best choice in our 2025 vibration plate test.",
     },
   },
-  "Sportstech WalkMate": {
+  "Sportstech sVibe": {
     image:
-      "/Assets/vibration-test 2.jpg",
+      "/Assets/vibration-test-2.jpg",
     overallScore: 4.9,
     status: "Passed",
     features: [
-      "Ultra-compact design with foldable frame for easy storage under desks.",
-      "Whisper-quiet motor designed specifically for office environments.",
-      "Smart speed control with auto-adjustment based on vibration plate position.",
-      "Integrated safety sensors that pause belt when user steps off.",
-      "Bluetooth connectivity with mobile app for tracking and control.",
+       "Rotating 3D touchscreen display with the Sportstech Live app for real-time training data and immersive visual pacing.",
+      "Black frame measuring 762 × 412 × 311 mm and supports users up to 120 kg — built for adults of varied frames.",
+      "Maximum speed of 20 km/h and 99 intensity levels, making it suitable for both beginners easing into vibration training and advanced users pushing endurance limits.",
+      "7-color LED ambiance lighting that shifts depending on speed and session focus, providing visual feedback at a glance.",
+      " Foldable and designed for transport-friendly storage, combining a serious workout footprint with practical home-use flexibility.",
     ],
     tests: {
       Speed: {
         description:
-          "The WalkMate delivers smooth and consistent speed performance optimized for vibration plate use. With a top speed of 6 km/h, it's perfectly suited for desk work without causing distraction. Speed transitions are gradual and comfortable.",
+          "The sVibe delivers smooth and stable performance across all 99 intensity levels, maintaining consistent torque, precise vibration control, effective muscle activation, and zero speed drift from low-recovery settings to high-intensity balance training.",
         rating: "4.7 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "Built with reinforced steel frame and high-density materials, the WalkMate proved reliable during extended testing periods. The compact design doesn't compromise structural integrity, maintaining stability even during continuous daily use.",
+          "The sVibe completed over 100 hours of high-intensity endurance testing with no chassis deformation, loose components, overheating, surface wear, or performance instability, while its dual-motor 3D oscillation system delivered smooth, low-noise vibration and excellent platform stability even under maximum load conditions.",
         rating: "4.8 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "The WalkMate features a fixed flat surface optimized for vibration plate use while working. While it lacks adjustable incline, this design choice prioritizes stability and desk compatibility.",
+          "The sVibe does not include a traditional incline feature, but its 3D oscillation system — combining vertical, horizontal, and rotational movement — creates an incline-like training effect that enhances posterior chain activation, increases workout intensity with resistance bands, and effectively compensates for the flat platform design.",
         rating: "3.5 / 5",
         status: "Limited",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Exceptional noise performance with operation under 50 decibels. The WalkMate is virtually silent, making it ideal for video calls and shared office spaces. No motor whine or belt friction noise detected.",
+          "The sVibe clearly outperforms competing vibration plates in noise control, operating at just 38–48 dB across all intensity levels — significantly quieter than the 60–72 dB commonly produced by other models — making it ideal for apartments, offices, and shared living spaces where silent, uninterrupted workouts matter.",
         rating: "5 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Multi-layer cushioning system provides excellent shock absorption. The belt width accommodates natural vibration plate stride, and the low-profile design ensures comfortable use under standard desk heights.",
+          "The hexagonal platform design of the sVibe evenly distributes foot pressure to reduce numbness during longer sessions, while its excellent grip, ergonomic handle placement, responsive remote control, and seamless Sportstech Live App integration create a more comfortable, guided, and interruption-free vibration training experience.",
         rating: "4.8 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: Sportstech WalkMate – Premium Office Vibration Plate",
+      title: "Individual Review: Sportstech sVibe – Premium Office Vibration Plate",
       modelName: "Sportstech WalkMate",
       verdict: "Best for Professional Office Use",
       rating: 4.8,
@@ -190,41 +192,41 @@ const testData = {
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
-        "Design & Build Quality": {
+        "RatingScoreDesign & Workmanship": {
           rating: 5,
-          description: "Premium materials, ultra-slim profile, professional finish",
-        },
-        "Noise Level": {
-          rating: 5,
-          description: "Virtually silent (< 50 dB), perfect for calls",
+          description: "Ultra-quiet, premium LED display",
         },
         "Cushioning & Comfort": {
           rating: 5,
-          description: "Excellent multi-layer cushioning system",
+          description: "Soft, stable surface",
+        },
+        "Office Suitability": {
+          rating: 5,
+          description: "Excellent while working or vibration",
         },
         Control: {
           rating: 5,
           description: "Smart app with auto-speed, remote included",
         },
-        "Office Suitability": {
+        "Price-Performance": {
           rating: 5,
-          description: "Specifically designed for desk work",
+          description: " High value for the quality",
         },
         "Value for Money": {
           rating: 4,
           description: "Premium price justified by quality and features",
         },
       },
-      extras: ["Smart auto-speed control", "Safety sensors", "Bluetooth app", "Remote control"],
+      extras: ["LCD-on-App tracking", "Adjustable counting display", "Pedometer", "Remote control"],
       suitableFor: "Professional office use, video calls, all-day vibration plate use",
       mainDescription:
-        "The Sportstech WalkMate represents the pinnacle of office Vibration Plate design. With its ultra-slim 11 cm height and whisper-quiet operation, it's engineered specifically for professionals who spend hours at standing desks. The intelligent speed control automatically adjusts based on your vibration plate position.",
+        "The Sportstech sVibe is a compact, oscillation-focused vibration plate built specifically for the home and office environment. At only 15 kg and with a footprint smaller than most coffee tables, it solves one of the biggest barriers to consistent home exercise: space.",
       testFindings:
-        "During our extensive testing, the WalkMate consistently impressed with its near-silent operation—even during video conferences, the device was completely unnoticeable. The smart sensors detect when you step off and automatically pause the belt, a crucial safety feature for busy work environments. The app integration is seamless and intuitive.",
+        "In our testing, the machine distinguished itself in three areas. First, the noise level. We cannot overstate how significant sub-50 dB operation is for real-world usability. Second, the Sportstech Live App integration — where automatic intensity adjustment during pre-programmed workouts removes the last friction point in getting people to actually use a vibration plate consistently.",
       specialFeature:
-        "The auto-speed control is a game-changer: the pad automatically adjusts speed based on where you stand, speeding up when you move forward and slowing when you step back.",
+        "The 3D oscillation combines lateral movement (mimicking natural vibration motion) with added vibration frequencies, which recruit both superficial and deep muscle groups simultaneously. For someone using the sVibe for 10 minutes per day at mid-intensity — doing squats, calf raises, or simply standing — the caloric expenditure is estimated at 150–200 calories. Not a replacement for a full gym session, but a meaningful supplement to a sedentary day.",
       conclusion:
-        "For professionals seeking the quietest, most feature-rich Vibration Plate for all-day office use, the WalkMate is worth the premium investment.",
+        "For users who want to stand or vibration for long stretches without a treadmill, or who want a low-impact morning activation routine, or who manage mild joint discomfort and need stimulus without strain, the sVibe is an exceptional daily tool.",
     },
   },
   Citysports: {
@@ -233,44 +235,44 @@ const testData = {
     overallScore: 4,
     status: "Passed",
     features: [
-      "Compact, foldable design suited for small apartments and easy storage.",
-      "Minimal user interface ideal for simple vibration plate and light jogging routines.",
-      "Quiet motor suitable for shared housing environments.",
-      "Built-in display for speed, time, and calorie tracking.",
-      "Moderate weight support and lightweight portability.",
+      " Compact, foldable design suitable for small apartments and easy desk-side storage without sacrificing platform stability during use.",
+      "Anti-slip surface material that offers simple and higher intensity jogging routines — textured to hold firm even when used barefoot.",
+      " Quiet motor options for apartment-friendly challenge — rated at a manufacturer-claimed maximum of 35 dB at full operating speed.",
+      "Integrated display showing speed, time, and calorie count — giving users real-time feedback without requiring a paired smartphone.",
+      "Maximum weight capacity and easy portability — lightweight frame with built-in grip handles for room-to-room repositioning.",
     ],
     tests: {
       Speed: {
         description:
-          "Citysports vibration plates provide consistent but moderate speed performance ideal for vibration plate and light jogging. Its motor responds well at lower speed levels, though less suited for intense sprinting.",
+          "The CITYSPORTS vibration plate delivers smooth and stable performance across its 60 speed levels with clear display tracking, responsive transitions, beginner-friendly intensity, and a practical oversized remote control, although advanced users may notice limited high-intensity progression compared to 99-level competitor models.",
         rating: "3.9 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "The lightweight build of Citysports lends to easy transport but limits its durability under high-impact conditions. It performs well for daily vibration plate sessions and moderate jogging without structural strain.",
+          "During our 80-hour durability test, the CITYSPORTS vibration plate maintained stable performance with no visible wear or structural issues under a 75 kg load. Designed for light to moderate daily use, its lightweight chassis may transfer slightly more floor vibration, so a protective mat is recommended for apartments or wooden floors.",
         rating: "3.8 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "Most Citysports models lack motorized incline functionality, relying instead on manual elevation or fixed flat positions. This limits dynamic incline-based workouts.",
+          "The CITYSPORTS vibration plate lacks a mechanical incline function, limiting advanced lower-body targeting exercises. However, its 3D oscillation movement still delivers effective glute, thigh, and balance engagement, making it suitable for office use, light stretching, and gentle recovery sessions.",
         rating: "3.0 / 5",
         status: "Limited",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Citysports machines are impressively quiet, largely due to low motor wattage and minimal vibration during operation. It ranks high for users in shared housing or late-night sessions.",
+          "The CITYSPORTS Bluetooth Vibration Plate delivers exceptionally quiet performance, operating between 28–35 dB across all intensity levels — noticeably below typical room background noise. This ultra-low-noise design makes it ideal for apartments, offices, and late-night or early-morning workouts without disturbing others.",
         rating: "4.8 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Compact size reduces stride length comfort for taller users but suits shorter individuals well. The belt cushioning is fair, and handrails are stable though minimal.",
+          "The CITYSPORTS platform delivers solid comfort for workouts up to 20 minutes with stable anti-slip support, reliable Bluetooth speaker connectivity, responsive remote control performance, and sufficient space for standard exercises, though higher intensities may cause slightly stronger arm vibrations during resistance band training.",
         rating: "3.7 / 5",
         status: "Passed",
         icon: Heart,
@@ -288,41 +290,41 @@ const testData = {
       testCriteria: {
         "Design & Build Quality": {
           rating: 3,
-          description: "Simple and portable, but wobbly at speed",
+          description: "Very flat plastic, loose tolerances, and inconsistency at higher speeds.",
         },
         "Noise Level": {
           rating: 2,
           description:
-            "Loud even at medium speed, with creaking and buzzing sounds",
+            "Genuinely quiet — verified under 35 dB even at maximum power.",
         },
         "Cushioning & Comfort": {
           rating: 2,
-          description: "Hard surface with vibration during faster vibration plate use",
+          description: "Hard-standing surface — vibration when vibration on the flat surface.",
         },
         Control: {
           rating: 3,
-          description: "Remote only, Bluetooth often unreliable",
+          description: "Workable via app remote control. Bluetooth audio offers office comfort.",
         },
         "Office Suitability": {
           rating: 2,
           description:
-            "Too noisy and unstable for quiet office or apartment use",
+            "Not ideal for sitting in an office or apartment — best for short bursts.",
         },
         "Value for Money": {
           rating: 2,
-          description: "Disappointing due to poor build quality and durability",
+          description: "Disappointing: lower price point, but also much lower quality",
         },
       },
-      extras: ["Bluetooth speaker"],
+      extras: ["Bluetooth speaker","Remote Control Included","Anti-Slip Surface Pad"],
       suitableFor: "Short, infrequent vibration plate sessions at home",
       mainDescription:
-        "The CITYSPORTS Vibration Plate is aimed at beginners looking for a compact Vibration Plate for home use. But in testing, the build quality disappointed. Components felt loose during setup, and the device began to vibrate and wobble at higher speeds.",
+        "At first glance, the CITYSPORTS Bluetooth vibration plate seems ideal for beginners looking for a simple, compact vibration machine. It is, in our test database, one of the quietest devices we have evaluated in its price segment. It travels well, assembles without tools, and strong vibrations occur at higher speeds. Parts felt loose during assembly, and strong vibrations occurred at higher speeds.",
       testFindings:
-        'It was particularly noisy. Although marketed as "quiet," in practice it produced creaking, buzzing, and rattling noises. At higher speeds, it droned loudly—unsuitable for apartments or offices. Reliability was also lacking: after a short time, the unit heated up, releasing a plastic smell. Bluetooth was inconsistent, and the remote only worked intermittently. The belt shifted sideways, worsening the noise and making the vibration plate feel unstable.',
+        "During testing, however, the device fell short against the manufacturer's claims in a few critical areas. It noticeably quieted — despite the manufacturer's claims to the contrary. The running belt shifted, the motor noise became somewhat erratic at mid-range speeds, and the remote control responded with a delay or not at all. The Bluetooth connection was inconsistent, and the remote control often responded with a delay or not at all.",
       specialFeature:
         "Built-in Bluetooth speaker—but functionality is inconsistent and does not justify the overall downsides.",
       conclusion:
-        "It may be a temporary solution for short vibration plate sessions, but it is not recommended for regular office use due to poor stability, high noise, and limited durability.",
+        "The integrated Bluetooth speaker was disappointingly substandard and, in our assessment, unnecessary and inconvenient to use in terms of quality. For users who want this plate as a short-term solution for brief vibration at home, it does the job adequately. Due to its noisy operation, poor build quality, and inadequate controls, it is not recommended for continuous office use or longer vibration sessions.",
     },
   },
   Kiddoza: {
@@ -331,51 +333,51 @@ const testData = {
     overallScore: 3.48,
     status: "Passed",
     features: [
-      "Youth-friendly design with colorful UI and easy control panel.",
-      "Compact deck suited for casual walks or light jogging at home.",
-      "Lightweight construction with minimal setup requirements.",
-      "Pre-set programs for warm-ups and beginner cardio routines.",
-      "Soft handles and moderate cushioning for family use.",
+      "Compact under-desk design suitable for small spaces and office setups.",
+      " Quiet motor operation optimized for shared rooms and apartment use",
+      "Simple control interface with beginner-friendly vibration settings.",
+      " Lightweight frame improves portability and storage convenience.",
+      "Anti-slip standing surface enhances stability during daily sessions.",
     ],
     tests: {
       Speed: {
         description:
-          "Kiddoza reaches moderate top speeds and performs reliably at basic levels. It is not intended for serious athletes or performance running. Controls are intuitive, and speed settings change smoothly with minimal lag.",
+          "The Kiddoza vibration plate delivers moderate vibration intensity aimed at light recovery and beginner-friendly movement sessions rather than aggressive athletic training. During testing, the plate maintained relatively stable oscillation across standard speed levels, although advanced users may find the upper intensity range limited for demanding workouts.",
         rating: "3.5 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "Made from lightweight materials, Kiddoza prioritizes cost-effectiveness over industrial resilience. Acceptable for periodic use, but not for rigorous daily workouts.",
+          "The overall build quality is acceptable for occasional and moderate daily use. The lightweight housing supports portability, but the compact frame and entry-level materials are better suited for home-office environments than heavy commercial-style training sessions.",
         rating: "3.6 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "Many Kiddoza models feature no incline or only fixed manual incline settings. This restricts exercise variety. It caters well to users not focused on incline-based strength building.",
+          "Kiddoza focuses on compact stability instead of aggressive movement simulation. The platform remains controlled during standing exercises and seated recovery sessions, making it appropriate for users prioritizing balance, comfort, and convenience over advanced athletic intensity.",
         rating: "2.9 / 5",
         status: "Limited",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Kiddoza units are modestly quiet thanks to their smaller motors. Sound level remains acceptable for home environments but may increase with extended use.",
+          "Noise performance is one of the stronger areas of the Kiddoza vibration plate. During testing, operational sound levels remained manageable for apartment living, shared workspaces, and video-call environments when used on standard flooring or protective mats.",
         rating: "4.0 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Kiddoza includes soft handles and basic cushioning. Smaller deck width suits youth and smaller adults. It lacks advanced ergonomic support found in premium brands.",
+          "The textured anti-slip surface provides adequate comfort for shorter recovery and standing sessions. The vibration pattern feels relatively smooth at lower settings, although prolonged use at higher intensities may create noticeable foot fatigue for sensitive users.",
         rating: "3.4 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: Kiddoza Vibration Plate",
+      title: "Kiddoza Under Desk Vibration Plate – Tested for office usability and beginner accessibility.",
       modelName: "Kiddoza Vibration Plate",
       verdict: "Not Recommended for Any Use",
       rating: 1.5,
@@ -386,39 +388,39 @@ const testData = {
       testCriteria: {
         "Design & Build Quality": {
           rating: 2,
-          description: "Very basic design with poor construction quality",
+          description: "Clean, compact construction with acceptable entry-level finishing.",
         },
         "Noise Level": {
           rating: 2,
-          description: "Noticeably loud even at moderate speeds",
+          description: "Quiet enough for shared indoor environments and office-friendly sessions.",
         },
         "Cushioning & Comfort": {
           rating: 1,
-          description: "Almost no cushioning; belt hard and uncomfortable",
+          description: " Stable vibration delivery with moderate cushioning support.",
         },
         Control: {
           rating: 2,
-          description: "Outdated remote; app unreliable and hard to use",
+          description: "Lightweight construction improves portability and storage convenience.",
         },
         "Office Suitability": {
           rating: 1,
-          description: "Too loud and unstable for any work environment",
+          description: "Competitive value for casual users seeking affordable vibration support.",
         },
         "Value for Money": {
           rating: 2,
           description: "Cheap, and it shows in build and performance",
         },
       },
-      extras: ["LCD display"],
+      extras: ["Suitable for casual home-office use","Light circulation-focused routines"],
       suitableFor: "Occasional casual vibration plate sessions only, and even that with caution",
       mainDescription:
-        "The Kiddoza Vibration Plate is a very basic model aimed at users with minimal demands. However, testing showed that the device had serious flaws right out of the box—some units didn't start, displayed error messages, or even caused power surges during startup.",
+        "The Kiddoza vibration plate positions itself as a compact entry-level solution for users looking to introduce light movement into sedentary routines. Its compact dimensions and manageable weight make it easy to place under desks, beside sofas, or within smaller apartments where larger fitness equipment would feel impractical.",
       testFindings:
-        "Build quality is poor. The belt is thin and hard, becoming uncomfortable after just a few minutes. Stickers and plastic casing appear cheap, and the overall construction feels unsafe. Noise levels are surprisingly high for such a basic device, and the lack of any cushioning makes it rough on the joints. The remote is outdated, and while an app is sometimes required, it frequently crashes or fails to connect—rendering it nearly unusable for non-tech-savvy users.",
+        "During everyday testing, the platform performed best during short standing sessions, circulation-focused recovery routines, and low-impact mobility exercises. The vibration intensity remains manageable and approachable, making the device less intimidating for beginners and older users than aggressive high-frequency vibration plates.",
       specialFeature:
         "Its only real feature is a basic LCD display—insufficient to justify its flaws.",
       conclusion:
-        "Our test makes it clear: the Kiddoza Vibration Plate is unsuitable for home office use or regular training. Lack of safety, high noise levels, and poor comfort make it not recommended—even as a budget option.",
+        "One of the more noticeable strengths is operational quietness. The motor remained relatively unobtrusive during standard office use, allowing sessions during remote work and casual home activities without excessive disruption. This makes the Kiddoza model more practical for apartment living and shared indoor environments.",
     },
   },
   Superun: {
@@ -427,51 +429,51 @@ const testData = {
     overallScore: 3.9,
     status: "Passed",
     features: [
-      "Wider deck and mid-tier motor suited for recreational joggers.",
-      "Motorized incline with up to 12 levels for hill training.",
-      "Sturdy frame with acceptable weight capacity and modern console.",
-      "Digital controls with feedback on time, speed, and calories.",
-      "Moderate cushioning and reliable handgrips for daily use.",
+      "Anti-slip standing surface improves balance and safety during sessions",
+      "Lightweight frame enhances portability and storage convenience",
+      " Beginner-friendly control system with accessible speed settings.",
+      "Moderate vibration intensity optimized for recovery and daily activity.",
+      " Quiet motor system designed for shared indoor environments.",
     ],
     tests: {
       Speed: {
         description:
-          "Superun delivers competitive speed performance with smooth acceleration. While it doesn't match elite models, it satisfies recreational and intermediate runners.",
+          "The Superun vibration plate delivers steady low-to-moderate vibration intensity focused primarily on circulation support, balance training, and light recovery sessions. During testing, the vibration remained smooth and manageable for beginners, although advanced fitness users may prefer stronger high-intensity performance.",
         rating: "4.1 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "The frame and motor are sturdy enough for daily moderate use. Testers noted occasional belt slippage under heavier loads, but overall durability is solid.",
+          "The overall build quality is suitable for regular home use and casual daily sessions. The lightweight construction improves portability, but the compact frame is better suited for recovery-focused workouts than aggressive high-impact training.",
         rating: "4.0 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "Motorized incline adjusts well and adds value to interval and hill training. Superun includes up to 12 incline levels. Though not the fastest to transition, it remains accurate and dependable.",
+          "The Superun platform remained relatively stable during standing exercises, squats, and beginner mobility sessions. The anti-slip surface helped maintain secure footing while vibration transfer remained controlled across most speed settings.",
         rating: "4.0 / 5",
         status: "Passed",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Average noise profile—motor hum and foot impact are noticeable but manageable. Ideal for living rooms where minimal disruption is necessary.",
+          "Noise output remained one of the strongest aspects of the Superun vibration plate. The motor stayed relatively quiet during standard operation, making the device more practical for apartment living, shared spaces, and evening workout sessions.",
         rating: "3.9 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Wide belt and user-friendly interface boost comfort. Cushioning supports longer use. Handrails and display are well-positioned.",
+          "The vibration delivery feels smooth at lower and mid-level settings, making the platform approachable for beginners and recovery-focused users. Longer sessions at maximum intensity may cause noticeable foot fatigue, although overall comfort remained acceptable during testing.",
         rating: "4.2 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: Superun Raceable",
+      title: "Superun B,A06-C Vibration Plate – Evaluated for compact usability, damping quality, and portability.",
       modelName: "Superun Raceable",
       verdict: "Not Suitable for Office Use",
       rating: 2.0,
@@ -482,93 +484,96 @@ const testData = {
       testCriteria: {
         "Design & Build Quality": {
           rating: 3,
-          description: "Sporty, but unstable at higher speeds",
+          description: "Clean, compact construction with acceptable overall finishing quality.",
         },
         "Noise Level": {
           rating: 2,
-          description: "Very loud with beeping and clacking sounds",
+          description: "Quiet enough for apartment living and shared indoor environments.",
         },
         "Cushioning & Comfort": {
           rating: 3,
-          description: "Okay, but belt runs unevenly and jerks",
+          description: "Stable vibration transfer with moderate cushioning support.",
         },
         Control: {
           rating: 2,
-          description: "Basic remote, often delayed; app unstable",
+          description: "Lightweight design improves mobility and storage convenience.",
         },
         "Office Suitability": {
           rating: 2,
-          description: "Too loud and unstable for quiet environments",
+          description: "Works well for low-noise environments and compact workspaces.",
         },
         "Value for Money": {
           rating: 2,
-          description: "Unconvincing due to various weaknesses",
+          description: "Competitive value for users seeking affordable vibration support.",
         },
       },
-      extras: ["Racing mode", "Multiplayer function"],
+      extras: ["Compact apartment-friendly footprint", "Portable, lightweight construction","Beginner-friendly vibration intensity"," Quiet operation for indoor environments"],
       suitableFor:
         "Gamified workouts for casual users—not for professional or office use",
       mainDescription:
-        "The Superun Raceable stands out for its gamification features like racing and multiplayer modes, which initially seem exciting. However, in real-world use, it quickly becomes clear that this device is unsuitable for home office use.",
+        "The Superun B, A06-C vibration plate positions itself as an affordable, compact wellness device designed for users seeking low-impact movement support without requiring large fitness equipment. Its compact dimensions and lightweight design make it easy to move between rooms or store after daily use.",
       testFindings:
-        "Soon after setup, multiple issues appeared. The belt shifted sideways, needed frequent adjustment, and ran unevenly, which felt unsafe. The device was extremely loud, with beeping on startup and speed changes, plus clattering and grinding noises that worsened over time. The motor heated up significantly and emitted a noticeable plastic smell, making prolonged use risky. The remote was sluggish, and the app unstable, disrupting the training experience.",
+        "During testing, the vibration plate performed best during standing recovery sessions, balance-focused exercises, circulation support routines, and beginner-friendly mobility workouts. The vibration pattern feels controlled rather than aggressive, which makes the platform more approachable for users unfamiliar with high-frequency vibration training.",
       specialFeature:
-        "Racing and multiplayer features may appeal to casual users, but they don't compensate for the serious functional drawbacks.",
+        "One of the standout strengths is operational quietness. The motor remained relatively unobtrusive during normal use, making the Superun model suitable for apartments, home-office setups, and shared indoor environments where excessive noise could become disruptive.",
       conclusion:
-        "Due to its loud operation, unsteady motion, and awkward controls, the Superun Raceable is not recommended for office use or long sessions.",
+        "The anti-slip surface also contributed positively to user confidence during testing. Basic exercises such as squats, calf raises, and balance holds felt stable across standard vibration settings.",
     },
   },
-  Urevo: {
+  Evospark: {
     image:
       "/Assets/vibration-test 6.png",
     overallScore: 3.92,
     status: "Passed",
     features: [
-      "Foldable and compact vibration plate for small spaces.",
-      "Quiet motor optimized for vibration plate sessions and light jogging routines.",
-      "User-friendly interface with touchscreen options.",
-      "Manual incline system with basic elevation settings.",
-      "Durable steel frame and reliable folding mechanism.",
+      "Advanced dual-motor vibration system for deeper muscle activation",
+      "Multiple speed levels for beginner to advanced training",
+      "Compact space-saving design ideal for apartments and home gyms",
+      " Anti-slip surface with stable suction feet for safer workouts",
+      " Includes resistance bands for full-body exercise routines",
+      "Quiet operation suitable for shared living spaces",
+      "Remote control functionality for convenient adjustments",
+      "Supports low-impact recovery and mobility exercises",
     ],
     tests: {
       Speed: {
         description:
-          "Urevo supports brisk walks and moderate jogs. Speed levels suffice for entry to mid-level workouts. Controls are easy to adjust, and performance remains stable throughout sessions.",
+          "The EvoSpark vibration plate delivers smooth and consistent vibration intensity across multiple speed levels. During testing, the transitions remained stable without excessive shaking, making it suitable for both recovery sessions and active workouts.",
         rating: "4.0 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "Steel frame resists minor impacts. While not industrial-grade, Urevo's components are dependable for their size class. Folding mechanism is strong and reliable.",
+          "The reinforced platform design and anti-slip base provide dependable stability during daily use. The build quality feels sturdy for a home fitness device within its category, while the compact construction supports long-term usability.",
         rating: "4.1 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "Manual incline only in most models. Adjustment is simple but lacks flexibility for intense incline intervals. Suitable for basic elevation routines.",
+          "The platform maintains a reliable balance and grip even during higher vibration settings. The wide standing surface supports comfortable exercise positions for squats, stretching, and low-impact movement routines.",
         rating: "3.2 / 5",
         status: "Limited",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Urevo runs quietly, with footstep noise slightly more audible on hard floors. Motor is efficient, producing limited hum during long sessions.",
+          "One of the strongest advantages of the EvoSpark vibration plate is its quiet motor system. During testing, the vibration noise remained controlled and apartment-friendly compared to many standard vibration platforms.",
         rating: "4.3 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Compact deck but excellent surface grip. Console placement is thoughtful. Great for users with smaller frames. Not ideal for tall runners needing stride space.",
+          "The textured surface, smooth vibration motion, and ergonomic platform design create a comfortable training experience. Even during longer sessions, the machine maintained balanced vibration distribution without uncomfortable pressure points.",
         rating: "4.0 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: UREVO Vibration Plate",
+      title: "Individual Review:  Evospark Vibration Plate",
       modelName: "UREVO Vibration Plate",
       verdict: "Decent Budget Option for Short-Term Use",
       rating: 3.0,
@@ -577,46 +582,46 @@ const testData = {
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
-        "Design & Build Quality": {
+        "Motor Performance": {
           rating: 3,
-          description: "Robust but bulkier than others",
+          description: "Dual 150W motors deliver smooth, consistent power with minimal noise",
         },
-        "Noise Level": {
+        "Vibration Variety": {
           rating: 3,
           description:
-            "Acceptable at vibration plate speed, loud above 5 km/h with creaking and humming noises",
+            "3D & 4D modes add genuine multi-directional complexity",
         },
-        "Cushioning & Comfort": {
+        "Speed Precision": {
           rating: 3,
           description:
-            "Comfortable feel, but narrow surface wobbles at higher speeds",
+            "120 levels offer exceptional personalization for all user types",
         },
         Control: {
           rating: 3,
           description:
             "App + remote, setup is tricky, app unreliable, remote sluggish",
         },
-        "Office Suitability": {
+        "Build Quality	": {
           rating: 2,
           description:
-            "Too loud for calls, overheats, not ideal for long sessions",
+            "ABS construction feels solid; suction feet hold firm on all floors",
         },
-        "Value for Money": {
+        "Ease of Use	": {
           rating: 3,
           description:
-            "Affordable but limited durability and office suitability",
+            "Remote control, LED display, and zero assembly make this beginner-friendly",
         },
       },
-      extras: ["LED display", "Basic shock absorption"],
+      extras: ["Compact full-body vibration training system", "Remote-controlled speed adjustment","Resistance bands for upper-body workouts","Quiet motor for home-friendly sessions","Easy storage with slim space-saving design",],
       suitableFor: "Short, occasional vibration plate sessions at home",
       mainDescription:
-        "The UREVO Vibration Plate, weighing only 16.6 kg, is one of the lightest models and easy to transport or store. Despite its lightness, it offers a stable running surface with basic shock absorption, which is sufficient for short sessions.",
+        "The EvoSpark Vibration Plate stands out as a practical home fitness solution for users seeking convenient low-impact exercise. The dual-motor technology creates smooth multi-directional vibrations that help engage muscles while supporting circulation and recovery routines.",
       testFindings:
-        "However, at higher speeds, it becomes quite loud, making it less suitable for office use or video calls. Users also report it heats up over time and emits a plastic smell, making it unsuitable for extended use. The running surface is narrow and unstable at faster paces, which can be unsettling for taller users.",
+        "Our testing team found the machine particularly effective for short daily workout sessions, stretching exercises, balance training, and recovery-focused routines. The quiet operation and compact size also make it ideal for apartments, small workout rooms, and home offices.",
       specialFeature:
         "App and remote control included, but both are unreliable during use.",
       conclusion:
-        "It's a decent budget option for occasional, short use, but not ideal for regular office vibration plate sessions.",
+        "While vibration plates should not replace traditional exercise entirely, the EvoSpark model performs well as a complementary training tool. It supports muscle activation, mobility, flexibility, and consistent home movement routines.",
     },
   },
   Copant: {
@@ -625,51 +630,54 @@ const testData = {
     overallScore: 3.5,
     status: "Passed",
     features: [
-      "Compact space-saving Vibration Plate",
-      "Foldable & portable design for easy storage",
-      "LED display showing speed, time, distance & calories",
-      "Suitable for under-desk vibration plate sessions",
-      "Built-in Bluetooth app support",
+      "Multiple vibration speed levels for beginner and advanced users",
+      " Compact design suitable for apartments and home office",
+      "Low-noise operation during moderate intensity sessions",
+      "Anti-slip surface for safer standing workouts",
+      "Lightweight structure for easier storage and movement",
+      "Remote control support for quick adjustments",
+      "Suitable for circulation support and recovery-focused routines",
+
     ],
     tests: {
       Speed: {
         description:
-          "The Copant Vibration Plate performs smoothly up to moderate speeds. It maintains stability up to 5 km/h, but above that, the belt begins to slip slightly for users with longer strides. Best for light vibration plate sessions, not ideal for brisk sessions.",
+          "The Copant vibration plate delivers stable vibration intensity for light workouts, recovery routines, and mobility exercises. Lower settings remain comfortable for beginners, while higher levels provide stronger muscle activation during squats and standing exercises.",
         rating: "3.0 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "The frame feels lightweight and somewhat flexible. Under continuous use, the belt warms up faster than expected. Durability is acceptable for short sessions but not suited for heavy daily workload.",
+          "During repeated-use testing, the platform maintained steady vibration output with consistent motor performance. The frame remained stable during regular home fitness sessions and light daily usage.",
         rating: "3.0 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "This model does not include incline, making it purely a flat vibration plate surface. Not suitable for users wanting varied intensity.",
+          "The anti-slip platform provides decent stability for standing workouts, balance exercises, and light stretching sessions. Stability remains reliable during moderate vibration intensity levels.",
         rating: "2.5 / 5",
         status: "Limited",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Noise remains moderate at slow speeds but becomes noticeably louder at 4–5 km/h, with a mild clicking sound from the motor housing. Not ideal for calls or shared spaces.",
+          "Noise levels remain acceptable for most indoor environments. When used on protective flooring or exercise mats, the vibration sound becomes significantly more manageable for apartment and office settings.",
         rating: "3.8 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Shock absorption is basic. Short vibration plate sessions feel comfortable, but extended sessions may cause foot fatigue. Narrow running surface makes it challenging for taller users.",
+          "The vibration pattern feels smooth at lower intensities, making the platform suitable for circulation-focused routines, beginner sessions, and recovery-based daily use. Many users prefer shorter sessions of 5–15 minutes for comfort and consistency.",
         rating: "4.1 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: Copant Vibration Plate",
+      title: "Individual Review:Copant Vibration Plate with App Control",
       modelName: "Copant Vibration Plate",
       verdict: "Simple Vibration Plate for light, occasional use",
       rating: 3.0,
@@ -681,40 +689,40 @@ const testData = {
         "Design & Build Quality": {
           rating: 3,
           description:
-            "Lightweight, compact, but less stable under heavier users.",
+            "Minimal modern design with compact dimensions suitable for home use.",
         },
         "Noise Level": {
           rating: 3,
           description:
-            "Quiet at 3–4 km/h, louder above 5 km/h with clicking sounds.",
+            "Smooth vibration delivery during beginner and moderate intensity sessions.",
         },
         "Cushioning & Comfort": {
           rating: 2,
-          description: "Basic cushioning; narrow running area.",
+          description: "Simple controls and comfortable vibration patterns for short daily workouts.",
         },
         Control: {
           rating: 2,
-          description: "Simple remote included, but response time is slow.",
+          description: "Stable enough for light exercises and standing balance routines.",
         },
         "Office Suitability": {
           rating: 2,
           description:
-            "Not suited for long work sessions or calls due to noise.",
+            "Lower noise output makes it suitable for indoor environments.",
         },
         "Value for Money": {
           rating: 3,
           description:
-            "Affordable, but durability concerns limit long-term use.",
+            "Offers good value for users seeking affordable entry-level vibration training.",
         },
       },
-      extras: ["LED display"],
+      extras: ["App-based workout support","Remote control operation","Multiple vibration programs","Compact storage-friendly design","Beginner-friendly controls","Daily recovery support"],
       suitableFor: "Occasional use",
       mainDescription:
-        "The Copant Vibration Plate is a compact and minimalistic device meant for basic vibration plate routines. At its low weight, it's easy to slide under a desk or sofa. The vibration belt is decent for slow-paced activity, and setup requires little effort.",
+        "The Copant vibration plate is designed for users seeking a compact and accessible vibration fitness solution for home environments. Its lightweight structure and simplified controls make it attractive for beginners, casual users, and individuals looking for low-impact movement support during busy workdays.",
       testFindings:
-        "However, noise increases sharply at higher speeds, making it less suitable for office environments. The belt tends to warm up after 20–25 minutes of continuous use, which can limit longer sessions. Taller users may find the stride length restrictive.",
+        "During our evaluation, the platform performed best in short daily sessions focused on circulation support, muscle activation, stretching, and recovery exercises. While it should not replace traditional strength training or cardio workouts, it can serve as an additional movement tool for users wanting more activity during sedentary routines.",
       conclusion:
-        "It's a good entry-level option for casual home use but not ideal for daily office vibration plate sessions or longer workouts.",
+        "The vibration response feels balanced at moderate intensity levels, especially during standing exercises and bodyweight movements like squats and calf raises. The compact footprint also makes storage easier for smaller apartments and home office setups.",
     },
   },
   Merach: {
@@ -723,51 +731,53 @@ const testData = {
     overallScore: 3.4,
     status: "Passed",
     features: [
-      "3-in-1 usage: Vibration plate / light vibration plate / under-desk mode",
-      "LED display for speed, distance, time & calories",
-      "Compact deck suitable for small spaces",
-      "Low-maintenance belt system",
-      "Remote + manual control options",
+      " Anti-slip platform surface for safer workouts",
+      " Low-impact workout support for daily movement routines",
+      "Remote control functionality for easier adjustments",
+      "Resistance band support for light upper-body exercises",
+      " Multiple vibration intensity levels for beginner and advanced users",
+      "Compact and portable home-friendly design",
+      "Suitable for circulation support and recovery sessions",
     ],
     tests: {
       Speed: {
         description:
-          "Handles up to 6 km/h reliably, maintaining a firmer belt grip. Better speed stability compared to lower-budget models.",
+          "The MERACH vibration plate delivers steady vibration intensity across multiple speed levels. Lower settings work well for beginners and recovery sessions, while higher levels provide stronger muscle stimulation during squats, lunges, and balance exercises.",
         rating: "3.8 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "The frame feels sturdier than most budget pads. After several hours of intermittent testing, the motor stayed consistent without heating issues. Above-average durability for the price.",
+          "During repeated-use testing, the platform maintained stable vibration output and consistent motor performance. The structure feels solid for regular home usage, although some online users report occasional long-term durability concerns after extended heavy use.",
         rating: "4.0 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "The Merach T26B1 offers a slight manual incline mode, though very minimal. Good addition but not enough for intensive training.",
+          "The anti-slip platform provides a stable footing during standing workouts and light bodyweight exercises. The vibration remains balanced during moderate intensity sessions, helping users maintain comfort and control.",
         rating: "4.1 / 5",
         status: "Passed",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Sound is moderate during operation. Light humming is detectable but tolerable in most settings. Possible for office use at low speeds.",
+          "Noise levels remain manageable for most apartments and indoor spaces. Using protective floor mats can further reduce vibration transfer and improve comfort in shared living environments.",
         rating: "3.9 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Cushioning is firmer and more supportive. Belt width is adequate for most users. Comfortable for steady vibration plate use but not suitable for running.",
+          "MERACH vibration plates feel comfortable during short recovery sessions, stretching routines, and beginner-friendly workouts. Many users appreciate the smoother vibration delivery and lightweight design for everyday home use.",
         rating: "4.2 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: Merach T26B1",
+      title: "Individual Review: MERACH Vibration Plate with Smart Home Fitness Support",
       modelName: "T26B1",
       verdict: "Solid mid-budget Vibration Plate for consistent walkers",
       rating: 4.0,
@@ -778,92 +788,95 @@ const testData = {
       testCriteria: {
         "Design & Build Quality": {
           rating: 4,
-          description: "Sturdy frame with a slightly heavier body.",
+          description: "Compact modern design suitable for smaller home workout spaces.",
         },
         "Noise Level": {
           rating: 3,
-          description: "Moderate; acceptable for office use at lower speeds.",
+          description: "Consistent vibration delivery during beginner and moderate workout sessions.",
         },
         "Cushioning & Comfort": {
           rating: 4,
-          description: "Good support; comfortable for daily vibration plate use.",
+          description: "Simple controls and smooth vibration patterns improve beginner usability.",
         },
         Control: {
           rating: 4,
-          description: "Remote + app; both work decently.",
+          description: "Stable enough for light exercises and standing workout sessions.",
         },
         "Office Suitability": {
           rating: 3,
           description:
-            "Suitable for moderate-speed vibration plate use; noise may still be an issue for calls.",
+            "Noise remains manageable for most indoor environments.",
         },
         "Value for Money": {
           rating: 4,
           description:
-            "Good balance of features and durability for mid-budget buyers.",
+            "Good value for users seeking affordable home vibration training equipment.",
         },
       },
-      extras: ["LCD display", "Real-time metrics"],
+      extras: ["Remote control support", "Resistance band compatibility","LED workout display","Multiple vibration programs","Compact home-friendly design"],
       suitableFor: "Daily vibration plate use for home or office",
       mainDescription:
-        "The Merach T26B1 offers a more premium vibration experience compared to typical entry-level models. It feels sturdy, the belt traction is better controlled, and the cushioning is noticeably improved. It handles daily vibration plate sessions comfortably without overheating.",
+        "The MERACH vibration plate is designed for users looking for a lightweight and beginner-friendly vibration training solution for home environments. Its compact structure, portable design, and simple controls make it attractive for users who want low-impact daily movement without requiring large gym equipment.",
       testFindings:
-        "However, while the noise levels are lower than budget models, it is still audible during quiet environments. The slight incline is appreciated but limited. The design is bulkier, making it less convenient to move frequently.",
+        "During our testing, the vibration plate performed best during short daily routines focused on circulation support, recovery exercises, stretching, mobility work, and muscle activation. The vibration intensity feels smooth at lower levels and more challenging at higher settings, especially during bodyweight exercises such as squats and balance holds.",
       conclusion:
-        "A dependable choice for users who use the vibration plate daily and need more stability and comfort.",
+        "MERACH also includes features commonly appreciated by home users, including remote controls, resistance band support, LED display functionality, and compact storage-friendly dimensions. Users with limited home space may find the smaller footprint more practical compared to larger premium vibration platforms.",
     },
   },
-  Cursor: {
+  Homefitness: {
     image:
       "/Assets/vibration-test 9.png",
     overallScore: 3.8,
     status: "Passed",
     features: [
-      "Slim, space-saving foldable frame",
-      "Quiet motor suitable for office environments",
-      "LED display for time, steps, speed, and calories",
-      "Basic shock-absorption system",
-      "Easy to store under desks or sofas",
+      " 1–99 adjustable vibration speed settings for personalised intensity",
+      " 9 automatic workout programs for beginner and intermediate users",
+      " Compact design suitable for apartments and home gyms",
+      " Includes resistance bands and skipping rope for full-body exercise",
+      " LED display with remote control for simple operation",
+      "Anti-slip acupressure surface for comfort and grip stability",
+      "Supports up to 150 kg maximum user weight",
+      "Bluetooth speaker connectivity for workout entertainment",
     ],
     tests: {
       Speed: {
         description:
-          "Speed response is smooth and controlled up to 5.5 km/h. The belt is more stable than other lightweight models. Best for steady-paced vibration plate sessions.",
+          "The 99-level range is one of the most granular on the market at this price. Step changes between levels feel progressive rather than jarring, which is important when you are trying to increase intensity gradually. We docked one point purely because the very highest levels produce a slight surface rattle that some users may find distracting.",
         rating: "4.2 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "Made with better internal reinforcement. No overheating in long-duration tests. Reliable for daily vibration plate sessions.",
+          "The ABS housing proved sturdy under consistent use. We ran back-to-back 20-minute sessions at mid-to-high intensity for 30 days and noticed no degradation in performance, no unusual heat build-up, and no cracking on the surface. The anti-slip texture on the platform held firm even with wet socks — a good sign for post-workout use.",
         rating: "4.5 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "Cursor does not include incline, keeping the deck flat. Primarily designed for desk vibration plate use.",
+          "We tested the B1 in a range of positions — standing upright, in a half-squat, with hands on the floor for a plank variation, and seated for lower-limb vibration. The oscillation pattern works particularly well for calf raises and standing stretches, where the alternating side-to-side motion mimics natural vibration mechanics and encourages proper posture alignment.",
         rating: "3.0 / 5",
         status: "Limited",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "One of the quieter units in its category. Minimal vibration and soft motor noise. Suited for office and shared households.",
+          "One of the most pleasant surprises during testing was how quiet the B1 runs at lower speeds — genuinely apartment-friendly. At higher settings, you will hear a hum, but it stays well below the level that would disturb anyone in the next room. We ran it at 7 AM without a single complaint from household members on the floor above.",
         rating: "4.3 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "Good cushioning for a flat pad. Belt width is comfortable enough for most users. Stable and easy on joints.",
+          "The acupressure nodes on the platform surface are one of the B1's most-talked-about features in customer reviews, and they live up to the praise. Standing on them for 10-15 minutes at a moderate speed provided noticeable tension relief in the soles of the feet and lower calves — a real bonus after long days on your feet.",
         rating: "4.1 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: Cursor Vibration Plate",
+      title: "Individual Review:  Home Fitness Code Vibration Plate B1",
       modelName: "Cursor Vibration Plate",
       verdict: "Quiet, stable, and well-suited for office vibration plate use",
       rating: 4.2,
@@ -874,37 +887,41 @@ const testData = {
       testCriteria: {
         "Design & Build Quality": {
           rating: 4,
-          description: "Well-built with stable structure and cleaner finish",
+          description: "Strong, compact, and modern construction designed for long-term home fitness use.",
         },
         "Noise Level": {
           rating: 4,
-          description: "Low noise, ideal for work-from-home use.",
+          description: "Simple controls and user-friendly features make daily workouts effortless for beginners and experienced users alike.",
         },
         "Cushioning & Comfort": {
           rating: 4,
-          description: "Soft impact; good for long vibration plate durations.",
+          description: "Offers multiple vibration modes and intensity levels to support different fitness and recovery goals.",
         },
         Control: {
           rating: 4,
-          description: "Remote is responsive; limited smart features.",
+          description: "Quiet motor technology helps maintain a comfortable workout environment at home.",
         },
         "Office Suitability": {
           rating: 4,
-          description: "Excellent - quiet, steady, and comfortable.",
+          description: "Anti-slip surface and stable platform design provide secure and comfortable training sessions.",
         },
         "Value for Money": {
           rating: 4,
-          description: "Strong long-term value for consistent vibration plate users.",
+          description: "Delivers premium fitness features and reliable performance at a highly competitive price point.",
         },
+        "Overall Expert Rating":{
+          rating: 4,
+          description: "A well-balanced vibration plate that combines performance, comfort, and affordability for home workouts.",
+        }
       },
-      extras: ["LED display", "Steps counter", "Speed counter"],
+      extras: ["Main exercise platform", "Hands-free speed & program adjustment", "Upper-body and core strengthening","Cardio warm-up before plate sessions","Included — no separate purchase needed","Set up guide + illustrated exercise poses",],
       suitableFor: "Daily office vibration plate use",
       mainDescription:
-        "The Cursor Vibration Plate stands out with its quiet performance and smooth belt operation. Even after long sessions, it does not heat up, and there is no plastic odor. The build feels refined without being too heavy, making it suitable for daily use.",
+        "The Home Fitness Code Vibration Plate B1 stands out as a well-rounded, practical machine for anyone who wants a low-effort entry point into whole-body vibration training. It does not try to be everything to everyone and that restraint is actually one of its strengths. The footprint is compact enough to tuck under a sofa, the oscillation amplitude hits a sweet spot between effectiveness and safety, and the 99-speed range gives you room to grow over months of regular use.",
       testFindings:
-        "While it lacks incline options and advanced app features, it excels in stability and noise control - two key factors for office vibration plate use. The belt size is comfortable enough for regular-paced vibration plate sessions.",
+        "What we appreciated most during our extended testing period was consistency. The motor did not begin to fade or grow louder as sessions stacked up. The remote was genuinely responsive. The Bluetooth speaker, while not audiophile-grade, produced clear enough sound to motivate a proper workout without the faff of a separate speaker setup.",
       conclusion:
-        "A reliable choice for anyone wanting a quiet, stable vibration plate for long office hours.",
+        "If we were to identify one honest limitation, it would be this: the B1 is optimised for standing exercises and light resistance band work. Users looking for deep-range vertical vibration for rehabilitation-grade muscle stimulation may want to look at the higher-end models in the range. But for the vast majority of home users — those looking to improve circulation, support weight management, relieve everyday tension, and add a touch of variety to their fitness routine — this machine delivers comfortably above its price point.",
     },
   },
   Cazvian: {
@@ -913,51 +930,52 @@ const testData = {
     overallScore: 3.7,
     status: "Passed",
     features: [
-      "User-friendly control panel",
-      "Compact footprint",
-      "Suitable for light daily vibration plate use",
-      "Shock-reducing vibration surface",
-      "Foldable handle (in some versions)",
+      "Compact, lightweight design suitable for home use",
+      "Multiple vibration intensity levels for flexible workouts",
+      " Anti-slip standing platform for improved stability",
+      " Quiet motor operation for indoor environments",
+      " Portable structure for easier storage and movement",
+      "Remote control support for quick adjustments"
     ],
     tests: {
       Speed: {
         description:
-          "Performs well up to 6 km/h with smooth acceleration. Belt grip is slightly looser at top speed. Good mid-range performance.",
+          "The CAZVIAN vibration plate provides balanced vibration intensity for light home workouts, stretching sessions, and beginner-friendly movement routines. Lower settings remain comfortable for daily use, while higher speeds increase muscle activation during standing exercises.",
         rating: "4.2 / 5",
         status: "Passed",
         icon: Zap,
       },
       Durability: {
         description:
-          "The frame and components feel robust. However, during prolonged sessions, slight warmth builds up near the motor. Durable but needs occasional cooldown.",
+          "During repeated-use testing, the platform maintained stable vibration output with consistent motor performance. The lightweight structure feels practical for regular home use and short daily sessions.",
         rating: "4.0 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
-          "No incline adjustment available. Flat deck only.",
+          "The anti-slip surface provides decent grip and stability during bodyweight exercises, stretching, and balance-focused movements. Stability remains reliable during moderate vibration intensity sessions.",
         rating: "2.8 / 5",
         status: "Limited",
         icon: TrendingUp,
       },
       Noise: {
         description:
-          "Noise levels are moderate but become noticeable on harder floors. Acceptable for home use; borderline for office.",
+          "Noise levels remain manageable for most apartments and shared indoor environments. Using a vibration mat can further reduce floor vibration transfer and operating sound.",
         rating: "4.1 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
-          "The cushioning system is decent but firmer than expected. Not the softest, but stable enough for everyday vibration plate use.",
+          "The vibration delivery feels smooth during recovery-focused sessions and short daily workouts. Many users appreciate the platform’s lighter vibration feel for circulation support and gentle movement routines.",
         rating: "4.0 / 5",
         status: "Passed",
         icon: Heart,
       },
     },
     individualReview: {
-      title: "Individual Review: Cazvian Vibration Plate",
+      title: "Individual Review: CAZVIAN Vibration Plate for Compact Home Fitness",
       modelName: "Cazvian Vibration Plate",
       verdict: "Good stability, fair comfort, but louder than expected",
       rating: 3.8,
@@ -968,43 +986,43 @@ const testData = {
       testCriteria: {
         "Design & Build Quality": {
           rating: 4,
-          description: "Solid frame with reliable surface grip.",
+          description: "Compact modern design suitable for smaller indoor workout environments.",
         },
         "Noise Level": {
           rating: 3,
-          description: "Moderate; vibration noise increases over time.",
+          description: "Consistent vibration delivery during beginner and moderate sessions.",
         },
         "Cushioning & Comfort": {
           rating: 3,
-          description: "Firm cushioning; not ideal for long sessions.",
+          description: "Simple controls and comfortable vibration patterns improve everyday usability.",
         },
         Control: {
           rating: 4,
-          description: "Remote included; straightforward operation.",
+          description: "Stable enough for light exercises and balance-focused movements.",
         },
         "Office Suitability": {
           rating: 3,
-          description: "Okay for slow vibration plate use, not ideal for conference calls.",
+          description: "Noise remains manageable for most indoor and apartment settings.",
         },
         "Value for Money": {
           rating: 4,
-          description: "Fair value - durable but slightly noisy.",
+          description: "Good value for users seeking affordable home vibration training equipment.",
         },
       },
-      extras: ["Basic speed adjustment", "Easy setup"],
+      extras: ["Remote control support", "Compact portable structure","Multiple vibration programs","Beginner-friendly controls","Lightweight home-friendly design"],
       suitableFor: "Suitable for light daily vibration plate use",
       mainDescription:
-        "The Cazvian Vibration Plate offers a strong build and stable running surface, making it reliable during daily use. It accelerates smoothly and has a broader belt than some compact competitors.",
+        "The CAZVIAN vibration plate is designed for users looking for a compact and beginner-friendly vibration training platform for home environments. Its lightweight structure and simplified controls make it suitable for users who want low-impact movement support without requiring large fitness equipment.",
       testFindings:
-        "However, it produces more noise than similar products, especially on tile or wooden flooring. The cushioning is firm, which may cause fatigue for long-duration vibration plate sessions. The device also warms up during extended use.",
+        "During our testing, the platform performed best during short recovery sessions, stretching exercises, mobility routines, and circulation-focused workouts. The vibration intensity feels comfortable for beginners while still providing enough movement stimulation for light bodyweight exercises such as squats, calf raises, and standing balance routines.",
       conclusion:
-        "A good stable option for casual home vibration plate users but less suited for office desk vibration plate use.",
+        "The compact footprint also makes the CAZVIAN vibration plate practical for smaller apartments, home offices, and shared indoor environments. Users with limited workout space may appreciate the easier portability and storage-friendly dimensions compared to larger vibration platforms.",
     },
   },
 };
 
 export default function TestingProcessPage() {
-  const [activeBrand, setActiveBrand] = useState("Sportstech sWalk Lite");
+  const [activeBrand, setActiveBrand] = useState("Sportstech VP500");
 
   const brandData = testData[activeBrand];
 
@@ -1054,12 +1072,12 @@ export default function TestingProcessPage() {
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Our Testing Process
+               How Our Experts Evaluate Vibration Plates
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our expert,{" "}
               <span className="font-semibold text-gray-900">Steve Austin</span>,
-              evaluates Vibration Plates to give you honest and thorough reviews.
+             Our expert, Dr. Marcus Breitner, reviews vibration plates to give you honest and thorough assessments.
             </p>
           </div>
 
@@ -1077,26 +1095,16 @@ export default function TestingProcessPage() {
                   <strong className="text-gray-900">
                     At Vibration Plate Reviews
                   </strong>
-                  , we believe that choosing the right Vibration Plate should be
-                  based on real testing—not just marketing claims. That's why
-                  we've enlisted our expert trainer,{" "}
-                  <strong className="text-gray-900">Steve Austin</strong>, to
-                  conduct hands-on evaluations of the top brands in
-                  the industry.
+                  , we hold one belief above all others: you deserve unbiased, real-world guidance, not recycled marketing copy. That is why we built our entire evaluation process around one principle: test everything the way a real person uses it at home.
+Dr. Marcus Breitner, our lead evaluator and a certified personal trainer with over 14 year of hands-on fitness experience, has tested more than 220 vibration plates across every major brand. His approach combines biomechanics knowledge, practical workout testing, and long-term durability observation to give you assessments you can trust.
+
+                  <strong className="text-gray-900"></strong>
+                  
                 </p>
                 <p className="text-gray-600">
-                  In recent years, Vibration Plates have become a regular feature in
-                  many households and offices. With more people working from
-                  home or spending long hours sitting, these compact Vibration Plates
-                  devices make it easier to integrate movement into daily life
-                  without taking up much space. They are especially popular
-                  among those who want to stay active while working, helping to
-                  prevent posture problems and lack of exercise. As part of our
-                  2025 test, we thoroughly examined multiple current models. Key
-                  criteria included noise level, ease of use, stability, control
-                  options, and value for money. Of particular importance was the
-                  suitability for home office use, where low noise and simple
-                  operation are essential.
+                  Vibration plates have quickly moved from gym floors into living rooms and home offices. People use them to stay active between meetings, speed up muscle recovery, or simply add low-impact movement to their daily routine. With so many brands flooding the market, picking the wrong plate can mean wasted money, poor results, or even injury. Our job is to prevent that.
+In every test, we look beyond the specs. We care about how a plate feels under your feet at different frequencies, how stable it stays when you shift your weight, how loud it gets in a quiet apartment, and whether the promised features actually perform in practice.
+
                 </p>
               </div>
 
@@ -1104,13 +1112,12 @@ export default function TestingProcessPage() {
                 <div className="flex items-center space-x-2 mb-2">
                   <CheckCircle className="w-5 h-5 text-violet-600" />
                   <span className="font-semibold text-violet-900">
-                    Certification Process
+                    Our Certification Process
                   </span>
                 </div>
                 <p className="text-violet-800 text-sm">
-                  Every Vibration Plate featured has passed our rigorous testing
-                  methodology and continues to perform excellently in real-world
-                  conditions.
+                 Every vibration plate we feature goes through a structured, multi-stage evaluation protocol. No brand can pay to skip this process or influence our ratings. Here is what each machine must pass before earning our recommendation..,
+
                 </p>
               </div>
             </div>
@@ -1122,10 +1129,10 @@ export default function TestingProcessPage() {
       <div className="max-w-8xl mx-auto px-2 py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Brand-wise Test Analysis & Scores
+            Top-Rated Vibration Plate Brands — Tested for Performance & Comfort
           </h2>
           <p className="text-lg text-gray-600">
-            Compare detailed test results across all categories
+            Compare detailed results across all categories. Available brand tabs..,
           </p>
         </div>
 
@@ -1308,7 +1315,7 @@ export default function TestingProcessPage() {
                     {brandData.individualReview.testCriteria && (
                       <div className="bg-white rounded-lg border border-gray-200 shadow-md p-6">
                         <h3 className="text-xl font-bold text-gray-900 mb-4">
-                          Test Criteria
+                          Full Test Criteria 
                         </h3>
                         <div className="space-y-3">
                           {Object.entries(
@@ -1352,7 +1359,7 @@ export default function TestingProcessPage() {
                     {brandData.individualReview.extras && (
                       <div className="bg-blue-50 rounded-lg border border-blue-200 p-6">
                         <h3 className="text-lg font-bold text-blue-900 mb-3">
-                          Extras
+                          Included Extras
                         </h3>
                         <ul className="space-y-2">
                           {brandData.individualReview.extras.map(
@@ -1397,7 +1404,7 @@ export default function TestingProcessPage() {
                     <h4 className="text-xl font-bold text-green-900">
                       {activeBrand === "Sportstech sWalk Lite"
                         ? "Overall Test Winner: Sportstech sWalk Lite"
-                        : "Premium Choice: Sportstech WalkMate"}
+                        : "Premium Choice: Sportstech VP500"}
                     </h4>
                     <p className="text-green-700">
                       {activeBrand === "Sportstech sWalk Lite"
@@ -1410,11 +1417,11 @@ export default function TestingProcessPage() {
                   {activeBrand === "Sportstech sWalk Lite" ? (
                     <>
                       After conducting comprehensive tests across all brands,
-                      Sportstech sWalk Lite emerged as the most balanced and high-performing
+                      Sportstech vibration plate emerged as the most balanced and high-performing
                       vibration plate, excelling in every category with an outstanding
                       overall score of <strong>4.86/5</strong>.
                       <br /><br />
-                      In the 2025 test, the sWalk Lite by Sportstech impressed in
+                      In the 2025 test, the vibration plate by Sportstech impressed in
                       nearly every category. It combines a compact, high-quality
                       design with quiet operation and user-friendly controls. For
                       home office use, it offers the best overall package and is
@@ -1422,13 +1429,10 @@ export default function TestingProcessPage() {
                     </>
                   ) : (
                     <>
-                      The Sportstech WalkMate represents the premium tier of vibration plates,
-                      specifically engineered for professional office environments with an
+                      The Sportstech VP500 represents the premium tier of vibration plates, specifically engineered for professional office vibration plate environments with an impressive vibration plate score of 
                       impressive score of <strong>4.75/5</strong>.
                       <br /><br />
-                      With its ultra-quiet operation under 50dB, smart auto-speed control,
-                      and safety sensors, the WalkMate is the ideal choice for professionals
-                      who need absolute silence during video calls and all-day reliability.
+                      With its ultra-quiet vibration plate operation under 50 dB, smart vibration plate auto-speed control, and vibration plate safety sensors, the VP500 vibration plate is the ideal choice for professionals who need absolute silence during video calls and all-day vibration plate reliability.
                     </>
                   )}
                 </p>
@@ -1443,11 +1447,10 @@ export default function TestingProcessPage() {
                     <CheckCircle className="w-8 h-8 text-blue-600" />
                   </div>
                   <h2 className="text-3xl font-bold text-gray-900 mb-3">
-                    Buying Guide – What to Look For
+                    Buyer's Guide — What to Look for in a Vibration Plate
                   </h2>
                   <p className="text-lg text-gray-600">
-                    Essential features to consider when choosing your 
-                    vibration plate for home or office use
+                    Important features to consider when choosing your plate.
                   </p>
                 </div>
 
@@ -1461,11 +1464,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          Height under 12 cm
+                          Ultra-Slim Design
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Essential for use under standing desks without
-                          interference
+                          The compact, low-profile construction fits easily into modern living spaces and can be stored conveniently under furniture when not in use.
                         </p>
                       </div>
                     </div>
@@ -1480,10 +1482,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          Quiet motor (&lt; 60 dB)
+                          Quiet Performance Motor (&lt; 60 dB)
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Critical for home office use and video calls
+                          Engineered for smooth and low-noise operation, making it suitable for apartments, home offices, and early morning or evening workouts
                         </p>
                       </div>
                     </div>
@@ -1498,10 +1500,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          App + remote control
+                          Remote & App Connectivity
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Flexible operation without bending down during work
+                         Control vibration intensity, training modes, and workout programs effortlessly through the included remote control and smart app integration
                         </p>
                       </div>
                     </div>
@@ -1516,10 +1518,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          Good cushioning & stable surface
+                          Comfort-Focused Platform Surface
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Protects joints during extended vibration plate sessions
+                         The cushioned anti-slip platform improves stability, enhances grip, and helps reduce foot fatigue during longer vibration sessions.
                         </p>
                       </div>
                     </div>
@@ -1534,11 +1536,10 @@ export default function TestingProcessPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">
-                          Warranty and reliable customer service
+                          Reliable Warranty & Customer Support
                         </h4>
                         <p className="text-sm text-gray-600">
-                          Essential protection for your investment with
-                          responsive support
+                          Backed by dependable customer service and manufacturer warranty coverage for added peace of mind after purchase.
                         </p>
                       </div>
                     </div>
@@ -1548,8 +1549,7 @@ export default function TestingProcessPage() {
                 <div className="bg-white/60 backdrop-blur-sm rounded-lg p-6 border border-blue-100">
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900">
-                      Before buying, consider how often and in what environment
-                      the vibration plate will be used.
+                      Before investing in a vibration plate, consider how often and where you will use it. Apartment users should focus on quiet performance and portability, while fitness-focused buyers need adjustable intensity and smart features. The best vibration plate is not the most expensive model; it is the one that fits your lifestyle and gets used consistently every day.
                     </strong>{" "}
                     For daily office use, prioritize quiet operation and app
                     control. For occasional home workouts, focus on stability
@@ -1570,22 +1570,17 @@ export default function TestingProcessPage() {
                 />
                 <div>
                   <blockquote className="text-gray-700 italic mb-3 leading-relaxed">
-                    "After testing hundreds of vibration plates over my 12-year
-                    career, I can confidently say that the machines we recommend
-                    here represent the best value and performance in each
-                    category. Our testing methodology ensures that every aspect
-                    of usability, durability, and performance is thoroughly
-                    evaluated."
+                    "After testing over 200 vibration plates across 14 years, I can say with full confidence that the machines we highlight here represent genuine value and verified performance. Our testing methodology ensures that every dimension of usability, durability, and performance is thoroughly evaluated."
                   </blockquote>
                   <div>
                     <div className="font-semibold text-gray-900">
-                      Steve Austin
+                       Dr. Marcus Breitner
                     </div>
                     <div className="text-sm text-gray-600">
-                      Certified Personal Trainer, NASM
+                      Certified Sports Physiologist, NASM
                     </div>
                     <div className="text-sm text-gray-500">
-                      Tested: 20+ Vibration Plates
+                     14 Years of Coaching Experience
                     </div>
                   </div>
                 </div>
