@@ -12,7 +12,7 @@ export default function WhoWeAre() {
             {t('title')}
           </h2>
           
-          <p className="text-lg text-gray-600 leading-relaxed">
+          <p className="text-md md:text-lg text-gray-600 leading-relaxed">
             {t('description')}
           </p>
         </div>

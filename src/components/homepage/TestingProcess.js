@@ -13,7 +13,7 @@ const testData = [
   {
     id: 'speedTest',
     icon: Gauge,
-    image: '/landing-image-2.png',
+    image: '/landing-image-2.jpg',
   },
   {
     id: 'durabilityTest',

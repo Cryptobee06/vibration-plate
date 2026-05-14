@@ -6,7 +6,7 @@ export async function generateMetadata() {
     description: 'Umfassende Vibration Plate-Tests und Bewertungen von Fitness-Experten. Vergleichen Sie Top-Marken und Modelle, um das perfekte Vibration Plate für Ihr Heimstudio zu finden.',
     keywords: 'Vibration Plate Tests 2025, beste Laufbänder, Vibration Plate Vergleich, Fitnessgeräte Tests',
     icons: {
-      icon: '/VibrationPlateTestlogosvg-blue.svg'
+      icon: '/vibration-plate-fav-icon.png'
     },
   };
 }

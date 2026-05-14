@@ -89,49 +89,50 @@ export default function PrivacySection() {
       id: 'introduction',
       title: 'Introduction and Scope of Policy',
       paragraphs: [
-        "At WalkingpadReviews, we value the trust our visitors place in us and are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, store, and protect your personal data when you visit or interact with our website. Whether you're browsing treadmill comparisons, reading fitness advice, or signing up for newsletters, your privacy is important to us. We understand that you may be concerned about how the information you provide is being used. This policy applies to all users of WalkingpadReviews and governs data collection and usage practices in compliance with applicable data protection laws, including the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).",
-        "We only collect information that is necessary for us to provide services, enhance your user experience, and ensure the website's functionality. By using WalkingpadReviews, you acknowledge and accept the practices outlined in this Privacy Policy."
+        "At Vibration Plate Test, we value the trust our visitors place in us and are committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and safeguard your personal data when you visit or interact with our website. Whether you are browsing vibration plate comparisons, reading fitness guidance, or subscribing to newsletters, your privacy remains a priority.",
+        "We understand that users may be concerned about how their information is handled. This policy applies to all users of Vibration Plate Test and governs data collection and usage in accordance with applicable data protection regulations, including the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).",
+        "We only collect information that is necessary to provide our services, improve user experience, and maintain website functionality. By using the Vibration Plate Test, you acknowledge and agree to the practices described in this Privacy Policy."
       ]
     },
     {
       id: 'data-we-collect',
       title: 'Information We Collect',
       paragraphs: [
-        "We may collect your name, email address, IP address, phone number (if provided), or location data. This information is typically collected when you voluntarily fill out forms on our site.",
-        "Non-personal information is data that does not directly identify you but may include details like browser type, operating system, referral source, and website usage patterns.",
-        "This data helps us improve your user experience and optimize our content and services."
+        "We may collect personal details such as your name, email address, IP address, phone number (if provided), and location data. This information is typically collected when you voluntarily submit forms on our website.",
+        "We also collect non-personal information that does not directly identify you, such as browser type, operating system, referral source, and general website usage behavior.",
+        "This information helps us enhance user experience, improve content quality, and optimize overall site performance."
       ]
     },
     {
       id: 'use-of-data',
       title: 'How We Use Your Information',
       paragraphs: [
-        "We use the collected information to provide, maintain, and improve our services. We may also use aggregated data to analyze user behavior and enhance platform security.",
-        "Your submitted reviews or comments may be published with attribution unless you request anonymity."
+        "We use the information collected to operate, maintain, and improve our services. In addition, aggregated and anonymized data may be used for analytics, performance tracking, and platform security improvements.",
+        "Any reviews or comments you submit may be displayed publicly with attribution unless you request anonymity."
       ]
     },
     {
       id: 'sharing-data',
       title: 'How We Share Information',
       paragraphs: [
-        "We never sell, rent, or trade your personal data. However, we may share it with trusted third-party providers such as hosting services and analytics partners.",
-        "Some affiliate links on our site may redirect you to third-party platforms which have separate privacy policies."
+        "We do not sell, rent, or trade your personal data. However, we may share information with trusted third-party service providers, such as hosting companies, analytics providers, and technical support partners, to help operate the website effectively.",
+        "Some content may include affiliate links that direct you to external platforms. These third-party websites operate under their own privacy policies, which we do not control."
       ]
     },
     {
       id: 'your-rights',
       title: 'Your Choices & Obligations',
       paragraphs: [
-        "Depending on your location, you may have rights under data protection laws like GDPR or CCPA. This includes access, correction, or deletion of your data.",
-        "To exercise these rights or ask questions, email us at privacy@Walkingpadreviews.com."
+        "Depending on your region, you may have rights under data protection laws such as GDPR or CCPA. These rights may include access to your personal data, correction of inaccurate data, or deletion of your data.",
+        "If you wish to exercise these rights or have any questions regarding your data, you can contact us at: https://www.vibrationsplatte-tests.com/"
       ]
     },
     {
       id: 'other-info',
       title: 'Other Important Information',
       paragraphs: [
-        "We may occasionally update this Privacy Policy. Your continued use of the site indicates acceptance of any changes.",
-        "Please check this page regularly for updates."
+        "We may update this Privacy Policy from time to time to reflect changes in legal requirements or our services. Continued use of the website after updates are posted indicates your acceptance of the revised policy.",
+        "We recommend reviewing this page periodically to stay informed about how we protect your information."
       ]
     }
   ];
@@ -185,7 +186,7 @@ export default function PrivacySection() {
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-2">Your Privacy Matters</h2>
               <p className="text-gray-700 text-base mb-2">
-                WalkingpadReviews is committed to being transparent about the data we collect about you, how it is used, and with whom it is shared.
+                Vibration Platte Test is committed to being transparent about the data we collect about you, how it is used, and with whom it is shared.
               </p>
               <p className="text-gray-700 text-base">
                 This Privacy Policy applies when you use our Services. We offer users choices about the data we collect, use, and share as described in this policy, our Cookie Policy, and our Terms of Use.

@@ -235,7 +235,7 @@ Der Schlüssel für erfolgreichen Gewichtsverlust durch Vibration Plate-Workouts
       en: 'Training',
       de: 'Training'
     },
-    author: 'Steve Austin',
+    author: 'Dr. Marcus Breitner',
     readTime: {
       en: '8 min read',
       de: '8 Min. Lesezeit'
@@ -650,7 +650,7 @@ function MarkdownContent({ content }) {
     .replace(/^### (.*$)/gm, '<h3 class="text-xl font-bold text-gray-900 mb-3 mt-6">$1</h3>')
     .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold">$1</strong>')
     .replace(/^- (.*$)/gm, '<li class="mb-2">$1</li>')
-    .replace(/(\n<li[^>]*>.*?<\/li>\n?)+/gs, '<ul class="list-disc font-semibold list-inside mb-4 space-y-1">$&</ul>')
+    .replace(/(\n<li[^>]*>.*?<\/li>\n?)+/gs, '<ul class="list-disc font-semibold list-inside mb-4 space-y-1 ml-4">$&</ul>')
     .replace(/\n\n/g, '</p><p class="text-gray-700 leading-relaxed mb-4">')
     .replace(/^/, '<p class="text-gray-700 leading-relaxed mb-4">')
     .replace(/$/, '</p>');
@@ -688,9 +688,9 @@ export default function BlogPost({ params }) {
             {/* Meta */}
             <div className="flex items-center justify-center space-x-4 ">
               <span>By {post.author}</span>
-              <span>•</span>
+            
               <span>{formatDate(post.publishDate, locale)}</span>
-              <span>•</span>
+             
               <span>{post.readTime[locale]}</span>
             </div>
           </div>

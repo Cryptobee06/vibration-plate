@@ -36,7 +36,7 @@ export default function LayoutWrapper({ children }) {
       title: 'vibrationReviews - Expert Vibration Plate Testing & Reviews',
       description: 'Independent Vibration Plate reviews from certified fitness professionals. Comprehensive testing for performance, durability, and value.',
       icons: {
-        icon: '/VibrationPlateTestlogosvg-blue.svg'
+        icon: '/vibration-plate-fav-icon.png'
       },
     };
   }, [currentLocale]);
@@ -47,7 +47,7 @@ export default function LayoutWrapper({ children }) {
     title: 'vibrationReviews - Expert Vibration Plate Testing & Reviews',
     description: 'Independent Vibration Plate reviews from certified fitness professionals. Comprehensive testing for performance, durability, and value.',
     icons: {
-      icon: '/VibrationPlateTestlogosvg-blue.svg'
+      icon: '/vibration-plate-fav-icon.png'
     },
   };
   // On mounting, add Google Tag Manager script to body

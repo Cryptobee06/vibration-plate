@@ -1,7 +1,7 @@
 {
   "navigation": {
     "logo": "https://Walkingpad-vergleich.s3.us-east-1.amazonaws.com/logo.png",
-    "treadmillReviews": "Vibration Plate Tests",
+    "treadmillReviews": "Vibrationsplatte Tests",
     "brands": "Marken",
     "guide": "Ratgeber",
     "blog": "Blog",
@@ -57,7 +57,7 @@
         "badge": "Testsieger"
       },
       "Citysports": {
-        "name": "Citysports CS-WP6",
+        "name": "Citysports Vibration plate",
         "description": " Ein schlankes und leises Vibration platte, ideal für tägliches Cardio-Training.",
         "badge": "Beste Wahl"
       },
@@ -181,7 +181,7 @@
     },
     "reviewStandards": {
       "title": "Unsere Test-Standards",
-      "performanceTesting": "Leistungsbasierte Tests",
+      "performance Testing": "Leistungsbasierte Tests",
       "durabilityChecks": "Langzeit-Haltbarkeitsprüfungen",
       "userFeedback": "Echtes Nutzer-Feedback",
       "expertVerified": "Experten-verifizierte Ergebnisse",

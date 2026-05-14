@@ -89,49 +89,50 @@ export default function PrivacySection() {
       id: 'introduction',
       title: 'Einführung und Geltungsbereich der Richtlinie',
       paragraphs: [
-        "Bei vibration plate Reviews schätzen wir das Vertrauen, das unsere Besucher in uns setzen, und verpflichten uns zum Schutz Ihrer Privatsphäre. Diese Datenschutzerklärung beschreibt, wie wir Ihre personenbezogenen Daten erfassen, verwenden, speichern und schützen, wenn Sie unsere Website besuchen oder mit ihr interagieren. Ob Sie vibration plate-Vergleiche durchstöbern, Fitness-Ratschläge lesen oder sich für Newsletter anmelden - Ihre Privatsphäre ist uns wichtig. Wir verstehen, dass Sie möglicherweise besorgt darüber sind, wie die von Ihnen bereitgestellten Informationen verwendet werden. Diese Richtlinie gilt für alle Nutzer von vibration plate Reviews und regelt die Datenerfassung und -nutzung in Übereinstimmung mit den geltenden Datenschutzgesetzen, einschließlich der Datenschutz-Grundverordnung (DSGVO) und des California Consumer Privacy Act (CCPA).",
-        "Wir erfassen nur Informationen, die notwendig sind, um Ihnen Dienstleistungen zu erbringen, Ihre Benutzererfahrung zu verbessern und die Funktionalität der Website zu gewährleisten. Durch die Nutzung von vibration plate Reviews erkennen Sie die in dieser Datenschutzerklärung beschriebenen Praktiken an und akzeptieren sie."
+        "Bei Vibration Platte Test legen wir großen Wert auf das Vertrauen unserer Besucher und verpflichten uns zum Schutz Ihrer Privatsphäre. Diese Datenschutzerklärung beschreibt, wie wir Ihre personenbezogenen Daten erfassen, verwenden, speichern und schützen, wenn Sie unsere Website besuchen oder mit ihr interagieren. Ob Sie Vibrationsplatten vergleichen, Fitness-Ratgeber lesen oder sich für Newsletter anmelden – Ihre Privatsphäre hat für uns höchste Priorität.",
+        "Wir verstehen, dass Nutzer Bedenken hinsichtlich der Verwendung ihrer Daten haben können. Diese Richtlinie gilt für alle Nutzer von Vibration Platte Test und regelt die Datenerhebung und -verwendung in Übereinstimmung mit geltenden Datenschutzgesetzen, einschließlich der Datenschutz-Grundverordnung (DSGVO) und dem California Consumer Privacy Act (CCPA).",
+        "Wir erfassen ausschließlich Daten, die notwendig sind, um unsere Dienste bereitzustellen, die Nutzererfahrung zu verbessern und die Funktionalität der Website sicherzustellen. Durch die Nutzung von Vibration Platte Test erkennen Sie die in dieser Datenschutzerklärung beschriebenen Praktiken an."
       ]
     },
     {
       id: 'data-we-collect',
       title: 'Informationen, die wir erfassen',
       paragraphs: [
-        "Wir können Ihren Namen, Ihre E-Mail-Adresse, IP-Adresse, Telefonnummer (falls angegeben) oder Standortdaten erfassen. Diese Informationen werden normalerweise erfasst, wenn Sie freiwillig Formulare auf unserer Website ausfüllen.",
-        "Nicht-personenbezogene Informationen sind Daten, die Sie nicht direkt identifizieren, aber Details wie Browsertyp, Betriebssystem, Verweisquelle und Website-Nutzungsmuster enthalten können.",
-        "Diese Daten helfen uns, Ihre Benutzererfahrung zu verbessern und unsere Inhalte und Dienstleistungen zu optimieren."
+        "Wir können personenbezogene Daten wie Ihren Namen, Ihre E-Mail-Adresse, Ihre IP-Adresse, Ihre Telefonnummer (falls angegeben) sowie Standortdaten erfassen. Diese Informationen werden in der Regel erhoben, wenn Sie freiwillig Formulare auf unserer Website ausfüllen.",
+        "Nicht personenbezogene Daten umfassen Informationen, die Sie nicht direkt identifizieren, wie Browsertyp, Betriebssystem, Herkunftsquelle (Referral) sowie allgemeine Nutzungsdaten der Website.",
+        "Diese Daten helfen uns dabei, die Nutzererfahrung zu verbessern, Inhalte zu optimieren und die Leistung unserer Website zu steigern."
       ]
     },
     {
       id: 'use-of-data',
       title: 'Wie wir Ihre Informationen verwenden',
       paragraphs: [
-        "Wir verwenden die erfassten Informationen, um unsere Dienstleistungen bereitzustellen, aufrechtzuerhalten und zu verbessern. Wir können auch aggregierte Daten verwenden, um das Benutzerverhalten zu analysieren und die Plattformsicherheit zu erhöhen.",
-        "Ihre eingereichten Bewertungen oder Kommentare können mit Namensnennung veröffentlicht werden, es sei denn, Sie beantragen Anonymität."
+        "Wir verwenden die erfassten Informationen, um unsere Dienste bereitzustellen, zu betreiben und zu verbessern. Darüber hinaus können aggregierte und anonymisierte Daten zur Analyse des Nutzerverhaltens sowie zur Verbesserung der Sicherheit genutzt werden.",
+        "Von Ihnen eingereichte Bewertungen oder Kommentare können öffentlich angezeigt werden, sofern Sie nicht ausdrücklich Anonymität verlangen."
       ]
     },
     {
       id: 'sharing-data',
       title: 'Wie wir Informationen teilen',
       paragraphs: [
-        "Wir verkaufen, vermieten oder handeln niemals mit Ihren persönlichen Daten. Wir können sie jedoch mit vertrauenswürdigen Drittanbietern wie Hosting-Diensten und Analysepartnern teilen.",
-        "Einige Affiliate-Links auf unserer Website können Sie zu Plattformen von Drittanbietern weiterleiten, die separate Datenschutzrichtlinien haben."
+        "Wir verkaufen, vermieten oder handeln niemals mit Ihren personenbezogenen Daten. Allerdings können wir Daten an vertrauenswürdige Drittanbieter weitergeben, beispielsweise Hosting-Dienste, Analyseanbieter oder technische Support-Partner, um den Betrieb der Website sicherzustellen.",
+        "Einige Inhalte enthalten Affiliate-Links, die Sie auf externe Websites weiterleiten. Diese Drittanbieter-Websites haben eigene Datenschutzrichtlinien, auf die wir keinen Einfluss haben."
       ]
     },
     {
       id: 'your-rights',
       title: 'Ihre Wahlmöglichkeiten und Verpflichtungen',
       paragraphs: [
-        "Je nach Ihrem Standort haben Sie möglicherweise Rechte gemäß Datenschutzgesetzen wie der DSGVO oder CCPA. Dies umfasst Zugang, Berichtigung oder Löschung Ihrer Daten.",
-        "Um diese Rechte auszuüben oder Fragen zu stellen, senden Sie uns eine E-Mail an privacy@Walkingpadreviews.com."
+        "Je nach Ihrem Standort haben Sie möglicherweise Rechte gemäß Datenschutzgesetzen wie der DSGVO oder dem CCPA. Diese Rechte können Auskunft, Berichtigung oder Löschung Ihrer personenbezogenen Daten umfassen.",
+        "Wenn Sie diese Rechte ausüben möchten oder Fragen zu Ihren Daten haben, kontaktieren Sie uns bitte unter: https://www.vibrationsplatte-tests.com/"
       ]
     },
     {
       id: 'other-info',
       title: 'Weitere wichtige Informationen',
       paragraphs: [
-        "Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Ihre fortgesetzte Nutzung der Website zeigt die Annahme von Änderungen an.",
-        "Bitte überprüfen Sie diese Seite regelmäßig auf Aktualisierungen."
+        "Wir können diese Datenschutzerklärung gelegentlich aktualisieren, um Änderungen gesetzlicher Anforderungen oder unserer Dienste zu berücksichtigen. Die fortgesetzte Nutzung der Website nach Veröffentlichung von Änderungen gilt als Zustimmung zur aktualisierten Version.",
+        "Wir empfehlen Ihnen, diese Seite regelmäßig zu überprüfen, um darüber informiert zu bleiben, wie wir Ihre Daten schützen."
       ]
     }
   ];
@@ -185,10 +186,10 @@ export default function PrivacySection() {
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-2">Ihre Privatsphäre ist wichtig</h2>
               <p className="text-gray-700 text-base mb-2">
-                vibration plateReviews verpflichtet sich zu Transparenz über die Daten, die wir über Sie erfassen, wie sie verwendet werden und mit wem sie geteilt werden.
+                Vibration Platte Test verpflichtet sich zu vollständiger Transparenz darüber, welche Daten wir über Sie erfassen, wie diese verwendet werden und mit welchen Parteien sie gegebenenfalls geteilt werden
               </p>
               <p className="text-gray-700 text-base">
-                Diese Datenschutzerklärung gilt, wenn Sie unsere Dienste nutzen. Wir bieten Nutzern Wahlmöglichkeiten über die Daten, die wir erfassen, verwenden und teilen, wie in dieser Richtlinie, unserer Cookie-Richtlinie und unseren Nutzungsbedingungen beschrieben.
+                Diese Datenschutzerklärung gilt, wenn Sie unsere Dienste nutzen. Wir bieten Nutzern verschiedene Möglichkeiten hinsichtlich der von uns erhobenen, verwendeten und weitergegebenen Daten, wie in dieser Richtlinie, unserer Cookie-Richtlinie sowie unseren Nutzungsbedingungen beschrieben.
               </p>
             </div>
 

@@ -3,7 +3,7 @@ import { useTranslations, useLocale } from '@/contexts/LanguageContext';
 const teamMembers = [
   {
     id: 1,
-    name: 'Steve Austin',
+    name: 'Dr. Marcus Breitner',
     role: {
       en: 'Lead Fitness Specialist',
       de: 'Lead Fitness Specialist'

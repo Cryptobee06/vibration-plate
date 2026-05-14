@@ -257,7 +257,7 @@ const brandData = {
     ],
     productDescription: {
       de: {
-        intro: "Der Citysports CS-WP6 ist eine erschwingliche, benutzerfreundliche Vibrationsplatte mit leisem Motor, stossdämpfender Oberfläche und praktischer Fernbedienung. Das kompakte Design passt in kleine Räume und lässt sich ohne Aufwand verstauen. Für Erstnutzer und Gelegenheitssportler bietet er ein überzeugendes Gesamtpaket aus Komfort, Einfachheit und Verlässlichkeit.",
+        intro: "Der Citysports ist eine erschwingliche, benutzerfreundliche Vibrationsplatte mit leisem Motor, stossdämpfender Oberfläche und praktischer Fernbedienung. Das kompakte Design passt in kleine Räume und lässt sich ohne Aufwand verstauen. Für Erstnutzer und Gelegenheitssportler bietet er ein überzeugendes Gesamtpaket aus Komfort, Einfachheit und Verlässlichkeit.",
         cards: [
           // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
           // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
@@ -368,11 +368,11 @@ const brandData = {
       ],
     },
 
-    model: "CS-WP6",
+    model: "Vibration plate",
     logo: "/images/brands/nordictrack-logo.png",
     description: {
       en: "Citysports is an American fitness equipment company renowned for interactive training technology. The Commercial 1750 is their premium home treadmill featuring iFit integration and professional-grade construction.",
-      de: "Citysports bringt Funktionalität und Bequemlichkeit in Ihre Heim- oder Büro-Workout-Routine mit der CS-WP6-Vibrationsplatte. Für leisen Betrieb und kompaktes Verstauen gebaut — eine clevere Wahl für Nutzer, die beim Arbeiten aktiv bleiben oder enge Räume managen möchten",
+      de: "Citysports bringt Funktionalität und Bequemlichkeit in Ihre Heim- oder Büro-Workout-Routine mit der Vibrationsplatte. Für leisen Betrieb und kompaktes Verstauen gebaut — eine clevere Wahl für Nutzer, die beim Arbeiten aktiv bleiben oder enge Räume managen möchten",
     },
 
     bannerImage:
@@ -429,15 +429,15 @@ const brandData = {
     faq: [
       {
         question: {
-          de: " Kann man auf dem Citysports CS-WP6 joggen?",
+          de: " Kann man auf dem Citysports joggen?",
         },
         answer: {
-          de: "Der CS-WP6 erreicht max. 6 km/h — besser für Vibrationssessions als fürs Joggen geeignet."
+          de: "Der vibrationsplate erreicht max. 6 km/h — besser für Vibrationssessions als fürs Joggen geeignet."
         }
       },
       {
         question: {
-          de: "Eignet sich der CS-WP6 fürs Homeoffice?",
+          de: "Eignet sich der vibrationsplate fürs Homeoffice?",
         },
         answer: {
           de: " Ja — der leise Motor macht ihn perfekt für die Nutzung während der Arbeitszeit"
@@ -453,7 +453,7 @@ const brandData = {
       },
       {
         question: {
-          de: "Ist der CS-WP6 einfach zu verstauen?",
+          de: "Ist der vibrationsplate einfach zu verstauen?",
         },
         answer: {
           de: "Ja — das kompakte Design gleitet mühelos unter Schreibtische oder Sofas."
@@ -461,8 +461,8 @@ const brandData = {
       }
     ],
     verdict: {
-      en: "The Citysportsvibration plate is an excellent choice for serious runners who want gym-quality equipment at home. The iFit integration provides unmatched workout variety, though the subscription cost should be considered.",
-      de: "Der Citysports CS-WP6 zeichnet sich als erschwingliche, unkomplizierte Vibrationsplatte aus, die in kleine Räume passt, ohne ruhige, zuverlässige Leistung zu opfern. Ideal für Homeoffice-Profis, Gelegenheitsnutzer oder Erstkäufer.",
+      en: "The Citysports vibration plate is an excellent choice for serious runners who want gym-quality equipment at home. The iFit integration provides unmatched workout variety, though the subscription cost should be considered.",
+      de: "Der Citysports vibrationsplate zeichnet sich als erschwingliche, unkomplizierte Vibrationsplatte aus, die in kleine Räume passt, ohne ruhige, zuverlässige Leistung zu opfern. Ideal für Homeoffice-Profis, Gelegenheitsnutzer oder Erstkäufer.",
     },
     rating: 4.0,
     // buyLink: 'https://www.city-sports.eu/collections/treadmill/products/citysports-under-desk-treadmill-citysports-laufband-citysports-treadmill-citysports-tapis-roulant-citysports-tapis-de-course?spm=..collection_c6816f06-4986-4263-97d0-4377c49999a8.collection_detail_1.9&spm_prev=..index.header_1.1'
@@ -702,7 +702,7 @@ const brandData = {
     ],
     productDescription: {
       de: {
-        intro: "Die Superrun B,A06-C hebt sich durch ihre einzigartige Kombination aus Vibrations-Trainingsplatte und integrierter Shiatsu-Massagefunktion hervor. Das kompakte Unter-Tisch-Design, der leise Motor und die stossdämpfende Oberfläche machen sie zur vielseitigen Wellnessstation für Zuhause und Büro. Das LED-Display liefert alle relevanten Trainingsdaten ohne Ablenkung.",
+        intro: "Die Superrun hebt sich durch ihre einzigartige Kombination aus Vibrations-Trainingsplatte und integrierter Shiatsu-Massagefunktion hervor. Das kompakte Unter-Tisch-Design, der leise Motor und die stossdämpfende Oberfläche machen sie zur vielseitigen Wellnessstation für Zuhause und Büro. Das LED-Display liefert alle relevanten Trainingsdaten ohne Ablenkung.",
         cards: [
           // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
           // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
@@ -733,9 +733,9 @@ const brandData = {
     comparisonContext: {
       de: {
         title: "Comparison and Buying Context",
-        intro: "Die Superun B,A06-C Vibrationsplatte ist eine kompakte und platzsparende Home-Fitness-Lösung, die für tägliches Wellness-Training entwickelt wurde. Ideal für Wohnungen, Home-Gyms und Büroräume unterstützt sie Muskelaktivierung, Gleichgewichtstraining, Regenerationsworkouts und gelenkschonende Trainingsroutinen.",
+        intro: "Die Superun Vibrationsplatte ist eine kompakte und platzsparende Home-Fitness-Lösung, die für tägliches Wellness-Training entwickelt wurde. Ideal für Wohnungen, Home-Gyms und Büroräume unterstützt sie Muskelaktivierung, Gleichgewichtstraining, Regenerationsworkouts und gelenkschonende Trainingsroutinen.",
         box1: {
-          heading: "Warum sich viele Nutzer für die Superun B,A06-C Vibrationsplatte entscheiden",
+          heading: "Warum sich viele Nutzer für die Superun Vibrationsplatte entscheiden",
           items: [
             "Unterstützt gelenkschonende Ganzkörper-Vibrationstrainings",
             "Ideal für Muskelstimulation und Gleichgewichtstraining",
@@ -756,7 +756,7 @@ const brandData = {
 
           ]
         },
-        outro: "Die Superun B,A06-C Vibrationsplatte kombiniert kompaktes Design, effektive Vibrationstechnologie und komfortable Alltagstauglichkeit für moderne Home-Fitness-Nutzer. Sie ist eine ideale Lösung für Menschen, die ihre Aktivität steigern, die Muskelaktivierung unterstützen und regelmäßige Trainingsroutinen bequem von zu Hause aus durchführen möchten."
+        outro: "Die Superun Vibrationsplatte kombiniert kompaktes Design, effektive Vibrationstechnologie und komfortable Alltagstauglichkeit für moderne Home-Fitness-Nutzer. Sie ist eine ideale Lösung für Menschen, die ihre Aktivität steigern, die Muskelaktivierung unterstützen und regelmäßige Trainingsroutinen bequem von zu Hause aus durchführen möchten."
       }
     },
     conclusionEvaluation: {
@@ -815,7 +815,7 @@ const brandData = {
       ],
     },
 
-    model: "B,A06-C ",
+    model: "Vibrationsplate ",
     logo: "/images/brands/horizon-logo.png",
     description: {
       en: "Superun is known for reliable, well-built treadmills that focus on simplicity and durability. The 7.8 AT represents their commitment to quality construction and user-friendly design.",
@@ -1515,12 +1515,12 @@ const brandData = {
       ],
     },
 
-    model: "Raceable vibration plate",
+    model: "Vibration Plate",
     logo: "/images/brands/treadmill1.jpg",
 
     description: {
       en: "Sportstech is a German fitness equipment manufacturer known for innovative home fitness solutions. The F15 treadmill represents their flagship model, combining advanced shock absorption technology with smart connectivity features.",
-      de: "Die Copant Raceable ist eine schlanke, app-verbundene Vibrationsplatte für leichte Heim- und Büro-Vibrationssitzungen. Kompakt und faltbar — passt perfekt in kleine Räume. Aufgrund des begrenzten Geschwindigkeitsbereichs und der kürzeren Vibrationsplattform ist sie nicht für intensives Joggen oder fortgeschrittene Workouts gedacht.",
+      de: "Die Copant ist eine schlanke, app-verbundene Vibrationsplatte für leichte Heim- und Büro-Vibrationssitzungen. Kompakt und faltbar — passt perfekt in kleine Räume. Aufgrund des begrenzten Geschwindigkeitsbereichs und der kürzeren Vibrationsplattform ist sie nicht für intensives Joggen oder fortgeschrittene Workouts gedacht.",
     },
 
     bannerImage:
@@ -1590,7 +1590,7 @@ const brandData = {
           de: "Kann man auf diesem Gerät joggen?",
         },
         answer: {
-          de: "Max. 6 km/h eignet sich für Gehen und leichtes Joggen — nicht für dauerhaftes Laufen"
+          de: "Ja — man kann auf einigen Vibrationsplatten joggen, aber es hängt vom Typ der Platte ab und davon, wie stabil bzw. erfahren man ist."
         }
       },
       {
@@ -1630,7 +1630,7 @@ const brandData = {
     ],
     productDescription: {
       de: {
-        intro: "Die Merach T26B1 ist eine kompakte 3-in-1-Vibrationsplatte, die Unter-Tisch-Bewegung, leichtes Joggen und normales Gehen vereint. Mit faltbarem Rahmen, integrierten Handpuls-Sensoren und ca. 6% Neigung bietet sie vielseitige Trainingsmöglichkeiten auf kleinstem Raum. Der 2,75-PS-Motor und das Multi-LCD-Display mit Herzfrequenzanzeige überzeugen im Amateur-Segment.",
+        intro: "Die Merach Vibrationsplatte ist eine kompakte 3-in-1-Vibrationsplatte, die Unter-Tisch-Bewegung, leichtes Joggen und normales Gehen vereint. Mit faltbarem Rahmen, integrierten Handpuls-Sensoren und ca. 6% Neigung bietet sie vielseitige Trainingsmöglichkeiten auf kleinstem Raum. Der 2,75-PS-Motor und das Multi-LCD-Display mit Herzfrequenzanzeige überzeugen im Amateur-Segment.",
         cards: [
           // "Das Gerät besitzt einen Geschwindigkeitsbereich von 1 bis 6 km/h, wodurch sowohl langsames Gehen als auch schnelleres Walking möglich ist. Diese Geschwindigkeit eignet sich gut für moderate Bewegungseinheiten oder Training während der Arbeit.",
           // "Das Laufband ist für ein maximales Benutzergewicht von 120 kg ausgelegt und bietet damit eine stabile Trainingsplattform für viele Nutzer.",
@@ -1751,11 +1751,11 @@ const brandData = {
     },
 
     // name: 'Sportstech',
-    model: "T26B1",
+    model: "vibration plate",
     logo: "/images/brands/treadmill1.jpg",
     description: {
       en: "Sportstech is a German fitness equipment manufacturer known for innovative home fitness solutions. The F15 treadmill represents their flagship model, combining advanced shock absorption technology with smart connectivity features.",
-      de: "Die Merach T26B1 ist eine kompakte 3-in-1-Vibrationsplatte für Vibration, leichtes Joggen und Unter-Tisch-Bewegung. Für Heimnutzer konzipiert, die Flexibilität und minimalen Platzbedarf benötigen — flach als Vibrationsplatte oder mit Griffen für leichte Workouts nutzbar.",
+      de: "Die Merach vibration plate ist eine kompakte 3-in-1-Vibrationsplatte für Vibration, leichtes Joggen und Unter-Tisch-Bewegung. Für Heimnutzer konzipiert, die Flexibilität und minimalen Platzbedarf benötigen — flach als Vibrationsplatte oder mit Griffen für leichte Workouts nutzbar.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
@@ -2002,7 +2002,7 @@ const brandData = {
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
-      "/Assets/Cursor-vibrationplate-Banner-3.png",
+      "/Assets/Urevo-vibrationplate-Banner-7.png",
     // features: {
     //   en: 'The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech F15 verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'
@@ -2341,7 +2341,7 @@ export async function generateMetadata({ params }) {
       title: "Brand Not Found",
       description: "The requested brand page could not be found.",
       icons: {
-        icon: "/VibrationPlateTestlogosvg-blue.svg",
+        icon: "/vibration-plate-fav-icon.png",
       },
     };
   }
@@ -2351,7 +2351,7 @@ export async function generateMetadata({ params }) {
     description: brand.description[locale],
     keywords: `${brand.name}, ${brand.model}, treadmill review, fitness equipment test`,
     icons: {
-      icon: "/VibrationPlateTestlogosvg-blue.svg",
+      icon: "/vibration-plate-fav-icon.png",
     },
   };
 }

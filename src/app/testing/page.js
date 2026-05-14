@@ -92,7 +92,7 @@ const testData = {
       verdict: "Perfect for Office & Home",
       rating: 5.0,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -188,7 +188,7 @@ const testData = {
       verdict: "Best for Professional Office Use",
       rating: 4.8,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -284,7 +284,7 @@ const testData = {
       verdict: "Not Recommended for Regular Use",
       rating: 2.0,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -382,7 +382,7 @@ const testData = {
       verdict: "Not Recommended for Any Use",
       rating: 1.5,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -473,12 +473,12 @@ const testData = {
       },
     },
     individualReview: {
-      title: "Superun B,A06-C Vibration Plate – Evaluated for compact usability, damping quality, and portability.",
+      title: "Superun Vibration Plate – Evaluated for compact usability, damping quality, and portability.",
       modelName: "Superun Raceable",
       verdict: "Not Suitable for Office Use",
       rating: 2.0,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -578,7 +578,7 @@ const testData = {
       verdict: "Decent Budget Option for Short-Term Use",
       rating: 3.0,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -682,7 +682,7 @@ const testData = {
       verdict: "Simple Vibration Plate for light, occasional use",
       rating: 3.0,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -782,7 +782,7 @@ const testData = {
       verdict: "Solid mid-budget Vibration Plate for consistent walkers",
       rating: 4.0,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -881,7 +881,7 @@ const testData = {
       verdict: "Quiet, stable, and well-suited for office vibration plate use",
       rating: 4.2,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -980,7 +980,7 @@ const testData = {
       verdict: "Good stability, fair comfort, but louder than expected",
       rating: 3.8,
       publishDate: "January 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Certified Personal Trainer",
       testDuration: "Extended testing",
       testCriteria: {
@@ -1071,13 +1071,13 @@ export default function TestingProcessPage() {
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-2xl md:text-5xl font-bold text-gray-900 mb-6">
                How Our Experts Evaluate Vibration Plates
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our expert,{" "}
-              <span className="font-semibold text-gray-900">Steve Austin</span>,
-             Our expert, Dr. Marcus Breitner, reviews vibration plates to give you honest and thorough assessments.
+            <p className="text-md md:text-xl text-gray-600 max-w-3xl mx-auto">
+              Our expert
+              <span className="font-semibold text-gray-900 ml-1"> Dr. Marcus Breitner</span>,
+             reviews vibration plates to give you honest and thorough assessments.
             </p>
           </div>
 
@@ -1085,7 +1085,7 @@ export default function TestingProcessPage() {
             <div className="flex justify-center">
               <img
                 src="https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
-                alt="Steve Austin"
+                alt="Dr. Marcus Breitner"
                 className="rounded-lg shadow-lg w-96 h-96 object-cover"
               />
             </div>
@@ -1128,10 +1128,10 @@ In every test, we look beyond the specs. We care about how a plate feels under y
       {/* Brand Selection */}
       <div className="max-w-8xl mx-auto px-2 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-4">
             Top-Rated Vibration Plate Brands — Tested for Performance & Comfort
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-md md:text-lg text-gray-600">
             Compare detailed results across all categories. Available brand tabs..,
           </p>
         </div>
@@ -1158,7 +1158,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
             <div className="bg-white rounded-lg border border-gray-200 shadow-lg overflow-hidden">
               <div className="bg-gray-50 px-6 py-4 border-b border-gray-200">
                 <div className="flex items-center justify-between">
-                  <h2 className="text-2xl font-bold text-gray-900">
+                  <h2 className="text-lg md:text-2xl font-bold text-gray-900">
                     {activeBrand} Details
                   </h2>
                   <div className="flex items-center space-x-4">
@@ -1449,7 +1449,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
                   <h2 className="text-3xl font-bold text-gray-900 mb-3">
                     Buyer's Guide — What to Look for in a Vibration Plate
                   </h2>
-                  <p className="text-lg text-gray-600">
+                  <p className="text-md md:text-lg text-gray-600">
                     Important features to consider when choosing your plate.
                   </p>
                 </div>
@@ -1565,7 +1565,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
               <div className="flex items-start space-x-4">
                 <img
                   src="https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
-                  alt="Steve Austin"
+                  alt="Dr. Marcus Breitner"
                   className="w-16 h-16 rounded-full object-cover"
                 />
                 <div>

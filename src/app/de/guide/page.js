@@ -10,7 +10,7 @@ export async function generateMetadata() {
     description: 'Umfassender Vibrationsplattentests-Kaufratgeber mit Experten-Tipps zu Motorleistung, Bandgröße, Steigungseinstellungen und mehr. Treffen Sie die richtige Wahl für Ihre Fitnessziele.',
     keywords: 'Vibrationsplattentests Kaufratgeber, vibration plate Eigenschaften, Motorleistung, Bandgröße, Steigungseinstellungen, Heimlvibration plate Beratung',
     icons: {
-      icon: '/VibrationPlateTestlogosvg-blue.svg'
+      icon: '/vibration-plate-fav-icon.png'
     },
   };
 }

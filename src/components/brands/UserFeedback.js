@@ -832,7 +832,7 @@ const feedbackData = {
         rating: 5,
         comment: 'Just received mine—and it is top-tier! Build quality is excellent, and the motor runs smooth and silent.!',
         date: '5 min ago',
-
+ 
       },
       {
         id: 32,
@@ -841,7 +841,7 @@ const feedbackData = {
         rating: 5,
         comment: 'Comfort levels are outstanding—very gentle on my knees. The setup guide could be clearer, though.',
         date: 'a day ago',
-
+ 
       },
       {
         id: 33,
@@ -850,7 +850,7 @@ const feedbackData = {
         rating: 5,
         comment: 'Three months of daily use, and it performs flawlessly. The incline works great, and the belt remains smooth.',
         date: ' 3 days ago',
-
+ 
       },
       // {
       //   id: 34,
@@ -859,7 +859,7 @@ const feedbackData = {
       //   rating: 5,
       //   comment: 'High-quality build and great value for money. I use it almost daily and feel fitter.',
       //   date: 'a week ago',
-
+ 
       // },
       // {
       //   id: 35,
@@ -868,54 +868,39 @@ const feedbackData = {
       //   rating: 5,
       //   comment: 'I was surprised by how stable thevibration plate is. It feels secure even when I train on it for longer periods.',
       //   date: 'a month ago',
-
+ 
       // }
     ],
     de: [
       {
         id: 31,
-        name: 'Sophie B.',
-        avatar: 'SB',
-        rating: 5,
-        comment: 'Super stabil und leise, passt perfekt unter den Schreibtisch. Ideal für den ganzen Tag im Home-Office!',
+        name: 'Lukas',
+        avatar: 'L',
+        rating: 4,
+        comment: 'Die 4D-Vibrationstechnologie fühlt sich deutlich intensiver an als bei meiner alten Vibrationsplatte. Besonders die verschiedenen Trainingsmodi sorgen für mehr Abwechslung und ein effektiveres Ganzkörpertraining.',
         date: 'Vor 5 Minuten',
-
+ 
       },
       {
         id: 32,
-        name: 'David S.',
-        avatar: 'DS',
-        rating: 5,
-        comment: 'Einfache Montage, tolle App-Tracking – merke direkt den Fitness-Boost. Empfehlung pur!',
+        name: 'Marie ',
+        avatar: 'M',
+        rating: 4,
+        comment: 'Sehr hochwertiges Design und überraschend leiser Betrieb trotz der starken Motorleistung. Die App-Steuerung funktioniert gut, allerdings braucht man etwas Zeit, um alle Programme kennenzulernen.',
         date: 'vor einem Tag',
-
+ 
       },
       {
         id: 33,
-        name: 'Laura H.',
-        avatar: 'LH',
-        rating: 5,
-        comment: 'Kompakt, leicht zu verstauen und motiviert täglich. Beste Investition für mehr Bewegung!',
+        name: 'Daniel',
+        avatar: 'D',
+        rating: 3,
+        comment: 'Die Kombination aus Oszillation, linearer Bewegung und Vibration macht das Training deutlich dynamischer. Schon nach wenigen Wochen merke ich eine bessere Muskelaktivierung und mehr Stabilität.',
         date: 'Vor 3 Tagen',
-      },
-      {
-        id: 34,
-        name: 'Jonas P',
-        avatar: 'JP',
-        rating: 5,
-        comment: 'Hochwertige Verarbeitung und tolles Preis-Leistungs-Verhältnis. Nutze es fast täglich.',
-        date: 'vor einer Woche',
-      },
-      {
-        id: 35,
-        name: 'Claudia W',
-        avatar: 'CW',
-        rating: 5,
-        comment: 'Ich war überrascht, wie stabil die Vibrationsplatte ist — auch bei längeren Trainingseinheiten sicher.',
-        date: 'vor einem Monat',
       }
     ]
   },
+ 
 
 
 };

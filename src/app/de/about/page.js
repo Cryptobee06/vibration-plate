@@ -10,7 +10,7 @@ export async function generateMetadata() {
     description: 'Erfahren Sie mehr über unser Expertenteam, rigorose Testmethodik und transparente Bewertungsstandards. Professionelle Laufband-Bewertungen, denen Sie vertrauen können.',
     keywords: 'über Vibrationsplattentests-Bewertungen, Experten-Test Team, Bewertungsmethodik, Fitnessgeräte Standards',
     icons: {
-      icon: '/VibrationPlateTestlogosvg-blue.svg'
+      icon: '/vibration-plate-fav-icon.png'
     },
   };
 }

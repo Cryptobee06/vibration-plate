@@ -17,7 +17,7 @@ const blogPosts = [
     },
     date: {
       en: 'Jan 15, 2025',
-      de: '15. Jan 2025'
+      de: '15. Januar 2025'
     },
     image: '/Assets/blog-vibrationplate-5.png'
   },
@@ -34,7 +34,7 @@ const blogPosts = [
     },
     date: {
       en: 'Jan 10, 2025',
-      de: '10. Jan 2025'
+      de: '10. Januar 2025'
     },
     image: '/Assets/blog-vibrationplate-2.png'
   },
@@ -51,7 +51,7 @@ const blogPosts = [
     },
     date: {
       en: 'Jan 5, 2025',
-      de: '5. Jan 2025'
+      de: '5. Januar 2025'
     },
     image: '/Assets/blog-vibrationplate-3.jpg'
   }

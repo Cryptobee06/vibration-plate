@@ -8,7 +8,7 @@ export async function generateMetadata() {
     description: 'Comprehensive vibration plate reviews and ratings from fitness experts. Compare top brands and models to find the perfect vibration plate for your home gym.',
     keywords: 'vibration plate reviews 2025, best vibration plate, vibration plate comparison, fitness equipment reviews',
     icons: {
-      icon: '/VibrationPlateTestlogosvg-blue.svg'
+      icon: '/vibration-plate-fav-icon.png'
     },
   };
 }

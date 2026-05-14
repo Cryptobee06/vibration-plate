@@ -87,12 +87,12 @@ const testData = {
       },
     },
     individualReview: {
-      title: "Einzelne Bewertung: Sportstech VP500 mit 5 % Steigung",
+      title: "Einzeltest: Sportstech Vibrationsplatte – Testsieger 2025",
       modelName: "Sportstech VP500",
       verdict: "Hervorragend für Homeoffice‑Vibration Plate und tägliche Nutzung",
       rating: 5.0,
       publishDate: "Februar 2026",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Erweiterte Tests",
       testCriteria: {
@@ -188,7 +188,7 @@ const testData = {
       verdict: "Perfekt für Büro & Zuhause",
       rating: 5.0,
       publishDate: "Januar 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Erweiterte Tests",
       testCriteria: {
@@ -284,7 +284,7 @@ const testData = {
       verdict: "Nicht empfohlen für regelmäßigen Gebrauch",
       rating: 2.0,
       publishDate: "Januar 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Erweiterte Tests",
       testCriteria: {
@@ -385,7 +385,7 @@ const testData = {
       verdict: "Keine Empfehlung für jegliche Nutzung",
       rating: 1.5,
       publishDate: "Januar 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Langzeittest",
       testCriteria: {
@@ -481,12 +481,12 @@ const testData = {
       },
     },
     individualReview: {
-      title: "Superun B,A06-C Vibrationsplatte",
+      title: "Superun Vibrationsplatte",
       modelName: "Superun Raceable",
       verdict: "Nicht für Büro geeignet",
       rating: 2.0,
       publishDate: "Januar 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Fitnesstrainer",
       testDuration: "Langzeittest",
       testCriteria: {
@@ -587,7 +587,7 @@ const testData = {
       verdict: "Kompaktes Multitalent für Zuhause und Büro",
       rating: 4.2,
       publishDate: "Januar 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "2 Wochen Alltagseinsatz im Homeoffice",
       testCriteria: {
@@ -690,7 +690,7 @@ const testData = {
       verdict: "Stark für Homeoffice & Tech-Fans",
       rating: 5.0,
       publishDate: "April 2025 ",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Erweiterte Tests",
       testCriteria: {
@@ -787,7 +787,7 @@ const testData = {
       verdict: "Top für Büro & gelenkschonendes vibration plate",
       rating: 5.0,
       publishDate: "März 2025 ",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Erweiterte Tests",
       testCriteria: {
@@ -885,7 +885,7 @@ const testData = {
       verdict: "Für vibration plate & moderates Joggen – mit Einschränkungen",
       rating: 5.0,
       publishDate: "Januar 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Erweiterte Tests",
       testCriteria: {
@@ -986,7 +986,7 @@ const testData = {
       verdict: "Gut für Homeoffice-vibration plate und leichte Nutzung",
       rating: 5.0,
       publishDate: "Februar 2025",
-      author: "Steve Austin",
+      author: "Dr. Marcus Breitner",
       expertise: "Zertifizierter Personal Trainer",
       testDuration: "Erweiterte Tests",
       testCriteria: {
@@ -1078,13 +1078,13 @@ export default function TestingProcessPage() {
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-2xl md:text-5xl font-bold text-gray-900 mb-6">
               Wie unsere Experten Vibrationsplatten bewerten 
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Unser Vibrationsplatten-Experte
-              <span className="font-semibold text-gray-900">Steve Austin</span>,
-              Unser Experte, Dr. Marcus Breitner, testet Vibrationsplatten, um ehrliche und ausführliche Bewertungen bereitzustellen.
+              Unser Vibrationsplatten-Experte,
+              <span className="font-semibold text-gray-900 ml-2">Dr. Marcus Breitner</span>,
+              testet Vibrationsplatten, um ehrliche und ausführliche Bewertungen bereitzustellen.
             </p>
           </div>
 
@@ -1103,7 +1103,7 @@ export default function TestingProcessPage() {
                     Bei Vibration Plate Reviews
                   </strong>
                    verfolgen wir eine klare Überzeugung: Verbraucher verdienen unabhängige, praxisnahe Empfehlungen – keine kopierten Marketingversprechen. Deshalb basiert unser gesamter Bewertungsprozess auf einem einfachen Prinzip: Jedes Gerät wird genauso getestet, wie es echte Menschen zu Hause nutzen.
-                  <strong className="text-gray-900">Steve Austin</strong>,
+                  <strong className="text-gray-900">Dr. Marcus Breitner</strong>,
                   damit beauftragt, praxisnahe Vibrationsplatten-Bewertungen der führenden Vibrationsplatten-Marken der Branche durchzuführen.
                 </p>
                 <p className="text-gray-600">
@@ -1133,10 +1133,10 @@ In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend is
       {/* Brand Selection */}
       <div className="max-w-8xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-4">
             Top-bewertete Vibrationsplatten Marken — Getestet auf Leistung & Komfort 
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-md md:text-lg text-gray-600">
             Vergleichen Sie detaillierte Testergebnisse aus allen Kategorien. Verfügbare Markenmodelle:
           </p>
         </div>
@@ -1589,7 +1589,7 @@ In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend is
                   <h2 className="text-3xl font-bold text-gray-900 mb-3">
                     Käuferleitfaden — Worauf Sie bei einer Vibrationsplatte achten sollten
                   </h2>
-                  <p className="text-lg text-gray-600">
+                  <p className="text-md md:text-lg text-gray-600">
                     Wichtige Funktionen, die Sie bei der Wahl Ihresvibration plates
                     berücksichtigen sollten
                   </p>

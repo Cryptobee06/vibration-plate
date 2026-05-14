@@ -22,7 +22,7 @@ export default function AboutHero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6 drop-shadow-sm">
+        <h1 className="text-2xl md:text-5xl font-extrabold text-white leading-tight mb-6 drop-shadow-sm">
           {t('title')}
         </h1>
         <p className="text-lg md:text-xl text-white max-w-2xl mx-auto leading-relaxed">

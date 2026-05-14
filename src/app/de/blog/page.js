@@ -8,7 +8,7 @@ export async function generateMetadata() {
     keywords:
       'fitness blog, treadmill training, workout tips, fitness technology, running advice',
     icons: {
-      icon: '/VibrationPlateTestlogosvg-blue.svg'
+      icon: '/vibration-plate-fav-icon.png'
     },
   };
 }

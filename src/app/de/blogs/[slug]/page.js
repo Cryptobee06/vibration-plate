@@ -136,7 +136,7 @@ Der Schlüssel für erfolgreichen Gewichtsverlust durch Vibration Plate-Workouts
       en: "Training",
       de: "Training",
     },
-    author: "Steve Austin",
+    author: "Dr. Marcus Breitner",
     readTime: {
       en: "8 min read",
       de: "8 Min. Lesezeit",
@@ -230,7 +230,7 @@ export default function BlogPost({ params }) {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-50 to-primary-100 py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
+          <div className="text-center ml-2">
             {/* Category */}
             <span className="inline-block px-3 py-1 bg-primary-600 text-white text-sm font-medium rounded-full mb-4">
               {post.category[locale]}
@@ -244,9 +244,9 @@ export default function BlogPost({ params }) {
             {/* Meta */}
             <div className="flex items-center justify-center space-x-4 text-gray-600">
               <span>By {post.author}</span>
-              <span>•</span>
+             
               <span>{formatDate(post.publishDate, locale)}</span>
-              <span>•</span>
+              
               <span>{post.readTime[locale]}</span>
             </div>
           </div>

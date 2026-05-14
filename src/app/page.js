@@ -19,7 +19,7 @@ export async function generateMetadata() {
       type: 'website',
     },
     icons: {
-      icon: '/VibrationPlateTestlogosvg-blue.svg'
+      icon: '/vibration-plate-fav-icon.png'
     },
   };
 }

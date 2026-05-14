@@ -266,7 +266,7 @@ Wenn du deine Fitnessziele im Jahr 2026 smarter und effizienter erreichen möcht
       en: 'Training',
       de: 'Training'
     },
-    author: 'Steve Austin',
+    author: 'Dr. Marcus Breitner',
     readTime: {
       en: '8 min read',
       de: '8 Min. Lesezeit'
@@ -714,9 +714,9 @@ export default function BlogPost({ params }) {
             {/* Meta */}
             <div className="flex items-center justify-center space-x-4 ">
               <span>Von {post.author}</span>
-              <span>•</span>
+           
               <span>{formatDate(post.publishDate, locale)}</span>
-              <span>•</span>
+            
               <span>{post.readTime[locale]}</span>
             </div>
           </div>

@@ -66,7 +66,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               <li>
-                <Link href={`${getBasePath()}/reviews`} className="text-gray-300 hover:text-primary-400 transition-colors">
+                <Link href={`${getBasePath()}/reviews?category=amateur`} className="text-gray-300 hover:text-primary-400 transition-colors">
                   {t('treadmillReviews')}
                 </Link>
               </li>

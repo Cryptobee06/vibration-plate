@@ -3,7 +3,7 @@ import { useTranslations, useLocale } from '@/contexts/LanguageContext';
 
 const standards = [
   {
-    id: 'performanceTesting',
+    id: 'performance Testing',
     icon: '⚡',
     color: 'bg-yellow-100 text-yellow-700',
     content: {
@@ -14,7 +14,7 @@ const standards = [
 
   },
   {
-    id: 'durabilityChecks',
+    id: 'durability Checks',
     icon: '🔧',
     color: 'bg-blue-100 text-blue-700',
     content: {
@@ -25,7 +25,7 @@ const standards = [
     //  content:"Products are evaluated over time for wear, stability, and consistency—so you know they’ll last beyond the initial shine."
   },
   {
-    id: 'userFeedback',
+    id: 'user Feedback',
     icon: '💬',
     color: 'bg-green-100 text-green-700',
     content: {
@@ -36,7 +36,7 @@ const standards = [
     //  content:""
   },
   {
-    id: 'expertVerified',
+    id: 'expert Verified',
     icon: '✓',
     color: 'bg-purple-100 text-purple-700',
     content: {
@@ -47,7 +47,7 @@ const standards = [
     //  content:""
   },
   {
-    id: 'transparentScoring',
+    id: 'transparent Scoring',
     icon: '📈',
     color: 'bg-red-100 text-red-700',
     content: {

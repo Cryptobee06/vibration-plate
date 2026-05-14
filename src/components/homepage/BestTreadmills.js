@@ -22,7 +22,7 @@ const treadmillsData = [
   {
     id: "Citysports",
     brand: "Citysports",
-    model: "CS-WP6",
+    model: "Vibration plate",
     image:
       "/vibration-img2.webp",
     rating: 4.0,
@@ -33,7 +33,7 @@ const treadmillsData = [
   {
     id: "Superun",
     brand: "Superun",
-    model: "B,A06-С",
+    model: "vibration plate",
     image:
       "/vibration-img10.webp",
     rating: 3.9,
@@ -65,7 +65,7 @@ const treadmillsData = [
     id: "Cazvian",
     brand: "Cazvian",
     model: "Vibration Plate ",
-    image: "/vibration-img9.webp",
+    image: "/vibration-img9.jpg",
     rating: 3.7,
     badge: "",
     badgeColor: "bg-red-500",
@@ -110,7 +110,7 @@ export default function BestTreadmills() {
     <section id="best-treadmills" className="py-24 bg-gray-100 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-4">
             {t("title")}
           </h2>
           {/* <div>            <a  className="text-gray-300 hover:text-primary-400 transition-colors" href='/warning'>hello</a></div> */}

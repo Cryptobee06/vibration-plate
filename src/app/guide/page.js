@@ -10,7 +10,7 @@ export async function generateMetadata() {
     description: 'Complete vibration plate guide with expert tips on motor power, belt size, incline settings, and more. Make the right choice for your fitness goals.',
     keywords: 'vibration plate guide, treadmill features, motor power, belt size, incline settings, home treadmill advice',
     icons: {
-      icon: '/VibrationPlateTestlogosvg-blue.svg'
+      icon: '/vibration-plate-fav-icon.png'
     },
   };
 }

@@ -150,11 +150,11 @@
     },
     "reviewStandards": {
       "title": "Unsere Test-Standards",
-      "performanceTesting": "Leistungsbasierte Tests",
-      "durabilityChecks": "Langzeit-Haltbarkeitsprüfungen",
-      "userFeedback": "Echtes Nutzer-Feedback",
-      "expertVerified": "Experten-verifizierte Ergebnisse",
-      "transparentScoring": "Transparentes Bewertungssystem"
+      "performance Testing": "Leistungsbasierte Tests",
+      "durability Checks": "Langzeit-Haltbarkeitsprüfungen",
+      "user Feedback": "Echtes Nutzer-Feedback",
+      "expert Verified": "Experten-verifizierte Ergebnisse",
+      "transparent Scoring": "Transparentes Bewertungssystem"
     },
     "whoWeAre": {
       "title": "Wer wir sind",

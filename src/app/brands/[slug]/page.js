@@ -260,7 +260,7 @@ const brandData = {
     ],
     productDescription: {
       en: {
-        intro: "The Citysports CS-WP6 is an affordable, user-friendly vibration plate with a quiet motor, shock-absorbing surface, and handy remote control. The compact design fits small spaces and stores effortlessly. For first-time users and occasional athletes, it offers a compelling overall package of comfort, simplicity, and reliability.",
+        intro: "The Citysports Vibration plate is an affordable, user-friendly vibration plate with a quiet motor, shock-absorbing surface, and handy remote control. The compact design fits small spaces and stores effortlessly. For first-time users and occasional athletes, it offers a compelling overall package of comfort, simplicity, and reliability.",
         cards: [
         ]
       }
@@ -311,11 +311,11 @@ const brandData = {
       ],
     },
 
-    model: "CS-WP6",
+    model: "Vibration plate",
     logo: "/images/brands/nordictrack-logo.png",
     description: {
-      en: "Citysports brings functionality and convenience to your home or office workout routine with the CS-WP6 vibration plate. Built for quiet operation and compact storage, it’s a smart choice for users looking to stay active while working or managing tight spaces.",
-      de: "Das Citysports CS-WP6vibration plate ist ein beliebter Vertreter im Bereich Under-Desk vibration plates, häufig in vibration plate-Tests und Laufband-Kaufberatung genannt. Ideal für Homeoffice oder begrenzten Raum, punktet es mit kompakter Bauweise, klappbarer Unterbringung und einem attraktiven Preis-Leistungs-Verhältnis.",
+      en: "Citysports brings functionality and convenience to your home or office workout routine with the vibration plate. Built for quiet operation and compact storage, it’s a smart choice for users looking to stay active while working or managing tight spaces.",
+      de: "Das Citysports vibrationsplate ist ein beliebter Vertreter im Bereich Under-Desk vibration plates, häufig in vibration plate-Tests und Laufband-Kaufberatung genannt. Ideal für Homeoffice oder begrenzten Raum, punktet es mit kompakter Bauweise, klappbarer Unterbringung und einem attraktiven Preis-Leistungs-Verhältnis.",
     },
 
     bannerImage:
@@ -376,7 +376,7 @@ const brandData = {
           de: "Kann man auf dem Citysportsvibration plate joggen?",
         },
         answer: {
-          en: "The CS-WP6 tops out at 6 km/h — better suited for vibration plate sessions than jogging.",
+          en: "The Vibration plate tops out at 6 km/h — better suited for vibration plate sessions than jogging.",
           de: "Das Gerät ist hauptsächlich für Vibration Plate und leichte Trainingseinheiten konzipiert.",
         }
       },
@@ -414,7 +414,7 @@ const brandData = {
     targetAudience: {
       en: {
         title: "Who Is This Product For?",
-        intro: "The CS-WP6 targets home office professionals, first-time buyers, and occasional users seeking a reliable, affordable solution without compromising quality. For more ambitious training, we recommend the sVibe or comparable professional models.",
+        intro: "The vibration plate targets home office professionals, first-time buyers, and occasional users seeking a reliable, affordable solution without compromising quality. For more ambitious training, we recommend the sVibe or comparable professional models.",
         suitableForLabel: "The Sportstech VP500 is especially suitable for:",
         suitableFor: [
           "Ideal for apartment users who want a compact vibration plate with low-noise daily workout performance",
@@ -474,8 +474,8 @@ const brandData = {
       }
     },
     verdict: {
-      en: "The Citysports CS-WP6 stands out as an affordable, fuss-free vibration plate that fits small spaces without sacrificing quiet, reliable performance. Ideal for professionals working from home, light users, or first-time buyers.",
-      de: "Das Citysports CS-WP6 bietet als Under-Desk Vibration plate eine praktische und günstige Einstiegslösung für tägliche Bewegung. Es überzeugt durch leisen Betrieb, einfache Bedienbarkeit und transportfreundliches Design. Wer gelegentlich und platzsparend trainieren will, findet hier eine solide Lösung – auch wenn Profis oder intensivere Nutzer ggf. ein Laufband mit längerer Lauffläche oder mehr Speed bevorzugen.",
+      en: "The Citysports stands out as an affordable, fuss-free vibration plate that fits small spaces without sacrificing quiet, reliable performance. Ideal for professionals working from home, light users, or first-time buyers.",
+      de: "Das Citysports bietet als Under-Desk Vibration plate eine praktische und günstige Einstiegslösung für tägliche Bewegung. Es überzeugt durch leisen Betrieb, einfache Bedienbarkeit und transportfreundliches Design. Wer gelegentlich und platzsparend trainieren will, findet hier eine solide Lösung – auch wenn Profis oder intensivere Nutzer ggf. ein Laufband mit längerer Lauffläche oder mehr Speed bevorzugen.",
     },
     rating: 4.0,
     // buyLink: 'https://www.city-sports.eu/collections/treadmill/products/citysports-under-desk-treadmill-citysports-laufband-citysports-treadmill-citysports-tapis-roulant-citysports-tapis-de-course?spm=..collection_c6816f06-4986-4263-97d0-4377c49999a8.collection_detail_1.9&spm_prev=..index.header_1.1'
@@ -720,7 +720,7 @@ const brandData = {
     ],
     productDescription: {
       en: {
-        intro: "The Superrun B,A06-C stands out through its unique combination of vibration training plate and integrated shiatsu massage function. The compact under-desk design, quiet motor, and shock-absorbing surface make it a versatile wellness station for home and office. The LED display delivers all relevant training data without distraction.",
+        intro: "The Superrun vibration plate stands out through its unique combination of vibration training plate and integrated shiatsu massage function. The compact under-desk design, quiet motor, and shock-absorbing surface make it a versatile wellness station for home and office. The LED display delivers all relevant training data without distraction.",
         cards: [
         ]
       }
@@ -767,7 +767,7 @@ const brandData = {
       ],
     },
 
-    model: "B,A06-С",
+    model: "Vibration Plate",
     logo: "/images/brands/horizon-logo.png",
     description: {
       en: "The Superrun vibration plate blends innovation with convenience. Designed as a compact under-desk vibration plate, it delivers solid performance and quiet operation — perfect for home offices, small apartments, or busy workspaces.",
@@ -910,7 +910,7 @@ const brandData = {
             "Daily Fitness and Recovery Support"
           ]
         },
-        outro: "The Superun B,A06-C vibration plate combines compact design, effective vibration technology, and convenient everyday usability for modern home fitness users. It is an ideal solution for people looking to improve activity levels, support muscle engagement, and maintain consistent workout routines from the comfort of home."
+        outro: "The Superun vibration plate combines compact design, effective vibration technology, and convenient everyday usability for modern home fitness users. It is an ideal solution for people looking to improve activity levels, support muscle engagement, and maintain consistent workout routines from the comfort of home."
       }
     },
     conclusionEvaluation: {
@@ -1462,7 +1462,7 @@ Homefitnesscode  : {
     ],
     productDescription: {
       en: {
-        intro: "The Copant Raceable is a slim, foldable vibration plate with integrated app control designed for light home and office sessions. The 2.5 HP motor delivers a consistent speed range of 1 to 6 km/h. Thanks to the remote control and smartphone app, speed and settings can be conveniently adjusted. The foldable frame requires minimal space and is ready to use immediately without complex installation.",
+        intro: "The Copant is a slim, foldable vibration plate with integrated app control designed for light home and office sessions. The 2.5 HP motor delivers a consistent speed range of 1 to 6 km/h. Thanks to the remote control and smartphone app, speed and settings can be conveniently adjusted. The foldable frame requires minimal space and is ready to use immediately without complex installation.",
         cards: [
           
         ]
@@ -1509,10 +1509,10 @@ Homefitnesscode  : {
     },
 
     // name: 'Sportstech',
-    model: "Raceable vibration plate",
+    model: "Vibration Plate",
     logo: "/images/brands/treadmill1.jpg",
     description: {
-      en: "The Copant Raceable is a slim, app-connected vibration plate designed for light home and office vibration sessions. Compact and foldable, it fits perfectly in small spaces — but due to a limited speed range and shorter vibration deck, it is not intended for jogging or advanced workouts. ",
+      en: "The Copant is a slim, app-connected vibration plate designed for light home and office vibration sessions. Compact and foldable, it fits perfectly in small spaces — but due to a limited speed range and shorter vibration deck, it is not intended for jogging or advanced workouts. ",
       de: "Die innovativen Fitnessgeräte von Sportstech, insbesondere das Vibration plate, stehen für durchdachtes Home-Fitness-Design. Mit smarten Funktionen wie App-Konnektivität, leiser Performance und platzsparender Bauweise gehört Sportstech zu den beliebtesten Marken imVibration plate-Vergleich.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
@@ -1585,7 +1585,7 @@ Homefitnesscode  : {
           de: "Kann man auf diesem Gerät joggen?",
         },
         answer: {
-          en: "The 6 km/h top speed is best for vibration plate and light jogging — not sustained running.",
+          en: "Yes — you can jog on some vibration plates, but it depends on the type of plate and how stable/experienced you are.",
           de: "Die Maximalgeschwindigkeit von 6 km/h macht es eher für Vibration oder schnelles Walken als für Joggen geeignet.",
         }
       },
@@ -1690,7 +1690,7 @@ Homefitnesscode  : {
     ],
     productDescription: {
       en: {
-        intro: "The Merach T26B1 is a compact 3-in-1 vibration plate combining under-desk movement, light jogging, and standard vibration plate. With a foldable frame, integrated hand pulse sensors, and approximately 6% incline, it offers versatile training options in a minimal footprint. The 2.75 HP motor and multi-function LCD display with heart rate readout stand out in the amateur segment",
+        intro: "The Merach vibration plate is a compact 3-in-1 vibration plate combining under-desk movement, light jogging, and standard vibration plate. With a foldable frame, integrated hand pulse sensors, and approximately 6% incline, it offers versatile training options in a minimal footprint. The 2.75 HP motor and multi-function LCD display with heart rate readout stand out in the amateur segment",
         cards: [
           
         ]
@@ -1759,10 +1759,10 @@ Homefitnesscode  : {
     },
 
     // name: 'Sportstech',
-    model: "T26B1",
+    model: "Vibration plate",
     logo: "/images/brands/treadmill1.jpg",
     description: {
-      en: "The Merach T26B1 is a compact 3-in-1 vibration plate designed for vibration, light jogging, and under-desk movement.Built for home users who need flexibility and minimal space usage, it can be used flat like a vibration plate or with handles for light vibration plate workouts. The limited speed range and smaller running area make it less suitable for intensive sessions. ",
+      en: "The Merach vibration plate is a compact 3-in-1 vibration plate designed for vibration, light jogging, and under-desk movement.Built for home users who need flexibility and minimal space usage, it can be used flat like a vibration plate or with handles for light vibration plate workouts. The limited speed range and smaller running area make it less suitable for intensive sessions. ",
       de: "Die innovativen Fitnessgeräte von Sportstech, insbesondere das Vibration plate, stehen für durchdachtes Home-Fitness-Design. Mit smarten Funktionen wie App-Konnektivität, leiser Performance und platzsparender Bauweise gehört Sportstech zu den beliebtesten Marken imVibration plate-Vergleich.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
@@ -2428,7 +2428,7 @@ export async function generateMetadata({ params }) {
     description: brand.description[locale],
     keywords: `${brand.name}, ${brand.model}, Vibration plate review, fitness equipment test`,
     icons: {
-      icon: "/VibrationPlateTestlogosvg-blue.svg",
+      icon: "/vibration-plate-fav-icon.png",
     },
   };
 }

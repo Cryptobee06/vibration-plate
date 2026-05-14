@@ -151,11 +151,11 @@
     },
     "reviewStandards": {
       "title": "Our Review Standards",
-      "performanceTesting": "Performance-Based Testing",
-      "durabilityChecks": "Long-Term Durability Checks",
-      "userFeedback": "Real User Feedback",
-      "expertVerified": "Expert-Verified Results",
-      "transparentScoring": "Transparent Scoring System"
+      "performance Testing": "Performance-Based Testing",
+      "durability Checks": "Long-Term Durability Checks",
+      "user Feedback": "Real User Feedback",
+      "expert Verified": "Expert-Verified Results",
+      "transparent Scoring": "Transparent Scoring System"
     },
     "whoWeAre": {
       "title": "Who We Are",
