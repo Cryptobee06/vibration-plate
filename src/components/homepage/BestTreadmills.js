@@ -22,7 +22,7 @@ const treadmillsData = [
   {
     id: "Citysports",
     brand: "Citysports",
-    model: "CS-WP6",
+    model: "Vibration plate",
     image:
       "/vibration-img2.webp",
     rating: 4.0,
@@ -33,7 +33,7 @@ const treadmillsData = [
   {
     id: "Superun",
     brand: "Superun",
-    model: "B,A06-С",
+    model: "vibration plate",
     image:
       "/vibration-img10.webp",
     rating: 3.9,
@@ -54,9 +54,9 @@ const treadmillsData = [
   },
   {
     id: "Cursor",
-    brand: "Cursor",
-    model: "Vibration Plate",
-    image: "/vibration-img4.webp",
+    brand: "Home",
+    model: "Fitness Code",
+    image: "/vibration-plate-4.png",
     rating: 3.8,
     badge: "",
     badgeColor: "bg-red-500",
@@ -65,7 +65,7 @@ const treadmillsData = [
     id: "Cazvian",
     brand: "Cazvian",
     model: "Vibration Plate ",
-    image: "/vibration-img9.webp",
+    image: "/vibration-img9.jpg",
     rating: 3.7,
     badge: "",
     badgeColor: "bg-red-500",
