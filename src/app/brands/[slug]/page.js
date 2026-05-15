@@ -1178,10 +1178,10 @@ Homefitnesscode  : {
     name: "Sportstechwalkmate",
     images: [
       "/Assets/sportstech-vibration-plate-1.png",
-      "/Assets/Sportstech-Vibration-Plate-2.jpg",
-      "/Assets/Sportstech-Vibration-Plate-3.jpg",
-      "/Assets/Sportstech-Vibration-Plate-4.png",
-      "/Assets/Sportstech-Vibration-Plate-5.png",
+      "/Assets/sportstech-vibration-plate-2.jpg",
+      "/Assets/sportstech-vibration-plate-3.jpg",
+      "/Assets/sportstech-vibration-plate-4.png",
+      "/Assets/sportstech-vibration-plate-5.png",
     ],
     productDescription: {
       en: {
