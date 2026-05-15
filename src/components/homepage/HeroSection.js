@@ -39,7 +39,7 @@ export default function HeroSection() {
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Link
-              href={locale === 'de' ? '/de#best-treadmills' : '/#best-treadmills'}
+              href={locale === 'de' ? '/de#best-vibration-plate' : '/#best-vibration-plate'}
               className="w-full sm:w-auto bg-white text-[#a13131] px-8 py-4 rounded-xl text-lg font-semibold shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center gap-2"
               aria-label={t('bestTreadmills.title')}
             >

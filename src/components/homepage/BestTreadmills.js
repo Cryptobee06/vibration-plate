@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from "next/link";
-
+ 
 const treadmillsData = [
   {
     id: "sportstech",
@@ -22,7 +22,7 @@ const treadmillsData = [
   {
     id: "Citysports",
     brand: "Citysports",
-    model: "Vibration plate",
+    model: "CS-WP6",
     image:
       "/vibration-img2.webp",
     rating: 4.0,
@@ -33,7 +33,7 @@ const treadmillsData = [
   {
     id: "Superun",
     brand: "Superun",
-    model: "vibration plate",
+    model: "B,A06-С",
     image:
       "/vibration-img10.webp",
     rating: 3.9,
@@ -54,9 +54,9 @@ const treadmillsData = [
   },
   {
     id: "Cursor",
-    brand: "Home",
-    model: "Fitness Code",
-    image: "/vibration-plate-4.png",
+    brand: "Cursor",
+    model: "Vibration Plate",
+    image: "/vibration-img4.webp",
     rating: 3.8,
     badge: "",
     badgeColor: "bg-red-500",
@@ -65,25 +65,25 @@ const treadmillsData = [
     id: "Cazvian",
     brand: "Cazvian",
     model: "Vibration Plate ",
-    image: "/vibration-img9.jpg",
+    image: "/vibration-img9.webp",
     rating: 3.7,
     badge: "",
     badgeColor: "bg-red-500",
   },
 ];
-
+ 
 const getBadgeText = (badgeType, t) => {
   if (badgeType === "testWinner") {
     return t("sportstech.badge");
   }
   return "";
 };
-
+ 
 const StarRating = ({ rating }) => {
   const fullStars = Math.floor(rating);
   const hasHalfStar = rating % 1 !== 0;
   const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
-
+ 
   return (
     <div className="flex items-center space-x-1 mt-2">
       {[...Array(fullStars)].map((_, i) => (
@@ -101,16 +101,16 @@ const StarRating = ({ rating }) => {
     </div>
   );
 };
-
+ 
 export default function BestTreadmills() {
   const t = useTranslations("homepage.bestTreadmills");
   const locale = useLocale();
-
+ 
   return (
-    <section id="best-treadmills" className="py-24 bg-gray-100 relative">
+    <section id="best-vibration-plate" className="py-24 bg-gray-100 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
-          <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             {t("title")}
           </h2>
           {/* <div>            <a  className="text-gray-300 hover:text-primary-400 transition-colors" href='/warning'>hello</a></div> */}
@@ -160,7 +160,7 @@ export default function BestTreadmills() {
                     className="w-full h-60 object-contain bg-white p-5"
                   />
                 </div>
-
+ 
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-lg font-semibold text-gray-900 mb-1">
                     {treadmill.brand} {treadmill.model}
