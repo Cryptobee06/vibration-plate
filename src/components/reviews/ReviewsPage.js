@@ -16,7 +16,7 @@ const allWalkingpadsData = [
     category: "both",
     badge: { en: "Test Winner 2025", de: "Testsieger 2025" },
     badgeColor: "bg-green-500",
-    image: "/vibration-vp500-1.png",
+    image: "/Am-Vibration-img4.png",
     price: "599.00",
     originalPrice: null,
     features: {
@@ -154,7 +154,7 @@ const allWalkingpadsData = [
     category: "amateur",
     badge: { en: "Test Winner 2025", de: "Testsieger 2025" },
     badgeColor: "bg-green-500",
-    image: "/vibration-img8.jpg",
+    image: "/Am-Vibration-img1.png",
     price: "599.00",
     originalPrice: null,
     features: {
@@ -177,7 +177,7 @@ const allWalkingpadsData = [
     category: "amateur",
     badge: { en: "Test Winner 2025", de: "Testsieger 2025" },
     badgeColor: "bg-green-500",
-    image: "/vibration-img1.jpg",
+    image: "/Am-Vibration-img3.png",
     price: "599.00",
     originalPrice: null,
     features: {
@@ -200,7 +200,7 @@ const allWalkingpadsData = [
     category: "amateur",
     badge: { en: "Test Winner 2025", de: "Testsieger 2025" },
     badgeColor: "bg-green-500",
-    image: "/vibration-plate-4.png",
+    image: "/Am-Vibration-img2.png",
     price: "599.00",
     originalPrice: null,
     features: {
@@ -223,7 +223,7 @@ const allWalkingpadsData = [
     category: "amateur",
     badge: { en: "Test Winner 2025", de: "Testsieger 2025" },
     badgeColor: "bg-green-500",
-    image: "/vibration-img9.jpg",
+    image: "/Am-Vibration-img5.png",
     price: "599.00",
     originalPrice: null,
     features: {
