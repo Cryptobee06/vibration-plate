@@ -39,7 +39,7 @@ const allWalkingpadsData = [
     category: "advanced",
     badge: { en: "", de: "" },
     badgeColor: "bg-blue-500",
-    image: "/vibration-img2.webp",
+    image: "/City-Vibration-img-13.png",
     price: "299.00",
     originalPrice: "349.00",
     features: {
@@ -108,7 +108,7 @@ const allWalkingpadsData = [
     category: "advanced",
     badge: { en: "", de: "" },
     badgeColor: "bg-teal-500",
-    image: "/vibration-plate-5.png",
+    image: "/Evok-Vibration-img12.png",
     price: "379.00",
     originalPrice: "429.00",
     features: {
@@ -154,7 +154,7 @@ const allWalkingpadsData = [
     category: "amateur",
     badge: { en: "Test Winner 2025", de: "Testsieger 2025" },
     badgeColor: "bg-green-500",
-    image: "/Am-Vibration-img1.png",
+    image: "/Am-Vibration-img2.png",
     price: "599.00",
     originalPrice: null,
     features: {
@@ -200,7 +200,7 @@ const allWalkingpadsData = [
     category: "amateur",
     badge: { en: "Test Winner 2025", de: "Testsieger 2025" },
     badgeColor: "bg-green-500",
-    image: "/Am-Vibration-img2.png",
+    image: "/Am-Vibration-img1.png",
     price: "599.00",
     originalPrice: null,
     features: {

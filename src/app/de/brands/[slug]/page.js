@@ -148,7 +148,7 @@ const brandData = {
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
-      "/Assets/sports-vibration-plate-Banner-2.png",
+      "/Assets/VP500-Banner-image.jpg",
     // features: {
     //   en: 'The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech F15 verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'
@@ -376,7 +376,7 @@ const brandData = {
     },
 
     bannerImage:
-      "/Assets/citysports-vibration-plate-Banner-3.png",
+      "/Assets/Citysport-Banner-image.jpg",
 
     pros: {
       en: [
@@ -600,7 +600,7 @@ const brandData = {
     },
 
     bannerImage:
-      "/Assets/Kiddoza-vibrationplate-Banner-5.png",
+      "/Assets/Kiddoza-Banner-image.jpg",
 
     pros: {
       en: [
@@ -823,7 +823,7 @@ const brandData = {
     },
 
     bannerImage:
-      "/Assets/Superun-vibrationplate-Banner-7.png",
+      "/Assets/super-Banner-img.jpg",
 
     pros: {
       en: [
@@ -1053,7 +1053,7 @@ const brandData = {
     },
 
     bannerImage:
-      "/Assets/Cursor-vibrationplate-Banner-3.png",
+      "/Assets/Evospark-banner-image.jpg",
     pros: {
       en: [
         "Commercial-grade build quality",
@@ -1524,7 +1524,7 @@ const brandData = {
     },
 
     bannerImage:
-      "/Assets/Copant-vibrationplate-Banner-2.png",
+      "/Assets/Copant-Banner-image.jpg",
 
     pros: {
       en: [
@@ -2002,7 +2002,7 @@ const brandData = {
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
-      "/Assets/Urevo-vibrationplate-Banner-7.png",
+      "/Assets/Home-Banner-img.jpg",
     // features: {
     //   en: 'The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech F15 verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'
@@ -2230,7 +2230,7 @@ const brandData = {
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
-      "/Assets/Cazvian-vibrationplate-Banner-4.png",
+      "/Assets/Cazvian-Banner-image.jpg",
     // features: {
     //   en: 'The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech F15 verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'

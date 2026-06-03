@@ -83,7 +83,7 @@ const brandData = {
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
     bannerImage:
-      "/Assets/sports-vibration-plate-Banner-2.png",
+      "/Assets/VP500-Banner-image.jpg",
     // features: {
     //   en: 'The Sportstech sWalk features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech sWalk verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'
@@ -319,7 +319,7 @@ const brandData = {
     },
 
     bannerImage:
-      "/Assets/citysports-vibration-plate-Banner-3.png",
+      "/Assets/Citysport-Banner-image.jpg",
 
     pros: {
       en: [
@@ -547,7 +547,7 @@ const brandData = {
     },
 
     bannerImage:
-      "/Assets/Kiddoza-vibrationplate-Banner-5.png",
+      "/Assets/Kiddoza-Banner-image.jpg",
 
     pros: {
       en: [
@@ -775,7 +775,7 @@ const brandData = {
     },
 
     bannerImage:
-      "/Assets/Superun-vibrationplate-Banner-7.png",
+      "/Assets/super-Banner-img.jpg",
 
     pros: {
       en: [
@@ -1019,7 +1019,7 @@ Homefitnesscode  : {
       de: "Urevo ist ein Premium-Fitnessgeräte-Hersteller mit jahrzehntelanger Erfahrung in kommerziellen Fitnessstudios. Das T5 Track Connect bringt kommercielle Qualität in die Heimumgebung.",
     },
 
-    bannerImage: "/Assets/Urevo-vibrationplate-Banner-7.png",
+    bannerImage: "/Assets/Home-Banner-img.jpg",
     pros: {
       en: [
         {
@@ -1516,7 +1516,7 @@ Homefitnesscode  : {
       de: "Die innovativen Fitnessgeräte von Sportstech, insbesondere das Vibration plate, stehen für durchdachtes Home-Fitness-Design. Mit smarten Funktionen wie App-Konnektivität, leiser Performance und platzsparender Bauweise gehört Sportstech zu den beliebtesten Marken imVibration plate-Vergleich.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
-    bannerImage: "/Assets/Copant-vibrationplate-Banner-2.png", // features: {
+    bannerImage: "/Assets/Copant-Banner-image.jpg", // features: {
     //   en: 'The Sportstech sWalk features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech sWalk verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'
     // },
@@ -2002,7 +2002,7 @@ Homefitnesscode  : {
       de: "Das CURSORvibration plate verbindet durchdachtes Design mit starker Leistung.Die 9 - % - Steigung macht das Training intensiver und realistischer,während die dreifache Dämpfung Laufkomfort auf Studio - Niveau bietet Der 2,75 - PS - Motor läuft leise und kraftvoll, wodurch sich das Gerät hervorragend für Wohnungen und Büros eignet Ein weiteres Highlight: Die hohen Maximalbelastung von 136 kg (Seite 3), wodurch das Gerät auch für schwerere Nutzer geeignet ist Die 114×55×11 cm Bauweise ermöglicht eine extrem platzsparende Nutzung.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
-    bannerImage: "/Assets/Cursor-vibrationplate-Banner-3.png",
+    bannerImage: "/Assets/Evospark-banner-image.jpg",
     // features: {
     //   en: 'The Sportstech sWalk features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech sWalk verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'
@@ -2233,7 +2233,7 @@ Homefitnesscode  : {
       de: "Das CazvianVibration Plate kombiniert ein kompaktes Design mit hoher Funktionalität und flexiblem Einsatzbereich. Mit 5 % Steigung, einem strömungsleisen Motor und einem stoßdämpfenden Laufgurt bietet es ein natürliches, gelenkschonendes Laufgefühl – ideal für Homeoffice, tägliche Schrittziele und leichte Fitness-Einheiten. Dank der sehr flachen Bauweise lässt sich das Gerät mühelos verstauen und passt perfekt in kleine Räume oder Büros.",
     },
     // image: '/images/treadmills/sportstech-treadmill.jpg',
-    bannerImage: "/Assets/Cazvian-vibrationplate-Banner-4.png", // features: {
+    bannerImage: "/Assets/Cazvian-Banner-image.jpg", // features: {
     //   en: 'The Sportstech sWalk features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface. The advanced cushioning system reduces joint impact by up to 40%. Smart features include Bluetooth connectivity, heart rate monitoring, and compatibility with fitness apps.The Sportstech F15 features a powerful 2.5 HP motor, 15% maximum incline, and a spacious 125x40cm running surface.The advanced cushioning system reduces joint impact by up to 40%.',
     //   de: 'Das Sportstech sWalk verfügt über einen leistungsstarken 2,5 PS Motor, 15% maximale Steigung und eine geräumige 125x40cm Lauffläche. Das fortschrittliche Dämpfungssystem reduziert die Gelenkbelastung um bis zu 40%. Smart-Features umfassen Bluetooth-Konnektivität, Herzfrequenzüberwachung und Kompatibilität mit Fitness-Apps.'
     // },
