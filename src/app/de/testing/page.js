@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import {
-  Star,
   CheckCircle,
   Zap,
   Shield,
@@ -20,6 +19,7 @@ import {
   Activity,
 } from "lucide-react";
 import FAQ from "@/components/guide/FAQ";
+import { formatGermanGrade, getGermanGradeBadgeClass } from "@/utils/germanGrade";
 const brands = [
   "Sportstech VP500",
   "Sportstech sVibe",
@@ -1040,24 +1040,13 @@ export default function TestingProcessPage() {
     }
   }, [brandData?.image]);
 
-  const renderStars = (ratingStr) => {
-    const rating = parseFloat(ratingStr);
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 >= 0.5;
-    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+  const renderGermanGrade = (ratingValue) => {
+    const gradeBadgeClass = getGermanGradeBadgeClass(ratingValue);
 
     return (
-      <div className="flex items-center">
-        {[...Array(fullStars)].map((_, i) => (
-          <Star key={i} className="w-4 h-4 text-yellow-500 fill-current" />
-        ))}
-        {hasHalfStar && (
-          <Star className="w-4 h-4 text-yellow-500 fill-current opacity-50" />
-        )}
-        {[...Array(emptyStars)].map((_, i) => (
-          <Star key={i} className="w-4 h-4 text-gray-300" />
-        ))}
-      </div>
+      <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${gradeBadgeClass}`}>
+        {formatGermanGrade(ratingValue, "de")}
+      </span>
     );
   };
 
@@ -1175,9 +1164,8 @@ In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend is
                       {brandData.status}
                     </div>
                     <div className="flex items-center space-x-2 text-gray-600">
-                      <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                      <span className="font-bold text-lg text-gray-900">
-                        {brandData.overallScore.toFixed(1)}/5
+                      <span className={`inline-flex items-center rounded-md px-2.5 py-1 text-xs font-bold ${getGermanGradeBadgeClass(brandData.overallScore)}`}>
+                        {formatGermanGrade(brandData.overallScore, "de")}
                       </span>
                     </div>
                   </div>
@@ -1247,10 +1235,7 @@ In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend is
 
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-2">
-                          {renderStars(data.rating)}
-                          <span className="text-sm text-gray-500">
-                            ({data.rating})
-                          </span>
+                          {renderGermanGrade(data.rating)}
                         </div>
                       </div>
                     </div>
@@ -1339,15 +1324,7 @@ In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend is
                                   </p>
                                 </div>
                                 <div className="flex items-center">
-                                  {[...Array(5)].map((_, i) => (
-                                    <Star
-                                      key={i}
-                                      className={`w-5 h-5 ${i < data.rating
-                                          ? "text-yellow-500 fill-current"
-                                          : "text-gray-300"
-                                        }`}
-                                    />
-                                  ))}
+                                  {renderGermanGrade(data.rating)}
                                 </div>
                               </div>
                             </div>
@@ -1540,8 +1517,8 @@ In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend is
               </div>
             )}
 
-            {/* Winner Section (only show for Sportstech) */}
-            {activeBrand === "Sportstech" && (
+            {/* Winner Section (only show for Sportstech models) */}
+            {activeBrand.includes("Sportstech") && (
               <div className="bg-green-50 border border-green-200 rounded-lg p-6 mt-8">
                 <div className="flex items-center space-x-3 mb-4">
                   <div className="p-2 bg-green-100 rounded-lg">
@@ -1549,32 +1526,46 @@ In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend is
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-green-900">
-                      Gesamt Testsieger: Sportstech
+                      {activeBrand === "Sportstech sVibe"
+                        ? "Gesamttestsieger: Sportstech sVibe"
+                        : "Premium-Auswahl: Sportstech VP500"}
                     </h4>
                     <p className="text-green-700">
-                      Höchste Gesamtbewertung in allen Testkategorien
+                      {activeBrand === "Sportstech sVibe"
+                        ? "Höchste Gesamtbewertung in allen Testkategorien"
+                        : "Ideal für professionelle Büro- und Homeoffice-Umgebungen"}
                     </p>
                   </div>
                 </div>
                 <p className="text-green-800 leading-relaxed">
-                  Nach umfassenden Tests aller 5 Marken hat Sportstech als das
-                  ausgewogenste und leistungsstärkste vibration plate abgeschnitten
-                  und in jeder Kategorie herausragende Leistungen gezeigt, mit
-                  einer herausragenden Gesamtbewertung von
-                  <strong>4.86/5</strong>.
-                </p>
-                <br />
-                <p className="text-green-800 leading-relaxed">
-                  Im Test 2025 konnte das sWalk Lite von Sportstech in nahezu
-                  allen Disziplinen überzeugen. Es kombiniert ein kompaktes,
-                  hochwertiges Design mit leiser Laufweise und praktischen
-                  Steuerungsoptionen. Für den Einsatz im Homeoffice ist es das
-                  beste Gesamtpaket und daher unser Testsieger 2025.translate to
-                  english
-                </p>
-                <p className="text-green-800 leading-relaxed">
-                  <strong>Sportstech sWalk Lite</strong> – beeindruckt durch
-                  leisen Betrieb, kompaktes Design und hochwertige Verarbeitung.
+                  {activeBrand === "Sportstech sVibe" ? (
+                    <>
+                      Nach umfassenden Tests aller Marken zeigte sich die
+                      Sportstech sVibe als besonders ausgewogenes und starkes
+                      Modell mit einer hervorragenden Gesamtbewertung von{" "}
+                      <strong>{formatGermanGrade(4.86, "de")}</strong>.
+                      <br />
+                      <br />
+                      Im Praxistest 2025 überzeugte sie in nahezu allen
+                      Kategorien: hochwertige Verarbeitung, ruhiger Lauf und
+                      eine intuitive Bedienung. Für den Einsatz im Homeoffice
+                      ist sie damit unser klarer Testsieger.
+                    </>
+                  ) : (
+                    <>
+                      Die Sportstech VP500 steht für die Premium-Klasse der
+                      Vibrationsplatten und wurde für anspruchsvolle
+                      Büro-Umgebungen entwickelt. Sie erzielt eine starke Note
+                      von <strong>{formatGermanGrade(4.75, "de")}</strong>.
+                      <br />
+                      <br />
+                      Mit leisem Betrieb unter 50 dB, intelligenter
+                      Geschwindigkeitssteuerung und zuverlässigen
+                      Sicherheitsfunktionen ist die VP500 ideal für
+                      Professionals, die im Arbeitsalltag auf Ruhe und
+                      Verlässlichkeit angewiesen sind.
+                    </>
+                  )}
                 </p>
               </div>
             )}

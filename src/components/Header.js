@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useTranslations, useLocale, useLanguage } from '@/contexts/LanguageContext';
 import Link from 'next/link';
 import { usePathname, useSearchParams, useRouter } from 'next/navigation';
-
+ 
 const brandCategories = [
   {
     name: 'Amateur vibration Plates',
@@ -26,11 +26,11 @@ const brandCategories = [
       { name: 'Citysports', slug: 'Citysports' },
       { name: 'kiddoza', slug: 'kiddoza' },
       { name: 'Superun', slug: 'Superun' },
-      { name: '	EvoSpark', slug: 'EvoSpark' },
+      { name: ' EvoSpark', slug: 'EvoSpark' },
     ]
   }
 ];
-
+ 
 // Review categories for the Reviews dropdown
 const reviewCategories = [
   {
@@ -44,7 +44,7 @@ const reviewCategories = [
     slug: 'advanced',
   }
 ];
-
+ 
 export default function Header() {
   const t = useTranslations('navigation');
   const locale = useLocale();
@@ -58,7 +58,7 @@ export default function Header() {
   const [activeCategory, setActiveCategory] = useState(null);
   const [mobileExpandedCategory, setMobileExpandedCategory] = useState(null);
   const [mobileExpandedReviews, setMobileExpandedReviews] = useState(false);
-
+ 
   // --- Default to German if no locale is set ---
   useEffect(() => {
     if (locale === 'en') return;
@@ -66,21 +66,21 @@ export default function Header() {
       switchLanguage('de');
     }
   }, [locale, switchLanguage]);
-
+ 
   const currentPath = pathname.replace(`/${locale}`, '') || '/';
-
+ 
   const isActivePath = (path) => {
     if (path === '/' && currentPath === '/') return true;
     if (path !== '/' && currentPath.startsWith(path)) return true;
     return false;
   };
-
+ 
   const toggleLanguage = () => {
     const newLocale = locale === 'en' ? 'de' : 'en';
-
+ 
     // Get current query string - THIS IS THE KEY FIX
     const currentQueryString = searchParams.toString();
-
+ 
     // Get the current path without locale prefix
     let pathWithoutLocale = pathname;
     if (pathname.startsWith('/de/')) {
@@ -92,50 +92,50 @@ export default function Header() {
     } else if (pathname === '/en') {
       pathWithoutLocale = '/';
     }
-
+ 
     // Ensure path starts with /
     if (!pathWithoutLocale.startsWith('/')) {
       pathWithoutLocale = '/' + pathWithoutLocale;
     }
-
+ 
     // Build new path with new locale
     const newBasePath = newLocale === 'de' ? '/de' : '';
     let newFullPath = newBasePath + pathWithoutLocale;
-
+ 
     // Handle root path case
     if (newFullPath === '') {
       newFullPath = '/';
     }
-
+ 
     // Append query string if exists - THIS PRESERVES THE CATEGORY PARAMETER
     if (currentQueryString) {
       newFullPath = `${newFullPath}?${currentQueryString}`;
     }
-
+ 
     // Update the language context
     switchLanguage(newLocale);
-
+ 
     // Navigate to new URL with preserved query params
     router.push(newFullPath);
   };
-
+ 
   const getBasePath = () => {
     return locale === 'de' ? '/de' : '';
   };
-
+ 
   const getCategoryName = (category) => {
     return locale === 'de' ? category.nameDE : category.name;
   };
-
+ 
   const handleBrandsMouseLeave = () => {
     setIsBrandsOpen(false);
     setActiveCategory(null);
   };
-
+ 
   const handleReviewsMouseLeave = () => {
     setIsReviewsOpen(false);
   };
-
+ 
   if (!isLoaded) {
     return (
       <header className="bg-white shadow-lg sticky top-0 z-50">
@@ -147,7 +147,7 @@ export default function Header() {
       </header>
     );
   }
-
+ 
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <nav className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -155,9 +155,9 @@ export default function Header() {
           <Link href={`${getBasePath()}/`} className="flex items-center">
             <div className="text-2xl font-bold text-violet-600"><img src="/VibrationPlateTestlogosvg-nav-blue.svg" className=" w-48" alt="Logo" />  </div>
           </Link>
-
+ 
           <div className="hidden md:flex items-center space-x-10">
-
+ 
             {/* Reviews Dropdown with Categories */}
             <div
               className="relative"
@@ -175,7 +175,7 @@ export default function Header() {
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-
+ 
               {/* Reviews Dropdown */}
               <div
                 className={`absolute left-0 mt-1 w-56 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 transition-all duration-200 ${isReviewsOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
@@ -195,7 +195,7 @@ export default function Header() {
                 </div>
               </div>
             </div>
-
+ 
             {/* Brands Dropdown with Categories */}
             <div
               className="relative"
@@ -213,7 +213,7 @@ export default function Header() {
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-
+ 
               {/* First level dropdown - Categories */}
               <div
                 className={`absolute left-0 mt-1 w-56 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 transition-all duration-200 ${isBrandsOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
@@ -234,7 +234,7 @@ export default function Header() {
                           <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-
+ 
                       {/* Second level dropdown - Brands */}
                       <div
                         className={`absolute left-full top-0 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 transition-all duration-200 ${activeCategory === category.slug ? 'opacity-100 visible' : 'opacity-0 invisible'
@@ -257,7 +257,7 @@ export default function Header() {
                 </div>
               </div>
             </div>
-
+ 
             <Link
               href={`${getBasePath()}/guide`}
               className={`px-3 py-2 text-sm font-medium transition-colors ${isActivePath('/guide')
@@ -267,7 +267,7 @@ export default function Header() {
             >
               {t('guide')}
             </Link>
-
+ 
             <Link
               href={`${getBasePath()}/blog`}
               className={`px-3 py-2 text-sm font-medium transition-colors ${isActivePath('/blog')
@@ -277,7 +277,7 @@ export default function Header() {
             >
               {t('blog')}
             </Link>
-
+ 
             <Link
               href={`${getBasePath()}/about`}
               className={`px-3 py-2 text-sm font-medium transition-colors ${isActivePath('/about')
@@ -287,7 +287,7 @@ export default function Header() {
             >
               {t('about')}
             </Link>
-
+ 
             <button
               onClick={toggleLanguage}
               className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-violet-600 transition-colors border border-gray-300 rounded-md"
@@ -295,7 +295,7 @@ export default function Header() {
               {locale === 'en' ? 'DE' : 'EN'}
             </button>
           </div>
-
+ 
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -311,12 +311,12 @@ export default function Header() {
             </button>
           </div>
         </div>
-
+ 
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-
+ 
               {/* Mobile Reviews with Categories */}
               <div className="space-y-1">
                 <button
@@ -335,7 +335,7 @@ export default function Header() {
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </button>
-
+ 
                 {mobileExpandedReviews && (
                   <div className="pl-4">
                     <Link
@@ -358,11 +358,11 @@ export default function Header() {
                   </div>
                 )}
               </div>
-
+ 
               {/* Mobile Brands with Categories */}
               <div className="space-y-1">
                 <div className="px-3 py-2 text-base font-medium text-gray-700">{t('brands')}</div>
-
+ 
                 {brandCategories.map((category) => (
                   <div key={category.slug}>
                     <button
@@ -381,7 +381,7 @@ export default function Header() {
                         <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                       </svg>
                     </button>
-
+ 
                     {mobileExpandedCategory === category.slug && (
                       <div className="pl-4">
                         {category.brands.map((brand) => (
@@ -399,7 +399,7 @@ export default function Header() {
                   </div>
                 ))}
               </div>
-
+ 
               <Link
                 href={`${getBasePath()}/guide`}
                 className={`block px-3 py-2 text-base font-medium transition-colors ${isActivePath('/guide')
@@ -410,7 +410,7 @@ export default function Header() {
               >
                 {t('guide')}
               </Link>
-
+ 
               <Link
                 href={`${getBasePath()}/blog`}
                 className={`block px-3 py-2 text-base font-medium transition-colors ${isActivePath('/blog')
@@ -421,7 +421,7 @@ export default function Header() {
               >
                 {t('blog')}
               </Link>
-
+ 
               <Link
                 href={`${getBasePath()}/about`}
                 className={`block px-3 py-2 text-base font-medium transition-colors ${isActivePath('/about')
@@ -432,7 +432,7 @@ export default function Header() {
               >
                 {t('about')}
               </Link>
-
+ 
               <button
                 onClick={() => {
                   toggleLanguage();

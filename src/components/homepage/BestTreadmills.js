@@ -5,7 +5,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Link from "next/link";
+import { formatGermanGrade, getGermanGradeBadgeClass } from "@/utils/germanGrade";
  
 const treadmillsData = [
   {
@@ -79,25 +79,15 @@ const getBadgeText = (badgeType, t) => {
   return "";
 };
  
-const StarRating = ({ rating }) => {
-  const fullStars = Math.floor(rating);
-  const hasHalfStar = rating % 1 !== 0;
-  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
- 
+const StarRating = ({ rating, locale }) => {
+  const gradeLabel = formatGermanGrade(rating, locale);
+  const gradeBadgeClass = getGermanGradeBadgeClass(rating);
+
   return (
-    <div className="flex items-center space-x-1 mt-2">
-      {[...Array(fullStars)].map((_, i) => (
-        <span key={i} className="text-yellow-400 text-lg">
-          ★
-        </span>
-      ))}
-      {hasHalfStar && <span className="text-yellow-400 text-lg">☆</span>}
-      {[...Array(emptyStars)].map((_, i) => (
-        <span key={i} className="text-gray-300 text-lg">
-          ★
-        </span>
-      ))}
-      <span className="text-sm text-gray-600 ml-2">{rating}</span>
+    <div className="flex items-center mt-2">
+      <span className={`inline-flex items-center rounded-full px-3 py-1 text-sm font-semibold ${gradeBadgeClass}`}>
+        {gradeLabel}
+      </span>
     </div>
   );
 };
@@ -168,7 +158,7 @@ export default function BestTreadmills() {
                   <p className="text-sm text-gray-600 line-clamp-2 mb-3">
                     {t(`${treadmill.id}.description`) || "No description available"}
                   </p>
-                  <StarRating rating={treadmill.rating} />
+                  <StarRating rating={treadmill.rating} locale={locale} />
                   <div className="mt-auto pt-5">
                     <a
                       href={treadmill.link}

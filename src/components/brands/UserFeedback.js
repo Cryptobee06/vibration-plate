@@ -1,11 +1,12 @@
 'use client';
 import { useTranslations, useLocale } from '@/contexts/LanguageContext';
 import { useState } from 'react';
+import { formatGermanGrade, getGermanGradeBadgeClass } from '@/utils/germanGrade';
 
 // ✅ Brand-specific feedback data (all in one place)
 
 const feedbackData = {
-  sVibe: {
+  Stvp: {
      en: [
       {
         id: 1,
@@ -34,24 +35,6 @@ const feedbackData = {
         date: ' 3 days ago',
 
       },
-      // {
-      //   id: 4,
-      //   name: 'Jonas P',
-      //   avatar: 'JP',
-      //   rating: 5,
-      //   comment: 'High-quality build and great value for money. I use it almost daily and feel fitter.',
-      //   date: 'a week ago',
-
-      // },
-      // {
-      //   id: 5,
-      //   name: 'Claudia W',
-      //   avatar: 'CW',
-      //   rating: 5,
-      //   comment: 'I was surprised by how stable thevibration plate is. It feels secure even when I train on it for longer periods.',
-      //   date: 'a month ago',
-
-      // }
     ],
     de: [
       {
@@ -101,7 +84,7 @@ const feedbackData = {
       }
     ]
   },
-  citysports: {
+  CitySports: {
    en: [
       {
         id: 6,
@@ -674,15 +657,6 @@ const feedbackData = {
       date: '1 week ago',
       replies: [],
     },
-    // {
-    //   id: 1005,
-    //   name: 'Claudia W',
-    //   avatar: 'CW',
-    //   rating: 4.5,
-    //   comment: 'I was surprised by how stable the vibration plate is. It feels secure even when I train on it for longer periods.',
-    //   date: '1 week ago',
-    //   replies: [],
-    // },
   ],
     de: [
       {
@@ -823,122 +797,35 @@ const feedbackData = {
 
     ]
   },
-  Stvp: {
-    en: [
-      {
-        id: 31,
-        name: 'Lena M',
-        avatar: 'LM',
-        rating: 5,
-        comment: 'Just received mine—and it is top-tier! Build quality is excellent, and the motor runs smooth and silent.!',
-        date: '5 min ago',
- 
-      },
-      {
-        id: 32,
-        name: 'Markus R',
-        avatar: 'MR',
-        rating: 5,
-        comment: 'Comfort levels are outstanding—very gentle on my knees. The setup guide could be clearer, though.',
-        date: 'a day ago',
- 
-      },
-      {
-        id: 33,
-        name: 'Sabine K',
-        avatar: 'SK',
-        rating: 5,
-        comment: 'Three months of daily use, and it performs flawlessly. The incline works great, and the belt remains smooth.',
-        date: ' 3 days ago',
- 
-      },
-      // {
-      //   id: 34,
-      //   name: 'Jonas P',
-      //   avatar: 'JP',
-      //   rating: 5,
-      //   comment: 'High-quality build and great value for money. I use it almost daily and feel fitter.',
-      //   date: 'a week ago',
- 
-      // },
-      // {
-      //   id: 35,
-      //   name: 'Claudia W',
-      //   avatar: 'CW',
-      //   rating: 5,
-      //   comment: 'I was surprised by how stable thevibration plate is. It feels secure even when I train on it for longer periods.',
-      //   date: 'a month ago',
- 
-      // }
-    ],
-    de: [
-      {
-        id: 31,
-        name: 'Lukas',
-        avatar: 'L',
-        rating: 4,
-        comment: 'Die 4D-Vibrationstechnologie fühlt sich deutlich intensiver an als bei meiner alten Vibrationsplatte. Besonders die verschiedenen Trainingsmodi sorgen für mehr Abwechslung und ein effektiveres Ganzkörpertraining.',
-        date: 'Vor 5 Minuten',
- 
-      },
-      {
-        id: 32,
-        name: 'Marie ',
-        avatar: 'M',
-        rating: 4,
-        comment: 'Sehr hochwertiges Design und überraschend leiser Betrieb trotz der starken Motorleistung. Die App-Steuerung funktioniert gut, allerdings braucht man etwas Zeit, um alle Programme kennenzulernen.',
-        date: 'vor einem Tag',
- 
-      },
-      {
-        id: 33,
-        name: 'Daniel',
-        avatar: 'D',
-        rating: 3,
-        comment: 'Die Kombination aus Oszillation, linearer Bewegung und Vibration macht das Training deutlich dynamischer. Schon nach wenigen Wochen merke ich eine bessere Muskelaktivierung und mehr Stabilität.',
-        date: 'Vor 3 Tagen',
-      }
-    ]
-  },
- 
-
-
 };
+
 // ✅ Helper to pick feedback dynamically
 const generateUserFeedback = (brand, locale) => {
   let key = brand.name ? brand.name.toLowerCase().replace(/\s+/g, '') : '';
   if (key === 'sportstech') {
     key = brand.model && brand.model.toLowerCase().replace(/\s+/g, '') === 'vp500' ? 'stvp' : 'svibe';
   }
-  
+
   const actualKey = Object.keys(feedbackData).find(k => k.toLowerCase().replace(/\s+/g, '') === key);
-  
+
   if (actualKey && feedbackData[actualKey] && feedbackData[actualKey][locale]) {
     return feedbackData[actualKey][locale];
   }
   return actualKey && feedbackData[actualKey]?.en ? feedbackData[actualKey].en : [];
 };
 
-const StarRating = ({ rating }) => {
+const StarRating = ({ rating, locale }) => {
+  const gradeLabel = formatGermanGrade(rating, locale);
+  const gradeBadgeClass = getGermanGradeBadgeClass(rating);
+
   return (
-    <div className="flex items-center space-x-1">
-      {[...Array(5)].map((_, i) => (
-        <svg key={i} className={`w-4 h-4 ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`} fill="currentColor" viewBox="0 0 20 20">
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-        </svg>
-      ))}
+    <div className="flex items-center">
+      <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${gradeBadgeClass}`}>
+        {gradeLabel}
+      </span>
     </div>
   );
 };
-
-// const formatDate = (dateString, locale) => {
-//   const date = new Date(dateString);
-//   return new Intl.DateTimeFormat(locale, {
-//     year: 'numeric',
-//     month: 'short',
-//     day: 'numeric'
-//   }).format(date);
-// };
 
 export default function UserFeedback({ brand }) {
   const t = useTranslations('brands');
@@ -986,7 +873,7 @@ export default function UserFeedback({ brand }) {
                       </span>
                     </div>
 
-                    <StarRating rating={feedback.rating} />
+                    <StarRating rating={feedback.rating} locale={locale} />
                   </div>
                 </div>
 

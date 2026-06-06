@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import {
-  Star,
   CheckCircle,
   Zap,
   Shield,
@@ -20,6 +19,7 @@ import {
   Activity,
 } from "lucide-react";
 import FAQ from "@/components/guide/FAQ";
+import { formatGermanGrade, getGermanGradeBadgeClass } from "@/utils/germanGrade";
 
 const brands = [
   "Sportstech VP500",
@@ -1033,24 +1033,13 @@ export default function TestingProcessPage() {
     }
   }, [brandData?.image]);
 
-  const renderStars = (ratingStr) => {
-    const rating = parseFloat(ratingStr);
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 >= 0.5;
-    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+  const renderGermanGrade = (ratingValue) => {
+    const gradeBadgeClass = getGermanGradeBadgeClass(ratingValue);
 
     return (
-      <div className="flex items-center">
-        {[...Array(fullStars)].map((_, i) => (
-          <Star key={i} className="w-4 h-4 text-yellow-500 fill-current" />
-        ))}
-        {hasHalfStar && (
-          <Star className="w-4 h-4 text-yellow-500 fill-current opacity-50" />
-        )}
-        {[...Array(emptyStars)].map((_, i) => (
-          <Star key={i} className="w-4 h-4 text-gray-300" />
-        ))}
-      </div>
+      <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${gradeBadgeClass}`}>
+        {formatGermanGrade(ratingValue, "en")}
+      </span>
     );
   };
 
@@ -1170,9 +1159,8 @@ In every test, we look beyond the specs. We care about how a plate feels under y
                       {brandData.status}
                     </div>
                     <div className="flex items-center space-x-2 text-gray-600">
-                      <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                      <span className="font-bold text-lg text-gray-900">
-                        {brandData.overallScore.toFixed(1)}/5
+                      <span className={`inline-flex items-center rounded-md px-2.5 py-1 text-xs font-bold ${getGermanGradeBadgeClass(brandData.overallScore)}`}>
+                        {formatGermanGrade(brandData.overallScore, "en")}
                       </span>
                     </div>
                   </div>
@@ -1243,10 +1231,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
 
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-2">
-                          {renderStars(data.rating)}
-                          <span className="text-sm text-gray-500">
-                            ({data.rating})
-                          </span>
+                          {renderGermanGrade(data.rating)}
                         </div>
                       </div>
                     </div>
@@ -1335,15 +1320,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
                                   </p>
                                 </div>
                                 <div className="flex items-center">
-                                  {[...Array(5)].map((_, i) => (
-                                    <Star
-                                      key={i}
-                                      className={`w-5 h-5 ${i < data.rating
-                                          ? "text-yellow-500 fill-current"
-                                          : "text-gray-300"
-                                        }`}
-                                    />
-                                  ))}
+                                  {renderGermanGrade(data.rating)}
                                 </div>
                               </div>
                             </div>
@@ -1419,7 +1396,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
                       After conducting comprehensive tests across all brands,
                       Sportstech vibration plate emerged as the most balanced and high-performing
                       vibration plate, excelling in every category with an outstanding
-                      overall score of <strong>4.86/5</strong>.
+                      overall score of <strong>{formatGermanGrade(4.86, "en")}</strong>.
                       <br /><br />
                       In the 2025 test, the vibration plate by Sportstech impressed in
                       nearly every category. It combines a compact, high-quality
@@ -1430,7 +1407,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
                   ) : (
                     <>
                       The Sportstech VP500 represents the premium tier of vibration plates, specifically engineered for professional office vibration plate environments with an impressive vibration plate score of 
-                      impressive score of <strong>4.75/5</strong>.
+                      impressive score of <strong>{formatGermanGrade(4.75, "en")}</strong>.
                       <br /><br />
                       With its ultra-quiet vibration plate operation under 50 dB, smart vibration plate auto-speed control, and vibration plate safety sensors, the VP500 vibration plate is the ideal choice for professionals who need absolute silence during video calls and all-day vibration plate reliability.
                     </>

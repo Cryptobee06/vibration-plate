@@ -3,7 +3,8 @@ import React, { useState, useRef, useEffect } from "react";
 import { useLocale } from "@/contexts/LanguageContext";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { Star, Award, ArrowLeftToLine, ArrowRightToLine } from "lucide-react";
+import { Award, ArrowLeftToLine, ArrowRightToLine } from "lucide-react";
+import { formatGermanGrade, getGermanGradeBadgeClass } from "@/utils/germanGrade";
  
 // All vibration plates data
 const allWalkingpadsData = [
@@ -292,19 +293,17 @@ export default function ReviewsPage() {
  
   const WalkingpadsData = getFilteredWalkingpads();
  
-  const renderStars = (rating) => (
-    <div className="flex items-center justify-center gap-1">
-      {[...Array(5)].map((_, i) => (
-        <Star
-          key={i}
-          className={`w-4 h-4 ${
-            i < Math.floor(rating) ? "fill-yellow-400 text-yellow-400" : "text-gray-300"
-          }`}
-        />
-      ))}
-      <span className="ml-1 text-sm font-semibold text-gray-700">{rating}</span>
-    </div>
-  );
+  const renderGermanGrade = (rating) => {
+    const gradeBadgeClass = getGermanGradeBadgeClass(rating);
+
+    return (
+      <div className="flex items-center justify-center">
+        <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${gradeBadgeClass}`}>
+          {formatGermanGrade(rating, locale)}
+        </span>
+      </div>
+    );
+  };
  
   const scrollToFirstColumn = () => {
     if (tableRef.current) tableRef.current.scrollLeft = 0;
@@ -424,7 +423,7 @@ export default function ReviewsPage() {
                     <h3 className="font-bold text-lg mb-2 text-gray-800">
                       {brand.brand} {brand.model}
                     </h3>
-                    <div className="mb-3">{renderStars(brand.rating)}</div>
+                    <div className="mb-3">{renderGermanGrade(brand.rating)}</div>
                   </div>
  
                   <div className="space-y-3 mb-4">
@@ -549,7 +548,7 @@ export default function ReviewsPage() {
                                 </h3>
  
                                 {/* Rating */}
-                                <div className="mb-3">{renderStars(brand.rating)}</div>
+                                <div className="mb-3">{renderGermanGrade(brand.rating)}</div>
  
                                 {/* Review button */}
                                 <Link
