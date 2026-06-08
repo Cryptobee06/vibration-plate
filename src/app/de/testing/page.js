@@ -37,7 +37,7 @@ const testData = {
   "Sportstech VP500": {
     image:
       "/Assets/vibration-test-1.webp",
-    overallScore: 4.9,
+    overallScore: 4.8,
     status: "Bestanden",
     features: [
       "Kompakte Bauweise (93,7 × 62 × 12,9 cm) – ideal für Wohnungen, Homeoffice und kleinere Trainingsbereiche.",
@@ -53,7 +53,7 @@ const testData = {
       Speed: {
         description:
           "Alle 60 Geschwindigkeitsstufen arbeiteten auch unter voller Belastung konstant und stabil.",
-        rating: "4.9 / 5",
+        rating: "4.8 / 5",
         status: "Bestanden",
         icon: Zap,
       },
@@ -74,7 +74,7 @@ const testData = {
       Noise: {
         description:
           "Die Motorlautstärke bleibt angenehm niedrig – ideal für Wohnungen oder gemeinsam genutzte Räume.",
-        rating: "5.0 / 5",
+        rating: "4.7/ 5",
         status: "Bestanden",
         icon: Volume2,
       },
@@ -97,27 +97,27 @@ const testData = {
       testDuration: "Erweiterte Tests",
       testCriteria: {
         "Design & Verarbeitung": {
-          rating: 5,
+          rating: 4.8,
           description: "Elegantes, geschwungenes Gehäuse mit hochwertiger Verarbeitung zu einem attraktiven Preis.",
         },
         Lautstärke: {
-          rating: 5,
+          rating: 4.7,
           description: "Leise Motoren – auch für Mehrfamilienhäuser geeignet.",
         },
         "Dämpfung & Laufkomfort": {
-          rating: 5,
+          rating: 4.8,
           description: "Gepolsterte Anti-Rutsch-Oberfläche absorbiert Vibrationen effektiv.",
         },
         Steuerung: {
-          rating: 5,
+          rating: 4.8,
           description: "Bluetooth und Fernbedienung funktionieren zuverlässig; Display ist intuitiv.",
         },
         Bürotauglichkeit: {
-          rating: 5,
+          rating: 4.7,
           description: "Kompakt, leise und platzsparend – optimal für den Büroalltag.",
         },
         "Preis-Leistung": {
-          rating: 5,
+          rating: 4.8,
           description: "Hervorragendes Gesamtpaket mit vielen Funktionen und leistungsstarken Motoren.",
         },
       },
@@ -136,7 +136,7 @@ const testData = {
   "Sportstech sVibe": {
     image:
       "/Assets/vibration-test-2.jpg",
-    overallScore: 4.86,
+    overallScore: 4.8,
     status: "Bestanden",
     features: [
       " Rotierendes 3D-Touchscreen-Display mit der Sportstech Live App für Echtzeit-Trainingsdaten und visuelle Trainingssteuerung.",
@@ -156,28 +156,28 @@ const testData = {
       Durability: {
         description:
           "Die sVibe absolvierte mehr als 100 Stunden Hochleistungs-Dauertests ohne Verformungen des Rahmens, lockere Bauteile, Überhitzung, Oberflächenverschleiß oder Leistungsinstabilitäten. Das Dual-Motor-3D-Oszillationssystem erzeugte selbst unter maximaler Belastung ruhige, vibrationsarme und stabile Bewegungen.",
-        rating: "5 / 5",
+        rating: "4.8 / 5",
         status: "Bestanden",
         icon: Shield,
       },
       Incline: {
         description:
           "Die sVibe verfügt zwar nicht über eine klassische Neigungsfunktion, jedoch erzeugt das 3D-Oszillationssystem mit vertikalen, horizontalen und rotierenden Bewegungen einen ähnlichen Trainingseffekt. Dadurch wird die hintere Muskelkette stärker aktiviert und die Trainingsintensität mit Widerstandsbändern deutlich erhöht.",
-        rating: "4.7 / 5",
+        rating: "4.4 / 5",
         status: "Bestanden",
         icon: TrendingUp,
       },
       Noise: {
         description:
           "Die sVibe übertrifft viele Konkurrenzmodelle deutlich bei der Geräuschkontrolle und arbeitet mit lediglich 38–48 dB über sämtliche Intensitätsstufen hinweg — wesentlich leiser als die üblichen 60–72 dB anderer Geräte. Damit eignet sie sich ideal für Wohnungen, Büros und gemeinsam genutzte Räume.",
-        rating: "4.9 / 5",
+        rating: "4.8 / 5",
         status: "Bestanden",
         icon: Volume2,
       },
       Comfort: {
         description:
           "Das sechseckige Plattformdesign der sVibe verteilt den Druck gleichmäßig über die Fußfläche und reduziert dadurch Taubheitsgefühle bei längeren Trainingseinheiten. Ergonomische Griffe, sicherer Halt, eine reaktionsschnelle Fernbedienung und die nahtlose Integration der Sportstech Live App sorgen zusätzlich für ein komfortables und unterbrechungsfreies Trainingserlebnis.",
-        rating: "4.9 / 5",
+        rating: "4.8 / 5",
         status: "Bestanden",
         icon: Heart,
       },
@@ -193,27 +193,27 @@ const testData = {
       testDuration: "Erweiterte Tests",
       testCriteria: {
         "Design & Verarbeitung": {
-          rating: 5,
+          rating: 4.7,
           description: "Schlank, hochwertig verarbeitet, modernes LED-Display",
         },
         Lautstärke: {
-          rating: 5,
+          rating: 4.8,
           description: "Extrem leise (< 55 dB)",
         },
         "Dämpfung & Laufkomfort": {
-          rating: 5,
+          rating: 4.8,
           description: "Sanfte, stabile Lauffläche",
         },
         Steuerung: {
-          rating: 5,
+          rating: 4.7,
           description: "App + Fernbedienung, intuitiv",
         },
         Bürotauglichkeit: {
-          rating: 5,
+          rating: 4.8,
           description: "Perfekt fürs Arbeiten im Stehen oder Gehen",
         },
         "Preis-Leistung": {
-          rating: 5,
+          rating: 4.8,
           description: "Sehr fair für die Qualität",
         },
       },
@@ -361,7 +361,7 @@ const testData = {
         description:
           "Kiddoza konzentriert sich auf kompakte Stabilität statt auf aggressive Bewegungsdynamik. Die Plattform bleibt bei stehenden Übungen und sitzungsorientierten Regenerationseinheiten kontrolliert, wodurch sie sich besonders für Nutzer eignet, die Wert auf Balance, Komfort und Alltagstauglichkeit legen.",
         rating: "2.9 / 5",
-        status: "Eingeschränkt",
+        status: "Begrenzt",
         icon: TrendingUp,
       },
       Noise: {
@@ -563,7 +563,7 @@ const testData = {
         description:
           "Die Plattform bleibt auch bei höheren Vibrationsstufen stabil und griffig. Die großzügige Standfläche ermöglicht komfortable Übungen wie Kniebeugen, Dehnübungen und gelenkschonende Bewegungsroutinen.",
         rating: "2.8 / 5",
-        status: "Nicht bestanden",
+        status: "Begrenzt",
         icon: TrendingUp,
       },
       Lautstärke: {
@@ -763,7 +763,7 @@ const testData = {
         description:
           "Die rutschfeste Plattform bietet sicheren Halt bei stehenden Übungen und leichten Eigengewichts-Workouts. Die Vibration bleibt auch bei mittlerer Intensität ausgewogen und unterstützt Komfort sowie Kontrolle während des Trainings.",
         rating: "4.2 / 5",
-        status: "Gut",
+        status: "Bestanden",
         icon: TrendingUp,
       },
       Noise: {
@@ -861,7 +861,7 @@ const testData = {
         description:
           "Wir testeten das Modell B1 in verschiedenen Positionen – stehend, in halber Kniebeuge, im Plank sowie im Sitzen für Beinübungen. Besonders bei Wadenheben und Dehnübungen zeigte die seitliche Oszillationsbewegung ihre Stärke, da sie natürliche Gehbewegungen simuliert und die Körperhaltung unterstützt.",
         rating: "4.0 / 5",
-        status: "Gut",
+        status: "Begrenzt",
         icon: TrendingUp,
       },
       Noise: {
@@ -1556,7 +1556,7 @@ In jedem Test betrachten wir weit mehr als nur technische Daten. Entscheidend is
                       Die Sportstech VP500 steht für die Premium-Klasse der
                       Vibrationsplatten und wurde für anspruchsvolle
                       Büro-Umgebungen entwickelt. Sie erzielt eine starke Note
-                      von <strong>{formatGermanGrade(4.75, "de")}</strong>.
+                      von <strong className="inline-flex items-center rounded-md px-2.5 py-1 text-xs font-bold border border-emerald-300 bg-emerald-50 text-emerald-800">{formatGermanGrade(4.8, "de")}</strong>.
                       <br />
                       <br />
                       Mit leisem Betrieb unter 50 dB, intelligenter

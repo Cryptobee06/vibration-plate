@@ -246,7 +246,7 @@ const brandData = {
       en: "The Sportstech VP500 Vibration Plate is best suited for users who want to stay active without dedicating space toa full vibration plate. It excels for slow-paced vibration plate, step tracking, and maintaining movement throughout the day. Users seeking running workouts or incline training may find it limited.",
       de: "Das Sportstech Vibration plate überzeugt als kompakter und leiser Homefitness-Trainer, ideal für das tägliche Training im Büro oder Zuhause. Mit robuster Dämpfung, Smart-App-Integration, platzsparendem Design und einem leisen Motor erreicht es eine Bewertung von 4,9 von 5 – Spitzenklasse im Vibration plate Test.",
     },
-    rating: 4.9,
+    rating: 4.8,
     buyLink: "https://www.sportstech.de/laufband/swalk-lite",
   },
   Citysports: {
@@ -1448,7 +1448,7 @@ Homefitnesscode  : {
       en: "The Sportstech VP500 Vibration plate is best suited for users who want to stay active without dedicating space to a full vibration plate. It works well for slow-paced vibration plate, step tracking, and maintaining movement throughout the day. However, users seeking running workouts, incline training, or extended cardio sessions may find it limited.",
       de: "Das Sportstech VP500 Vibration plate überzeugt als kompakter und leiser Homefitness-Trainer, ideal für das tägliche Training im Büro oder Zuhause. Mit robuster Dämpfung, Smart-App-Integration, platzsparendem Design und einem leisen Motor erreicht es eine Bewertung von 4,9 von 5 – Spitzenklasse im Vibration plate Test.",
     },
-    rating: 4.9,
+    rating: 4.8,
     buyLink: "https://www.sportstech.de/laufband/swalk-lite",
   },
   Copant: {

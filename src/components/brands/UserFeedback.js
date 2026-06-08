@@ -12,7 +12,7 @@ const feedbackData = {
         id: 1,
         name: 'Lukas M',
         avatar: 'LM',
-        rating: 4,
+        rating: 4.8,
         comment: 'The 4D vibration technology feels significantly more intense compared to my previous vibration plate. The different training modes especially add more variety and create a more effective full-body workout experience.',
         date: '1 week ago',
 
@@ -21,7 +21,7 @@ const feedbackData = {
         id: 2,
         name: 'Marie ',
         avatar: 'M',
-        rating: 4,
+        rating: 4.7,
         comment: 'Very high-quality design and surprisingly quiet operation despite the powerful motor performance. The app control works well, although it takes a little time to become familiar with all the programs.',
         date: '2 weeks ago',
 
@@ -30,7 +30,7 @@ const feedbackData = {
         id: 3,
         name: 'Daniel ',
         avatar: 'D',
-        rating: 3,
+        rating: 4.8,
         comment: 'The combination of oscillation, linear movement, and vibration makes the workout feel much more dynamic. After just a few weeks, I already noticed better muscle activation and improved stability.',
         date: ' 3 days ago',
 
@@ -39,49 +39,49 @@ const feedbackData = {
     de: [
       {
         id: 1,
-        name: 'Lena M',
+        name: 'Lukas M',
         avatar: 'LM',
-        rating: 5,
+        rating: 4.8,
         comment: 'Gerade erhalten — absolut erstklassig! Verarbeitungsqualität ist hervorragend, Motor läuft ruhig und leise.',
         date: 'Vor 5 Minuten',
 
       },
       {
         id: 2,
-        name: 'Markus R',
-        avatar: 'MR',
-        rating: 5,
+        name: 'Marie',
+        avatar: 'M',
+        rating: 4.7,
         comment: 'Komfort ist herausragend — sehr schonend für meine Knie. Die Aufbauanleitung könnte klarer sein.',
         date: 'vor einem Tag',
 
       },
       {
         id: 3,
-        name: 'Sabine K',
-        avatar: 'SK',
-        rating: 5,
+        name: 'Daniel',
+        avatar: 'D',
+        rating: 4.8,
         comment: 'Drei Monate täglicher Nutzung und es funktioniert einwandfrei. Das Band bleibt glatt',
         date: 'Vor 3 Tagen',
 
       },
-      {
-        id: 4,
-        name: 'Jonas P',
-        avatar: 'JP',
-        rating: 5,
-        comment: 'Hochwertige Verarbeitung und tolles Preis-Leistungs-Verhältnis. Nutze es fast täglich.',
-        date: 'vor einer Woche',
+      // {
+      //   id: 4,
+      //   name: 'Jonas P',
+      //   avatar: 'JP',
+      //   rating: 5,
+      //   comment: 'Hochwertige Verarbeitung und tolles Preis-Leistungs-Verhältnis. Nutze es fast täglich.',
+      //   date: 'vor einer Woche',
 
-      },
-      {
-        id: 5,
-        name: 'Claudia W',
-        avatar: 'CM',
-        rating: 5,
-        comment: 'Ich war überrascht, wie stabil die Vibrationsplatte ist — auch bei längeren Trainingseinheiten sicher.',
-        date: 'vor einem Monat',
+      // },
+      // {
+      //   id: 5,
+      //   name: 'Claudia W',
+      //   avatar: 'CM',
+      //   rating: 5,
+      //   comment: 'Ich war überrascht, wie stabil die Vibrationsplatte ist — auch bei längeren Trainingseinheiten sicher.',
+      //   date: 'vor einem Monat',
 
-      }
+      // }
     ]
   },
   CitySports: {
@@ -797,21 +797,128 @@ const feedbackData = {
 
     ]
   },
+  sVibe: {
+   en: [
+      {
+        id: 28,
+        name: ' Annie',
+        avatar: 'A',
+        rating: 4.7,
+        comment: ' The different vibration programs keep workouts engaging and varied. After long workdays, my back feels noticeably more relaxed',
+        date: '1 day ago',
+
+      },
+      {
+        id: 29,
+        name: 'Thomas ',
+        avatar: 'T',
+        rating: 4.8,
+        comment: ' The controls are straightforward, and the remote works reliably. The platform feels stable and well-built, giving it a premium overall impression.',
+        date: ' 5 days ago',
+
+      },
+      {
+        id: 30,
+        name: 'Eva ',
+        avatar: 'E',
+        rating: 4.7,
+        comment: ' I use the platform regularly for short home workouts. The range of intensity levels provides enough variety for different fitness needs and goals.',
+        date: '1 days ago',
+
+      }
+      ,
+      {
+        id: 32,
+        name: 'Daniel',
+        avatar: 'DK',
+        rating: 4.6,
+        comment: ' Impressively quiet operation and a smooth vibration experience. The compact design is perfect for smaller apartments and limited spaces.',
+        date: '1 month ago',
+
+      }
+    ],
+    de: [
+      {
+        id: 28,
+        name: 'Annie.',
+        avatar: 'M',
+        rating: 4.7,
+        comment: 'Die verschiedenen Vibrationsprogramme machen das Training abwechslungsreich. Besonders nach langen Arbeitstagen fühlt sich mein Rücken deutlich entspannter an.',
+        date: 'Vor 2 Stunden',
+
+      },
+      {
+        id: 29,
+        name: 'Thomas ',
+        avatar: 'R',
+        rating: 4.8,
+        comment: 'Die Bedienung ist unkompliziert und die Fernbedienung funktioniert zuverlässig. Das Gerät steht stabil und wirkt insgesamt hochwertig verarbeitet.',
+        date: 'vor einem Tag',
+
+      },
+      {
+        id: 30,
+        name: 'Eva ',
+        avatar: 'H',
+        rating: 4.7,
+        comment: 'Nutze die Platte regelmäßig für kurze Trainingseinheiten zu Hause. Die Intensitätsstufen bieten genügend Auswahl für unterschiedliche Fitnesslevels.',
+        date: 'Vor 5 Tagen',
+
+      },
+      {
+        id: 31,
+        name: 'Daniel',
+        avatar: 'W',
+        rating: 4.6,
+        comment: 'Beeindruckend leiser Betrieb und angenehme Trainingsbewegung. Die kompakte Bauweise ist ideal für kleinere Wohnungen.',
+        date: 'vor einem Monat',
+
+      }
+
+    ]
+  },
 };
 
 // ✅ Helper to pick feedback dynamically
-const generateUserFeedback = (brand, locale) => {
-  let key = brand.name ? brand.name.toLowerCase().replace(/\s+/g, '') : '';
-  if (key === 'sportstech') {
-    key = brand.model && brand.model.toLowerCase().replace(/\s+/g, '') === 'vp500' ? 'stvp' : 'svibe';
+const normalizeKey = (value = '') =>
+  value.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+const feedbackKeyMap = Object.keys(feedbackData).reduce((acc, key) => {
+  acc[normalizeKey(key)] = key;
+  return acc;
+}, {});
+
+const resolveFeedbackKey = (brand = {}) => {
+  const brandName = normalizeKey(brand.name || '');
+  const brandModel = normalizeKey(brand.model || '');
+  const brandSlug = normalizeKey(brand.slug || '');
+
+  if (brandName === 'sportstech') {
+    if (brandModel.includes('vp500')) return 'Stvp';
+    if (brandModel.includes('svibe') || brandSlug.includes('svibe')) return 'sVibe';
+    return 'Stvp';
   }
 
-  const actualKey = Object.keys(feedbackData).find(k => k.toLowerCase().replace(/\s+/g, '') === key);
+  return (
+    feedbackKeyMap[brandName] ||
+    feedbackKeyMap[brandModel] ||
+    feedbackKeyMap[brandSlug] ||
+    null
+  );
+};
 
-  if (actualKey && feedbackData[actualKey] && feedbackData[actualKey][locale]) {
+const generateUserFeedback = (brand, locale) => {
+  const actualKey = resolveFeedbackKey(brand);
+
+  if (actualKey && feedbackData[actualKey]?.[locale]) {
     return feedbackData[actualKey][locale];
   }
-  return actualKey && feedbackData[actualKey]?.en ? feedbackData[actualKey].en : [];
+
+  if (actualKey && feedbackData[actualKey]?.en) {
+    return feedbackData[actualKey].en;
+  }
+
+  return [];
 };
 
 const StarRating = ({ rating, locale }) => {
@@ -852,6 +959,14 @@ export default function UserFeedback({ brand }) {
         </h2>
 
         <div className="max-w-4xl mx-auto space-y-6">
+          {userFeedback.length === 0 && (
+            <div className="bg-white rounded-xl shadow-lg p-6 text-center text-gray-600">
+              {locale === 'de'
+                ? 'Für dieses Modell liegen noch keine Nutzerbewertungen vor.'
+                : 'No user feedback is available for this model yet.'}
+            </div>
+          )}
+
           {userFeedback.map((feedback) => (
             <div key={feedback.id} className="bg-white rounded-xl shadow-lg overflow-hidden">
               <div className="p-6">

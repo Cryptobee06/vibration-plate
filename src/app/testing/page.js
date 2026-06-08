@@ -38,7 +38,7 @@ const testData = {
   "Sportstech VP500": {
     image:
       "/Assets/vibration-test-1.webp",
-    overallScore: 4.86,
+    overallScore: 4.8,
     status: "Passed",
     features: [
       "Compact footprint (93.7 × 62 × 12.9 cm) — ideal for apartments, home offices, and smaller workout spaces.",
@@ -60,28 +60,28 @@ const testData = {
       Durability: {
         description:
           "Solid build quality; platform and motor held up reliably during extended use cycles.",
-        rating: "5 / 5",
+        rating: "4.6 / 5",
         status: "Passed",
         icon: Shield,
       },
       Incline: {
         description:
           "Stable 5-degree incline adds genuine difficulty; ideal for lower-body conditioning.",
-        rating: "4.7 / 5",
+        rating: "4.8 / 5",
         status: "Passed",
         icon: TrendingUp,
       },
       Noise: {
         description:
           "Motor noise stays well within a comfortable range — quiet enough for shared spaces.",
-        rating: "4.9 / 5",
+        rating: "4.7 / 5",
         status: "Passed",
         icon: Volume2,
       },
       Comfort: {
         description:
           "Cushioned, non-slip surface distributes vibration evenly with no discomfort during long sessions.",
-        rating: "4.9 / 5",
+        rating: "4.7 / 5",
         status: "Passed",
         icon: Heart,
       },
@@ -97,27 +97,27 @@ const testData = {
       testDuration: "Extended testing",
       testCriteria: {
         "Design & Build Quality": {
-          rating: 5,
+          rating: 4.8,
           description: "Sleek, curved chassis — premium finish at a competitive price.",
         },
         "Noise Level": {
-          rating: 5,
+          rating: 4.7,
           description: "Quiet motors, suitable even for apartment buildings.",
         },
         "Cushioning & Comfort": {
-          rating: 5,
+          rating: 4.8,
           description: "Anti-slip, cushioned platform absorbs vibration effectively.",
         },
         Control: {
-          rating: 5,
+          rating: 4.8,
           description: "Bluetooth and remote work reliably; onscreen display is intuitive.",
         },
         "Office Suitability": {
-          rating: 5,
+          rating: 4.7,
           description: "Compact build, low noise, and minimal footprint — office-ready.",
         },
         "Value for Money": {
-          rating: 5,
+          rating: 4.8,
           description: "Excellent value for a multi-motor, feature-rich vibration platform.",
         },
       },
@@ -136,7 +136,7 @@ const testData = {
   "Sportstech sVibe": {
     image:
       "/Assets/vibration-test-2.jpg",
-    overallScore: 4.9,
+    overallScore: 4.8,
     status: "Passed",
     features: [
        "Rotating 3D touchscreen display with the Sportstech Live app for real-time training data and immersive visual pacing.",
@@ -149,7 +149,7 @@ const testData = {
       Speed: {
         description:
           "The sVibe delivers smooth and stable performance across all 99 intensity levels, maintaining consistent torque, precise vibration control, effective muscle activation, and zero speed drift from low-recovery settings to high-intensity balance training.",
-        rating: "4.7 / 5",
+        rating: "4.8 / 5",
         status: "Passed",
         icon: Zap,
       },
@@ -163,14 +163,14 @@ const testData = {
       Incline: {
         description:
           "The sVibe does not include a traditional incline feature, but its 3D oscillation system — combining vertical, horizontal, and rotational movement — creates an incline-like training effect that enhances posterior chain activation, increases workout intensity with resistance bands, and effectively compensates for the flat platform design.",
-        rating: "3.5 / 5",
+        rating: "4.4 / 5",
         status: "Limited",
         icon: TrendingUp,
       },
       Noise: {
         description:
           "The sVibe clearly outperforms competing vibration plates in noise control, operating at just 38–48 dB across all intensity levels — significantly quieter than the 60–72 dB commonly produced by other models — making it ideal for apartments, offices, and shared living spaces where silent, uninterrupted workouts matter.",
-        rating: "5 / 5",
+        rating: "4.8 / 5",
         status: "Passed",
         icon: Volume2,
       },
@@ -193,27 +193,27 @@ const testData = {
       testDuration: "Extended testing",
       testCriteria: {
         "RatingScoreDesign & Workmanship": {
-          rating: 5,
+          rating: 4.7,
           description: "Ultra-quiet, premium LED display",
         },
         "Cushioning & Comfort": {
-          rating: 5,
+          rating: 4.8,
           description: "Soft, stable surface",
         },
         "Office Suitability": {
-          rating: 5,
+          rating: 4.8,
           description: "Excellent while working or vibration",
         },
         Control: {
-          rating: 5,
+          rating: 4.7,
           description: "Smart app with auto-speed, remote included",
         },
         "Price-Performance": {
-          rating: 5,
+          rating: 4.8,
           description: " High value for the quality",
         },
         "Value for Money": {
-          rating: 4,
+          rating: 4.8,
           description: "Premium price justified by quality and features",
         },
       },
@@ -1407,7 +1407,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
                   ) : (
                     <>
                       The Sportstech VP500 represents the premium tier of vibration plates, specifically engineered for professional office vibration plate environments with an impressive vibration plate score of 
-                      impressive score of <strong>{formatGermanGrade(4.75, "en")}</strong>.
+                      impressive score of <strong className="inline-flex items-center rounded-md px-2.5 py-1 text-xs font-bold border border-emerald-300 bg-emerald-50 text-emerald-800">{formatGermanGrade(4.8, "en")}</strong>.
                       <br /><br />
                       With its ultra-quiet vibration plate operation under 50 dB, smart vibration plate auto-speed control, and vibration plate safety sensors, the VP500 vibration plate is the ideal choice for professionals who need absolute silence during video calls and all-day vibration plate reliability.
                     </>

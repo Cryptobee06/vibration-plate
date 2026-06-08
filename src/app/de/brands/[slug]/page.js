@@ -243,7 +243,7 @@ const brandData = {
       en: "The Sportstech VP500 delivers exceptional value with its advanced cushioning system and solid build quality. While it may lack some premium features, it excels in the fundamentals that matter most for home fitness.",
       de: "Der Sportstech VP500 eignet sich am besten für Nutzer, die aktiv bleiben möchten, ohne Platz für ein vollständiges Laufband zu opfern. Er glänzt beim langsamen Gehen, Schrittzählen und bei gleichmässiger Bewegung über den Tag. Nutzer, die Lauf-Workouts oder Neigungstraining suchen, könnten ihn als limitiert empfinden.",
     },
-    rating: 4.9,
+    rating: 4.8,
     buyLink: "https://www.sportstech.de/vibrationsplatte/vp500",
   },
   Citysports: {
@@ -1380,7 +1380,7 @@ const brandData = {
       en: "The Sportstech sWalk Lite delivers exceptional value with its advanced cushioning system and solid build quality. While it may lack some premium features, it excels in the fundamentals that matter most for home fitness.",
       de: "Der Sportstech sVibe überzeugt im Vibrationsplatten-Vergleich mit überlegener Dämpfung, solider Verarbeitung und durchdachten Smart-Features. Auch wenn einige fortgeschrittene Voreinstellungen fehlen, glänzt er in den Kernbereichen des Heimfitness: Komfort, Leistung und intelligente Integration. Sieger 2025 — unsere Top-Empfehlung.",
     },
-    rating: 4.9,
+    rating: 4.8,
     buyLink: "https://www.sportstech.de/vibrationsplatte/svibe",
   },
   Copant: {

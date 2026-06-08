@@ -1,10 +1,10 @@
 const GERMAN_GRADE_RANGES = [
-  { min: 85, max: 100, range: "1.0-1.5", evaluationEn: "very good", evaluationDe: "sehr gut" },
-  { min: 70, max: 84.99, range: "1.6-2.5", evaluationEn: "good", evaluationDe: "gut" },
-  { min: 50, max: 69.99, range: "2.6-3.5", evaluationEn: "satisfactory", evaluationDe: "befriedigend" },
-  { min: 30, max: 49.99, range: "3.6-4.5", evaluationEn: "sufficient", evaluationDe: "ausreichend" },
-  { min: 10, max: 29.99, range: "4.6-5.5", evaluationEn: "inadequate", evaluationDe: "mangelhaft" },
-  { min: 0, max: 9.99, range: "5.6-6.0", evaluationEn: "insufficient", evaluationDe: "ungenuegend" },
+  { minGrade: 1.0, maxGrade: 1.5, range: "1.0-1.5", evaluationEn: "very good", evaluationDe: "sehr gut" },
+  { minGrade: 1.6, maxGrade: 2.5, range: "1.6-2.5", evaluationEn: "good", evaluationDe: "gut" },
+  { minGrade: 2.6, maxGrade: 3.5, range: "2.6-3.5", evaluationEn: "satisfactory", evaluationDe: "befriedigend" },
+  { minGrade: 3.6, maxGrade: 4.5, range: "3.6-4.5", evaluationEn: "sufficient", evaluationDe: "ausreichend" },
+  { minGrade: 4.6, maxGrade: 5.5, range: "4.6-5.5", evaluationEn: "inadequate", evaluationDe: "mangelhaft" },
+  { minGrade: 5.6, maxGrade: 6.0, range: "5.6-6.0", evaluationEn: "insufficient", evaluationDe: "ungenuegend" },
 ];
 
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
@@ -14,13 +14,16 @@ export const getGermanGradeInfo = (ratingOutOfFive) => {
   const normalizedRating = Number.isFinite(rawRating) ? clamp(rawRating, 0, 5) : 0;
   const percent = (normalizedRating / 5) * 100;
   const grade = clamp(6 - normalizedRating, 1, 6);
+  const roundedGrade = Number(grade.toFixed(1));
 
   const bucket =
-    GERMAN_GRADE_RANGES.find((item) => percent >= item.min && percent <= item.max) ||
+    GERMAN_GRADE_RANGES.find(
+      (item) => roundedGrade >= item.minGrade && roundedGrade <= item.maxGrade
+    ) ||
     GERMAN_GRADE_RANGES[GERMAN_GRADE_RANGES.length - 1];
 
   return {
-    grade: Number(grade.toFixed(1)),
+    grade: roundedGrade,
     percent: Number(percent.toFixed(1)),
     range: bucket.range,
     evaluationEn: bucket.evaluationEn,

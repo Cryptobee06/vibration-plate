@@ -7,7 +7,7 @@ const reviewsData = [
   {
     id: 1,
     name: 'Michael Chen',
-    rating: 5,
+    rating: 4.8,
     review:
       'Durch die detaillierten Testberichte habe ich das perfekte Laufband gefunden. Die Empfehlung des Sportstech sWalk Lite war ein Volltreffer!',
     avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus1.jpg',
@@ -15,7 +15,7 @@ const reviewsData = [
   {
     id: 2,
     name: ' Sarah Johnson',
-    rating: 5,
+    rating: 4.7,
     review:
       'Very thorough reviews with real performance data. I appreciate the detailed testing process and honest pros/cons for each model.',
     avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus2.webp',
@@ -31,7 +31,7 @@ const reviewsData = [
   {
     id: 4,
     name: 'David',
-    rating: 5,
+    rating: 4.8,
     review:
       "Professional and unbiased reviews. The team clearly knows what they're talking about. Saved me from buying the wrong treadmill!",
     avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus4.webp',
@@ -39,7 +39,7 @@ const reviewsData = [
   {
     id: 5,
     name: 'Thompson',
-    rating: 4.9,
+    rating: 4.8,
     review:
       'Comprehensive testing and easy-to-understand explanations. The noise level tests were particularly useful for my apartment living situation.',
     avatar: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/customer/cus5.jpg',

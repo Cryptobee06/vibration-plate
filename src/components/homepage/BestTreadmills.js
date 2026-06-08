@@ -14,7 +14,7 @@ const treadmillsData = [
     model: "VP500",
     image:
       "/vibration-vp500-1.png",
-    rating: 4.9,
+    rating: 4.8,
     badge: "testWinner",
     badgeColor: "bg-yellow-500",
     link: "https://www.sportstech.de/vibrationsplatte/vp500",
@@ -47,7 +47,7 @@ const treadmillsData = [
     model: "sVibe",
     image:
       "/vibration-img5.webp",
-    rating: 4.9,
+    rating: 4.8,
     badge: "testWinner",
     badgeColor: "bg-yellow-500",
     link: "https://www.sportstech.de/vibrationsplatte/svibe",
