@@ -1073,7 +1073,7 @@ export default function TestingProcessPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
               <img
-                src="https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
+                src="/Assets/Trainer-vibration-plate 2.jpg"
                 alt="Dr. Marcus Breitner"
                 className="rounded-lg shadow-lg w-96 h-96 object-cover"
               />
@@ -1541,7 +1541,7 @@ In every test, we look beyond the specs. We care about how a plate feels under y
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8">
               <div className="flex items-start space-x-4">
                 <img
-                  src="https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
+                  src="/Assets/Trainer-vibration-plate 2.jpg"
                   alt="Dr. Marcus Breitner"
                   className="w-16 h-16 rounded-full object-cover"
                 />

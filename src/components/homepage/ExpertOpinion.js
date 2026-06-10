@@ -26,7 +26,7 @@ export default function ExpertOpinion() {
             {/* Image Left */}
             <div className="relative h-72 lg:h-full">
               <Image
-                src="https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg"
+                src="/Assets/Trainer-vibration-plate 2.jpg"
                 alt="Trainer"
                 fill
                 className="object-cover object-top"

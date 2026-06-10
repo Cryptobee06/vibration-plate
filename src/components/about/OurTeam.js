@@ -12,7 +12,7 @@ const teamMembers = [
       en: 'NASM certified trainer with 12+ years experience testingfitness equipment.',
       de: 'NASM-zertifizierter Trainer mit über 12 Jahren Erfahrungbeim Testen von Fitnessgeräten.'
     },
-    image: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/trainer-1.jpg'
+    image: '/Assets/Trainer-vibration-plate 2.jpg'
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const teamMembers = [
       en: 'PhD in Exercise Science, specialising in gait analysis andinjury prevention.',
       de: 'Doktorat in Sportwissenschaft, spezialisiert auf Ganganalyseund Verletzungsprävention.'
     },
-    image: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/team1.png'
+    image: '/Assets/Vibration-about-3 2.jpg'
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const teamMembers = [
       en: 'Mechanical engineer focused on motor performance anddurability testing.',
       de: 'Maschinenbauingenieur mit Fokus auf Motorleistung undHaltbarkeitstests.'
     },
-    image: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/team3.png'
+    image: '/Assets/vibration-about-2.jpg'
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const teamMembers = [
       en: 'Certified personal trainer specialising in home fitnesssolutions.',
       de: 'Zertifizierte Personaltrainerin, spezialisiert aufHeimfitness-Lösungen.'
     },
-    image: 'https://Walkingpadassets.s3.us-east-1.amazonaws.com/images/team4.png'
+    image: '/Assets/vibration-about-4.jpg'
   }
 ];
 
